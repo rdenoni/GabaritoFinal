@@ -1,0 +1,102 @@
+[
+    {
+        "question_text": "A Constituição Federal de 1988 prevê a prevalência dos direitos humanos como um dos princípios que regem as relações internacionais do Brasil.",
+        "correct_option": 0,
+        "feedback": "O art. 4º, II da Constituição Federal de 1988 estabelece como princípio das relações internacionais do Brasil a prevalência dos direitos humanos. Esse dispositivo confere diretriz constitucional para a atuação do Estado brasileiro no plano internacional, reafirmando seu compromisso com tratados e convenções que visam à proteção da dignidade humana."
+    },
+    {
+        "question_text": "A Convenção para a Prevenção e Punição do Crime de Genocídio considera genocídio apenas o extermínio em massa por razões raciais.",
+        "correct_option": 1,
+        "feedback": "A Convenção para a Prevenção e Repressão do Crime de Genocídio (1948) define genocídio como qualquer ato cometido com a intenção de destruir, no todo ou em parte, um grupo nacional, étnico, racial ou religioso. Assim, o conceito é mais amplo que extermínio por razões raciais, incluindo também atentados à integridade física e mental, imposição de condições de vida degradantes e esterilizações forçadas."
+    },
+    {
+        "question_text": "A Convenção contra a Tortura e Outros Tratamentos ou Penas Cruéis, Desumanos ou Degradantes proíbe absolutamente a prática da tortura, sem exceções.",
+        "correct_option": 0,
+        "feedback": "A Convenção contra a Tortura (1984), adotada pela ONU, prevê a proibição absoluta da tortura, sem exceções, inclusive em situações de guerra, ameaça de terrorismo ou instabilidade interna. Trata-se de norma de jus cogens, ou seja, imperativa no direito internacional, da qual não se admite derrogação."
+    },
+    {
+        "question_text": "A ONU estabeleceu princípios sobre o uso da força e armas de fogo que devem orientar a atuação de agentes de segurança.",
+        "correct_option": 0,
+        "feedback": "Os Princípios Básicos sobre o Uso da Força e de Armas de Fogo pelos Responsáveis pela Aplicação da Lei, adotados pela ONU em 1990, orientam o uso proporcional da força, priorizando a preservação da vida. Esses princípios devem nortear as práticas policiais e o treinamento de agentes de segurança em respeito aos direitos humanos."
+    },
+    {
+        "question_text": "A Lei nº 13.060/2014 regulamenta o uso de instrumentos de menor potencial ofensivo por agentes de segurança pública.",
+        "correct_option": 0,
+        "feedback": "A Lei nº 13.060/2014 dispõe sobre o uso de instrumentos de menor potencial ofensivo pelos agentes de segurança pública, como armas de eletrochoque, gás de pimenta e balas de borracha. A norma impõe critérios de proporcionalidade e legalidade, com a finalidade de proteger a integridade física de todos os envolvidos em ações policiais."
+    },
+    {
+        "question_text": "O Brasil é signatário da Convenção Internacional para a Proteção de Todas as Pessoas contra o Desaparecimento Forçado.",
+        "correct_option": 0,
+        "feedback": "O Brasil é signatário da Convenção Internacional para a Proteção de Todas as Pessoas contra o Desaparecimento Forçado, adotada pela ONU em 2006. A Convenção define o desaparecimento forçado como a prisão, detenção, sequestro ou qualquer outra forma de privação de liberdade praticada por agentes do Estado ou com seu consentimento, seguida da recusa em reconhecer tal privação ou do ocultamento do destino da pessoa desaparecida."
+    },
+    {
+        "question_text": "As Regras Mínimas da ONU para o tratamento de pessoas presas têm caráter vinculante nos Estados signatários.",
+        "correct_option": 1,
+        "feedback": "As Regras Mínimas da ONU para o Tratamento de Reclusos (Regras de Mandela), embora sejam amplamente aceitas e representem parâmetros internacionais para a proteção dos direitos dos presos, não têm caráter vinculante (obrigatório) no âmbito jurídico. Elas são soft law, ou seja, orientações que influenciam a formulação de políticas públicas, mas que não possuem força de lei direta, a menos que internalizadas por normas nacionais."
+    },
+    {
+        "question_text": "O Protocolo sobre o Estatuto dos Refugiados amplia os direitos previstos na Convenção de 1951.",
+        "correct_option": 0,
+        "feedback": "O Protocolo de 1967 complementa a Convenção sobre o Estatuto dos Refugiados de 1951 ao remover as limitações temporais e geográficas da proteção conferida aos refugiados. Assim, amplia os direitos dos refugiados em países signatários, como o Brasil, garantindo uma aplicação mais universal e atemporal da Convenção."
+    },
+    {
+        "question_text": "A Convenção sobre a Eliminação de Todas as Formas de Discriminação contra a Mulher prevê medidas legislativas e administrativas para erradicar a discriminação.",
+        "correct_option": 0,
+        "feedback": "A Convenção sobre a Eliminação de Todas as Formas de Discriminação contra a Mulher (CEDAW), ratificada pelo Brasil, obriga os Estados-partes a adotar medidas legislativas, administrativas, judiciais e de outra natureza para eliminar a discriminação contra a mulher em todas as suas formas. Isso inclui políticas de igualdade de gênero e ações afirmativas."
+    },
+    {
+        "question_text": "A Convenção sobre a Eliminação de Todas as Formas de Discriminação Racial não se aplica a atos praticados por particulares.",
+        "correct_option": 1,
+        "feedback": "A Convenção Internacional sobre a Eliminação de Todas as Formas de Discriminação Racial aplica-se a atos de discriminação racial cometidos tanto por agentes públicos quanto por particulares. O Estado signatário tem o dever de coibir, investigar e punir tais atos, inclusive quando praticados por indivíduos e instituições privadas."
+    },
+    {
+        "question_text": "A Declaração Universal dos Direitos Humanos não possui força de lei no ordenamento jurídico brasileiro.",
+        "correct_option": 0,
+        "feedback": "A Declaração Universal dos Direitos Humanos, adotada em 1948, não tem status de lei propriamente dita no Brasil, mas seus princípios são reconhecidos como normas de valor jurídico, servindo como base para a interpretação constitucional e legal. Muitos de seus dispositivos foram incorporados ao ordenamento jurídico brasileiro e ao Pacto Internacional sobre Direitos Civis e Políticos, ratificado pelo Brasil."
+    },
+    {
+        "question_text": "O Decreto nº 12.341/2024 trata da regulamentação da Lei nº 13.060/2014 quanto ao uso da força pelos agentes de segurança.",
+        "correct_option": 0,
+        "feedback": "O Decreto nº 12.341/2024, ao regulamentar a Lei nº 13.060/2014, estabelece parâmetros objetivos para o uso de instrumentos de menor potencial ofensivo por agentes de segurança. Ele detalha obrigações como o uso progressivo da força, a vedação de uso arbitrário e a exigência de relatórios de ocorrência com justificativa legal e proporcional."
+    },
+    {
+        "question_text": "Os direitos humanos são indivisíveis, interdependentes e inter-relacionados.",
+        "correct_option": 0,
+        "feedback": "A indivisibilidade dos direitos humanos significa que todos os direitos (civis, políticos, sociais, econômicos e culturais) têm igual importância e não podem ser hierarquizados. São interdependentes, ou seja, a violação de um afeta os demais, e inter-relacionados, devendo ser promovidos e protegidos em conjunto."
+    },
+    {
+        "question_text": "O Brasil está vinculado ao Sistema Interamericano de Direitos Humanos.",
+        "correct_option": 0,
+        "feedback": "O Brasil reconhece a jurisdição da Corte Interamericana de Direitos Humanos, sendo parte do Sistema Interamericano de Direitos Humanos. Esse sistema, baseado na Convenção Americana sobre Direitos Humanos (Pacto de San José da Costa Rica), permite que cidadãos brasileiros acionem a Comissão e a Corte em caso de violação de direitos."
+    },
+    {
+        "question_text": "Os direitos humanos não podem ser relativizados em hipóteses de estado de emergência ou calamidade pública.",
+        "correct_option": 1,
+        "feedback": "Em situações excepcionais, como estado de sítio ou emergência, alguns direitos podem ser temporariamente suspensos, desde que haja previsão constitucional e observância dos tratados internacionais. No entanto, certos direitos, como a proibição da tortura, são inderrogáveis mesmo nessas situações, conforme reconhecido pelo direito internacional dos direitos humanos."
+    },
+    {
+        "question_text": "Os princípios básicos sobre o uso da força adotados pela ONU recomendam o uso de armas de fogo apenas como último recurso.",
+        "correct_option": 0,
+        "feedback": "Os Princípios Básicos da ONU sobre o uso da força indicam que armas de fogo devem ser utilizadas apenas como último recurso, quando medidas menos letais se mostrarem ineficazes. A prioridade deve ser sempre a proteção da vida e da integridade física."
+    },
+    {
+        "question_text": "A proibição de tortura é norma de jus cogens no direito internacional.",
+        "correct_option": 0,
+        "feedback": "A proibição da tortura é considerada uma norma de jus cogens, ou seja, norma imperativa de direito internacional que não admite relativização. Todos os Estados devem respeitá-la, independentemente de adesão a tratados específicos."
+    },
+    {
+        "question_text": "A Lei nº 13.060/2014 aplica-se apenas à Polícia Federal.",
+        "correct_option": 1,
+        "feedback": "A Lei nº 13.060/2014 aplica-se a todos os órgãos de segurança pública, incluindo as polícias federal, civis e militares. A restrição a apenas uma corporação comprometeria o princípio da isonomia e a efetividade das diretrizes legais."
+    },
+    {
+        "question_text": "A função dos direitos humanos é garantir apenas os direitos individuais, não se aplicando à coletividade.",
+        "correct_option": 1,
+        "feedback": "Os direitos humanos visam proteger tanto o indivíduo quanto a coletividade. Eles englobam direitos civis e políticos (individuais) e direitos sociais, econômicos e culturais (coletivos), buscando garantir condições dignas de vida para todos."
+    },
+    {
+        "question_text": "A legislação brasileira prevê mecanismos de responsabilização em caso de uso excessivo da força por agentes de segurança.",
+        "correct_option": 0,
+        "feedback": "A legislação brasileira prevê mecanismos de responsabilização por abusos cometidos por agentes do Estado, incluindo a responsabilização civil, penal e administrativa. O uso excessivo da força pode configurar abuso de autoridade, previsto na Lei nº 13.869/2019."
+    }
+]

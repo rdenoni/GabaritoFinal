@@ -1,0 +1,127 @@
+[
+    {
+        "question_text": "A descentralização administrativa ocorre exclusivamente quando há transferência de competência dentro de um mesmo órgão da administração direta.",
+        "correct_option": 1,
+        "feedback": "A descentralização ocorre quando há transferência de atribuições entre pessoas jurídicas distintas, como da União para uma autarquia. A transferência dentro de um mesmo órgão é desconcentração."
+    },
+    {
+        "question_text": "As autarquias possuem personalidade jurídica de direito privado e estão submetidas ao regime celetista.",
+        "correct_option": 1,
+        "feedback": "As autarquias são entidades da administração indireta com personalidade jurídica de direito público, e seus servidores geralmente são estatutários, não regidos pela CLT."
+    },
+    {
+        "question_text": "O ato administrativo possui atributos como a presunção de legitimidade, a imperatividade e a autoexecutoriedade.",
+        "correct_option": 0,
+        "feedback": "O ato administrativo, segundo a doutrina majoritária, possui atributos típicos: presunção de legitimidade (presume-se legal até prova em contrário), imperatividade (poder de impor obrigações) e autoexecutoriedade (poder de se executar sem ordem judicial, em alguns casos)."
+    },
+    {
+        "question_text": "Os poderes hierárquico e disciplinar são exercidos exclusivamente sobre particulares que contratam com a administração pública.",
+        "correct_option": 1,
+        "feedback": "Os poderes hierárquico e disciplinar são exercidos sobre agentes e órgãos da própria Administração. Não se aplicam diretamente a particulares."
+    },
+    {
+        "question_text": "A investidura em cargo público depende de aprovação prévia em concurso público de provas ou de provas e títulos.",
+        "correct_option": 0,
+        "feedback": "A investidura em cargo público efetivo depende, segundo o art. 37, II da CF/88, de aprovação prévia em concurso público de provas ou de provas e títulos."
+    },
+    {
+        "question_text": "A licitação deve observar, entre outros, os princípios da legalidade, da isonomia e da seleção da proposta mais vantajosa para a administração pública.",
+        "correct_option": 0,
+        "feedback": "O art. 37, XXI da CF/88 determina que as licitações públicas devem obedecer aos princípios da legalidade, impessoalidade, moralidade, igualdade, publicidade e eficiência, entre outros."
+    },
+    {
+        "question_text": "A contratação direta é vedada em qualquer hipótese, salvo nos casos de emergência devidamente comprovada.",
+        "correct_option": 1,
+        "feedback": "A contratação direta é admitida em diversas hipóteses além da emergência, como na inexigibilidade (art. 74 da Lei 14.133/2021) e em situações de dispensa."
+    },
+    {
+        "question_text": "O controle judicial da administração pública pode abranger o mérito do ato administrativo, desde que presente ilegalidade manifesta.",
+        "correct_option": 0,
+        "feedback": "Embora o mérito do ato administrativo, em regra, não possa ser revisto pelo Judiciário, a presença de ilegalidade justifica a intervenção do Poder Judiciário, conforme o princípio da inafastabilidade da jurisdição."
+    },
+    {
+        "question_text": "O Estado responde civilmente por danos causados por seus agentes, independentemente de dolo ou culpa.",
+        "correct_option": 0,
+        "feedback": "A responsabilidade civil objetiva do Estado, prevista no art. 37, §6º da CF/88, independe de dolo ou culpa do agente, bastando o nexo causal entre o dano e a conduta administrativa."
+    },
+    {
+        "question_text": "O princípio da autotutela permite à administração rever seus atos, anulando os ilegais e revogando os inoportunos ou inconvenientes.",
+        "correct_option": 0,
+        "feedback": "O princípio da autotutela permite à Administração rever seus próprios atos, anulando os ilegais e revogando os inoportunos, conforme a Súmula 473 do STF."
+    },
+    {
+        "question_text": "A sociedade de economia mista integra a administração indireta e pode exercer atividades econômicas em regime de concorrência.",
+        "correct_option": 0,
+        "feedback": "As sociedades de economia mista são pessoas jurídicas integrantes da administração indireta, com personalidade jurídica de direito privado, podendo explorar atividade econômica em regime de concorrência, conforme art. 173 da CF/88."
+    },
+    {
+        "question_text": "O poder regulamentar permite à administração editar atos normativos primários com força de lei.",
+        "correct_option": 1,
+        "feedback": "O poder regulamentar permite que o Chefe do Poder Executivo edite atos normativos secundários (decreto regulamentar), para fiel execução da lei. Atos com força de lei são de competência do Legislativo."
+    },
+    {
+        "question_text": "A revogação de um ato administrativo ocorre quando há vício de legalidade.",
+        "correct_option": 1,
+        "feedback": "A revogação se dá por conveniência e oportunidade, não por ilegalidade. O vício de legalidade exige anulação do ato, não sua revogação."
+    },
+    {
+        "question_text": "A concessão de serviços públicos a particulares é uma forma de descentralização por delegação.",
+        "correct_option": 0,
+        "feedback": "A concessão de serviço público a particular é uma forma de descentralização por delegação, nos termos da Lei nº 8.987/95."
+    },
+    {
+        "question_text": "A desconcentração administrativa visa distribuir competências dentro de uma mesma pessoa jurídica.",
+        "correct_option": 0,
+        "feedback": "A desconcentração distribui competências dentro da mesma pessoa jurídica, criando órgãos internos, como departamentos e diretorias."
+    },
+    {
+        "question_text": "O abuso de poder pode se manifestar tanto como excesso de poder quanto como desvio de finalidade.",
+        "correct_option": 0,
+        "feedback": "O abuso de poder pode se manifestar de duas formas: o excesso de poder (ato além da competência legal) e o desvio de finalidade (ato praticado com fim diverso do interesse público)."
+    },
+    {
+        "question_text": "O servidor ocupante de cargo efetivo só pode perder o cargo em decorrência de processo administrativo disciplinar ou sentença judicial transitada em julgado.",
+        "correct_option": 0,
+        "feedback": "O servidor estável só pode perder o cargo mediante processo administrativo com ampla defesa ou sentença judicial transitada em julgado, conforme art. 41, §1º da CF/88."
+    },
+    {
+        "question_text": "A investidura em função de confiança se dá exclusivamente por nomeação e é restrita a servidores ocupantes de cargo efetivo.",
+        "correct_option": 0,
+        "feedback": "As funções de confiança são exercidas exclusivamente por servidores ocupantes de cargo efetivo, nos termos do art. 37, V da CF/88."
+    },
+    {
+        "question_text": "A lei não pode estabelecer critérios para a responsabilização civil do Estado.",
+        "correct_option": 1,
+        "feedback": "A lei pode, sim, estabelecer critérios e limites para a responsabilização do Estado, respeitando os princípios constitucionais. Ex: causas excludentes de responsabilidade."
+    },
+    {
+        "question_text": "A anulação do ato administrativo não pode gerar direito à indenização se comprovada a boa-fé do administrado.",
+        "correct_option": 0,
+        "feedback": "A boa-fé do administrado pode gerar direito à indenização caso haja revogação do ato por conveniência, mas não quando o ato for anulado por ilegalidade."
+    },
+    {
+        "question_text": "A modalidade de licitação denominada 'leilão' destina-se à venda de bens móveis inservíveis para a administração ou de produtos legalmente apreendidos.",
+        "correct_option": 0,
+        "feedback": "O leilão é modalidade de licitação para venda de bens móveis inservíveis e produtos apreendidos, conforme a nova Lei de Licitações (Lei 14.133/2021)."
+    },
+    {
+        "question_text": "A responsabilidade civil do Estado por omissão só ocorre se ficar demonstrada a conduta negligente, imperita ou imprudente.",
+        "correct_option": 0,
+        "feedback": "A responsabilidade do Estado por omissão depende da comprovação de falha no dever específico de agir, com demonstração de negligência, imprudência ou imperícia."
+    },
+    {
+        "question_text": "A administração direta é composta pelos órgãos que integram as pessoas jurídicas de direito público interno.",
+        "correct_option": 0,
+        "feedback": "A administração direta compreende os órgãos que integram as pessoas jurídicas de direito público, como União, estados e municípios."
+    },
+    {
+        "question_text": "O contrato administrativo é regido apenas pelas normas do direito privado, visando a equidade entre as partes.",
+        "correct_option": 1,
+        "feedback": "Contratos administrativos são regidos predominantemente pelo direito público e não se fundam na equidade, mas sim na supremacia do interesse público."
+    },
+    {
+        "question_text": "O princípio da supremacia do interesse público justifica a aplicação de sanções administrativas de forma discricionária.",
+        "correct_option": 1,
+        "feedback": "A aplicação de sanções administrativas deve respeitar o devido processo legal, não podendo ser imposta de forma arbitrária ou discricionária."
+    }
+]

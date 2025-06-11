@@ -1,0 +1,102 @@
+[
+    {
+        "question_text": "Os direitos e garantias fundamentais possuem aplicação imediata, conforme determinação expressa da Constituição Federal.",
+        "correct_option": 0,
+        "feedback": "O art. 5º, §1º da Constituição Federal de 1988 estabelece que os direitos e garantias fundamentais têm aplicação imediata. Isso significa que, mesmo que o legislador infraconstitucional não tenha regulamentado o direito previsto na CF, ele já pode ser exigido judicialmente. Essa norma reforça a eficácia plena e a autoaplicabilidade de muitos dos direitos fundamentais, garantindo maior proteção à dignidade da pessoa humana e ao Estado Democrático de Direito."
+    },
+    {
+        "question_text": "A nacionalidade primária é atribuída ao indivíduo após processo de naturalização.",
+        "correct_option": 1,
+        "feedback": "A nacionalidade primária é adquirida de forma originária, por nascimento. Ela pode ser atribuída pelo critério do jus soli (local de nascimento) ou do jus sanguinis (filiação). Já a nacionalidade secundária ou adquirida decorre de processo de naturalização, conforme previsto no art. 12 da CF/88. Naturalizados não são considerados brasileiros natos, o que acarreta restrições, como a impossibilidade de ocupar certos cargos públicos."
+    },
+    {
+        "question_text": "O direito à liberdade de expressão inclui a manifestação do pensamento, sendo vedado o anonimato.",
+        "correct_option": 0,
+        "feedback": "O art. 5º, IV da CF/88 garante a livre manifestação do pensamento, sendo vedado o anonimato. Isso visa equilibrar a liberdade de expressão com a responsabilidade pelos atos. A vedação ao anonimato possibilita a responsabilização civil e penal, caso a manifestação viole direitos de terceiros, como honra ou imagem."
+    },
+    {
+        "question_text": "Os direitos sociais estão previstos no artigo 5º da Constituição Federal.",
+        "correct_option": 1,
+        "feedback": "Os direitos sociais estão expressamente previstos no art. 6º da CF/88, e não no art. 5º. Esses direitos integram o núcleo do Estado de Bem-Estar Social, abrangendo áreas como saúde, educação, trabalho, moradia e segurança. São prestações positivas exigíveis do Estado e instrumentos de justiça social."
+    },
+    {
+        "question_text": "A Constituição assegura a assistência dos pais aos filhos menores, independentemente da condição de nascimento.",
+        "correct_option": 0,
+        "feedback": "O art. 227 da CF/88 estabelece que é dever da família, da sociedade e do Estado assegurar à criança e ao adolescente, com absoluta prioridade, o direito à convivência familiar e comunitária, independentemente da condição de nascimento. Essa proteção reforça o princípio da dignidade da pessoa humana e visa combater discriminações históricas, como as contra filhos havidos fora do casamento."
+    },
+    {
+        "question_text": "A república brasileira adota o sistema de governo parlamentarista.",
+        "correct_option": 1,
+        "feedback": "O Brasil adota, conforme o art. 1º, parágrafo único, e o art. 76 da CF/88, o sistema presidencialista, no qual o Presidente acumula as funções de chefe de Estado e chefe de governo. No parlamentarismo, essas funções são separadas: o chefe de Estado representa a nação simbolicamente (geralmente o monarca ou presidente), enquanto o chefe de governo exerce o poder executivo propriamente dito (primeiro-ministro)."
+    },
+    {
+        "question_text": "A segurança pública é exercida para a preservação da ordem pública e da incolumidade das pessoas e do patrimônio.",
+        "correct_option": 0,
+        "feedback": "A segurança pública, conforme o art. 144 da CF/88, é responsabilidade do Estado, direito e responsabilidade de todos. Ela visa à preservação da ordem pública e da incolumidade das pessoas e do patrimônio, sendo exercida por diversos órgãos, como as polícias federal, rodoviária federal, ferroviária federal, civil, militar e os corpos de bombeiros militares."
+    },
+    {
+        "question_text": "O Poder Executivo é exercido pelo Presidente da República, auxiliado pelos Ministros de Estado.",
+        "correct_option": 0,
+        "feedback": "O art. 76 da CF/88 dispõe que o Poder Executivo é exercido pelo Presidente da República, auxiliado pelos Ministros de Estado. Essa organização reforça a estrutura de comando único do Poder Executivo federal e a responsabilidade política e administrativa do Presidente."
+    },
+    {
+        "question_text": "A liberdade de associação é garantida, sendo permitida a associação com caráter paramilitar.",
+        "correct_option": 1,
+        "feedback": "O art. 5º, XVII da CF/88 veda expressamente a existência de associações de caráter paramilitar. Essa proibição visa proteger a ordem constitucional e evitar a formação de grupos armados paralelos às instituições estatais, preservando a soberania e o monopólio estatal da força."
+    },
+    {
+        "question_text": "Os partidos políticos devem ter caráter nacional e obedecer ao princípio do funcionamento parlamentar.",
+        "correct_option": 0,
+        "feedback": "De acordo com o art. 17 da CF/88, os partidos políticos devem ter caráter nacional, o que significa que não podem se restringir a um estado ou município. Além disso, é vedado o recebimento de recursos financeiros de entidades ou governos estrangeiros, como forma de garantir a soberania e a independência política do país."
+    },
+    {
+        "question_text": "A cidadania é um dos fundamentos da República Federativa do Brasil.",
+        "correct_option": 0,
+        "feedback": "A cidadania, junto com a soberania, dignidade da pessoa humana, valores sociais do trabalho e da livre iniciativa e o pluralismo político, é um dos fundamentos da República Federativa do Brasil (art. 1º, II da CF/88). A cidadania implica o exercício de direitos civis, políticos e sociais, sendo essencial para a consolidação da democracia participativa."
+    },
+    {
+        "question_text": "A ordem social tem como base o primado do trabalho e como objetivo o bem-estar e a justiça sociais.",
+        "correct_option": 0,
+        "feedback": "O art. 193 da CF/88 determina que a ordem social tem como base o primado do trabalho e como objetivo o bem-estar e a justiça sociais. Isso reforça o papel do Estado como agente garantidor de direitos sociais e promotor da equidade."
+    },
+    {
+        "question_text": "O direito de propriedade é absoluto, conforme estabelece o texto constitucional.",
+        "correct_option": 1,
+        "feedback": "O direito de propriedade, previsto no art. 5º, XXII da CF/88, não é absoluto, pois está condicionado ao cumprimento da função social (art. 5º, XXIII). Isso significa que o uso da propriedade deve atender a critérios de utilidade, produtividade, respeito ao meio ambiente e à coletividade."
+    },
+    {
+        "question_text": "A Constituição prevê a possibilidade de perda dos direitos políticos em determinadas hipóteses.",
+        "correct_option": 0,
+        "feedback": "O art. 15 da CF/88 estabelece hipóteses de perda ou suspensão dos direitos políticos, como condenação criminal transitada em julgado, improbidade administrativa e recusa de cumprir obrigação legal. Essa limitação visa preservar a moralidade no exercício da cidadania política."
+    },
+    {
+        "question_text": "A chefia de Estado e a chefia de governo são exercidas por autoridades distintas no presidencialismo.",
+        "correct_option": 1,
+        "feedback": "No presidencialismo, sistema adotado pelo Brasil, o Presidente da República exerce simultaneamente as funções de chefe de Estado (representa o país no exterior) e de chefe de governo (administra internamente). Diferente do parlamentarismo, onde essas funções são separadas."
+    },
+    {
+        "question_text": "As garantias constitucionais dos direitos fundamentais incluem o habeas corpus, o mandado de segurança e a ação popular.",
+        "correct_option": 0,
+        "feedback": "Os remédios constitucionais previstos no art. 5º da CF/88 são mecanismos que protegem os direitos fundamentais: habeas corpus (protege a liberdade de locomoção), mandado de segurança (contra ilegalidade ou abuso de poder), habeas data (acesso a informações pessoais), mandado de injunção (quando a ausência de norma inviabiliza o exercício de direito) e ação popular (protege o patrimônio público)."
+    },
+    {
+        "question_text": "A defesa do Estado e das instituições democráticas envolve a atuação das Forças Armadas, das polícias e da Defesa Civil.",
+        "correct_option": 0,
+        "feedback": "A proteção das instituições democráticas está prevista nos arts. 136 a 144 da CF/88. Compreende medidas como o estado de defesa, o estado de sítio, a atuação das Forças Armadas (art. 142) e dos órgãos de segurança pública (art. 144), além da defesa civil. Tais dispositivos visam assegurar a estabilidade institucional e a legalidade."
+    },
+    {
+        "question_text": "O direito à saúde é assegurado mediante políticas sociais e econômicas que visem à redução do risco de doença e de outros agravos.",
+        "correct_option": 0,
+        "feedback": "O direito à saúde é assegurado pelo art. 196 da CF/88 e deve ser promovido por meio de políticas sociais e econômicas que reduzam riscos e promovam o acesso universal e igualitário às ações e serviços. É um direito de todos e dever do Estado, concretizado pelo SUS."
+    },
+    {
+        "question_text": "A proteção do meio ambiente é um dever apenas do poder público, conforme a Constituição.",
+        "correct_option": 1,
+        "feedback": "O art. 225 da CF/88 afirma que todos têm direito ao meio ambiente ecologicamente equilibrado, sendo esse um dever comum do poder público e da coletividade. Isso exige a participação da sociedade na defesa ambiental, inclusive com instrumentos como a ação popular."
+    },
+    {
+        "question_text": "A organização da segurança pública inclui, entre outros, as polícias federal, rodoviária federal, ferroviária federal, civis, militares e corpos de bombeiros militares.",
+        "correct_option": 0,
+        "feedback": "O art. 144 da CF/88 organiza a segurança pública com diversas instituições: Polícia Federal, Polícia Rodoviária Federal, Polícia Ferroviária Federal, Polícias Civis, Polícias Militares e Corpos de Bombeiros Militares. Cada uma possui competências específicas, visando garantir a ordem pública e a segurança das pessoas e do patrimônio."
+    }
+]

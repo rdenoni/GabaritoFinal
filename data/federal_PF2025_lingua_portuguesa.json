@@ -1,0 +1,177 @@
+[
+    {
+        "question_text": "O emprego do sinal indicativo de crase é facultativo na expressão 'à medida que', podendo ser omitido sem prejuízo gramatical.",
+        "correct_option": 1,
+        "feedback": "A expressão 'à medida que' é uma locução conjuntiva proporcional, que introduz orações subordinadas adverbiais proporcionais. A crase é obrigatória porque temos a preposição 'a' exigida pela palavra 'medida' e o artigo definido feminino 'a' que acompanha o substantivo. O erro aqui compromete a norma culta da língua."
+    },
+    {
+        "question_text": "Em textos argumentativos, a coerência textual pode ser mantida mesmo que haja erros de coesão referencial.",
+        "correct_option": 1,
+        "feedback": "A coesão textual é um dos principais mecanismos que garantem a coerência de um texto. Quando há erros de coesão referencial, como pronomes mal empregados ou omissões indevidas, o leitor pode ter dificuldade em compreender a relação entre as partes do texto, comprometendo o sentido global."
+    },
+    {
+        "question_text": "O uso do tempo verbal no pretérito imperfeito pode indicar uma ação habitual no passado.",
+        "correct_option": 0,
+        "feedback": "O pretérito imperfeito do indicativo é um tempo verbal que, entre outros usos, indica ações habituais no passado, ou seja, que se repetiam regularmente (exemplo: 'Ela estudava todos os dias antes da prova'). É também usado para indicar simultaneidade e ação em progresso no passado."
+    },
+    {
+        "question_text": "A substituição do termo 'por que' por 'porque' é sempre aceitável quando se busca indicar causa.",
+        "correct_option": 1,
+        "feedback": "'Por que' (separado) é usado em perguntas diretas e indiretas, enquanto 'porque' (junto) é uma conjunção causal ou explicativa. Substituir um pelo outro indiscriminadamente compromete a clareza e a correção gramatical do texto. Exemplo: 'Não fui à escola porque estava doente' (causa); 'Por que você não foi à escola?' (pergunta)."
+    },
+    {
+        "question_text": "A colocação pronominal é rigidamente fixa, não sendo influenciada por fatores estilísticos ou sintáticos.",
+        "correct_option": 1,
+        "feedback": "A colocação pronominal não é fixa. Ela pode ser próclise, ênclise ou mesóclise, dependendo de fatores como a presença de palavras atrativas (ex: 'não me diga isso'), início de oração (ex: 'Disse-me ele') ou futuro do presente/futuro do pretérito (ex: 'dir-se-ia a verdade'). É um aspecto influenciado tanto pela gramática normativa quanto pelo estilo textual."
+    },
+    {
+        "question_text": "O uso de conjunções coordenativas aditivas sempre exige a repetição da preposição que antecede os termos ligados.",
+        "correct_option": 1,
+        "feedback": "A preposição pode ser repetida com conjunções coordenativas aditivas, mas isso não é obrigatório. Exemplo: 'Falou com João e Maria' está correto. A repetição é aceitável quando se quer dar ênfase ou evitar ambiguidade."
+    },
+    {
+        "question_text": "A reescrita de um período com alteração na ordem dos termos pode comprometer a clareza e a correção gramatical do texto.",
+        "correct_option": 0,
+        "feedback": "A mudança na ordem dos termos em uma oração pode alterar sua clareza, ênfase ou mesmo sentido. Isso é particularmente relevante na construção de textos argumentativos e dissertativos, onde a progressão lógica é essencial."
+    },
+    {
+        "question_text": "Em correspondências oficiais, a linguagem deve ser impessoal e objetiva, conforme orienta o Manual de Redação da Presidência da República.",
+        "correct_option": 0,
+        "feedback": "A linguagem da redação oficial, segundo o Manual da Presidência da República, deve ser impessoal, clara, concisa, formal e precisa. Isso significa evitar gírias, subjetivismo, emotividade e ambiguidade."
+    },
+    {
+        "question_text": "A elipse é um mecanismo de coesão textual que se caracteriza pela omissão de um termo facilmente identificável pelo contexto.",
+        "correct_option": 0,
+        "feedback": "Elipse é um recurso de coesão textual que consiste na omissão de um termo facilmente identificável pelo contexto, como sujeito, verbo ou complemento. Exemplo: 'Ela gosta de cinema; ele, de teatro.'"
+    },
+    {
+        "question_text": "O emprego da conjunção 'embora' exige o uso de verbos no modo indicativo.",
+        "correct_option": 1,
+        "feedback": "A conjunção 'embora' introduz uma oração subordinada adverbial concessiva e exige que o verbo seja conjugado no modo subjuntivo (ex: 'Embora estivesse cansado, foi ao trabalho'). O uso do indicativo é inadequado nesse contexto."
+    },
+    {
+        "question_text": "Palavras homônimas perfeitas têm a mesma grafia e o mesmo som, mas sentidos distintos.",
+        "correct_option": 0,
+        "feedback": "Palavras homônimas perfeitas têm a mesma grafia e pronúncia, mas significados diferentes. Exemplo: 'manga' (fruta) e 'manga' (parte da camisa)."
+    },
+    {
+        "question_text": "O uso incorreto da regência verbal pode alterar significativamente o sentido de uma oração.",
+        "correct_option": 0,
+        "feedback": "A regência verbal trata da relação entre verbos e seus complementos. Um erro de regência pode alterar profundamente o sentido da oração. Exemplo: 'assistir ao filme' (ver) é diferente de 'assistir o paciente' (cuidar)."
+    },
+    {
+        "question_text": "O emprego da vírgula é facultativo entre orações coordenadas assindéticas.",
+        "correct_option": 1,
+        "feedback": "As orações coordenadas assindéticas devem ser separadas por vírgula. A ausência dessa pontuação compromete a inteligibilidade do texto."
+    },
+    {
+        "question_text": "A função sintática de um termo na oração é determinada exclusivamente por sua posição no período.",
+        "correct_option": 1,
+        "feedback": "A função sintática de um termo é definida pelo papel que ele exerce na estrutura da oração (sujeito, objeto, adjunto etc.), não apenas por sua posição. A análise deve considerar o contexto e a relação com os demais termos."
+    },
+    {
+        "question_text": "A pontuação pode interferir diretamente na interpretação de um texto.",
+        "correct_option": 0,
+        "feedback": "A pontuação pode mudar radicalmente o significado de uma frase. Exemplo clássico: 'Vamos perder, nada foi feito' versus 'Vamos, perder nada foi feito'. O uso correto dos sinais de pontuação é essencial para a clareza."
+    },
+    {
+        "question_text": "A conjunção 'logo' expressa sempre uma ideia temporal.",
+        "correct_option": 1,
+        "feedback": "A conjunção 'logo' pode exercer diferentes funções: além de expressar conclusão (Ex: 'Estava cansado, logo não foi.'), também pode indicar ideia temporal (Ex: 'Logo que chegou, saiu novamente.'). Portanto, não expressa sempre uma ideia temporal."
+    },
+    {
+        "question_text": "'Se eu tivesse estudado mais, teria sido aprovado' é um exemplo de período composto por subordinação condicional.",
+        "correct_option": 0,
+        "feedback": "Trata-se de um período composto por subordinação condicional. A oração 'Se eu tivesse estudado mais' é uma oração subordinada adverbial condicional que condiciona a realização da ação da oração principal 'teria sido aprovado'."
+    },
+    {
+        "question_text": "A presença de pleonasmo vicioso compromete a qualidade do texto.",
+        "correct_option": 0,
+        "feedback": "Pleonasmo vicioso ocorre quando há repetição desnecessária de ideias, resultando em redundância que empobrece o texto. Ex: 'subir para cima', 'entrar para dentro'."
+    },
+    {
+        "question_text": "A palavra 'haja vista' deve ser flexionada conforme o sujeito da oração.",
+        "correct_option": 1,
+        "feedback": "A expressão 'haja vista' é invariável, mesmo quando referida a termos no plural. Ex: 'Haja vista os argumentos apresentados'."
+    },
+    {
+        "question_text": "A forma verbal 'pôde' está correta como pretérito perfeito do verbo 'poder'.",
+        "correct_option": 0,
+        "feedback": "'Pôde' com acento é a forma do pretérito perfeito do verbo 'poder', usada para diferenciar de 'pode' no presente. Ex: 'Ontem ele pôde sair mais cedo'."
+    },
+    {
+        "question_text": "Em textos formais, deve-se evitar o uso de linguagem coloquial e regionalismos.",
+        "correct_option": 0,
+        "feedback": "Em textos formais, deve-se evitar o uso de linguagem coloquial e regionalismos, pois a norma culta deve prevalecer para garantir impessoalidade e clareza."
+    },
+    {
+        "question_text": "A expressão 'em vez de' indica preferência e pode ser substituída por 'ao invés de' sem prejuízo semântico.",
+        "correct_option": 1,
+        "feedback": "'Em vez de' indica substituição; 'ao invés de' indica oposição. Apesar de usados em contextos semelhantes, seu uso adequado depende do sentido pretendido."
+    },
+    {
+        "question_text": "A correlação verbal entre os tempos é essencial para a coerência do texto.",
+        "correct_option": 0,
+        "feedback": "A correlação verbal entre os tempos é fundamental para a coerência do texto, pois garante consistência temporal nas relações entre orações."
+    },
+    {
+        "question_text": "O advérbio 'ainda' sempre expressa ideia de continuidade.",
+        "correct_option": 1,
+        "feedback": "'Ainda' é um advérbio polissêmico que pode expressar continuidade, dúvida, surpresa, entre outros significados. Ex: 'Ainda está aqui?' (continuidade); 'Ainda que ele queira, não poderá.' (concessão)."
+    },
+    {
+        "question_text": "A forma 'menas' é aceita na linguagem oral informal.",
+        "correct_option": 0,
+        "feedback": "A forma 'menas' é incorreta na norma culta, mas é comumente usada na linguagem oral informal. Deve ser evitada em contextos formais."
+    },
+    {
+        "question_text": "O uso de 'meio' como advérbio de intensidade exige concordância com o termo modificado.",
+        "correct_option": 1,
+        "feedback": "Como advérbio de intensidade, 'meio' é invariável. Ex: 'Ela está meio cansada'."
+    },
+    {
+        "question_text": "'Trezentas gramas' está corretamente flexionado, pois concorda com o substantivo gramas.",
+        "correct_option": 0,
+        "feedback": "'Trezentas' concorda com o substantivo feminino plural 'gramas'."
+    },
+    {
+        "question_text": "A reescrita de um trecho com mudança de nível de formalidade exige atenção à seleção lexical.",
+        "correct_option": 0,
+        "feedback": "Ao mudar o nível de formalidade, é necessário ajustar o vocabulário para adequar ao registro desejado."
+    },
+    {
+        "question_text": "A preposição 'a' e o artigo definido 'a' são idênticos quanto à função e significado.",
+        "correct_option": 1,
+        "feedback": "A preposição 'a' e o artigo definido feminino 'a' são distintos: a preposição estabelece relação sintática, enquanto o artigo define o substantivo. A fusão das duas origina a crase."
+    },
+    {
+        "question_text": "A grafia correta da forma verbal 'traz' no presente do indicativo está relacionada ao verbo 'trazer'.",
+        "correct_option": 0,
+        "feedback": "'Traz' é a forma correta do presente do indicativo do verbo 'trazer', conjugada na 3ª pessoa do singular."
+    },
+    {
+        "question_text": "O emprego da conjunção 'mas' expressa relação de oposição.",
+        "correct_option": 0,
+        "feedback": "A conjunção 'mas' é adversativa, estabelecendo relação de oposição entre orações ou termos."
+    },
+    {
+        "question_text": "O uso do ponto e vírgula é adequado para separar itens de uma enumeração complexa.",
+        "correct_option": 0,
+        "feedback": "O ponto e vírgula é apropriado para separar itens de enumerações complexas, especialmente quando já contêm vírgulas internas."
+    },
+    {
+        "question_text": "A expressão 'a par de' equivale semanticamente a 'ciente de'.",
+        "correct_option": 0,
+        "feedback": "A expressão 'a par de' significa 'ciente de' ou 'informado sobre'."
+    },
+    {
+        "question_text": "O uso do 'porquanto' é apropriado para indicar conclusão em textos dissertativos.",
+        "correct_option": 1,
+        "feedback": "“Porquanto” é uma conjunção causal, equivalente a “porque”, “visto que”. Não deve ser usada com valor conclusivo. Ex: “A proposta foi aceita, porquanto era vantajosa.”"
+    },
+    {
+        "question_text": "Em documentos oficiais, a data deve seguir o padrão 'local, dia de mês de ano', conforme o Manual de Redação da Presidência da República.",
+        "correct_option": 0,
+        "feedback": "O padrão de data 'local, dia de mês de ano' é a norma prevista no Manual de Redação da Presidência da República, sendo obrigatório em comunicações oficiais. Ex: 'Brasília, 27 de maio de 2025'."
+    }
+]

@@ -1,0 +1,327 @@
+[
+    {
+        "question_text": "A memória RAM é um tipo de memória volátil, o que significa que ela perde seus dados quando o computador é desligado.",
+        "correct_option": 0,
+        "feedback": "A memória RAM (Random Access Memory) é volátil, o que significa que seus dados são apagados quando o computador é desligado. Ela é essencial para a execução de programas e processos, armazenando temporariamente informações em uso. Não serve para armazenamento permanente, como o HD ou SSD."
+    },
+    {
+        "question_text": "O sistema operacional é responsável por realizar a interface entre o usuário e o hardware, além de gerenciar os recursos do sistema.",
+        "correct_option": 0,
+        "feedback": "O sistema operacional é o software fundamental que atua como interface entre o hardware e o usuário, além de gerenciar os recursos do sistema (memória, processador, dispositivos de entrada/saída, arquivos). Ele coordena tarefas como multiprogramação e acesso ao sistema de arquivos."
+    },
+    {
+        "question_text": "O protocolo HTTPS garante a integridade, confidencialidade e autenticidade dos dados trafegados na web por meio da criptografia e do uso de certificados digitais.",
+        "correct_option": 0,
+        "feedback": "O protocolo HTTPS utiliza criptografia SSL/TLS para proteger os dados transmitidos entre o navegador e o servidor. Ele assegura a integridade (dados não foram alterados), confidencialidade (acesso restrito) e autenticidade (validação por certificado digital)."
+    },
+    {
+        "question_text": "Um antivírus é capaz de detectar e remover todos os tipos de malware, incluindo os ransomwares, trojans e worms, sem necessidade de atualizações.",
+        "correct_option": 1,
+        "feedback": "Antivírus precisam de atualizações constantes para reconhecer novas ameaças. Sem essas atualizações, eles podem falhar na detecção de ransomwares, trojans e worms, que evoluem rapidamente. Nenhum antivírus é 100% eficaz sem manutenção adequada."
+    },
+    {
+        "question_text": "O comando “ipconfig” em sistemas Windows permite visualizar informações de configuração de rede, como o endereço IP e a máscara de sub-rede.",
+        "correct_option": 0,
+        "feedback": "O comando \"ipconfig\" no Windows exibe informações sobre a configuração de rede, como endereço IP, máscara de sub-rede, gateway padrão e conexões ativas. É amplamente usado para diagnóstico de problemas de rede."
+    },
+    {
+        "question_text": "A computação em nuvem permite o armazenamento e o acesso remoto a dados e aplicações por meio da internet, sendo uma tecnologia baseada em virtualização.",
+        "correct_option": 0,
+        "feedback": "A computação em nuvem permite acesso remoto a recursos como armazenamento, servidores e aplicativos via internet. Essa tecnologia se baseia em virtualização, permitindo escalabilidade e eficiência na alocação de recursos."
+    },
+    {
+        "question_text": "A rede de computadores conhecida como LAN (Local Area Network) interliga dispositivos em uma área geográfica ampla, como diferentes cidades ou estados.",
+        "correct_option": 1,
+        "feedback": "LAN (Local Area Network) é uma rede limitada geograficamente a um ambiente como um escritório ou residência. Redes que cobrem grandes distâncias, como cidades ou estados, são classificadas como WAN (Wide Area Network)."
+    },
+    {
+        "question_text": "O navegador de internet é um software cliente utilizado para acessar, recuperar e exibir conteúdos da World Wide Web.",
+        "correct_option": 0,
+        "feedback": "Um navegador é um software cliente que permite acessar, recuperar e exibir páginas da internet. Ele interpreta códigos HTML/CSS/JS para apresentar sites e é fundamental para interação com a World Wide Web."
+    },
+    {
+        "question_text": "O uso de senhas fortes, autenticação de dois fatores e atualização constante de softwares são práticas recomendadas para garantir a segurança da informação.",
+        "correct_option": 0,
+        "feedback": "Medidas como senhas fortes, autenticação de dois fatores (2FA) e atualizações frequentes são essenciais para prevenir acessos não autorizados e mitigar vulnerabilidades de software."
+    },
+    {
+        "question_text": "A função do firewall é permitir ou bloquear tráfego de rede com base em um conjunto de regras de segurança previamente definidas.",
+        "correct_option": 0,
+        "feedback": "Um firewall é um sistema de segurança que monitora e controla o tráfego de rede com base em regras predefinidas. Pode ser implementado em hardware ou software e atua como uma barreira contra acessos maliciosos."
+    },
+    {
+        "question_text": "O Microsoft Excel permite o uso de funções como SOMA(), MÉDIA() e SE(), que facilitam a análise de dados em planilhas.",
+        "correct_option": 0,
+        "feedback": "O Microsoft Excel oferece funções como SOMA(), MÉDIA() e SE(), que permitem cálculos e tomadas de decisão automáticas em planilhas. Essas funções facilitam a análise de grandes volumes de dados e têm ampla aplicação no setor administrativo."
+    },
+    {
+        "question_text": "O sistema de arquivos NTFS do Windows permite o controle de permissões e criptografia de dados.",
+        "correct_option": 0,
+        "feedback": "O NTFS é o sistema de arquivos padrão das versões modernas do Windows e oferece recursos avançados como controle de permissões (segurança por usuário/grupo) e criptografia de arquivos, o que aumenta a segurança e a eficiência no gerenciamento de dados."
+    },
+    {
+        "question_text": "O protocolo FTP é utilizado para transferência de arquivos entre computadores conectados em rede.",
+        "correct_option": 0,
+        "feedback": "FTP (File Transfer Protocol) é um protocolo utilizado para transferência de arquivos entre computadores. Ele é comumente utilizado para upload e download de arquivos em servidores remotos. Pode operar em modo ativo ou passivo."
+    },
+    {
+        "question_text": "A memória ROM é volátil e pode ser apagada ao desligar o computador.",
+        "correct_option": 1,
+        "feedback": "A memória ROM (Read Only Memory) é uma memória não volátil, ou seja, não perde os dados quando o computador é desligado. Ela é usada para armazenar o firmware, que contém instruções básicas de inicialização do sistema."
+    },
+    {
+        "question_text": "Um ataque de phishing geralmente busca enganar o usuário para que este forneça dados sensíveis por meio de páginas falsas ou e-mails fraudulentos.",
+        "correct_option": 0,
+        "feedback": "O phishing é um tipo de ataque de engenharia social em que o criminoso tenta enganar a vítima para que ela forneça dados pessoais e financeiros. Frequentemente usa e-mails ou páginas falsas que imitam serviços confiáveis."
+    },
+    {
+        "question_text": "O recurso de formatação condicional no Excel permite aplicar diferentes formatações a células conforme critérios definidos pelo usuário.",
+        "correct_option": 0,
+        "feedback": "A formatação condicional é um recurso do Excel que permite aplicar estilos personalizados (cores, ícones, barras) a células conforme critérios definidos pelo usuário, facilitando a visualização de dados relevantes."
+    },
+    {
+        "question_text": "O sistema operacional Linux é baseado em código aberto e pode ser modificado por qualquer usuário.",
+        "correct_option": 0,
+        "feedback": "O sistema Linux é um software livre e de código aberto. Isso significa que qualquer pessoa pode estudar, modificar e distribuir seu código-fonte. Existem diversas distribuições Linux, como Ubuntu, Debian e Fedora."
+    },
+    {
+        "question_text": "O protocolo TCP/IP é um conjunto de regras que define como os dados são transmitidos na internet.",
+        "correct_option": 0,
+        "feedback": "O conjunto TCP/IP é a base da comunicação na internet. Ele define regras para transmissão de dados (TCP) e endereçamento/routing (IP), garantindo a entrega dos pacotes entre remetente e destinatário."
+    },
+    {
+        "question_text": "O Microsoft Word permite o uso de sumários automáticos baseados nos estilos de títulos aplicados ao texto.",
+        "correct_option": 0,
+        "feedback": "O Microsoft Word pode gerar sumários automáticos a partir da aplicação de estilos aos títulos (por exemplo, Título 1, Título 2). Isso facilita a criação de índices navegáveis e a organização de documentos extensos."
+    },
+    {
+        "question_text": "Uma macro no Excel é um conjunto de instruções que automatiza tarefas repetitivas.",
+        "correct_option": 0,
+        "feedback": "Uma macro no Excel é um conjunto de comandos e funções que pode ser gravado e executado para automatizar tarefas repetitivas, como formatar planilhas ou realizar cálculos complexos com um clique."
+    },
+    {
+        "question_text": "O navegador Google Chrome permite a navegação em modo anônimo, o que impede o armazenamento local do histórico de navegação e de cookies.",
+        "correct_option": 0,
+        "feedback": "O modo anônimo do navegador Google Chrome impede o registro de histórico de navegação, cookies, dados de sites e informações inseridas em formulários. No entanto, esse modo não garante anonimato completo, pois provedores de internet, sites acessados e administradores de rede ainda podem monitorar a atividade."
+    },
+    {
+        "question_text": "Um arquivo compactado tem como objetivo principal reduzir seu tamanho para facilitar armazenamento ou transmissão.",
+        "correct_option": 0,
+        "feedback": "A compactação de arquivos tem como objetivo reduzir seu tamanho para otimizar o armazenamento e facilitar a transmissão eletrônica. Arquivos compactados economizam espaço em disco e podem ser protegidos com senha. Ferramentas populares incluem ZIP, RAR e 7-Zip."
+    },
+    {
+        "question_text": "O protocolo DNS (Domain Name System) é responsável por converter nomes de domínio em endereços IP.",
+        "correct_option": 0,
+        "feedback": "O protocolo DNS (Domain Name System) é uma espécie de 'agenda telefônica' da internet, convertendo nomes de domínio (como www.pf.gov.br) em endereços IP (como 200.189.40.8), que são compreendidos pelos roteadores e servidores da rede."
+    },
+    {
+        "question_text": "A função PROCV() no Excel permite localizar valores em uma coluna de uma matriz de dados.",
+        "correct_option": 0,
+        "feedback": "A função PROCV() no Excel (em inglês VLOOKUP) é usada para localizar um valor em uma coluna de uma matriz e retornar um valor de outra coluna na mesma linha. Muito útil em buscas automatizadas, ela exige que a chave de busca esteja na primeira coluna da matriz."
+    },
+    {
+        "question_text": "A política de backup incremental copia apenas os dados modificados desde o último backup completo, economizando tempo e espaço.",
+        "correct_option": 0,
+        "feedback": "O backup incremental realiza a cópia apenas dos arquivos que foram alterados desde o último backup completo. Essa abordagem é mais rápida e ocupa menos espaço, mas requer que todos os backups anteriores estejam intactos para uma restauração bem-sucedida."
+    },
+    {
+        "question_text": "Um spyware é um tipo de software malicioso que coleta informações sobre o usuário sem seu consentimento.",
+        "correct_option": 0,
+        "feedback": "Spywares são softwares maliciosos projetados para coletar informações confidenciais dos usuários, como senhas e dados bancários, sem seu consentimento. Podem operar de forma furtiva e são comumente instalados junto com aplicativos aparentemente inofensivos."
+    },
+    {
+        "question_text": "O sistema operacional Windows permite o gerenciamento de contas de usuário com diferentes níveis de permissão, como administrador e usuário padrão.",
+        "correct_option": 0,
+        "feedback": "No Windows, o gerenciamento de contas permite configurar diferentes níveis de permissão. Contas do tipo administrador têm controle total sobre o sistema, enquanto contas de usuário padrão têm acesso restrito, o que reduz o risco de alterações indevidas ou instalações de softwares maliciosos."
+    },
+    {
+        "question_text": "O uso de VPN (Virtual Private Network) permite a criação de uma conexão segura e criptografada entre dois pontos através da internet.",
+        "correct_option": 0,
+        "feedback": "VPN (Virtual Private Network) cria uma conexão segura e criptografada entre o usuário e a rede remota, garantindo privacidade na transmissão de dados. É muito utilizada por empresas para permitir o acesso seguro de funcionários remotos à intranet corporativa."
+    },
+    {
+        "question_text": "No Word, o recurso de mala direta é utilizado para gerar documentos personalizados em massa, como cartas e etiquetas.",
+        "correct_option": 0,
+        "feedback": "A mala direta é uma funcionalidade do Word que integra o texto de um documento com uma fonte de dados (como uma planilha Excel ou banco de dados), gerando documentos personalizados para cada registro, como cartas nominais e etiquetas de endereço."
+    },
+    {
+        "question_text": "Um arquivo com extensão .xlsx é, por padrão, associado ao Microsoft Excel e contém planilhas eletrônicas.",
+        "correct_option": 0,
+        "feedback": "Arquivos com extensão .xlsx são planilhas eletrônicas do Microsoft Excel, introduzidas a partir da versão 2007. Baseado em XML, esse formato permite maior compatibilidade, suporte a múltiplas planilhas, fórmulas complexas, gráficos e dados vinculados, sendo padrão para análise e apresentação de dados."
+    },
+    {
+        "question_text": "O recurso “Controlar Alterações” do Microsoft Word permite registrar todas as edições feitas em um documento.",
+        "correct_option": 0,
+        "feedback": "O recurso “Controlar Alterações” do Word registra todas as edições feitas em um documento, incluindo inserções, exclusões e alterações de formato. É amplamente utilizado em revisões colaborativas, permitindo que autores e revisores acompanhem e aprovem mudanças."
+    },
+    {
+        "question_text": "Em segurança da informação, o conceito de integridade diz respeito à garantia de que os dados não foram alterados de forma não autorizada.",
+        "correct_option": 0,
+        "feedback": "Em segurança da informação, integridade refere-se à garantia de que os dados foram preservados em sua forma original, sem alterações não autorizadas. Esse princípio assegura a confiabilidade e a precisão das informações armazenadas e transmitidas."
+    },
+    {
+        "question_text": "O aplicativo de e-mail Outlook permite a configuração de múltiplas contas de e-mail e a criação de regras para organização de mensagens.",
+        "correct_option": 0,
+        "feedback": "O Microsoft Outlook permite configurar várias contas de e-mail e criar regras automáticas para organização de mensagens. É uma ferramenta robusta de comunicação corporativa, integrando calendário, tarefas e contatos."
+    },
+    {
+        "question_text": "A computação em nuvem no modelo IaaS (Infrastructure as a Service) oferece ao usuário apenas softwares prontos para uso.",
+        "correct_option": 1,
+        "feedback": "O modelo IaaS (Infrastructure as a Service) fornece infraestrutura de TI como servidores, armazenamento e redes. Softwares prontos para uso são oferecidos no modelo SaaS (Software as a Service). No IaaS, o usuário instala e gerencia seus próprios softwares."
+    },
+    {
+        "question_text": "Um ataque do tipo DDoS (Distributed Denial of Service) visa sobrecarregar os servidores de um sistema, tornando-o inacessível aos usuários legítimos.",
+        "correct_option": 0,
+        "feedback": "Um ataque DDoS (Distributed Denial of Service) sobrecarrega os servidores com tráfego falso originado de múltiplos dispositivos, tornando o serviço inacessível para usuários legítimos. É uma ameaça frequente contra sites governamentais e corporativos."
+    },
+    {
+        "question_text": "O modo de segurança do Windows inicia o sistema com um conjunto mínimo de drivers e serviços essenciais.",
+        "correct_option": 0,
+        "feedback": "O modo de segurança do Windows inicia o sistema com um conjunto mínimo de drivers e serviços essenciais, facilitando a identificação e resolução de problemas, como falhas de driver ou conflitos de software."
+    },
+    {
+        "question_text": "O navegador Mozilla Firefox é um software de código aberto mantido por uma comunidade de desenvolvedores.",
+        "correct_option": 0,
+        "feedback": "O Mozilla Firefox é um navegador de código aberto mantido pela Mozilla Foundation e uma comunidade global. Isso permite auditoria pública do código, modificação e contribuição para melhorias, promovendo transparência e segurança."
+    },
+    {
+        "question_text": "A planilha do Excel permite a criação de gráficos dinâmicos vinculados aos dados de uma tabela.",
+        "correct_option": 0,
+        "feedback": "O Excel permite a criação de gráficos dinâmicos vinculados aos dados das planilhas. Esses gráficos são atualizados automaticamente sempre que os dados são modificados, sendo essenciais para análise visual de grandes volumes de informações."
+    },
+    {
+        "question_text": "A técnica de engenharia social consiste em manipular usuários para que revelem informações confidenciais.",
+        "correct_option": 0,
+        "feedback": "A engenharia social explora a manipulação psicológica de pessoas para obter acesso a informações confidenciais. É uma das formas mais eficazes de ataque, pois visa falhas humanas, como confiança e desatenção."
+    },
+    {
+        "question_text": "O armazenamento em nuvem elimina totalmente a necessidade de backups locais.",
+        "correct_option": 1,
+        "feedback": "O armazenamento em nuvem, embora ofereça redundância e alta disponibilidade, não elimina a necessidade de backups locais. Problemas como exclusões acidentais, falhas de sincronização e ataques cibernéticos podem afetar os dados na nuvem. A prática recomendada é utilizar backups em camadas (nuvem e local)."
+    },
+    {
+        "question_text": "Em redes de computadores, o switch opera na camada de enlace do modelo OSI.",
+        "correct_option": 0,
+        "feedback": "Um switch opera na camada de enlace (camada 2) do modelo OSI, com base nos endereços MAC dos dispositivos. Ele encaminha quadros de dados dentro da mesma rede local (LAN), otimizando o tráfego e reduzindo colisões. Switches modernos também operam na camada 3 com funcionalidades de roteamento."
+    },
+    {
+        "question_text": "O sistema de arquivos FAT32 é mais seguro e eficiente que o NTFS.",
+        "correct_option": 1,
+        "feedback": "O sistema de arquivos FAT32, apesar de ser amplamente compatível, é menos seguro e eficiente que o NTFS. Ele não oferece recursos como permissões de segurança, criptografia e suporte a arquivos maiores que 4 GB. NTFS é recomendado para sistemas modernos."
+    },
+    {
+        "question_text": "Os cookies armazenam informações de navegação do usuário, como preferências de site e sessões de login.",
+        "correct_option": 0,
+        "feedback": "Cookies armazenam dados sobre a navegação do usuário, como preferências, sessões de login e dados de formulário. São fundamentais para personalização de sites, mas também levantam questões de privacidade, sendo regulados por políticas como LGPD e GDPR."
+    },
+    {
+        "question_text": "No Excel, a função CONT.SE permite contar células que atendem a um critério específico.",
+        "correct_option": 0,
+        "feedback": "A função CONT.SE no Excel permite contar o número de células que atendem a um critério específico dentro de um intervalo. É amplamente usada para análises de frequência, segmentação de dados e geração de relatórios dinâmicos."
+    },
+    {
+        "question_text": "Em sistemas Linux, o comando “ls” lista o conteúdo de diretórios.",
+        "correct_option": 0,
+        "feedback": "O comando “ls” em sistemas Linux lista os arquivos e diretórios do diretório atual. É uma das ferramentas mais utilizadas em ambientes baseados em Unix para navegação e gerenciamento de arquivos na linha de comando."
+    },
+    {
+        "question_text": "A criptografia assimétrica utiliza uma única chave para cifrar e decifrar as mensagens.",
+        "correct_option": 1,
+        "feedback": "A criptografia assimétrica utiliza duas chaves distintas: uma pública e uma privada. A mensagem cifrada com uma chave só pode ser decifrada com a outra correspondente, garantindo segurança em comunicações digitais, como no uso de certificados digitais."
+    },
+    {
+        "question_text": "O recurso “Tabela Dinâmica” do Excel facilita a análise de grandes volumes de dados por meio de resumos interativos.",
+        "correct_option": 0,
+        "feedback": "Tabelas dinâmicas no Excel permitem resumir e analisar grandes volumes de dados com flexibilidade. O usuário pode reorganizar os dados de forma interativa, filtrando, somando e criando visões distintas sem alterar os dados originais."
+    },
+    {
+        "question_text": "O protocolo SMTP é utilizado para recebimento de e-mails pelos clientes de correio eletrônico.",
+        "correct_option": 1,
+        "feedback": "O protocolo SMTP (Simple Mail Transfer Protocol) é utilizado para envio de e-mails. Os protocolos usados para recebimento são o POP3 (Post Office Protocol) e o IMAP (Internet Message Access Protocol)."
+    },
+    {
+        "question_text": "Um rootkit é um tipo de malware que visa esconder suas atividades ou a presença de outros programas maliciosos.",
+        "correct_option": 0,
+        "feedback": "Um rootkit é um tipo de malware que se esconde no sistema para evitar sua detecção e permitir que outros programas maliciosos operem sem serem percebidos. Pode modificar funções do sistema operacional e é difícil de remover sem ferramentas especializadas."
+    },
+    {
+        "question_text": "O Painel de Controle do Windows permite ajustes em configurações de hardware, contas de usuário, sistema e rede.",
+        "correct_option": 0,
+        "feedback": "O Painel de Controle do Windows permite o ajuste de configurações do sistema operacional, como dispositivos de hardware, rede, contas de usuário, programas e aparência. Apesar de sua substituição gradual pelo app “Configurações”, ainda é amplamente utilizado."
+    },
+    {
+        "question_text": "A autenticação biométrica baseia-se em características físicas únicas do usuário, como impressões digitais e reconhecimento facial.",
+        "correct_option": 0,
+        "feedback": "A autenticação biométrica é baseada em características físicas únicas do usuário, como impressões digitais, íris e reconhecimento facial. Essas características são praticamente impossíveis de replicar, tornando esse método altamente seguro e confiável para autenticação."
+    },
+    {
+        "question_text": "Em um documento do Word, é possível inserir comentários sem alterar o conteúdo principal do texto.",
+        "correct_option": 0,
+        "feedback": "O recurso de inserção de comentários no Word permite que revisores incluam observações no texto sem modificá-lo diretamente. Comentários são exibidos à margem do documento e são úteis em processos de revisão colaborativa."
+    },
+    {
+        "question_text": "O recurso “Salvar Como” permite salvar uma cópia do arquivo atual com um novo nome ou em novo formato.",
+        "correct_option": 0,
+        "feedback": "A opção “Salvar Como” permite que o usuário crie uma nova versão de um arquivo, alterando o nome, o local de salvamento ou o formato do documento. Isso é essencial para versionamento de arquivos e conversão entre formatos."
+    },
+    {
+        "question_text": "Os aplicativos de antivírus atuam apenas quando solicitados manualmente pelo usuário.",
+        "correct_option": 1,
+        "feedback": "Antivírus modernos atuam de forma contínua e automática, monitorando o sistema em tempo real para detectar, bloquear e remover ameaças. A atuação manual, embora possível, não é mais o único meio de operação dos softwares antivírus."
+    },
+    {
+        "question_text": "Um endereço IP pode ser estático ou dinâmico, dependendo da configuração da rede.",
+        "correct_option": 0,
+        "feedback": "Um endereço IP pode ser estático (atribuição manual e fixa) ou dinâmico (atribuído automaticamente por um servidor DHCP). IPs dinâmicos são comuns em redes domésticas, enquanto os estáticos são usados em servidores e dispositivos que exigem constância de endereço."
+    },
+    {
+        "question_text": "A computação em nuvem no modelo SaaS (Software as a Service) fornece acesso a aplicações hospedadas na internet.",
+        "correct_option": 0,
+        "feedback": "SaaS (Software as a Service) é um modelo de computação em nuvem no qual aplicações são fornecidas pela internet, dispensando instalação local. O usuário acessa o software diretamente do navegador, com atualizações e manutenção gerenciadas pelo provedor."
+    },
+    {
+        "question_text": "O comando “ping” é utilizado para verificar a conectividade entre dois dispositivos em uma rede.",
+        "correct_option": 0,
+        "feedback": "O comando “ping” é usado para testar a conectividade entre dispositivos em rede. Ele envia pacotes ICMP e mede o tempo de resposta, sendo uma ferramenta básica e eficaz para diagnóstico de rede."
+    },
+    {
+        "question_text": "Um certificado digital garante a identidade do emissor em transações eletrônicas.",
+        "correct_option": 0,
+        "feedback": "Certificados digitais funcionam como identidade eletrônica, garantindo a autenticidade do remetente e a integridade das informações transmitidas. São amplamente utilizados em transações seguras, como assinaturas digitais e sites HTTPS."
+    },
+    {
+        "question_text": "A memória cache armazena dados frequentemente utilizados, acelerando o acesso do processador a essas informações.",
+        "correct_option": 0,
+        "feedback": "A memória cache é uma memória de acesso extremamente rápido localizada próxima ao processador. Ela armazena dados e instruções frequentemente utilizados, reduzindo o tempo de acesso à memória RAM e melhorando o desempenho do sistema."
+    },
+    {
+        "question_text": "O protocolo IMAP permite o gerenciamento de mensagens diretamente no servidor de e-mail.",
+        "correct_option": 0,
+        "feedback": "O protocolo IMAP permite que os e-mails permaneçam armazenados no servidor, possibilitando o acesso de múltiplos dispositivos e a sincronização automática entre eles. É ideal para uso em dispositivos móveis e acessos remotos simultâneos."
+    },
+    {
+        "question_text": "O comando “tasklist” no Windows exibe os processos em execução no sistema.",
+        "correct_option": 0,
+        "feedback": "O comando “tasklist” no Windows exibe uma lista de todos os processos ativos no sistema, incluindo seu nome, ID de processo (PID), uso de memória e outras informações úteis. É uma ferramenta útil para monitoramento e diagnóstico de desempenho."
+    },
+    {
+        "question_text": "A computação em nuvem permite escalabilidade de recursos, o que significa ajustar a capacidade conforme a demanda do usuário.",
+        "correct_option": 0,
+        "feedback": "A computação em nuvem oferece escalabilidade, permitindo que recursos como armazenamento e processamento sejam ajustados conforme a demanda do usuário. Essa flexibilidade é uma das principais vantagens da nuvem, otimizando custos e desempenho."
+    },
+    {
+        "question_text": "O recurso “Localizar e Substituir” no Word permite substituir rapidamente uma palavra por outra em todo o documento.",
+        "correct_option": 0,
+        "feedback": "O recurso “Localizar e Substituir” no Word permite substituir uma ou mais ocorrências de palavras ou expressões por outras especificadas pelo usuário. É uma ferramenta eficiente para revisões e edições em documentos extensos."
+    },
+    {
+        "question_text": "A função CONCAT no Excel permite unir textos de várias células em uma única célula.",
+        "correct_option": 0,
+        "feedback": "A função CONCAT do Excel permite unir o conteúdo de várias células em uma única célula. É uma alternativa moderna à função CONCATENAR, especialmente útil na formatação de relatórios e geração de textos dinâmicos."
+    },
+    {
+        "question_text": "Em segurança da informação, o princípio da disponibilidade refere-se à garantia de acesso aos dados quando necessário.",
+        "correct_option": 0,
+        "feedback": "Disponibilidade, na segurança da informação, refere-se à garantia de que os dados estarão acessíveis quando necessários. Isso envolve proteção contra falhas, desastres, ataques e outros eventos que possam interromper o acesso legítimo às informações."
+    }
+]

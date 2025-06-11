@@ -1,0 +1,102 @@
+[
+    {
+        "question_text": "O princípio da legalidade penal impede a aplicação retroativa de lei mais gravosa.",
+        "correct_option": 0,
+        "feedback": "O princípio da legalidade penal (art. 1º do Código Penal) determina que não há crime sem lei anterior que o defina, nem pena sem prévia cominação legal. Isso implica que uma lei penal mais gravosa não pode retroagir para prejudicar o réu, pois viola a segurança jurídica e o princípio da anterioridade da lei penal."
+    },
+    {
+        "question_text": "O fato típico compreende conduta, resultado, nexo de causalidade e tipicidade.",
+        "correct_option": 0,
+        "feedback": "O fato típico, um dos elementos do crime, compreende conduta (ação ou omissão voluntária), nexo de causalidade (ligação entre conduta e resultado), resultado (consequência naturalística) e tipicidade (adequação do fato à norma penal). Sem esses elementos, não há crime típico."
+    },
+    {
+        "question_text": "A tentativa é punida com a mesma pena do crime consumado.",
+        "correct_option": 1,
+        "feedback": "A tentativa é punida com pena inferior à do crime consumado. Segundo o art. 14, II do CP, a pena da tentativa é reduzida de 1/3 a 2/3, levando-se em conta a proximidade da consumação e outros fatores. Portanto, não se aplica a mesma pena da forma consumada."
+    },
+    {
+        "question_text": "O crime de peculato é considerado crime contra o patrimônio.",
+        "correct_option": 1,
+        "feedback": "O crime de peculato (art. 312 do CP) é um crime contra a Administração Pública, e não contra o patrimônio. Trata-se da apropriação de bem público ou particular por servidor público em razão do cargo."
+    },
+    {
+        "question_text": "A extraterritorialidade da lei penal brasileira pode ocorrer em casos expressamente previstos em lei.",
+        "correct_option": 0,
+        "feedback": "O art. 7º do Código Penal trata da extraterritorialidade da lei penal brasileira, permitindo a sua aplicação a certos crimes cometidos fora do país, desde que preenchidos os requisitos legais, como crimes contra a vida ou liberdade do Presidente da República, crimes praticados por brasileiros ou contra brasileiros, e crimes sujeitos à jurisdição universal."
+    },
+    {
+        "question_text": "A omissão é penalmente relevante apenas quando o agente tinha o dever jurídico de agir para evitar o resultado.",
+        "correct_option": 0,
+        "feedback": "A omissão só é penalmente relevante quando o agente tinha o dever jurídico de agir para evitar o resultado, conforme art. 13, §2º do CP. Esse dever pode decorrer da lei, de contrato ou da assunção de posição de garantidor (ex: pais, médicos, policiais em serviço)."
+    },
+    {
+        "question_text": "O inquérito policial é indispensável para o oferecimento da denúncia.",
+        "correct_option": 1,
+        "feedback": "O inquérito policial não é indispensável para o oferecimento da denúncia. O Ministério Público pode propor a ação penal com base em outras peças de informação, desde que contenham elementos suficientes de autoria e materialidade."
+    },
+    {
+        "question_text": "O indiciamento é um ato privativo do delegado de polícia.",
+        "correct_option": 0,
+        "feedback": "O indiciamento é ato privativo do delegado de polícia, que, após formar juízo de valor com base nas provas, indica o provável autor do delito. Tal ato não é passível de revisão pelo Judiciário, salvo em caso de ilegalidade manifesta."
+    },
+    {
+        "question_text": "A busca e apreensão depende sempre de autorização judicial, mesmo em flagrante delito.",
+        "correct_option": 1,
+        "feedback": "A busca e apreensão pode ser realizada sem mandado judicial em casos de flagrante delito, desastre, ou para prestar socorro, conforme art. 5º, XI da CF/88. Nessas situações, a entrada forçada em domicílio é excepcionalmente permitida."
+    },
+    {
+        "question_text": "A acareação consiste na confrontação entre pessoas que apresentam divergências em seus depoimentos.",
+        "correct_option": 0,
+        "feedback": "A acareação consiste no confronto entre pessoas cujos depoimentos são contraditórios, com o objetivo de esclarecer os fatos. Está prevista no art. 229 do Código de Processo Penal e pode ser realizada entre testemunhas, acusados ou entre ambos."
+    },
+    {
+        "question_text": "O reconhecimento de pessoas deve seguir as formalidades legais previstas no Código de Processo Penal.",
+        "correct_option": 0,
+        "feedback": "O reconhecimento de pessoas é regulamentado pelo art. 226 do Código de Processo Penal e exige rigorosa formalidade. O procedimento prevê, por exemplo, que a pessoa a ser reconhecida seja colocada ao lado de outras com características semelhantes e que o reconhecimento seja feito de forma segura, para evitar erros que possam comprometer a instrução penal e a segurança jurídica."
+    },
+    {
+        "question_text": "A prisão em flagrante pode ser efetuada por qualquer do povo.",
+        "correct_option": 0,
+        "feedback": "A prisão em flagrante pode ser realizada por qualquer pessoa do povo, não apenas por autoridades. Isso está previsto no art. 301 do Código de Processo Penal, como forma de garantir resposta imediata a crimes em andamento e permitir a entrega do agente à autoridade competente."
+    },
+    {
+        "question_text": "Os documentos de prova têm valor relativo e estão sujeitos ao princípio do livre convencimento motivado.",
+        "correct_option": 0,
+        "feedback": "Os documentos de prova são elementos que podem ser valorados pelo juiz com base no princípio do livre convencimento motivado, previsto no art. 155 do CPP. Isso significa que o juiz não está adstrito a provas pré-estabelecidas, desde que fundamente sua decisão de maneira coerente e razoável."
+    },
+    {
+        "question_text": "O tempo do crime, segundo o Código Penal, é o momento da ação ou omissão.",
+        "correct_option": 0,
+        "feedback": "O tempo do crime, segundo a teoria adotada pelo Código Penal (teoria da atividade), é o momento da ação ou omissão, e não da produção do resultado. Isso tem implicações diretas na definição da lei penal aplicável e na responsabilidade penal do agente."
+    },
+    {
+        "question_text": "A lei penal mais benéfica pode retroagir para atingir atos praticados antes de sua vigência.",
+        "correct_option": 0,
+        "feedback": "A lei penal mais benéfica pode retroagir para alcançar fatos anteriores à sua entrada em vigor, conforme art. 2º, parágrafo único, do Código Penal. Esse princípio da retroatividade da lex mitior visa garantir tratamento mais favorável ao réu, refletindo o caráter humanitário do direito penal."
+    },
+    {
+        "question_text": "A prova obtida por meios ilícitos é admitida no processo penal, desde que corrobore outras provas.",
+        "correct_option": 1,
+        "feedback": "A prova obtida por meios ilícitos é inadmissível no processo, conforme art. 5º, LVI da Constituição Federal. Essa vedação busca proteger os direitos fundamentais e assegurar um processo penal justo. Mesmo que a prova seja útil ou verossímil, sua ilicitude a torna inválida."
+    },
+    {
+        "question_text": "O crime de falsidade ideológica é um crime contra a fé pública.",
+        "correct_option": 0,
+        "feedback": "O crime de falsidade ideológica está previsto no art. 299 do Código Penal e integra o título dos crimes contra a fé pública. Consiste em inserir declaração falsa ou diversa da que deveria ser escrita em documento público ou particular, com o fim de prejudicar, criar obrigação ou alterar a verdade sobre fato juridicamente relevante."
+    },
+    {
+        "question_text": "A regra geral é que a competência para apuração de infrações penais é da polícia judiciária.",
+        "correct_option": 0,
+        "feedback": "A apuração das infrações penais, em regra, é feita pela polícia judiciária (Polícia Civil e Polícia Federal), conforme art. 144 da CF/88. Exceções podem ocorrer, como no caso da atuação do Ministério Público em investigações diretas, em situações específicas admitidas pelo STF."
+    },
+    {
+        "question_text": "A presunção de inocência é um princípio constitucional aplicável ao processo penal.",
+        "correct_option": 0,
+        "feedback": "O princípio da presunção de inocência está previsto no art. 5º, LVII da CF/88, segundo o qual ninguém será considerado culpado até o trânsito em julgado de sentença penal condenatória. Esse princípio garante o devido processo legal e a ampla defesa, sendo basilar do sistema penal acusatório."
+    },
+    {
+        "question_text": "O excesso punível ocorre quando o agente, ao agir em legítima defesa, ultrapassa os limites da moderação exigida.",
+        "correct_option": 0,
+        "feedback": "O excesso punível ocorre quando o agente, ao agir em legítima defesa, ultrapassa os limites da necessidade, moderação ou proporcionalidade. Conforme art. 23, parágrafo único do CP, o excesso doloso ou culposo retira a excludente de ilicitude e pode ensejar responsabilização penal do agente."
+    }
+]

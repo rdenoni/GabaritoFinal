@@ -1,0 +1,302 @@
+[
+    {
+        "question_text": "A média aritmética de um conjunto de dados é sempre menor do que a mediana quando a distribuição é assimétrica à direita.",
+        "correct_option": 1,
+        "feedback": "Quando uma distribuição é assimétrica à direita (positivamente assimétrica), a cauda mais longa à direita puxa a média para cima, tornando-a maior do que a mediana. Portanto, a afirmação está incorreta."
+    },
+    {
+        "question_text": "Em uma distribuição normal, aproximadamente 68% dos valores encontram-se dentro de um desvio padrão da média, segundo a Regra Empírica.",
+        "correct_option": 0,
+        "feedback": "A Regra Empírica (ou regra dos 68-95-99,7) se aplica a distribuições normais e estima que cerca de 68% dos dados estão a ±1 desvio padrão da média, 95% a ±2 desvios e 99,7% a ±3 desvios."
+    },
+    {
+        "question_text": "A moda é o valor mais frequente em um conjunto de dados e é sempre única.",
+        "correct_option": 1,
+        "feedback": "A moda é o valor que ocorre com maior frequência, mas não é necessariamente única. Um conjunto de dados pode ser bimodal (duas modas) ou multimodal (mais de duas modas), ou mesmo não ter moda se todas as observações tiverem a mesma frequência."
+    },
+    {
+        "question_text": "O coeficiente de variação é utilizado para comparar a dispersão relativa entre dois conjuntos de dados com unidades diferentes.",
+        "correct_option": 0,
+        "feedback": "O coeficiente de variação (CV) é uma medida adimensional calculada como a razão entre o desvio padrão e a média. Ele permite comparar a dispersão relativa de variáveis com escalas ou unidades diferentes."
+    },
+    {
+        "question_text": "A variância é a média aritmética dos quadrados dos desvios em relação à média.",
+        "correct_option": 0,
+        "feedback": "A variância mede a dispersão dos dados em torno da média. É calculada pela soma dos quadrados dos desvios de cada observação em relação à média, dividida pelo número de observações (ou por n–1 no caso de amostras)."
+    },
+    {
+        "question_text": "A probabilidade de um evento A qualquer, segundo a definição clássica, é o número de casos favoráveis dividido pelo número total de casos possíveis, desde que igualmente prováveis.",
+        "correct_option": 0,
+        "feedback": "A definição clássica de probabilidade parte do pressuposto de equiprobabilidade entre os casos elementares. Assim, P(A) = número de casos favoráveis / número total de casos possíveis."
+    },
+    {
+        "question_text": "O Teorema da Probabilidade Total permite calcular a probabilidade de um evento a partir das probabilidades condicionais desse evento dado um conjunto completo de causas.",
+        "correct_option": 0,
+        "feedback": "O Teorema da Probabilidade Total afirma que, se {B₁, B₂, …, Bₙ} formam um conjunto exaustivo de eventos mutuamente exclusivos, então P(A) = Σ P(A|Bᵢ)·P(Bᵢ). É usado para decompor a probabilidade de A em cenários condicionais."
+    },
+    {
+        "question_text": "A função de probabilidade associada a uma variável aleatória discreta pode assumir valores negativos.",
+        "correct_option": 1,
+        "feedback": "Uma função de probabilidade para variável aleatória discreta deve obedecer a P(x) ≥ 0 para todo x, e a soma das probabilidades deve ser 1. Portanto, não pode assumir valores negativos."
+    },
+    {
+        "question_text": "A distribuição binomial é utilizada para modelar experimentos com n repetições independentes e apenas dois resultados possíveis em cada ensaio.",
+        "correct_option": 0,
+        "feedback": "A distribuição binomial modela o número de sucessos em n ensaios independentes de Bernoulli (cada um com probabilidade p de sucesso). É adequada quando há exatamente dois resultados possíveis (sucesso/falha) por ensaio."
+    },
+    {
+        "question_text": "A esperança matemática de uma variável aleatória discreta é obtida pela soma dos produtos entre os valores da variável e suas respectivas probabilidades.",
+        "correct_option": 0,
+        "feedback": "A esperança matemática (ou valor esperado) de uma variável aleatória discreta X é dada por E(X) = Σ x·P(X=x). Representa a média ponderada dos valores possíveis de X, ponderados por suas probabilidades."
+    },
+    {
+        "question_text": "Um experimento aleatório consiste em lançar duas moedas simultaneamente. A probabilidade de ocorrer exatamente uma cara é",
+        "correct_option": 0,
+        "feedback": "Ao lançar duas moedas, o espaço amostral é {CC, CK, KC, KK}. Os casos favoráveis a exatamente uma cara são CK e KC, ou seja, 2 de 4, resultando em probabilidade 2/4 = 0,5. Portanto, a afirmação de que a probabilidade é 0,5 está correta."
+    },
+    {
+        "question_text": "A distribuição normal é simétrica em torno de sua média, que coincide com a mediana e a moda.",
+        "correct_option": 0,
+        "feedback": "Uma das propriedades fundamentais da distribuição normal é sua simetria em torno da média. Nessa situação, a média, a mediana e a moda coincidem, pois a curva é perfeitamente equilibrada."
+    },
+    {
+        "question_text": "A variável aleatória binomial pode assumir valores negativos, desde que a probabilidade associada seja positiva.",
+        "correct_option": 1,
+        "feedback": "A variável aleatória binomial X assume valores inteiros de 0 até n (número de ensaios). Não pode assumir valores negativos, pois representa quantidade de sucessos em n experimentos."
+    },
+    {
+        "question_text": "Em uma distribuição de Bernoulli, a variável aleatória X pode assumir apenas os valores 0 e 1.",
+        "correct_option": 0,
+        "feedback": "A distribuição de Bernoulli modela um único ensaio com dois resultados possíveis: sucesso (1) e fracasso (0). Portanto, X(bernoulli) ∈ {0,1}."
+    },
+    {
+        "question_text": "A variância de uma variável aleatória X é igual a E(X^2) - [E(X)]^2.",
+        "correct_option": 0,
+        "feedback": "A fórmula fundamental para a variância de uma variável aleatória X é Var(X) = E[X^2] – (E[X])^2. Essa expressão é amplamente usada em teoria de probabilidade."
+    },
+    {
+        "question_text": "A soma das probabilidades da função de densidade de uma variável aleatória contínua deve ser igual a 1.",
+        "correct_option": 1,
+        "feedback": "Para variáveis contínuas usamos função densidade de probabilidade (f(x)), cuja integral sobre todo o suporte deve ser 1 (∫ f(x) dx = 1), e não a soma. A soma seria para variáveis discretas."
+    },
+    {
+        "question_text": "O Teorema Central do Limite afirma que a média amostral de n observações extraídas de uma população com variância finita tende para uma distribuição normal conforme n aumenta.",
+        "correct_option": 0,
+        "feedback": "O Teorema Central do Limite afirma que, sob certas condições (população com média e variância finitas e n suficientemente grande), a distribuição da média amostral se aproxima de uma normal, independentemente da distribuição original."
+    },
+    {
+        "question_text": "A estimativa pontual da média populacional é feita com base na mediana da amostra.",
+        "correct_option": 1,
+        "feedback": "A estimativa pontual da média populacional é dada pela média da amostra (x̄), não pela mediana. A média amostral é um estimador não-viesado da média populacional em condições usuais."
+    },
+    {
+        "question_text": "O teste qui-quadrado pode ser usado para verificar a independência entre duas variáveis categóricas.",
+        "correct_option": 0,
+        "feedback": "O teste qui-quadrado de independência avalia se existe associação entre duas variáveis categóricas, comparando frequências observadas e esperadas sob hipótese de independência."
+    },
+    {
+        "question_text": "Um intervalo de confiança de 95% indica que há 95% de chance de a média populacional estar dentro desse intervalo calculado.",
+        "correct_option": 1,
+        "feedback": "Um intervalo de confiança de 95% significa que, se repetíssemos o processo de amostragem muitas vezes, 95% dos intervalos construídos conteriam o verdadeiro parâmetro. Não se pode afirmar que há 95% de chance de a média estar no intervalo específico já calculado."
+    },
+    {
+        "question_text": "Em uma amostragem aleatória simples, todos os elementos da população têm a mesma probabilidade de serem selecionados.",
+        "correct_option": 0,
+        "feedback": "Na amostragem aleatória simples, cada elemento da população tem a mesma chance de ser escolhido, garantindo ausência de viés no processo de seleção, desde que a amostragem seja feita corretamente."
+    },
+    {
+        "question_text": "A correlação de Pearson mede exclusivamente relações lineares entre variáveis quantitativas.",
+        "correct_option": 0,
+        "feedback": "O coeficiente de correlação de Pearson avalia a força e direção de uma relação linear entre duas variáveis quantitativas. Relações não lineares exigem outras medidas ou transformações."
+    },
+    {
+        "question_text": "Em uma amostragem estratificada, a população é dividida em estratos homogêneos, e então realiza-se uma amostragem aleatória dentro de cada estrato.",
+        "correct_option": 0,
+        "feedback": "Na amostragem estratificada, a população é dividida em grupos (estratos) com características semelhantes, e realiza-se amostragem aleatória em cada estrato, melhorando a precisão das estimativas."
+    },
+    {
+        "question_text": "Em um modelo de regressão linear simples, a inclinação da reta de regressão representa a variação esperada da variável dependente para cada unidade de variação da variável independente.",
+        "correct_option": 0,
+        "feedback": "No modelo de regressão linear simples ŷ = β₀ + β₁·x, o coeficiente β₁ (inclinação) indica quanto a variável dependente y muda, em média, quando x aumenta em uma unidade."
+    },
+    {
+        "question_text": "A análise de variância (ANOVA) permite comparar as médias de mais de dois grupos simultaneamente.",
+        "correct_option": 0,
+        "feedback": "A ANOVA testa a hipótese de igualdade de médias populacionais entre três ou mais grupos. Ela analisa a variabilidade dentro e entre grupos para avaliar se as diferenças de médias são estatisticamente significativas."
+    },
+    {
+        "question_text": "O teste t de Student é apropriado para comparar variâncias de dois grupos independentes.",
+        "correct_option": 1,
+        "feedback": "O teste t de Student é usado para comparar médias de dois grupos independentes (variante igual ou variante desigual). Para comparar variâncias de dois grupos, utiliza-se o teste F."
+    },
+    {
+        "question_text": "A regressão linear múltipla permite estimar a influência de várias variáveis independentes sobre uma única variável dependente.",
+        "correct_option": 0,
+        "feedback": "A regressão linear múltipla estende o modelo simples para incluir múltiplos preditores (X₁, X₂, …, Xₖ). Isso permite avaliar o efeito simultâneo de todas as variáveis independentes sobre a variável resposta."
+    },
+    {
+        "question_text": "Em regressão linear, os resíduos são as diferenças entre os valores observados e os valores previstos pelo modelo.",
+        "correct_option": 0,
+        "feedback": "Os resíduos (ou erros) em regressão são calculados como eᵢ = yᵢ – ŷᵢ. A análise dos resíduos é fundamental para verificar suposições do modelo, como homocedasticidade, normalidade e independência."
+    },
+    {
+        "question_text": "A amostragem sistemática consiste em selecionar elementos da população com base em intervalos regulares após uma escolha aleatória inicial.",
+        "correct_option": 0,
+        "feedback": "Na amostragem sistemática, escolhe-se um ponto de partida aleatório e, em seguida, selecionam-se todos os k-ésimos elementos (por exemplo, a cada 10 unidades) até completar a amostra. É prática quando a população está ordenada."
+    },
+    {
+        "question_text": "O tamanho amostral é irrelevante para a precisão das estimativas, desde que a amostragem seja aleatória.",
+        "correct_option": 1,
+        "feedback": "O tamanho da amostra influencia diretamente a precisão das estimativas: amostras maiores reduzem o erro amostral, mesmo que o método de amostragem seja aleatório. Portanto, não é irrelevante."
+    },
+    {
+        "question_text": "A distribuição de Poisson é adequada para modelar a ocorrência de eventos raros em intervalos de tempo ou espaço fixos.",
+        "correct_option": 0,
+        "feedback": "A distribuição de Poisson modela o número de eventos em um intervalo fixo de tempo ou espaço, quando esses eventos ocorrem com taxa média constante e independentemente. É comum para fenômenos raros."
+    },
+    {
+        "question_text": "O valor de p (valor-p) em um teste de hipótese representa a probabilidade de a hipótese nula ser verdadeira.",
+        "correct_option": 1,
+        "feedback": "O valor-p é a probabilidade de observar um resultado tão extremo quanto (ou mais extremo que) o obtido, assumindo que a hipótese nula seja verdadeira. Não é a probabilidade de a hipótese nula ser verdadeira."
+    },
+    {
+        "question_text": "A média harmônica é mais adequada do que a média aritmética para calcular velocidades médias.",
+        "correct_option": 0,
+        "feedback": "A média harmônica é usada quando lidamos com razões, como velocidades médias em percursos iguais: HM = n / Σ(1/xᵢ). Para velocidades, a média harmônica fornece o valor correto."
+    },
+    {
+        "question_text": "Em uma distribuição normal, a probabilidade de uma observação estar entre a média menos dois desvios padrões e a média mais dois desvios padrões é de aproximadamente 95%.",
+        "correct_option": 0,
+        "feedback": "Pela Regra Empírica, cerca de 95% das observações em uma distribuição normal estão a ±2 desvios padrão da média. Essa propriedade é amplamente utilizada em estatística inferencial."
+    },
+    {
+        "question_text": "O teste t de Student para duas amostras independentes pressupõe que as variâncias populacionais sejam iguais.",
+        "correct_option": 0,
+        "feedback": "O teste t independente assume homogeneidade de variâncias (variâncias populacionais iguais). Quando essa premissa não é atendida, utiliza-se a versão de Welch, que não requer variâncias iguais."
+    },
+    {
+        "question_text": "A variância de uma soma de duas variáveis aleatórias independentes é igual à soma de suas variâncias.",
+        "correct_option": 0,
+        "feedback": "Se X e Y são variáveis aleatórias independentes, Var(X + Y) = Var(X) + Var(Y). A independência elimina o termo de covariância nessa soma."
+    },
+    {
+        "question_text": "Uma distribuição simétrica possui sempre coeficiente de assimetria igual a zero.",
+        "correct_option": 0,
+        "feedback": "Em uma distribuição perfeitamente simétrica, os valores estão igualmente dispersos em torno da média, o que faz com que o coeficiente de assimetria (skewness) seja zero, indicando ausência de distorção à direita ou esquerda."
+    },
+    {
+        "question_text": "A regressão linear simples minimiza a soma das diferenças absolutas entre os valores observados e os valores previstos.",
+        "correct_option": 1,
+        "feedback": "A regressão linear simples utiliza o método dos mínimos quadrados, que minimiza a soma dos quadrados dos resíduos (diferenças ao quadrado), não a soma das diferenças absolutas. Para somas absolutas, usa-se regressão por mínimos valores absolutos (LAD)."
+    },
+    {
+        "question_text": "Em inferência estatística, o erro do tipo I ocorre quando se rejeita a hipótese nula verdadeira.",
+        "correct_option": 0,
+        "feedback": "O erro do tipo I (falso positivo) ocorre quando rejeitamos a hipótese nula, mesmo ela sendo verdadeira. Seu risco é controlado pelo nível de significância α."
+    },
+    {
+        "question_text": "Em uma pesquisa amostral, o erro amostral pode ser eliminado totalmente com técnicas de controle estatístico.",
+        "correct_option": 1,
+        "feedback": "O erro amostral decorre da variabilidade inerente ao processo de amostragem. Embora possamos reduzi-lo (aumentando n, por exemplo), não é possível eliminá-lo completamente, pois sempre haverá variação entre amostras distintas."
+    },
+    {
+        "question_text": "A distribuição uniforme contínua assume que todos os valores em um intervalo são igualmente prováveis.",
+        "correct_option": 0,
+        "feedback": "Uma distribuição uniforme contínua define uma densidade constante em todo o intervalo [a, b], de modo que qualquer subintervalo de mesmo comprimento possui a mesma probabilidade."
+    },
+    {
+        "question_text": "A média ponderada é usada quando diferentes valores possuem diferentes importâncias relativas.",
+        "correct_option": 0,
+        "feedback": "Na média ponderada, cada valor xᵢ é multiplicado por um peso wᵢ, e a soma desses produtos é dividida pela soma dos pesos: (Σ wᵢ·xᵢ) / Σ wᵢ. Isso reflete a importância relativa de cada observação."
+    },
+    {
+        "question_text": "O intervalo de confiança depende apenas da média amostral e não do tamanho da amostra.",
+        "correct_option": 1,
+        "feedback": "O intervalo de confiança depende da média amostral, do tamanho da amostra (n), da variabilidade (desvio padrão) e do nível de confiança. Amostras maiores geram intervalos mais estreitos, aumentando a precisão."
+    },
+    {
+        "question_text": "A distribuição normal padronizada possui média zero e desvio padrão igual a 1.",
+        "correct_option": 0,
+        "feedback": "A distribuição normal padrão (ou normal Z) é a normal com média μ = 0 e desvio padrão σ = 1. É usada para tabelas de probabilidade e conversão de valores X para escores z."
+    },
+    {
+        "question_text": "O coeficiente de variação é útil para comparar a dispersão relativa de duas variáveis com diferentes unidades de medida.",
+        "correct_option": 0,
+        "feedback": "O coeficiente de variação (CV = σ/μ) é adimensional e expressa a dispersão relativa em porcentagem. Permite comparar variáveis com escalas diferentes."
+    },
+    {
+        "question_text": "O tamanho da amostra não afeta a largura do intervalo de confiança.",
+        "correct_option": 1,
+        "feedback": "O tamanho da amostra influencia diretamente a largura do intervalo de confiança: quanto maior n, menor o erro padrão e mais estreito fica o intervalo, aumentando a precisão da estimativa."
+    },
+    {
+        "question_text": "A função densidade de probabilidade de uma variável contínua pode assumir valores maiores que 1.",
+        "correct_option": 0,
+        "feedback": "O valor de f(x) em uma função densidade contínua pode ser maior que 1, contanto que a área total (integral) sobre todo o suporte seja igual a 1. Por exemplo, distribuições muito concentradas têm picos sobre 1."
+    },
+    {
+        "question_text": "A média geométrica é apropriada para conjuntos de dados com crescimento percentual.",
+        "correct_option": 0,
+        "feedback": "A média geométrica (GM = (Π xᵢ)^(1/n)) é indicada para taxas de crescimento ou proporções, pois preserva a multiplicatividade e fornece valor médio em termos percentuais."
+    },
+    {
+        "question_text": "O teste de hipóteses é usado apenas em situações com grandes amostras.",
+        "correct_option": 1,
+        "feedback": "O teste de hipóteses pode ser aplicado tanto em amostras grandes quanto em amostras pequenas. O tamanho influencia o tipo de distribuição (t de Student para amostras pequenas, z para grandes), mas não impede a aplicação."
+    },
+    {
+        "question_text": "A média aritmética é influenciada por valores extremos mais do que a mediana.",
+        "correct_option": 0,
+        "feedback": "A média aritmética considera todos os valores e é sensível a outliers (valores extremos), enquanto a mediana é uma medida de posição menos afetada por extremos."
+    },
+    {
+        "question_text": "A soma dos desvios em relação à média em um conjunto de dados é sempre igual a zero.",
+        "correct_option": 0,
+        "feedback": "Por definição, a soma algébrica dos desvios individuais em relação à média aritmética é zero, pois a média balanceia todos os valores do conjunto."
+    },
+    {
+        "question_text": "A análise de resíduos em regressão linear é essencial para verificar se as suposições do modelo são atendidas.",
+        "correct_option": 0,
+        "feedback": "A análise dos resíduos verifica suposições do modelo de regressão (como homocedasticidade, normalidade e independência dos erros). Resíduos mal comportados indicam falhas no ajuste."
+    },
+    {
+        "question_text": "A variância é uma medida de posição e não de dispersão.",
+        "correct_option": 1,
+        "feedback": "A variância mede a dispersão dos dados em torno da média, não de posição. Ela calcula o quão os valores se afastam do valor médio em média."
+    },
+    {
+        "question_text": "A regressão linear simples pressupõe que a relação entre as variáveis seja linear.",
+        "correct_option": 0,
+        "feedback": "A regressão linear simples assume que há relação linear entre a variável independente e a dependente. Se essa premissa for violada, o modelo pode ser inadequado."
+    },
+    {
+        "question_text": "Uma amostra representativa reflete as características da população da qual foi extraída.",
+        "correct_option": 0,
+        "feedback": "Uma amostra representativa deve preservar as proporções e características-chave da população, permitindo que as conclusões sejam generalizáveis."
+    },
+    {
+        "question_text": "O erro do tipo II ocorre quando não se rejeita a hipótese nula sendo ela falsa.",
+        "correct_option": 0,
+        "feedback": "O erro do tipo II (falso negativo) ocorre quando não rejeitamos a hipótese nula mesmo ela sendo falsa. Está associado ao poder do teste (1 – β)."
+    },
+    {
+        "question_text": "A função de verossimilhança é usada para encontrar os parâmetros que maximizam a probabilidade de observação de um conjunto de dados.",
+        "correct_option": 0,
+        "feedback": "A função de verossimilhança (L(θ|dados)) mede a plausibilidade de diferentes valores de parâmetros θ dados os dados observados. O método de máxima verossimilhança escolhe θ que maximiza essa função."
+    },
+    {
+        "question_text": "Uma distribuição assimétrica tem moda, mediana e média coincidentes.",
+        "correct_option": 1,
+        "feedback": "Em distribuições assimétricas, média, mediana e moda não coincidem; a direção da assimetria determina qual delas fica mais deslocada: à direita ou à esquerda."
+    },
+    {
+        "question_text": "O desvio padrão é a raiz quadrada da variância.",
+        "correct_option": 0,
+        "feedback": "O desvio padrão é definido como σ = √Var(X), onde Var(X) é a variância. Ele expressa dispersão na mesma unidade da variável."
+    },
+    {
+        "question_text": "O coeficiente de correlação de Pearson varia entre -1 e +1.",
+        "correct_option": 0,
+        "feedback": "O coeficiente de correlação de Pearson varia no intervalo [–1, +1], onde –1 indica correlação negativa perfeita, +1 correlação positiva perfeita, e 0 nenhuma correlação linear."
+    }
+]

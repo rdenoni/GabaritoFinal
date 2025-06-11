@@ -1,0 +1,127 @@
+[
+    {
+        "question_text": "É correto afirmar que a Lei nº 11.343/2006, que trata da política nacional sobre drogas, prevê a possibilidade de substituição da pena privativa de liberdade por medidas educativas para o usuário de drogas.",
+        "correct_option": 0,
+        "feedback": "O art. 28 da Lei nº 11.343/2006 não considera crime o porte para uso pessoal, e impõe medidas educativas como advertência, prestação de serviços à comunidade ou medida educativa de comparecimento a programa educativo. A intenção é tratar o usuário como doente e não como criminoso."
+    },
+    {
+        "question_text": "A Lei nº 10.826/2003 (Estatuto do Desarmamento) exige registro e autorização para o porte de armas de fogo, mesmo para os integrantes das Forças Armadas.",
+        "correct_option": 1,
+        "feedback": "O art. 6º do Estatuto do Desarmamento traz exceções expressas quanto à necessidade de autorização para porte, incluindo integrantes das Forças Armadas, que são regidos por legislação própria e possuem isenções em algumas situações."
+    },
+    {
+        "question_text": "De acordo com a Lei nº 9.455/1997, constitui crime de tortura submeter alguém, sob sua guarda, poder ou autoridade, a sofrimento físico ou mental, com emprego de violência ou grave ameaça, como forma de aplicação de medida de caráter preventivo.",
+        "correct_option": 0,
+        "feedback": "A Lei de Tortura (Lei nº 9.455/1997) define como crime o ato de submeter alguém sob autoridade ou guarda a sofrimento físico ou mental para aplicação de medida disciplinar, como consta no art. 1º, inciso II."
+    },
+    {
+        "question_text": "A Lei nº 10.357/2001 estabelece normas para o controle e a fiscalização de produtos químicos que possam ser utilizados na fabricação de entorpecentes ou substâncias psicotrópicas.",
+        "correct_option": 0,
+        "feedback": "A Lei nº 10.357/2001 prevê mecanismos de controle e fiscalização sobre produtos químicos, dada sua potencialidade de serem desviados para a produção de entorpecentes e psicotrópicos. Cabe à Polícia Federal o controle e o registro das empresas."
+    },
+    {
+        "question_text": "A Lei de Migração (Lei nº 13.445/2017) considera o migrante como sujeito de direitos e deveres e assegura tratamento isonômico aos nacionais e estrangeiros.",
+        "correct_option": 0,
+        "feedback": "A Lei nº 13.445/2017 representa uma mudança de paradigma, reconhecendo o migrante como sujeito de direitos e reafirmando o princípio da igualdade e não discriminação, nos termos do art. 3º."
+    },
+    {
+        "question_text": "Segundo o ECA (Lei nº 8.069/1990), a internação de adolescente em conflito com a lei é medida excepcional, devendo ser adotada apenas quando esgotadas outras medidas socioeducativas.",
+        "correct_option": 0,
+        "feedback": "O ECA, no art. 121, § 2º, é claro ao afirmar que a internação só pode ser aplicada quando for a única medida capaz de atender às necessidades de defesa da sociedade e do adolescente, sempre de forma excepcional."
+    },
+    {
+        "question_text": "Conforme a Lei nº 9.605/1998, quem impede ou dificulta a ação fiscalizatória do poder público no trato de questões ambientais comete infração administrativa, mas não crime ambiental.",
+        "correct_option": 1,
+        "feedback": "De acordo com o art. 69 da Lei nº 9.605/1998, impedir ou dificultar a ação de fiscalização ambiental é crime, com pena prevista de reclusão e multa."
+    },
+    {
+        "question_text": "A Lei nº 14.967/2024 criou um marco regulatório para a segurança privada e determina regras para funcionamento das empresas de segurança e transporte de valores.",
+        "correct_option": 0,
+        "feedback": "A Lei nº 14.967/2024 estrutura a atividade de segurança privada no país, com requisitos para funcionamento, formação de profissionais, e mecanismos de controle e fiscalização por órgãos oficiais."
+    },
+    {
+        "question_text": "A Lei nº 10.446/2002 atribui à Polícia Federal a apuração de infrações penais praticadas em detrimento de bens, serviços ou interesses da União, especialmente se houver repercussão interestadual.",
+        "correct_option": 0,
+        "feedback": "Conforme o art. 1º da Lei nº 10.446/2002, cabe à Polícia Federal apurar determinados crimes com repercussão interestadual ou internacional que exijam repressão uniforme."
+    },
+    {
+        "question_text": "A Lei nº 13.444/2017 institui a Identificação Civil Nacional (ICN) e permite a unificação dos dados biométricos e biográficos dos brasileiros em um único banco de dados.",
+        "correct_option": 0,
+        "feedback": "A Lei nº 13.444/2017 estabelece a Identificação Civil Nacional (ICN), com o objetivo de unificar os registros biométricos e biográficos, otimizando a segurança na identificação de cidadãos."
+    },
+    {
+        "question_text": "A Lei nº 7.116/1983, regulamentada pelo Decreto nº 10.977/2022, padroniza os documentos de identidade no país, mas não obriga a inserção de dados biométricos.",
+        "correct_option": 1,
+        "feedback": "O Decreto nº 10.977/2022, que regulamenta a Lei nº 7.116/1983, exige que o documento de identidade contenha dados biométricos, como impressão digital, foto e assinatura digitalizada."
+    },
+    {
+        "question_text": "O Decreto nº 11.797/2023 institui diretrizes para o serviço de identificação do cidadão, promovendo integração entre órgãos de segurança e bancos de dados nacionais.",
+        "correct_option": 0,
+        "feedback": "O Decreto nº 11.797/2023 regula a operacionalização da identificação civil, integrando órgãos estaduais e federais por meio de sistemas e bases de dados unificadas."
+    },
+    {
+        "question_text": "Segundo a Lei nº 14.534/2023, o CPF passa a ser o número único de identificação civil em todo o território nacional.",
+        "correct_option": 0,
+        "feedback": "Com a promulgação da Lei nº 14.534/2023, o CPF se torna o número único e suficiente para a identificação do cidadão em todo o país, sendo incluído em documentos oficiais."
+    },
+    {
+        "question_text": "A Lei nº 9.545/1997 e o Decreto nº 11.491/2023 tratam do número único de registro de identidade civil e de sua aplicação às convenções internacionais de combate ao crime cibernético.",
+        "correct_option": 0,
+        "feedback": "A Lei nº 9.545/1997 institui o número único de identidade civil, enquanto o Decreto nº 11.491/2023 versa sobre sua interoperabilidade com a Convenção de Budapeste (sobre crimes cibernéticos), alinhando o Brasil ao padrão internacional."
+    },
+    {
+        "question_text": "A legislação especial penal permite a aplicação da Lei de Drogas (Lei nº 11.343/2006) aos adolescentes em conflito com a lei, com as devidas adaptações previstas no ECA.",
+        "correct_option": 0,
+        "feedback": "Embora adolescentes sejam regidos pelo ECA, a Lei nº 11.343/2006 pode ser aplicada por analogia em aspectos como prevenção e medidas educativas, respeitando as peculiaridades do sistema socioeducativo."
+    },
+    {
+        "question_text": "O porte ilegal de arma de fogo de uso permitido, segundo a Lei nº 10.826/2003, é crime inafiançável e insuscetível de liberdade provisória.",
+        "correct_option": 1,
+        "feedback": "A jurisprudência do STF (HC 104410) reconhece que o porte ilegal de arma de fogo de uso permitido é crime afiançável e admite liberdade provisória. Apenas armas de uso restrito, quando portadas ilegalmente, podem ter restrições mais severas, conforme interpretação do art. 14 da Lei nº 10.826/2003."
+    },
+    {
+        "question_text": "Conforme a Lei de Migração, a deportação é medida administrativa de retirada compulsória aplicada a estrangeiro irregular, sem necessidade de ampla defesa.",
+        "correct_option": 1,
+        "feedback": "A Lei nº 13.445/2017 garante o contraditório e ampla defesa ao estrangeiro em processo de deportação (art. 50 e seguintes), sendo vedada a retirada sumária do território nacional. A autoridade competente deve assegurar os direitos humanos e o devido processo legal."
+    },
+    {
+        "question_text": "A Lei nº 9.455/1997 prevê aumento de pena caso a tortura seja praticada por agente público no exercício da função.",
+        "correct_option": 0,
+        "feedback": "O § 4º do art. 1º da Lei nº 9.455/1997 prevê que a pena será aumentada de um sexto até um terço se o crime for cometido por agente público, o que reforça a gravidade da conduta no exercício de função."
+    },
+    {
+        "question_text": "O art. 16 da Lei nº 11.343/2006 define como crime a colaboração para o financiamento ou custeio do tráfico ilícito de drogas.",
+        "correct_option": 0,
+        "feedback": "O art. 36 da Lei nº 11.343/2006 descreve como crime o financiamento ou custeio de atividades ilícitas relacionadas às drogas. A pena é de 8 a 20 anos, além de multa, caracterizando o apoio econômico à cadeia do tráfico."
+    },
+    {
+        "question_text": "A Lei nº 9.605/1998 estabelece sanções penais e administrativas para condutas lesivas ao meio ambiente, inclusive para pessoas jurídicas.",
+        "correct_option": 0,
+        "feedback": "A Lei nº 9.605/1998 (Lei de Crimes Ambientais) responsabiliza penalmente pessoas jurídicas, inclusive prevendo penas restritivas de direitos (art. 3º e art. 21), o que representa avanço no combate aos danos ambientais causados por empresas."
+    },
+    {
+        "question_text": "De acordo com a Lei nº 13.444/2017, a ICN terá como base os dados do CPF, sendo vedado o uso de dados biométricos.",
+        "correct_option": 1,
+        "feedback": "A Lei nº 13.444/2017 prevê expressamente o uso de dados biométricos na Identificação Civil Nacional (ICN), como forma de aumentar a segurança e evitar fraudes de identidade (art. 3º, § 2º)."
+    },
+    {
+        "question_text": "O Decreto nº 11.797/2023 está alinhado com o Decreto nº 10.977/2022 para promover maior uniformidade na identificação civil.",
+        "correct_option": 0,
+        "feedback": "Os decretos nº 10.977/2022 e nº 11.797/2023 alinham-se à política de unificação dos documentos de identidade e visam integrar cadastros públicos, promovendo eficiência e segurança na identificação civil."
+    },
+    {
+        "question_text": "A Lei nº 10.446/2002 também permite que a Polícia Federal atue em crimes contra os direitos humanos, mediante requisição do Ministério Público ou do poder judiciário.",
+        "correct_option": 0,
+        "feedback": "O art. 2º, § único, da Lei nº 10.446/2002 autoriza a atuação da Polícia Federal em crimes que envolvam direitos humanos mediante requisição do Ministério Público Federal ou decisão judicial, ampliando o alcance federal em casos específicos."
+    },
+    {
+        "question_text": "Segundo a Lei nº 10.826/2003, o registro de arma de fogo é dispensado para moradores de áreas rurais.",
+        "correct_option": 1,
+        "feedback": "O Estatuto do Desarmamento (Lei nº 10.826/2003) exige o registro da arma mesmo para moradores da zona rural. O que pode ser concedido é a posse, não o porte, com base na localização e justificativa da necessidade (art. 12 e 25)."
+    },
+    {
+        "question_text": "A Lei nº 14.967/2024 exige que as empresas de segurança privada mantenham em seus quadros somente vigilantes com curso atualizado e formação específica.",
+        "correct_option": 0,
+        "feedback": "A Lei nº 14.967/2024 determina que profissionais de segurança privada devem ter formação específica e curso de reciclagem atualizado, sendo esses requisitos obrigatórios para atuação legal (art. 18 e 20 da referida lei)."
+    }
+]
