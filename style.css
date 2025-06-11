@@ -1,0 +1,290 @@
+/* ==========================================================================
+   1. DEFINIÇÕES GLOBAIS DE CORES E TEMA
+   ========================================================================== */
+:root {
+  /* Cores base */
+  --cor-branca: #ffffff;
+  --cor-preta: #1f2736;
+
+  /* Cores Semânticas (Tema Escuro) */
+  --cor-bg: #1f2736;
+  --cor-titulos: #ecd07d;       /* Destaque */
+  --cor-primaria: #1f2736;
+  --cor-secundaria: #ecd07d;
+  --cor-terciaria: #394e66;
+  --cor-apoio: #ffffff;
+  --cor-icones: #7deca9;        /* Destaque */
+  --cor-subtitulos: #ffffff;
+  --cor-texto: #ffffff;
+  --cor-borda-padrao: #394e66;
+
+  /* Cores de Botões */
+  --cor-botaocard: #394e66;
+  /* ALTERADO: Cor do hover para um amarelo vibrante */
+  --cor-botaocard-hover: #e7c14c; 
+  --cor-botoes-acao: #ecd07d;
+  --cor-botoes-alerta: #E74C3C; /* Mantido */
+  --cor-botoes-ok: #009e78;    /* Mantido */
+  --cor-botoes-ina: #5a6a7d;
+  --cor-botoes-destaque: #e7c14c;
+  
+  /* Cores de Feedback */
+  --cor-feedback-certo: #1ABC9C; /* Mantido */
+  --cor-feedback-errado: #E74C3C; /* Mantido */
+  --cor-feedback-flag: #ecd07d;
+
+  /* Cores para o Gráfico */
+  --correct-color: var(--cor-feedback-certo);
+  --wrong-color: var(--cor-feedback-errado);
+}
+
+/* ==========================================================================
+   2. ESTILOS DE BASE E LAYOUT
+   ========================================================================== */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--cor-bg);
+    color: var(--cor-texto);
+}
+
+#page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+}
+
+#root {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+/* Barra de Rolagem */
+::-webkit-scrollbar { width: 20px; }
+::-webkit-scrollbar-track { background: var(--cor-bg); }
+::-webkit-scrollbar-thumb {
+    background: var(--cor-borda-padrao);
+    border-radius: 7px;
+    border: 3px solid var(--cor-bg);
+}
+::-webkit-scrollbar-thumb:hover { background: var(--cor-botoes-acao); }
+
+/* ==========================================================================
+   3. CLASSES DE UTILIDADE SEMÂNTICA (Substituindo Tailwind)
+   ========================================================================== */
+
+/* Textos */
+.texto-titulo { color: var(--cor-titulos); }
+.texto-subtitulo { color: var(--cor-subtitulos); }
+.texto-padrao { color: var(--cor-texto); }
+.texto-branco { color: var(--cor-branca); }
+.texto-link { color: var(--cor-botoes-acao); }
+
+/* Fundos */
+.bg-primaria { background-color: var(--cor-primaria); }
+.bg-secundaria { background-color: var(--cor-secundaria); }
+.bg-destaque { background-color: var(--cor-botoes-destaque); }
+
+/* Botões */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 1.5rem;
+    border-radius: 2rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.2s ease-out;
+}
+.btn:active {
+    transform: scale(0.97);
+    filter: brightness(0.95);
+    
+}
+
+.btn-card {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-preta);
+    border: 2px solid var(--cor-borda-padrao);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    
+}
+.btn-card:hover {
+    background-color: var(--cor-botaocard-hover);
+    border-color: var(--cor-botoes-acao);
+    transform: translateY(-2px);
+    /* ALTERADO: Cor do texto no hover para preto para manter contraste */
+    color: var(--cor-preta); 
+}
+.btn-card.disabled {
+    background-color: var(--cor-botoes-ina);
+    color: var(--cor-branca);
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+.btn-acao {
+    background-color: var(--cor-botoes-acao);
+    color: var(--cor-preta);
+}
+.btn-acao:hover { filter: brightness(1.1); }
+
+.btn-ok {
+    background-color: var(--cor-botoes-ok);
+    color: var(--cor-branca);
+}
+.btn-ok:hover { filter: brightness(1.1); }
+.btn-ok.disabled {
+    background-color: var(--cor-botoes-ina);
+    cursor: not-allowed;
+}
+
+.btn-alerta {
+    background-color: var(--cor-botoes-alerta);
+    color: var(--cor-branca);
+}
+.btn-alerta:hover { filter: brightness(1.1); }
+
+/* ==========================================================================
+   4. ESTILOS DE COMPONENTES ESPECÍFICOS
+   ========================================================================== */
+
+/* Header Principal */
+.header-principal {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-branca);
+    padding: 2.5rem;
+    border-radius: 1.5rem;
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+/* Quiz */
+.question-card {
+    background-color: var(--cor-terciaria);
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    margin-bottom: 1rem;
+    border-left: 4px solid transparent;
+    transition: all 0.3s ease-in-out;
+}
+.question-card.flagged {
+    border-left-color: var(--cor-feedback-flag);
+}
+
+.flag-button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: var(--cor-botoes-ina);
+    transition: color 0.2s, transform 0.2s;
+    padding: 0 0.5rem;
+}
+.flag-button:hover { color: var(--cor-feedback-flag); transform: scale(1.1); }
+.flag-button.flagged { color: var(--cor-feedback-flag); }
+
+.options li {
+    border: 1px solid var(--cor-borda-padrao);
+    border-radius: 0.75rem;
+}
+.options li.selected {
+    border-color: var(--cor-botoes-acao);
+    background-color: rgba(236, 208, 125, 0.1);
+}
+.options li.keyboard-focused {
+    border-color: var(--cor-botoes-acao);
+    box-shadow: 0 0 0 2px var(--cor-botoes-acao);
+}
+
+/* Resultados e Feedback */
+.feedback-card {
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-left: 6px solid;
+}
+.feedback-card.correto {
+    background-color: rgba(26, 188, 156, 0.1);
+    border-color: var(--cor-feedback-certo);
+}
+.feedback-card.errado {
+    background-color: rgba(231, 76, 60, 0.1);
+    border-color: var(--cor-feedback-errado);
+}
+
+/* CORRIGIDO: Adicionados estilos para dimensionar e formatar o gráfico */
+.donut-chart {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    margin: 1.5rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: conic-gradient(var(--wrong-color) 0deg); /* Fallback */
+}
+.donut-chart::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 70%;
+    background-color: var(--cor-bg); /* O "furo" do gráfico terá a cor de fundo do card */
+    border-radius: 50%;
+    z-index: 1;
+}
+.chart-text {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+    pointer-events: none; /* Impede que o texto interfira em eventos do mouse */
+}
+.chart-text .percentage {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--cor-titulos);
+}
+.chart-text .label {
+    font-size: 0.9rem;
+    color: var(--cor-texto);
+    text-transform: uppercase;
+}
+/* Fim da correção do gráfico */
+
+.legal-mention {
+    background-color: rgba(236, 208, 125, 0.2);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-weight: 500;
+    color: var(--cor-botoes-acao);
+    cursor: help;
+}
+
+/* Animações */
+@keyframes pulse-highlight {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(236, 208, 125, 0.7); }
+    50% { box-shadow: 0 0 0 10px rgba(236, 208, 125, 0); }
+}
+.pulse-highlight {
+    animation: pulse-highlight 2s infinite;
+}
+
+/* ==========================================================================
+   5. ESTILOS DE IMPRESSÃO
+   ========================================================================== */
+@media print {
+    /* ... (estilos de impressão permanecem os mesmos) ... */
+}
