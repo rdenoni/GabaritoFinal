@@ -1,0 +1,418 @@
+{
+  "concursos": [
+    {
+      "id": "concurso_simulado_agente_policia_2025",
+      "nome": "Simulado - Agente de Polícia (Nível Superior)",
+      "ano": 2025,
+      "banca": "Cebraspe (Modelo)",
+      "disciplinas": [
+        {
+          "id": "dh_agente_policia_2025",
+          "nome": "Direitos Humanos",
+          "questoes": [
+            {
+              "id": "DH001",
+              "enunciado": "A Constituição Federal de 1988 incorporou de forma explícita os direitos humanos ao prever, em seu art. 5º, §2º, que os direitos e garantias nela expressos não excluem outros decorrentes dos tratados internacionais dos quais o Brasil seja parte.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O art. 5º, §2º, da Constituição Federal de 1988 prevê que os direitos e garantias expressos na Carta Magna não excluem outros decorrentes dos tratados internacionais dos quais o Brasil seja parte. Essa cláusula consagra a ideia de que o rol de direitos fundamentais é exemplificativo e permite a incorporação de normas internacionais ao ordenamento interno com valor jurídico.",
+              "topico": "Direitos Humanos na Constituição"
+            },
+            {
+              "id": "DH002",
+              "enunciado": "De acordo com o art. 4º da CF/88, o Brasil rege-se nas suas relações internacionais, entre outros, pelo princípio da prevalência dos direitos humanos, o que fundamenta sua atuação em organismos internacionais e a aceitação da jurisdição da Corte Interamericana de Direitos Humanos.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O art. 4º, II, da CF/88 estabelece a prevalência dos direitos humanos como um dos princípios que regem as relações internacionais do Brasil. Esse fundamento constitucional legitima a atuação do Estado brasileiro em tratados e sistemas de proteção dos direitos humanos, como a adesão à jurisdição da Corte Interamericana de Direitos Humanos.",
+              "topico": "Direitos Humanos na Constituição"
+            },
+            {
+              "id": "DH003",
+              "enunciado": "A jurisprudência do STF reconhece que tratados internacionais de direitos humanos ratificados pelo Brasil possuem status supralegal, salvo se aprovados conforme o art. 5º, §3º da CF, caso em que terão hierarquia constitucional.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O STF entende que os tratados internacionais sobre direitos humanos ratificados pelo Brasil possuem status supralegal (acima das leis ordinárias e abaixo da Constituição), exceto quando aprovados pelo Congresso Nacional com quórum de emenda constitucional (art. 5º, §3º), situação em que adquirem hierarquia constitucional. Esse entendimento está consolidado desde o julgamento do RE 466.343.",
+              "topico": "Hierarquia dos Tratados de Direitos Humanos"
+            },
+            {
+              "id": "DH004",
+              "enunciado": "A Declaração Universal dos Direitos Humanos, por ser um tratado de natureza não vinculativa, não integra o ordenamento jurídico brasileiro e, portanto, não pode ser invocada para fundamentar decisões judiciais.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Embora a Declaração Universal dos Direitos Humanos (DUDH) não seja um tratado e, portanto, não seja formalmente vinculativa, ela possui grande força normativa por integrar o bloco de constitucionalidade e servir de parâmetro interpretativo para o Judiciário. Seus princípios influenciam diretamente a elaboração e interpretação de normas e são reconhecidos pela jurisprudência.",
+              "topico": "Teoria Geral dos Direitos Humanos"
+            },
+            {
+              "id": "DH005",
+              "enunciado": "O Sistema Global de proteção dos direitos humanos permite a atuação de órgãos como o Comitê de Direitos Humanos da ONU, que examina comunicações individuais de violações de direitos civis e políticos contra Estados Partes do Pacto Internacional de Direitos Civis e Políticos.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O Comitê de Direitos Humanos da ONU é um órgão do sistema internacional que monitora o cumprimento do Pacto Internacional sobre Direitos Civis e Políticos. Para que o Comitê analise comunicações individuais, o Estado deve ratificar o Protocolo Facultativo ao pacto. A afirmação reflete corretamente o funcionamento do sistema.",
+              "topico": "Sistema Global (ONU)"
+            },
+            {
+              "id": "DH006",
+              "enunciado": "O sistema interamericano de proteção dos direitos humanos admite a responsabilização internacional de um Estado membro mesmo na ausência de esgotamento das vias internas, desde que comprovada a existência de omissão estrutural reiterada do Judiciário nacional.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "No sistema interamericano, o esgotamento dos recursos internos é regra fundamental para a admissibilidade de petições perante a Comissão Interamericana de Direitos Humanos. Só em casos excepcionais — como demora injustificada ou denegação de justiça — admite-se a dispensa desse requisito. A alegação de “omissão estrutural” por si só não é suficiente para afastar essa exigência.",
+              "topico": "Sistema Interamericano (OEA)"
+            },
+            {
+              "id": "DH007",
+              "enunciado": "A Convenção para a Prevenção e Punição do Crime de Genocídio define como genocídio não apenas atos de extermínio físico, mas também a submissão intencional de grupo a condições de existência capazes de provocar sua destruição total ou parcial.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A Convenção para a Prevenção e a Repressão do Crime de Genocídio, de 1948, define genocídio de forma abrangente, incluindo não apenas o extermínio físico, mas também outras ações, como a imposição deliberada de condições de vida capazes de causar a destruição de um grupo nacional, étnico, racial ou religioso.",
+              "topico": "Convenção sobre Genocídio"
+            },
+            {
+              "id": "DH008",
+              "enunciado": "No Brasil, o crime de genocídio é imprescritível, conforme interpretação do art. 5º, XLII da Constituição, aplicando-se a mesma lógica que rege os crimes de racismo.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "O crime de genocídio não é expressamente classificado como imprescritível na Constituição Federal, diferentemente do crime de racismo (art. 5º, XLII) e da ação de grupos armados contra a ordem constitucional (art. 5º, XLIV). Embora seja grave violação de direitos humanos, a imprescritibilidade depende de previsão expressa.",
+              "topico": "Direitos Humanos na Constituição"
+            },
+            {
+              "id": "DH009",
+              "enunciado": "A Convenção Relativa ao Estatuto dos Refugiados de 1951 estabelece que a proteção do refugiado será automaticamente suspensa se ele retornar voluntariamente ao país de origem.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A Convenção Relativa ao Estatuto dos Refugiados (1951) estabelece que a condição de refugiado deixa de ser aplicável quando o indivíduo, de forma voluntária, decide retornar ao país de onde fugiu (cláusula de cessação). Esse retorno é interpretado como o fim do temor de perseguição, base da proteção internacional.",
+              "topico": "Estatuto dos Refugiados"
+            },
+            {
+              "id": "DH010",
+              "enunciado": "O Protocolo sobre o Estatuto dos Refugiados de 1967 ampliou a proteção internacional a refugiados ao remover as restrições temporais e geográficas existentes na Convenção de 1951.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O Protocolo de 1967 ao Estatuto dos Refugiados eliminou as limitações temporais (eventos ocorridos antes de 1951) e geográficas (predominantemente na Europa) impostas pela Convenção de 1951. Com o protocolo, a proteção passou a ter alcance universal.",
+              "topico": "Estatuto dos Refugiados"
+            },
+            {
+              "id": "DH011",
+              "enunciado": "A Convenção sobre a Eliminação de Todas as Formas de Discriminação Racial prevê a adoção de medidas especiais de caráter temporário para garantir a igualdade de fato entre as diferentes raças, vedando apenas ações afirmativas de caráter permanente.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A Convenção Internacional sobre a Eliminação de Todas as Formas de Discriminação Racial admite a adoção de ações afirmativas de caráter temporário para garantir a igualdade de fato. Essas medidas não são consideradas discriminação, desde que não resultem na manutenção de direitos desiguais de forma permanente.",
+              "topico": "Convenção sobre Discriminação Racial"
+            },
+            {
+              "id": "DH012",
+              "enunciado": "A jurisprudência da Corte Interamericana reconhece que discriminação indireta pode ocorrer mesmo na ausência de intenção deliberada, bastando que uma medida aparentemente neutra produza efeitos desproporcionais sobre determinado grupo racial.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A jurisprudência da Corte Interamericana reconhece a discriminação indireta, caracterizada por atos neutros em sua formulação, mas que produzem efeitos desproporcionais e adversos sobre determinados grupos. Essa forma de discriminação é vedada, mesmo na ausência de intenção deliberada.",
+              "topico": "Sistema Interamericano (OEA)"
+            },
+            {
+              "id": "DH013",
+              "enunciado": "A Convenção sobre a Eliminação de Todas as Formas de Discriminação contra a Mulher (CEDAW) impõe aos Estados Parte a obrigação de assegurar igualdade formal e substancial entre homens e mulheres em todas as esferas, inclusive política, econômica e familiar.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A CEDAW obriga os Estados a promover a igualdade formal e substancial entre homens e mulheres em todas as áreas. A Convenção exige medidas positivas para eliminar práticas discriminatórias e garantir o exercício pleno dos direitos humanos por mulheres.",
+              "topico": "Convenção sobre Discriminação contra a Mulher (CEDAW)"
+            },
+            {
+              "id": "DH014",
+              "enunciado": "O Brasil ratificou a CEDAW com reservas específicas quanto às obrigações de combate à violência doméstica, razão pela qual os tratados internos, como a Lei Maria da Penha, não possuem fundamento internacional.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "O Brasil ratificou a CEDAW sem reservas que limitassem sua aplicação no combate à violência doméstica. A Lei Maria da Penha (Lei nº 11.340/2006) é, inclusive, fundamentada em compromissos internacionais assumidos pelo Brasil, como a própria CEDAW e a Convenção de Belém do Pará.",
+              "topico": "Convenção sobre Discriminação contra a Mulher (CEDAW)"
+            },
+            {
+              "id": "DH015",
+              "enunciado": "A Convenção contra a Tortura obriga os Estados a adotar medidas legislativas e administrativas para prevenir atos de tortura, inclusive garantindo que nenhuma declaração obtida mediante tortura possa ser utilizada como prova.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A Convenção contra a Tortura determina que os Estados devem tomar medidas eficazes para prevenir e punir atos de tortura. O artigo 15 da convenção estabelece a inadmissibilidade de provas obtidas por meio de tortura, exceto quando usadas contra o próprio autor do crime para provar o ato de tortura.",
+              "topico": "Convenção contra a Tortura"
+            },
+            {
+              "id": "DH016",
+              "enunciado": "Para efeitos da Convenção contra a Tortura, os maus-tratos infligidos por particulares sem qualquer relação com agentes estatais ou com consentimento do Estado não configuram tortura em sentido jurídico internacional.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Para a configuração da tortura nos termos da Convenção da ONU, é necessário que o ato seja praticado por agente público ou com seu consentimento ou aquiescência. Atos de crueldade cometidos por particulares, sem envolvimento do Estado, não se enquadram na definição internacional de tortura, embora possam configurar outros crimes graves no direito interno.",
+              "topico": "Convenção contra a Tortura"
+            },
+            {
+              "id": "DH017",
+              "enunciado": "A Convenção Internacional para a Proteção de Todas as Pessoas contra o Desaparecimento Forçado impõe o dever aos Estados Parte de tipificar o desaparecimento forçado como crime autônomo em sua legislação penal.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A Convenção Internacional para a Proteção de Todas as Pessoas contra o Desaparecimento Forçado, da qual o Brasil é signatário, estabelece que o desaparecimento forçado deve ser tipificado como crime autônomo, e os Estados devem assegurar sua imprescritibilidade quando constituir crime contra a humanidade.",
+              "topico": "Convenção sobre Desaparecimento Forçado"
+            },
+            {
+              "id": "DH018",
+              "enunciado": "O desaparecimento forçado, de acordo com a convenção da ONU, só se caracteriza se houver intenção de matar a vítima e ocultar o corpo.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "O desaparecimento forçado não exige a intenção de matar. Ele é definido como a privação de liberdade por agentes do Estado (ou com sua anuência), seguida da recusa em reconhecer a detenção ou em revelar o paradeiro da pessoa, com o objetivo de subtraí-la da proteção da lei.",
+              "topico": "Convenção sobre Desaparecimento Forçado"
+            },
+            {
+              "id": "DH019",
+              "enunciado": "As Regras Mínimas das Nações Unidas para o Tratamento de Pessoas Presas (Regras de Mandela) constituem um código de conduta internacional vinculante que estabelece obrigações obrigatórias para os Estados-membros da ONU.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "As Regras de Mandela não são juridicamente vinculantes (não são um tratado), mas representam um conjunto de boas práticas e padrões internacionais (soft law). Elas têm forte valor normativo e são amplamente utilizadas como guia ético e operacional para sistemas prisionais.",
+              "topico": "Sistema Prisional e Direitos Humanos"
+            },
+            {
+              "id": "DH020",
+              "enunciado": "As Regras de Mandela reforçam o direito dos presos a serem tratados com respeito à dignidade inerente ao ser humano e destacam que a prisão deve ser usada como medida de último recurso.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "As Regras de Mandela consagram o respeito à dignidade humana como princípio essencial no tratamento de pessoas privadas de liberdade. Elas recomendam que a prisão seja usada como último recurso e que todas as medidas visem à reabilitação e ao respeito aos direitos fundamentais.",
+              "topico": "Sistema Prisional e Direitos Humanos"
+            },
+            {
+              "id": "DH021",
+              "enunciado": "Os Princípios Básicos sobre o Uso da Força e Armas de Fogo de Havana estabelecem que os profissionais de segurança devem empregar força letal apenas quando estritamente inevitável para proteger vida.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Os Princípios Básicos sobre o Uso da Força e Armas de Fogo pela ONU (Princípios de Havana) determinam que a força letal deve ser empregada somente como último recurso e estritamente quando for inevitável para proteger a vida. Essa diretriz fundamenta-se nos princípios da necessidade e da proporcionalidade.",
+              "topico": "Uso da Força"
+            },
+            {
+              "id": "DH022",
+              "enunciado": "Os Princípios de Havana não proíbem o uso de armas letais em manifestações pacíficas, desde que haja resistência à atuação policial.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "A simples resistência em uma manifestação pacífica não justifica o uso de armas letais. Os Princípios de Havana exigem que a força seja sempre proporcional. Armas letais só podem ser usadas quando houver ameaça iminente à vida, jamais como resposta à resistência não violenta.",
+              "topico": "Uso da Força"
+            },
+            {
+              "id": "DH023",
+              "enunciado": "A Lei nº 13.060/2014 determina que a força letal só pode ser utilizada após esgotados todos os meios menos agressivos, sendo obrigatória a avaliação prévia de proporcionalidade e necessidade.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A Lei nº 13.060/2014 exige que o uso de força letal ocorra apenas em último caso, quando esgotadas as alternativas de menor potencial ofensivo. O agente deve avaliar previamente a necessidade e a proporcionalidade da medida, estando sujeito a controle e responsabilização por eventual abuso.",
+              "topico": "Uso da Força (Legislação Brasileira)"
+            },
+            {
+              "id": "DH024",
+              "enunciado": "Segundo a Lei nº 13.060/2014, os instrumentos de menor potencial ofensivo devem ser utilizados de forma subsidiária e excepcional, e sua regulamentação depende de decreto do Poder Executivo.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "De acordo com a Lei nº 13.060/2014, os instrumentos de menor potencial ofensivo devem ter seu uso priorizado em relação aos de maior potencial ofensivo. Sua regulamentação foi efetivada por decreto do Poder Executivo, conforme previsto na própria lei.",
+              "topico": "Uso da Força (Legislação Brasileira)"
+            },
+            {
+              "id": "DH025",
+              "enunciado": "O Decreto nº 12.341/2025, que regulamenta a Lei nº 13.060/2014, impõe aos agentes de segurança o dever de relatar formalmente o uso da força, justificando as circunstâncias, intensidade e instrumentos utilizados.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Um decreto que regulamenta a Lei nº 13.060/2014 (como o hipotético Decreto nº 12.341/2025) exige que o agente de segurança pública elabore relatório circunstanciado sempre que fizer uso da força, visando à transparência, controle e responsabilização.",
+              "topico": "Uso da Força (Legislação Brasileira)"
+            },
+            {
+              "id": "DH026",
+              "enunciado": "O Decreto nº 12.341/2025 impõe que os órgãos de segurança pública estabeleçam protocolos de atuação que priorizem a preservação da vida e da integridade física, inclusive dos agressores.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A regulamentação sobre o uso da força (como o hipotético Decreto nº 12.341/2025) prevê a criação de protocolos operacionais para orientar o uso progressivo da força, estabelecendo critérios objetivos para cada nível de ameaça e resposta, com foco na preservação da vida.",
+              "topico": "Uso da Força (Legislação Brasileira)"
+            },
+            {
+              "id": "DH027",
+              "enunciado": "O uso progressivo da força, previsto na regulamentação federal sobre segurança pública, deve seguir critérios de legalidade, necessidade, proporcionalidade e responsabilidade, o que inclui o dever de prestação de contas.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Embora a questão use um número de decreto fictício, o conteúdo está correto. O Decreto nº 10.554/2020, que regulamenta a Lei nº 13.060/2014, isenta o agente de responsabilidade se o uso de instrumentos de menor potencial ofensivo causar lesão ou morte, desde que observada a legalidade.",
+              "topico": "Uso da Força (Legislação Brasileira)"
+            },
+            {
+              "id": "DH028",
+              "enunciado": "Segundo o Decreto nº 12.341/2025, é lícito ao agente de segurança utilizar arma de fogo contra indivíduo em fuga que represente ameaça potencial, ainda que não imediata, à segurança pública.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "A regulamentação sobre o uso da força (como o hipotético Decreto nº 12.341/2025) veda expressamente a utilização de armas de fogo contra pessoas em fuga desarmadas que não representem ameaça iminente à vida. A exceção ao uso da força letal só se aplica em situações de defesa da vida.",
+              "topico": "Uso da Força (Legislação Brasileira)"
+            },
+            {
+              "id": "DH029",
+              "enunciado": "A jurisprudência do STF reconhece que a tortura, mesmo praticada por particulares, pode gerar responsabilização do Estado, quando configurada omissão na prevenção ou apuração do fato.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A jurisprudência da Corte Interamericana e do STF considera que a omissão estatal em investigar, punir e prevenir atos de tortura, mesmo que praticados por particulares, gera a responsabilidade internacional e interna do Estado, por falha no seu dever de proteção.",
+              "topico": "Convenção contra a Tortura"
+            },
+            {
+              "id": "DH030",
+              "enunciado": "O Brasil reconhece a competência do Comitê contra a Tortura das Nações Unidas para receber e examinar comunicações individuais, o que reflete sua adesão aos mecanismos internacionais de responsabilização.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Ao ratificar o Protocolo Facultativo à Convenção contra a Tortura, o Brasil reconheceu a competência do Comitê para receber e examinar petições individuais, fortalecendo os mecanismos de monitoramento e responsabilização por violações de direitos humanos.",
+              "topico": "Convenção contra a Tortura"
+            },
+            {
+              "id": "DH031",
+              "enunciado": "A proibição da tortura é uma norma de jus cogens no direito internacional, não podendo ser relativizada nem por convenção entre os Estados.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O artigo 2º da Convenção contra a Tortura estabelece que nenhuma circunstância excepcional — como estado de guerra ou instabilidade política — pode ser invocada para justificar a tortura. Trata-se de uma norma imperativa (jus cogens) do direito internacional.",
+              "topico": "Teoria Geral dos Direitos Humanos"
+            },
+            {
+              "id": "DH032",
+              "enunciado": "A Lei de Migração (Lei nº 13.445/2017) incorpora preceitos internacionais de direitos humanos ao assegurar a não devolução de solicitantes de refúgio a países em que sua vida ou integridade esteja ameaçada.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A Lei de Migração consagra o princípio do non-refoulement (não devolução), um dos pilares do direito internacional dos refugiados. Esse princípio proíbe a devolução de uma pessoa para um local onde sua vida ou liberdade esteja em risco por motivos de raça, religião, nacionalidade, etc.",
+              "topico": "Estatuto dos Refugiados"
+            },
+            {
+              "id": "DH033",
+              "enunciado": "No sistema interamericano, após a condenação de um Estado pela Corte IDH, as decisões devem ser cumpridas internamente como recomendação, não gerando obrigações diretas ao país.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "As sentenças da Corte Interamericana de Direitos Humanos são vinculantes e obrigatórias para os Estados que reconheceram sua jurisdição, como o Brasil. O não cumprimento de uma decisão pode gerar novas sanções e constrangimento político internacional.",
+              "topico": "Sistema Interamericano (OEA)"
+            },
+            {
+              "id": "DH034",
+              "enunciado": "O princípio da não discriminação, segundo os tratados de direitos humanos, impõe aos Estados não apenas a abstenção de práticas discriminatórias, mas também a adoção de medidas ativas para a promoção da igualdade.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O princípio da não discriminação possui uma dimensão negativa (dever de não discriminar) e uma dimensão positiva (dever de promover a igualdade por meio de políticas e ações afirmativas). Ambos os aspectos são essenciais para a concretização dos direitos humanos.",
+              "topico": "Teoria Geral dos Direitos Humanos"
+            },
+            {
+              "id": "DH035",
+              "enunciado": "O Pacto de San José da Costa Rica (Convenção Americana sobre Direitos Humanos) reconhece o direito à vida desde o momento do nascimento, conforme interpretação prevalente da Corte IDH.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "O artigo 4.1 da Convenção Americana sobre Direitos Humanos estabelece que o direito à vida deve ser protegido, em geral, desde a concepção. A Corte IDH interpreta essa disposição de forma a proteger a vida pré-natal, embora admita certa flexibilidade aos Estados na regulação do tema.",
+              "topico": "Sistema Interamericano (OEA)"
+            },
+            {
+              "id": "DH036",
+              "enunciado": "A Corte Interamericana já condenou o Brasil por casos de desaparecimento forçado durante o regime militar, reconhecendo a violação continuada dos direitos à verdade e à justiça.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "No caso Gomes Lund e outros (Guerrilha do Araguaia) vs. Brasil, a Corte Interamericana de Direitos Humanos condenou o Estado brasileiro pelo desaparecimento forçado de dezenas de pessoas durante a ditadura militar, afirmando a natureza continuada do crime e o dever do Estado de investigar e punir os responsáveis.",
+              "topico": "Sistema Interamericano (OEA)"
+            },
+            {
+              "id": "DH037",
+              "enunciado": "O Brasil pode ser responsabilizado internacionalmente mesmo por atos cometidos por agentes privados, se restar demonstrada a conivência, tolerância ou omissão do Estado.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A responsabilidade internacional do Estado não se limita a atos de seus agentes diretos. A falha do Estado em seu dever de garantir os direitos (due diligence), por meio de omissão ou conivência com atos de particulares, também gera sua responsabilidade perante os sistemas de proteção.",
+              "topico": "Teoria Geral dos Direitos Humanos"
+            },
+            {
+              "id": "DH038",
+              "enunciado": "A Convenção sobre Refugiados permite ao Estado retirar a condição de refugiado de uma pessoa que, posteriormente, se envolva em práticas contrárias aos propósitos e princípios das Nações Unidas.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A Convenção de 1951 prevê cláusulas de exclusão e cessação. Uma pessoa pode ser excluída do status de refugiado ou ter sua condição cessada se cometer crimes graves contra a paz, crimes de guerra, ou atos contrários aos fins e princípios da ONU.",
+              "topico": "Estatuto dos Refugiados"
+            },
+            {
+              "id": "DH039",
+              "enunciado": "A legislação brasileira prevê que o reconhecimento da condição de refugiado impede a extradição do indivíduo reconhecido, salvo em crimes dolosos hediondos ou de repercussão internacional.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "A Lei de Migração (Lei 13.445/2017) estabelece que não se concederá a extradição quando o extraditando tiver sua condição de refugiado reconhecida pelo Estado brasileiro. A lei não prevê exceções para crimes hediondos, reforçando o princípio do non-refoulement.",
+              "topico": "Estatuto dos Refugiados"
+            },
+            {
+              "id": "DH040",
+              "enunciado": "De acordo com os princípios internacionais, a prisão de um manifestante desarmado que participa de protesto pacífico constitui violação ao direito de reunião e liberdade de expressão.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A prisão arbitrária de participantes de manifestações pacíficas e desarmadas é uma clara violação aos direitos de liberdade de reunião e de expressão, protegidos por diversos tratados internacionais, como o Pacto Internacional sobre Direitos Civis e Políticos.",
+              "topico": "Teoria Geral dos Direitos Humanos"
+            },
+            {
+              "id": "DH041",
+              "enunciado": "O uso de balas de borracha contra manifestantes pacíficos está autorizado pelos Princípios da ONU sobre uso da força, desde que haja dispersão autorizada e distância segura.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Mesmo instrumentos de menor potencial ofensivo, como balas de borracha, não devem ser usados contra manifestações pacíficas. Seu uso só se justifica para conter violência específica e de forma proporcional. O uso indiscriminado contra uma multidão pacífica é considerado excessivo.",
+              "topico": "Uso da Força"
+            },
+            {
+              "id": "DH042",
+              "enunciado": "A Corte Interamericana adota interpretação evolutiva dos direitos humanos, permitindo a ampliação do conteúdo dos tratados mesmo sem alterações formais nos textos.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A Corte IDH utiliza o princípio da interpretação evolutiva para adaptar o sentido das normas da Convenção Americana às realidades sociais contemporâneas, garantindo que os tratados sejam instrumentos vivos e eficazes para a proteção dos direitos humanos.",
+              "topico": "Sistema Interamericano (OEA)"
+            },
+            {
+              "id": "DH043",
+              "enunciado": "O princípio da proibição da tortura e dos tratamentos cruéis, desumanos ou degradantes permite, em estado de emergência nacional, a aplicação de castigos físicos, se houver respaldo legal interno.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "A proibição da tortura e de tratamentos cruéis, desumanos ou degradantes é um direito inderrogável. Isso significa que não pode ser suspenso ou relativizado em nenhuma circunstância, nem mesmo em estado de emergência, guerra ou por ordem superior.",
+              "topico": "Teoria Geral dos Direitos Humanos"
+            },
+            {
+              "id": "DH044",
+              "enunciado": "Os tratados internacionais de direitos humanos em vigor no Brasil podem ser utilizados diretamente por juízes em decisões, mesmo que não tenham sido incorporados com status de emenda constitucional.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Tratados de direitos humanos ratificados pelo Brasil, possuindo status supralegal, têm aplicabilidade direta e imediata e podem (e devem) ser utilizados para fundamentar decisões judiciais, servindo como parâmetro de controle da convencionalidade das leis internas.",
+              "topico": "Hierarquia dos Tratados de Direitos Humanos"
+            },
+            {
+              "id": "DH045",
+              "enunciado": "O Brasil já foi responsabilizado perante a Corte Interamericana de Direitos Humanos por omissão em investigar e punir feminicídios, violando obrigações internacionais de proteção à mulher.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "No caso 'Trabalhadores da Fazenda Brasil Verde vs. Brasil', a Corte IDH condenou o Estado brasileiro não apenas por trabalho escravo, mas também pela omissão em investigar e punir a violência, incluindo feminicídios, ocorridos no contexto de vulnerabilidade, reafirmando o dever estatal de proteção.",
+              "topico": "Sistema Interamericano (OEA)"
+            },
+            {
+              "id": "DH046",
+              "enunciado": "A Corte Interamericana entende que a exclusão de pessoas com deficiência de instituições regulares de ensino configura discriminação e viola o princípio da dignidade.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A jurisprudência da Corte IDH, alinhada com a Convenção sobre os Direitos das Pessoas com Deficiência, considera que a educação inclusiva é um direito humano. A segregação de estudantes com deficiência em instituições especiais, em vez da adaptação das escolas regulares, constitui uma forma de discriminação.",
+              "topico": "Sistema Interamericano (OEA)"
+            },
+            {
+              "id": "DH047",
+              "enunciado": "A morte sob custódia do Estado, sem investigação eficaz, é considerada pela jurisprudência internacional uma forma de violação ao direito à vida e à integridade pessoal.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Quando uma pessoa morre sob custódia do Estado, presume-se a responsabilidade estatal. A ausência de uma investigação pronta, imparcial e eficaz para esclarecer as circunstâncias da morte constitui, por si só, uma violação ao direito à vida e às garantias judiciais.",
+              "topico": "Teoria Geral dos Direitos Humanos"
+            },
+            {
+              "id": "DH048",
+              "enunciado": "As regras internacionais de direitos humanos reconhecem a possibilidade de suspensão de garantias em caso de estado de emergência, desde que tal suspensão seja proporcional, temporária e não afete direitos inderrogáveis.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A Convenção Americana (Art. 27) e outros tratados permitem a suspensão de certos direitos em situações excepcionais (como guerra ou perigo público). No entanto, essa suspensão deve ser limitada no tempo, estritamente necessária e não pode afetar direitos absolutos, como o direito à vida e a proibição da tortura.",
+              "topico": "Teoria Geral dos Direitos Humanos"
+            },
+            {
+              "id": "DH049",
+              "enunciado": "A Constituição Federal permite o uso de instrumentos de menor potencial ofensivo por agentes públicos, mas não exige regulamentação específica em nível infralegal para sua aplicação.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Embora a Constituição não detalhe, a matéria é disciplinada pela Lei nº 13.060/2014, que estabelece que os órgãos de segurança pública devem priorizar o uso desses instrumentos e que sua utilização será regulamentada por decreto. A ausência de regulamentação ou protocolo pode configurar ilegalidade no uso da força.",
+              "topico": "Uso da Força (Legislação Brasileira)"
+            },
+            {
+              "id": "DH050",
+              "enunciado": "A vedação ao desaparecimento forçado está expressa na Convenção Internacional respectiva, que obriga os Estados a manter registros oficiais de todas as detenções e autoriza inspeções de órgãos independentes.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A Convenção contra o Desaparecimento Forçado estabelece, como medida preventiva, o dever do Estado de manter registros precisos e atualizados de todas as pessoas privadas de liberdade, garantindo o acesso a essa informação a familiares, advogados e autoridades judiciais, para evitar a prática.",
+              "topico": "Convenção sobre Desaparecimento Forçado"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,498 @@
+{
+  "concursos": [
+    {
+      "id": "concurso_simulado_agente_policia_2025",
+      "nome": "Simulado - Agente de Polícia (Nível Superior)",
+      "ano": 2025,
+      "banca": "Cebraspe (Modelo)",
+      "disciplinas": [
+        {
+          "id": "lp_agente_policia_2025",
+          "nome": "Língua Portuguesa",
+          "questoes": [
+            {
+              "id": "LP001",
+              "enunciado": "Texto de referência: \"A segurança pública, direito e responsabilidade de todos, é exercida para a preservação da ordem pública e da incolumidade das pessoas e do patrimônio. Cabe aos órgãos instituídos pelo Estado garantir que os direitos fundamentais sejam respeitados, mesmo diante do combate à criminalidade. A atuação policial, por sua natureza, requer equilíbrio entre autoridade e legalidade, sendo inadmissível qualquer forma de abuso ou arbitrariedade.\"\n\n A expressão \"mesmo diante do combate à criminalidade\"tem valor concessivo, indicando uma oposição à ideia anteriormente apresentada.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A locução \"mesmo diante do combate à criminalidade\"tem valor concessivo, pois introduz uma ideia contrária ou de limitação à oração principal. O advérbio \"mesmo\"intensifica a concessão, indicando que, apesar do contexto de enfrentamento da criminalidade — que normalmente poderia justificar medidas mais duras —, os direitos fundamentais devem ser resguardados.",
+              "topico": "Conectivos e Valor Semântico"
+            },
+            {
+              "id": "LP002",
+              "enunciado": "Texto de referência: \"A segurança pública, direito e responsabilidade de todos, é exercida para a preservação da ordem pública e da incolumidade das pessoas e do patrimônio. Cabe aos órgãos instituídos pelo Estado garantir que os direitos fundamentais sejam respeitados, mesmo diante do combate à criminalidade. A atuação policial, por sua natureza, requer equilíbrio entre autoridade e legalidade, sendo inadmissível qualquer forma de abuso ou arbitrariedade.\"\n\n No trecho \"é exercida para a preservação da ordem pública e da incolumidade das pessoas e do patrimônio\", o emprego da preposição \"para\"indica uma finalidade da ação expressa pelo verbo.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A preposição \"para\"introduz uma oração reduzida de infinitivo com valor de finalidade, vinculando-se ao verbo \"é exercida\". A construção \"para a preservação da ordem pública...\"estabelece o objetivo da ação verbal, algo típico em construções formais e normativas.",
+              "topico": "Preposição e Valor Semântico"
+            },
+            {
+              "id": "LP003",
+              "enunciado": "Texto de referência: \"A segurança pública, direito e responsabilidade de todos, é exercida para a preservação da ordem pública e da incolumidade das pessoas e do patrimônio. Cabe aos órgãos instituídos pelo Estado garantir que os direitos fundamentais sejam respeitados, mesmo diante do combate à criminalidade. A atuação policial, por sua natureza, requer equilíbrio entre autoridade e legalidade, sendo inadmissível qualquer forma de abuso ou arbitrariedade.\"\n\n A substituição de \"Cabe aos órgãos instituídos pelo Estado\"por \"Incumbe aos órgãos que o Estado instituiu\"compromete a coesão e a correção gramatical do trecho.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "A substituição de \"Cabe aos órgãos instituídos pelo Estado\"por \"Incumbe aos órgãos que o Estado instituiu\"mantém sentido e estrutura. Ambas expressam atribuição de responsabilidade. A afirmação de que compromete a correção gramatical é incorreta, pois a mudança é gramaticalmente válida e semanticamente equivalente.",
+              "topico": "Reescrita de Frases"
+            },
+            {
+              "id": "LP004",
+              "enunciado": "Texto de referência: \"A segurança pública, direito e responsabilidade de todos, é exercida para a preservação da ordem pública e da incolumidade das pessoas e do patrimônio. Cabe aos órgãos instituídos pelo Estado garantir que os direitos fundamentais sejam respeitados, mesmo diante do combate à criminalidade. A atuação policial, por sua natureza, requer equilíbrio entre autoridade e legalidade, sendo inadmissível qualquer forma de abuso ou arbitrariedade.\"\n\n O trecho \"A atuação policial, por sua natureza, requer equilíbrio entre autoridade e legalidade\"possui uma estrutura composta por oração principal e oração subordinada adverbial causal.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "\"Por sua natureza\"não é oração, pois não contém verbo. Trata-se de um adjunto adverbial de causa. Logo, a frase \"A atuação policial, por sua natureza, requer equilíbrio...\"é simples, com sujeito e predicado. Não há subordinação oracional.",
+              "topico": "Análise Sintática do Período"
+            },
+            {
+              "id": "LP005",
+              "enunciado": "Texto de referência: \"A segurança pública, direito e responsabilidade de todos, é exercida para a preservação da ordem pública e da incolumidade das pessoas e do patrimônio. Cabe aos órgãos instituídos pelo Estado garantir que os direitos fundamentais sejam respeitados, mesmo diante do combate à criminalidade. A atuação policial, por sua natureza, requer equilíbrio entre autoridade e legalidade, sendo inadmissível qualquer forma de abuso ou arbitrariedade.\"\n\n A expressão \"sendo inadmissível qualquer forma de abuso ou arbitrariedade\"funciona como oração reduzida de gerúndio com valor de conclusão.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A oração \"sendo inadmissível qualquer forma de abuso ou arbitrariedade\"é uma oração reduzida de gerúndio com valor conclusivo. A consequência lógica da necessidade de equilíbrio é que abusos não são admitidos — o que justifica a conclusão.",
+              "topico": "Orações Reduzidas"
+            },
+            {
+              "id": "LP006",
+              "enunciado": "A flexão verbal correta em \"Se os policiais intervissem com prudência, não haveria excessos\"demonstra o uso adequado do pretérito imperfeito do subjuntivo, ainda que o verbo \"intervir\"siga a conjugação de \"vir\".",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "\"Intervissem\"está no pretérito imperfeito do subjuntivo, adequado para orações condicionais. O verbo \"intervir\"segue o modelo de conjugação de \"vir\". O uso indica hipótese não realizada, coerente com o contexto.",
+              "topico": "Conjugação Verbal"
+            },
+            {
+              "id": "LP007",
+              "enunciado": "O emprego do pronome oblíquo átono em \"Respeitam-se os direitos fundamentais\"está em conformidade com a norma culta e evidencia a indeterminação do sujeito.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "A frase \"Respeitam-se os direitos fundamentais\"tem sujeito explícito (\"os direitos fundamentais\"). O \"se\"é partícula apassivadora, não índice de indeterminação. A estrutura é de voz passiva sintética.",
+              "topico": "Funções do 'se'"
+            },
+            {
+              "id": "LP008",
+              "enunciado": "O uso da crase é facultativo em \"A lei foi dirigida à autoridade competente\", visto que o termo \"autoridade\"admite artigo definido feminino e a preposição \"a\"decorre da regência do verbo.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "A crase em \"à autoridade\"é obrigatória, pois há preposição exigida pelo verbo \"dirigir-se\"e artigo definido feminino antes de \"autoridade\". A afirmativa incorretamente indica que o uso é facultativo.",
+              "topico": "Crase"
+            },
+            {
+              "id": "LP009",
+              "enunciado": "A frase \"É preciso, contudo, que se respeite a Constituição\"apresenta concordância adequada entre sujeito e verbo, e o uso da conjunção \"contudo\"é apropriado para indicar ressalva.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O uso de \"respeite\"no subjuntivo é obrigatório após \"É preciso que...\". \"Contudo\"é conjunção adversativa que indica contraste, sendo adequadamente empregada na frase.",
+              "topico": "Concordância e Conectivos"
+            },
+            {
+              "id": "LP010",
+              "enunciado": "O emprego dos dois-pontos em \"O policial deve seguir três princípios: legalidade, impessoalidade e moralidade\"introduz corretamente uma enumeração que especifica o termo anterior.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Os dois-pontos introduzem enumeração. O termo \"três princípios\"é especificado por \"legalidade, impessoalidade e moralidade\". O uso está de acordo com as normas de pontuação.",
+              "topico": "Pontuação"
+            },
+            {
+              "id": "LP011",
+              "enunciado": "No trecho \"Não se pode aceitar que direitos sejam relativizados\", a partícula \"se\"funciona como índice de indeterminação do sujeito, conferindo caráter impessoal à oração.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "\"Se\"atua como partícula apassivadora, pois o verbo \"aceitar\"é transitivo direto e tem sujeito expresso (\"que direitos sejam relativizados\"). Portanto, não se trata de indeterminação do sujeito.",
+              "topico": "Funções do 'se'"
+            },
+            {
+              "id": "LP012",
+              "enunciado": "O segmento \"por sua natureza\", inserido entre vírgulas, exerce a função de adjunto adverbial de causa e pode ser deslocado na oração sem comprometer a correção gramatical ou o sentido original.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "\"Por sua natureza\"é adjunto adverbial que pode ser deslocado sem prejuízo gramatical. O valor causal permanece mesmo com a alteração da posição na oração.",
+              "topico": "Análise Sintática"
+            },
+            {
+              "id": "LP013",
+              "enunciado": "A oração \"que os direitos fundamentais sejam respeitados\", iniciada por conjunção integrante, exerce função de sujeito da forma verbal \"garantir\", sendo portanto uma oração subordinada substantiva subjetiva.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "A oração \"que os direitos... sejam respeitados\"é objeto direto do verbo \"garantir\". Ela não exerce função de sujeito, sendo incorreto classificá-la como oração subordinada substantiva subjetiva.",
+              "topico": "Orações Subordinadas"
+            },
+            {
+              "id": "LP014",
+              "enunciado": "A retirada da vírgula no trecho \"A atuação policial, por sua natureza, requer equilíbrio...\"prejudica a estrutura do período, pois compromete a marcação do adjunto adverbial intercalado.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A vírgula isola o adjunto adverbial intercalado. Sua omissão comprometeria a clareza e a segmentação da oração, especialmente em textos de caráter técnico ou jurídico.",
+              "topico": "Pontuação"
+            },
+            {
+              "id": "LP015",
+              "enunciado": "O emprego do verbo \"requer\"na oração \"A atuação policial requer equilíbrio entre autoridade e legalidade\"está adequado quanto à transitividade e à concordância verbal.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "\"Requer\"é verbo transitivo direto, regido corretamente. Concorda com o sujeito \"a atuação policial\"e exige o objeto direto \"equilíbrio entre autoridade e legalidade\".",
+              "topico": "Regência e Concordância Verbal"
+            },
+            {
+              "id": "LP016",
+              "enunciado": "O trecho \"mesmo diante do combate à criminalidade\"constitui uma oração reduzida de gerúndio com valor concessivo.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "\"Mesmo diante do combate à criminalidade\"é uma locução prepositiva, sem verbo. Logo, não é uma oração reduzida. O valor semântico é concessivo, mas a estrutura não é oracional.",
+              "topico": "Estrutura da Oração"
+            },
+            {
+              "id": "LP017",
+              "enunciado": "A expressão \"Incumbe aos órgãos que o Estado instituiu\"é uma reescrita correta e semanticamente equivalente ao trecho \"Cabe aos órgãos instituídos pelo Estado\", mantendo integridade gramatical e coerência textual.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "\"Incumbe aos órgãos que o Estado instituiu\"mantém o sentido de \"Cabe aos órgãos instituídos pelo Estado\". É uma transformação de voz passiva para ativa sem prejuízo gramatical ou semântico.",
+              "topico": "Reescrita de Frases"
+            },
+            {
+              "id": "LP018",
+              "enunciado": "O uso do termo \"qualquer forma de abuso ou arbitrariedade\"intensifica o caráter absoluto da palavra \"inadmissível\", funcionando como reforço argumentativo.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "\"Qualquer forma de abuso ou arbitrariedade\"intensifica o termo \"inadmissível\", funcionando como recurso de ênfase. A enumeração reforça o argumento de intolerância a desvios.",
+              "topico": "Recursos Argumentativos"
+            },
+            {
+              "id": "LP019",
+              "enunciado": "A oração \"garantir que os direitos fundamentais sejam respeitados\"apresenta objeto direto oracional introduzido por conjunção integrante, caracterizando uma estrutura compatível com verbos de comunicação e vontade.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A oração \"que os direitos fundamentais sejam respeitados\"é subordinada substantiva objetiva direta. O verbo \"garantir\"exige esse complemento, formando construção sintática adequada.",
+              "topico": "Orações Subordinadas"
+            },
+            {
+              "id": "LP020",
+              "enunciado": "No primeiro período do texto, a expressão \"direito e responsabilidade de todos\"funciona como predicativo do sujeito, esclarecendo a natureza da segurança pública.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O trecho \"direito e responsabilidade de todos\"é aposto explicativo de \"segurança pública\", esclarecendo sua natureza constitucional. A construção reforça o caráter normativo da afirmação.",
+              "topico": "Análise Sintática"
+            },
+            {
+              "id": "LP021",
+              "enunciado": "A forma verbal \"garantir\"é um verbo bitransitivo que exige dois complementos, sendo um deles uma oração subordinada substantiva. A ausência de um dos complementos compromete a estrutura sintática e o sentido pleno do enunciado.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O verbo \"garantir\"é bitransitivo, ou seja, exige dois complementos obrigatórios: um objeto direto (o conteúdo do que se garante) e um objeto indireto (a quem se garante). Na oração \"Cabe aos órgãos instituídos pelo Estado garantir que os direitos fundamentais sejam respeitados\", a oração \"que os direitos...\"funciona como objeto direto do verbo “garantir”. A estrutura está em conformidade com a norma-padrão.",
+              "topico": "Regência Verbal"
+            },
+            {
+              "id": "LP022",
+              "enunciado": "A oração \"mesmo diante do combate à criminalidade\"atua como adjunto adverbial, podendo ser deslocada para o início do período sem prejuízo sintático, embora haja modificação no foco informacional da sentença.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A expressão \"mesmo diante do combate à criminalidade\"é um adjunto adverbial de concessão e, como tal, pode ser deslocada dentro da oração sem comprometer a correção ou o sentido. A flexibilidade sintática dos adjuntos adverbiais permite esse tipo de movimentação, que pode ser usada para variar a ênfase no discurso.",
+              "topico": "Análise Sintática"
+            },
+            {
+              "id": "LP023",
+              "enunciado": "A flexão verbal no trecho \"direitos sejam respeitados\"está corretamente empregada no modo subjuntivo, que é exigido por estruturas que expressam desejo, recomendação ou necessidade.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O uso do modo subjuntivo no trecho \"que os direitos fundamentais sejam respeitados\"é exigido porque se trata de uma oração subordinada que expressa desejo ou expectativa. Essa oração complementa o verbo “garantir”, que, por seu sentido, requer o modo subjuntivo.",
+              "topico": "Modos Verbais"
+            },
+            {
+              "id": "LP024",
+              "enunciado": "No contexto do texto apresentado, a expressão \"abuso ou arbitrariedade\"constitui um par sinonímico que reforça, por meio de um recurso de enumeração, a ideia de excessos na atuação policial.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A expressão “abuso ou arbitrariedade” amplia o sentido da inadmissibilidade e funciona como reforço argumentativo. Essa figura de linguagem é comum em textos normativos, pois visa deixar explícito o escopo de comportamentos que são rejeitados por princípio.",
+              "topico": "Semântica e Estilística"
+            },
+            {
+              "id": "LP025",
+              "enunciado": "Em \"Cabe aos órgãos instituídos pelo Estado\", a forma verbal \"cabe\"é impessoal e, por isso, permanece invariável independentemente do sujeito que a sucede.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "O verbo “caber” deve concordar com o sujeito da oração. No trecho “Cabe aos órgãos instituídos pelo Estado...”, o sujeito está no plural (“aos órgãos”), portanto o correto seria “Cabem aos órgãos...”. A forma “cabe” está incorreta, pois a oração tem sujeito definido e plural.",
+              "topico": "Concordância Verbal"
+            },
+            {
+              "id": "LP026",
+              "enunciado": "A retirada do termo \"por sua natureza\"do trecho \"A atuação policial, por sua natureza, requer equilíbrio...\"não compromete a estrutura sintática do período, mas suprime uma importante justificativa argumentativa.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A omissão do termo “por sua natureza” não compromete a correção gramatical ou a coerência do texto. No entanto, sua retirada reduz o caráter explicativo da oração, diminuindo a força argumentativa. Trata-se de um termo acessório, de função adverbial, e não essencial à estrutura sintática da oração.",
+              "topico": "Análise Sintática"
+            },
+            {
+              "id": "LP027",
+              "enunciado": "A vírgula empregada no trecho \"por sua natureza,\"está corretamente utilizada para isolar um adjunto adverbial intercalado.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O uso da vírgula antes e depois do adjunto adverbial intercalado “por sua natureza” está gramaticalmente correto e é recomendado para demarcar a inserção de uma informação adicional, promovendo clareza e coesão no texto.",
+              "topico": "Pontuação"
+            },
+            {
+              "id": "LP028",
+              "enunciado": "No trecho \"sendo inadmissível qualquer forma de abuso ou arbitrariedade\", o uso do gerúndio não indica simultaneidade da ação com outra, mas sim uma consequência lógica da anterior.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A oração “sendo inadmissível qualquer forma de abuso ou arbitrariedade” é uma oração reduzida de gerúndio que estabelece uma relação de consequência com a oração anterior. Essa estrutura contribui para a progressão argumentativa e é coerente com o padrão da linguagem formal.",
+              "topico": "Orações Reduzidas"
+            },
+            {
+              "id": "LP029",
+              "enunciado": "A construção \"direito e responsabilidade de todos\"pode ser interpretada como um sujeito composto, o que justifica o uso da forma verbal singular em \"é exercida\".",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "A expressão “direito e responsabilidade de todos” é um aposto explicativo que qualifica o sujeito da oração (“a segurança pública”) e não o próprio sujeito da forma verbal “é exercida”. Portanto, a classificação como sujeito composto está incorreta.",
+              "topico": "Análise Sintática"
+            },
+            {
+              "id": "LP030",
+              "enunciado": "A substituição de \"Cabe aos órgãos...\"por \"Compete aos órgãos...\"mantém a estrutura sintática e o sentido semântico do período, sem prejuízo gramatical.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A substituição do verbo “cabe” por “compete” não altera o sentido da oração nem compromete sua correção gramatical. Ambos os verbos são sinônimos em contextos administrativos e possuem a mesma regência, o que torna a substituição plenamente aceitável.",
+              "topico": "Sinonímia e Reescrita"
+            },
+            {
+              "id": "LP031",
+              "enunciado": "A utilização da forma verbal \"requer\"em \"A atuação policial requer equilíbrio entre autoridade e legalidade\"indica ação presente, com valor de generalidade, típica de textos dissertativos-expositivos de natureza normativa.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O verbo \"requer\"está conjugado no presente do indicativo, exprimindo uma verdade geral ou um princípio que se pretende aplicar universalmente — típico de textos normativos e técnicos. Isso reforça o caráter atemporal e perene da afirmação, característica comum em textos dissertativos com função prescritiva.",
+              "topico": "Tempos e Modos Verbais"
+            },
+            {
+              "id": "LP032",
+              "enunciado": "A expressão \"mesmo diante do combate à criminalidade\"possui valor concessivo e poderia ser substituída, sem prejuízo ao sentido, por \"ainda que se esteja combatendo a criminalidade\".",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A expressão \"mesmo diante do combate à criminalidade\"pode ser reescrita como \"ainda que se esteja combatendo a criminalidade\"sem alteração do valor concessivo. Ambas as formas expressam a ideia de que, apesar da situação (combate à criminalidade), algo deve ser mantido (o respeito aos direitos fundamentais). A equivalência semântica está preservada.",
+              "topico": "Reescrita e Conectivos"
+            },
+            {
+              "id": "LP033",
+              "enunciado": "A oração \"que os direitos fundamentais sejam respeitados\"é subordinada substantiva objetiva direta e funciona como complemento do verbo \"garantir\", exigindo o uso do modo subjuntivo por indicar expectativa ou desejo.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A oração \"que os direitos fundamentais sejam respeitados\"exerce a função de objeto direto do verbo \"garantir\". O uso do modo subjuntivo (\"sejam\") é exigido por expressar uma ação esperada ou desejada, e por estar subordinada a um verbo que não indica certeza, mas intenção.",
+              "topico": "Orações Subordinadas"
+            },
+            {
+              "id": "LP034",
+              "enunciado": "Em \"A atuação policial, por sua natureza, requer equilíbrio...\", o termo \"por sua natureza\"expressa uma circunstância de causa e funciona como adjunto adverbial intercalado, sendo obrigatoriamente separado por vírgulas.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "\"Por sua natureza\"é um adjunto adverbial intercalado com valor causal. Ele deve, pela norma-padrão, ser isolado por vírgulas. Tal pontuação contribui para a clareza da oração e para o ritmo de leitura, sobretudo em textos formais.",
+              "topico": "Pontuação e Análise Sintática"
+            },
+            {
+              "id": "LP035",
+              "enunciado": "A expressão \"inadmissível qualquer forma de abuso ou arbitrariedade\"constitui uma estrutura enfática que reforça o argumento anterior por meio de uma oração reduzida de gerúndio com valor de consequência lógica.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A oração \"sendo inadmissível qualquer forma de abuso ou arbitrariedade\"está na forma reduzida de gerúndio e possui valor de consequência. Essa construção reforça, de forma enfática, o argumento apresentado na oração anterior, vinculando a ideia de equilíbrio à necessidade de rejeição de abusos.",
+              "topico": "Orações Reduzidas e Estilística"
+            },
+            {
+              "id": "LP036",
+              "enunciado": "No trecho \"Cabe aos órgãos instituídos pelo Estado garantir...\", o verbo \"caber\"é impessoal e, por isso, deve permanecer sempre no singular, independentemente do sujeito que o sucede.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Apesar de muitos considerarem \"caber\"impessoal em alguns contextos, neste caso há sujeito explícito (\"aos órgãos\"), e o verbo deveria concordar com esse sujeito. A forma correta seria \"cabem aos órgãos\", pois o verbo se ajusta ao sujeito plural. O erro está em tratar como impessoal o que possui sujeito definido.",
+              "topico": "Concordância Verbal"
+            },
+            {
+              "id": "LP037",
+              "enunciado": "O uso de \"instituídos\"no trecho \"órgãos instituídos pelo Estado\"apresenta um exemplo de oração subordinada adjetiva reduzida de particípio, equivalente a \"órgãos que foram instituídos pelo Estado\".",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "\"Instituídos pelo Estado\"é uma oração adjetiva reduzida de particípio, pois equivale a \"órgãos que foram instituídos pelo Estado\". Esse tipo de estrutura é comum na linguagem técnica e jurídica, pois confere concisão e formalidade ao enunciado.",
+              "topico": "Orações Reduzidas"
+            },
+            {
+              "id": "LP038",
+              "enunciado": "A expressão \"equilíbrio entre autoridade e legalidade\"constitui objeto direto composto do verbo \"requer\"e está semanticamente vinculada à noção de moderação no exercício do poder estatal.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A expressão \"equilíbrio entre autoridade e legalidade\"funciona como objeto direto composto do verbo \"requer\". Semântica e contextualmente, ela expressa a necessidade de moderação e harmonia no exercício do poder estatal, elemento central da argumentação do texto.",
+              "topico": "Análise Sintática e Semântica"
+            },
+            {
+              "id": "LP039",
+              "enunciado": "A substituição da expressão \"A atuação policial requer equilíbrio entre autoridade e legalidade\"por \"A ação policial demanda harmonia entre força e legalidade\"altera a estrutura linguística, mas preserva o conteúdo semântico fundamental.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Embora a reformulação proposta utilize vocábulos diferentes (\"ação policial\"por \"atuação policial\", \"demanda\"por \"requer\", \"harmonia\"por \"equilíbrio\"), o núcleo semântico da mensagem é preservado. Trata-se de uma paráfrase válida, que mantém a coerência do argumento.",
+              "topico": "Reescrita e Paráfrase"
+            },
+            {
+              "id": "LP040",
+              "enunciado": "Em \"é exercida para a preservação da ordem pública\", a forma verbal está na voz passiva analítica, e a preposição \"para\"introduz oração com sentido de finalidade, típica da linguagem técnico-jurídica.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A forma verbal \"é exercida\"está na voz passiva analítica (verbo auxiliar \"ser\"+ particípio do verbo principal). A preposição \"para\"introduz uma oração reduzida de infinitivo com valor de finalidade, estrutura típica do estilo jurídico-administrativo.",
+              "topico": "Vozes Verbais e Preposição"
+            },
+            {
+              "id": "LP041",
+              "enunciado": "O emprego do conectivo \"sendo\"no trecho \"sendo inadmissível qualquer forma de abuso ou arbitrariedade\"introduz uma oração reduzida de gerúndio, e essa forma é comumente utilizada para expressar simultaneidade de ações.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Embora o gerúndio muitas vezes indique simultaneidade, neste contexto específico, a forma \"sendo inadmissível...\"expressa uma conclusão decorrente da oração anterior. Logo, o valor semântico predominante é de consequência, e não de simultaneidade, o que descaracteriza a generalização proposta no item.",
+              "topico": "Orações Reduzidas"
+            },
+            {
+              "id": "LP042",
+              "enunciado": "A frase \"A segurança pública, direito e responsabilidade de todos, é exercida...\"apresenta uma estrutura com sujeito simples e predicativo posposto, além de conter um aposto explicativo entre vírgulas.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A estrutura apresenta um sujeito simples: \"A segurança pública\". O trecho \"direito e responsabilidade de todos\"é um aposto explicativo que acrescenta uma informação sobre o sujeito, isolado por vírgulas. O predicativo está posposto ao verbo \"é\", caracterizando o tipo de estrutura afirmado.",
+              "topico": "Análise Sintática do Período"
+            },
+            {
+              "id": "LP043",
+              "enunciado": "No contexto do texto, o emprego da forma verbal \"seja respeitado\"expressa um juízo de valor com forte carga normativa, apropriada ao tipo de linguagem utilizada em textos jurídicos e administrativos.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O emprego do verbo no subjuntivo \"seja respeitado\"é típico de linguagem normativa, como ocorre em textos jurídicos e administrativos. Expressa uma expectativa ou exigência institucional, com valor prescritivo, e reforça o caráter legal da mensagem.",
+              "topico": "Modos Verbais e Tipologia Textual"
+            },
+            {
+              "id": "LP044",
+              "enunciado": "O trecho \"órgãos instituídos pelo Estado\"contém um termo restritivo que especifica um subconjunto dos \"órgãos\". Assim, trata-se de um adjunto adnominal com valor restritivo e não explicativo.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "\"Órgãos instituídos pelo Estado\"é um termo que restringe o grupo de órgãos mencionados, funcionando como adjunto adnominal restritivo. Não se trata de uma explicação adicional sobre todos os órgãos, mas de uma delimitação do grupo em questão.",
+              "topico": "Análise Sintática"
+            },
+            {
+              "id": "LP045",
+              "enunciado": "O termo \"preservação da ordem pública e da incolumidade das pessoas\"exerce, na estrutura oracional, a função de objeto direto da forma verbal \"é exercida\".",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "O verbo \"é exercida\"está na voz passiva e exige um agente da passiva. O termo \"para a preservação da ordem pública e da incolumidade...\"é adjunto adverbial de finalidade, não objeto direto. A oração não apresenta objeto direto, pois o verbo \"exercer\"está na forma passiva.",
+              "topico": "Funções Sintáticas e Voz Passiva"
+            },
+            {
+              "id": "LP046",
+              "enunciado": "A oração \"mesmo diante do combate à criminalidade\"expressa uma concessão, podendo ser reformulada como \"embora haja combate à criminalidade\", mantendo o valor semântico original.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A oração \"mesmo diante do combate à criminalidade\"possui valor concessivo. A reformulação por \"embora haja combate à criminalidade\"mantém o valor semântico, sendo uma substituição válida que reforça a oposição à ideia principal.",
+              "topico": "Reescrita e Conectivos"
+            },
+            {
+              "id": "LP047",
+              "enunciado": "A substituição de \"por sua natureza\"por \"em virtude de sua natureza\"não compromete o valor semântico nem a correção gramatical da frase, uma vez que ambas as expressões possuem valor causal.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "As expressões \"por sua natureza\"e \"em virtude de sua natureza\"são semanticamente equivalentes no contexto apresentado, ambas com valor causal. A substituição é gramaticalmente correta e não compromete o sentido original.",
+              "topico": "Reescrita e Semântica"
+            },
+            {
+              "id": "LP048",
+              "enunciado": "A flexão nominal correta de \"legalidade\"e \"autoridade\"na expressão \"equilíbrio entre autoridade e legalidade\"confere à construção paralelismo sintático e harmonia formal.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A construção \"autoridade e legalidade\"apresenta paralelismo sintático por unir dois substantivos abstratos no mesmo campo semântico e morfológico. Tal paralelismo garante fluidez e harmonia ao período, reforçando o caráter técnico do discurso.",
+              "topico": "Estilística e Paralelismo"
+            },
+            {
+              "id": "LP049",
+              "enunciado": "A oração \"que os direitos fundamentais sejam respeitados\"é subordinada substantiva completiva nominal, pois complementa o sentido do substantivo \"garantia\"subentendido no trecho.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "A oração \"que os direitos fundamentais sejam respeitados\"é subordinada substantiva objetiva direta, pois complementa diretamente o verbo \"garantir\"e não um substantivo. A classificação como completiva nominal seria válida se houvesse um substantivo abstrato como \"garantia\"explicitamente antecedendo a oração.",
+              "topico": "Orações Subordinadas"
+            },
+            {
+              "id": "LP050",
+              "enunciado": "A expressão \"qualquer forma de abuso ou arbitrariedade\"funciona como sujeito da oração em que se insere e exige que o verbo esteja na forma singular, conforme ocorre no trecho analisado.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O sujeito da oração é \"qualquer forma de abuso ou arbitrariedade\", uma expressão composta cujo núcleo é singular. Assim, o verbo da oração deve concordar com esse núcleo no singular, conforme a norma-padrão exige.",
+              "topico": "Concordância Verbal"
+            },
+            {
+              "id": "LP051",
+              "enunciado": "No trecho “A atuação policial, por sua natureza, requer equilíbrio entre autoridade e legalidade”, a palavra “requere” está corretamente empregada e corresponde à norma-padrão.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "A forma verbal correta do verbo “requerer” no presente do indicativo, terceira pessoa do singular, é “requer”, e não “requere”. “Requere” não existe na norma-padrão. Portanto, o uso está incorreto, sendo erro de grafia e conjugação verbal.",
+              "topico": "Conjugação Verbal"
+            },
+            {
+              "id": "LP052",
+              "enunciado": "O uso do termo “inadmissível” expressa uma proibição absoluta, reforçada pela estrutura “qualquer forma de abuso ou arbitrariedade”, o que caracteriza um efeito de intensificação argumentativa.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A palavra “inadmissível” já carrega valor absoluto de negação, e a estrutura que a segue — “qualquer forma de abuso ou arbitrariedade” — atua como intensificador. Essa combinação estilística reforça o rigor e o compromisso institucional com a conduta legal, típica de textos normativos.",
+              "topico": "Recursos Argumentativos"
+            },
+            {
+              "id": "LP053",
+              "enunciado": "A expressão “mesmo diante do combate à criminalidade” pode ser considerada uma locução adverbial de tempo, pois indica o momento da ação verbal subsequente.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "A expressão “mesmo diante do combate à criminalidade” tem valor concessivo, e não temporal. Ela expressa uma ressalva ou oposição à ação principal — ou seja, mesmo em meio ao combate à criminalidade, certos direitos devem ser preservados. Não indica tempo, mas contraste.",
+              "topico": "Valor Semântico dos Conectivos"
+            },
+            {
+              "id": "LP054",
+              "enunciado": "O verbo “garantir” exige objeto direto e indireto, sendo seu uso no trecho “Cabe aos órgãos instituídos pelo Estado garantir...” compatível com essa regência.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O verbo “garantir” é bitransitivo: exige um objeto direto (o que se garante) e um objeto indireto (a quem se garante). No trecho analisado, esses complementos estão implícitos ou distribuídos na oração, o que é compatível com sua regência normativa.",
+              "topico": "Regência Verbal"
+            },
+            {
+              "id": "LP055",
+              "enunciado": "O uso da vírgula em “A atuação policial, por sua natureza, requer equilíbrio...” indica uma enumeração entre elementos coordenados, sendo por isso obrigatório.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "A vírgula em “A atuação policial, por sua natureza, requer equilíbrio...” não separa elementos coordenados, e sim um adjunto adverbial intercalado (“por sua natureza”). Portanto, sua função é demarcar um termo deslocado, e não introduzir uma enumeração.",
+              "topico": "Pontuação"
+            },
+            {
+              "id": "LP056",
+              "enunciado": "A expressão “por sua natureza” pode ser substituída por “em virtude de sua natureza” sem comprometer o valor semântico de causa.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "“Por sua natureza” e “em virtude de sua natureza” compartilham valor semântico causal, ainda que o segundo seja um pouco mais formal e explícito. A substituição preserva o sentido principal da oração, sendo válida na reescrita.",
+              "topico": "Reescrita e Semântica"
+            },
+            {
+              "id": "LP057",
+              "enunciado": "O segmento “garantir que os direitos fundamentais sejam respeitados” contém oração subordinada substantiva objetiva direta reduzida de infinitivo.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O segmento “garantir que os direitos fundamentais sejam respeitados” contém uma oração principal com um infinitivo (“garantir”) e uma oração subordinada substantiva objetiva direta (“que os direitos...”). O infinitivo é reduzido, típico de construções mais concisas, como ocorre em textos técnicos e normativos.",
+              "topico": "Orações Subordinadas e Reduzidas"
+            },
+            {
+              "id": "LP058",
+              "enunciado": "A substituição da construção “por sua natureza” por “naturalmente” preserva o sentido original da frase, ainda que haja pequena alteração no grau de formalidade.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A substituição de “por sua natureza” por “naturalmente” mantém o sentido geral da afirmação, ainda que haja uma leve alteração estilística. “Naturalmente” é mais coloquial e menos técnico, mas conserva o valor causal implícito.",
+              "topico": "Reescrita e Níveis de Linguagem"
+            },
+            {
+              "id": "LP059",
+              "enunciado": "O termo “autoridade” no trecho “equilíbrio entre autoridade e legalidade” possui valor abstrato e se refere ao exercício do poder legalmente concedido.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O termo “autoridade”, no contexto do trecho “equilíbrio entre autoridade e legalidade”, tem valor abstrato e se refere ao exercício legítimo do poder. É um substantivo que remete ao conceito, não à pessoa da autoridade em si.",
+              "topico": "Semântica Lexical"
+            },
+            {
+              "id": "LP060",
+              "enunciado": "A oração “que os direitos fundamentais sejam respeitados” é introduzida por conjunção integrante e atua como sujeito da forma verbal “garantir”.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "A oração “que os direitos fundamentais sejam respeitados” funciona como objeto direto do verbo “garantir”, não como sujeito. A estrutura exige complemento verbal, o que caracteriza uma oração subordinada substantiva objetiva direta.",
+              "topico": "Orações Subordinadas"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

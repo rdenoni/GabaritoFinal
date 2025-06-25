@@ -1,0 +1,338 @@
+{
+  "concursos": [
+    {
+      "id": "concurso_simulado_agente_policia_2025",
+      "nome": "Simulado - Agente de Polícia (Nível Superior)",
+      "ano": 2025,
+      "banca": "Cebraspe (Modelo)",
+      "disciplinas": [
+        {
+          "id": "da_agente_policia_2025",
+          "nome": "Direito Administrativo",
+          "questoes": [
+            {
+              "id": "DA001",
+              "enunciado": "O exercício do poder de polícia pela administração pública é privativo de entidades da administração direta, sendo vedado seu exercício por delegação a entidades privadas, ainda que desempenhem funções de apoio ao poder público.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O exercício do poder de polícia é função tipicamente estatal, que compreende a limitação de direitos individuais em favor do interesse público. A jurisprudência do STF (ADI 1.717/DF) firmou que não é possível delegar o exercício do poder de polícia a entidades privadas, mesmo que estas desempenhem atividades auxiliares. A delegação é admitida somente a entidades da administração pública indireta com personalidade jurídica de direito público, como autarquias. Ainda que empresas privadas auxiliem na execução, a decisão vinculante e o exercício coercitivo devem ser públicos.",
+              "topico": "Poder de Polícia"
+            },
+            {
+              "id": "DA002",
+              "enunciado": "Conforme jurisprudência do STF, o princípio da autotutela permite que a administração pública anule seus próprios atos administrativos ilegais, independentemente de decisão judicial, mesmo após esgotado o prazo decadencial previsto em lei.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "A autotutela permite que a Administração Pública anule seus atos ilegais e revogue os inconvenientes, conforme os princípios da legalidade e do interesse público. Contudo, a Lei nº 9.784/1999, art. 54, estabelece que o direito da Administração de anular atos administrativos decai em cinco anos, salvo comprovada má-fé. A jurisprudência do STF (MS 28.819/DF) confirma essa limitação temporal. Assim, passado o prazo legal e na ausência de má-fé, é necessária decisão judicial para anular o ato.",
+              "topico": "Atos Administrativos"
+            },
+            {
+              "id": "DA003",
+              "enunciado": "A teoria do órgão, no âmbito do direito administrativo, considera que os atos praticados pelos seus integrantes são imputados ao próprio órgão, que possui personalidade jurídica própria e responde diretamente pelas consequências desses atos.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "A chamada teoria do órgão, desenvolvida por Otto Gierke e acolhida pelo Direito Administrativo brasileiro, reconhece que o órgão público não possui personalidade jurídica própria, mas integra uma pessoa jurídica (União, Estado, Município, etc.). Os atos dos seus membros são imputados diretamente à entidade estatal. Assim, os atos de um servidor lotado em um ministério, por exemplo, são atos da própria União. Portanto, é incorreto afirmar que o órgão responde por atos praticados em seu nome.",
+              "topico": "Organização Administrativa"
+            },
+            {
+              "id": "DA004",
+              "enunciado": "A responsabilidade civil do Estado por omissão depende da demonstração do nexo entre a conduta omissiva estatal e o dano sofrido, bem como da existência de um dever legal específico de agir por parte do Estado.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A responsabilidade civil do Estado por omissão exige a presença dos seguintes elementos: dano, omissão do poder público e nexo causal entre ambos. Segundo o STF (RE 841.526/RS, com repercussão geral), é necessário comprovar que o Estado deixou de agir quando tinha o dever jurídico específico de fazê-lo. Se o dano decorre de uma omissão genérica (ex: violência urbana sem policiamento suficiente), não se configura responsabilidade estatal. Mas se houver um dever concreto (ex: proteção a preso sob custódia), a omissão gera responsabilidade objetiva.",
+              "topico": "Responsabilidade Civil do Estado"
+            },
+            {
+              "id": "DA005",
+              "enunciado": "A delegação de competência administrativa por um chefe de órgão público exclui o dever de supervisão do delegante, que não mais responde pelos atos praticados pelo delegado.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "A delegação de competência é regida pelo art. 11 da Lei nº 9.784/1999, que autoriza o repasse de atividades a órgãos ou agentes subalternos. Todavia, a delegação não afasta a responsabilidade do delegante, que continua vinculado ao dever de supervisão e pode revogar ou avocar o exercício da competência delegada. Além disso, o ato de delegação deve ser motivado e publicado. Assim, a ideia de que o delegante se isenta de qualquer responsabilidade após delegar é incorreta.",
+              "topico": "Atos Administrativos"
+            },
+            {
+              "id": "DA006",
+              "enunciado": "A Lei nº 14.133/2021 estabelece que a licitação deve observar, entre outros, os princípios da eficiência, da inovação e da segregação de funções, sendo permitida a contratação direta nos casos de inexigibilidade e de dispensa de licitação previstos em lei.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A Lei nº 14.133/2021 (Nova Lei de Licitações) prevê expressamente em seu art. 5º os princípios que regem a licitação, incluindo a eficiência, a inovação e a segregação de funções. A contratação direta está autorizada nos casos de inexigibilidade (quando inviável a competição, como em serviços técnicos de natureza singular) e dispensa (quando o valor ou situação excepcional o justifica), conforme arts. 74 a 76. A norma representa modernização do regime de contratações públicas e amplia a segurança jurídica para a atuação administrativa.",
+              "topico": "Licitações (Lei 14.133/2021)"
+            },
+            {
+              "id": "DA007",
+              "enunciado": "O poder disciplinar da administração pública se limita aos seus servidores e empregados públicos, não se aplicando a particulares que possuam vínculo contratual com a Administração.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "O poder disciplinar não se limita aos servidores públicos. Conforme entendimento consolidado, a Administração também exerce poder disciplinar sobre particulares que mantêm vínculo jurídico com ela, como contratados ou permissionários. Isso se aplica, por exemplo, a empresas que descumprem obrigações em contratos administrativos (Lei nº 8.666/1993, art. 87; Lei nº 14.133/2021, art. 156). Portanto, é incorreto restringir o alcance do poder disciplinar apenas aos servidores.",
+              "topico": "Poder Disciplinar"
+            },
+            {
+              "id": "DA008",
+              "enunciado": "No âmbito das licitações públicas, o critério de julgamento por técnica e preço deve ser utilizado exclusivamente para aquisição de bens e serviços comuns, conforme previsão expressa da nova Lei de Licitações.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "O critério de julgamento por técnica e preço é aplicável em casos de licitação de serviços técnicos especializados, como consultorias e projetos, conforme art. 36, III, da Lei nº 14.133/2021. Para aquisição de bens e serviços comuns, o critério a ser utilizado é o de menor preço ou maior desconto, sendo vedado o uso de técnica e preço nessas hipóteses. Logo, a afirmativa está incorreta por descrever de forma equivocada o uso desse critério.",
+              "topico": "Licitações (Lei 14.133/2021)"
+            },
+            {
+              "id": "DA009",
+              "enunciado": "A revogação de ato administrativo discricionário pode ocorrer por conveniência e oportunidade, mas deve ser motivada sempre que restringir direitos dos administrados.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A revogação de um ato administrativo de natureza discricionária pode ocorrer por razões de conveniência e oportunidade, desde que haja motivação adequada, especialmente quando o ato afeta direitos individuais. Isso decorre do princípio da motivação (CF, art. 37, caput e §6º da Lei nº 9.784/1999), que exige clareza e transparência nas decisões públicas. Assim, mesmo quando a Administração revoga por razões políticas ou econômicas, deve justificar sua escolha de forma fundamentada.",
+              "topico": "Atos Administrativos"
+            },
+            {
+              "id": "DA010",
+              "enunciado": "A descentralização administrativa pode ocorrer por outorga, quando o Estado transfere a titularidade e a execução de determinada atividade a outra entidade, e por delegação, quando transfere apenas a execução, mantendo a titularidade.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A descentralização por outorga transfere a titularidade e a execução de uma função para uma pessoa jurídica autônoma, como ocorre na criação de uma autarquia. Já a descentralização por delegação transfere apenas a execução da atividade, permanecendo o Estado com a titularidade, como nos casos de concessão e permissão de serviços públicos. Essa distinção está consolidada na doutrina e aplicada na jurisprudência administrativa.",
+              "topico": "Organização Administrativa"
+            },
+            {
+              "id": "DA011",
+              "enunciado": "A administração pública indireta é composta exclusivamente por entidades com personalidade jurídica de direito público, como autarquias e fundações públicas.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "A administração pública indireta é composta por entidades com personalidade jurídica própria, mas não exclusivamente de direito público. Fazem parte dela as autarquias e fundações públicas (direito público), mas também empresas públicas e sociedades de economia mista, que são regidas predominantemente pelo direito privado. Essa classificação é central para entender a aplicação de normas como licitação, controle e responsabilidade. O erro da assertiva está na exclusividade dada ao direito público.",
+              "topico": "Organização Administrativa"
+            },
+            {
+              "id": "DA012",
+              "enunciado": "O contrato administrativo pode ser modificado unilateralmente pela Administração Pública para melhor adequação às finalidades de interesse público, desde que haja previsão legal e contratual.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A Administração pode modificar unilateralmente contratos administrativos para atender ao interesse público, desde que haja previsão legal e contratual. Isso decorre da chamada cláusula exorbitante, que dá à Administração poderes superiores ao contratante particular. A Lei nº 8.666/1993 (art. 65) e a nova Lei nº 14.133/2021 (art. 124) admitem alterações por razões de interesse público, como modificação do projeto, necessidade técnica ou alteração quantitativa. O particular é obrigado a aceitar essas alterações dentro dos limites legais.",
+              "topico": "Contratos Administrativos"
+            },
+            {
+              "id": "DA013",
+              "enunciado": "O poder regulamentar permite à Administração Pública editar atos normativos primários, com força de lei, nos limites do interesse público.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "O poder regulamentar permite à Administração Pública editar atos normativos secundários, ou seja, destinados a detalhar e viabilizar a aplicação das leis. Esse poder não permite a criação de normas com força de lei. Apenas o Poder Legislativo, por meio de processo legislativo regular, pode editar atos normativos primários (leis). O Decreto (ato típico do poder regulamentar) não pode inovar na ordem jurídica, conforme art. 84, IV, da CF/88.",
+              "topico": "Poderes Administrativos"
+            },
+            {
+              "id": "DA014",
+              "enunciado": "A aplicação da cláusula de reserva do possível limita a responsabilidade civil do Estado nos casos em que não houver previsão orçamentária suficiente para evitar a ocorrência do dano.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "A cláusula da reserva do possível não exonera o Estado de sua responsabilidade quando houver omissão em face de direitos fundamentais prestacionais, como saúde e segurança. O STF, ao julgar o RE 592.581 e o RE 559.646, firmou entendimento de que a ausência de recursos não pode ser justificativa automática para o descumprimento de deveres constitucionais, especialmente quando comprovada negligência ou omissão específica. A responsabilidade civil do Estado persiste em casos de descumprimento injustificado do dever de agir.",
+              "topico": "Responsabilidade Civil do Estado"
+            },
+            {
+              "id": "DA015",
+              "enunciado": "A concessão de serviços públicos é uma forma de delegação contratual da prestação de serviços a pessoas jurídicas ou consórcios de empresas, mediante licitação na modalidade concorrência.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A concessão de serviço público é uma forma de delegação feita por contrato a uma pessoa jurídica ou consórcio de empresas, mediante licitação obrigatória na modalidade concorrência, conforme o art. 2º da Lei nº 8.987/1995. O concessionário assume o risco da atividade, sendo remunerado pela tarifa paga pelos usuários. A concessão é cabível para atividades de interesse coletivo que o Estado decide não executar diretamente.",
+              "topico": "Serviços Públicos"
+            },
+            {
+              "id": "DA016",
+              "enunciado": "A revogação do ato administrativo, quando motivada por conveniência e oportunidade, independe de contraditório e ampla defesa.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Embora a revogação do ato administrativo por motivo de conveniência e oportunidade seja discricionária, ela não pode desrespeitar direitos já constituídos sem garantir contraditório e ampla defesa, quando o ato gera efeitos concretos. O STF e o STJ já afirmaram que a revogação de atos que afetam situações jurídicas consolidadas demanda processo administrativo prévio, sob pena de nulidade por violação ao devido processo legal (CF, art. 5º, LIV e LV).",
+              "topico": "Atos Administrativos"
+            },
+            {
+              "id": "DA017",
+              "enunciado": "A alienação de bens públicos imóveis exige autorização legislativa e licitação na modalidade concorrência, salvo nos casos de doação permitida por lei.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A alienação de bens públicos imóveis é regulada pelos arts. 17 da Lei nº 8.666/1993 e 91 da Lei nº 14.133/2021. A regra geral exige: autorização legislativa prévia e licitação na modalidade concorrência. A exceção é para doações com encargos específicos, nos termos de lei autorizativa. Trata-se de uma medida protetiva ao patrimônio público, que exige rigidez máxima na sua disposição.",
+              "topico": "Bens Públicos"
+            },
+            {
+              "id": "DA018",
+              "enunciado": "As sociedades de economia mista estão sujeitas exclusivamente ao regime jurídico de direito privado, inclusive no tocante à contratação de pessoal e à responsabilização por atos administrativos.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "As sociedades de economia mista são pessoas jurídicas de direito privado, mas que integram a Administração Pública indireta. Por isso, estão sujeitas a regime jurídico híbrido: privado na essência, mas com observância de normas de direito público, como princípios constitucionais, controle externo, exigência de licitação (Lei nº 13.303/2016) e contratação por concurso público. Assim, é incorreto dizer que são regidas exclusivamente por normas privadas.",
+              "topico": "Organização Administrativa"
+            },
+            {
+              "id": "DA019",
+              "enunciado": "O controle judicial da Administração Pública admite o exame de mérito administrativo, sempre que configurado abuso de poder.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O controle judicial da Administração não alcança o mérito administrativo (conveniência e oportunidade), exceto quando há vícios como desvio de finalidade ou abuso de poder. Nessas situações, o Judiciário pode anular atos mesmo que discricionários. O STF firmou entendimento de que o Judiciário não pode substituir a Administração no exercício do mérito, mas pode intervir para garantir a legalidade e os princípios constitucionais (MS 33.340/DF).",
+              "topico": "Controle da Administração"
+            },
+            {
+              "id": "DA020",
+              "enunciado": "O princípio da legalidade administrativa impõe que o administrador público atue conforme a lei e o direito, sendo-lhe vedado inovar na ordem jurídica sem amparo legal.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O princípio da legalidade, no âmbito da Administração Pública, significa que o agente só pode agir quando autorizado por lei — diferentemente do particular, que pode fazer tudo que não for proibido. A CF, art. 37, caput, prevê a legalidade como princípio estruturante da atuação estatal. O administrador que age sem respaldo normativo comete abuso de poder, e o ato é nulo. A legalidade aqui está associada ao princípio da supremacia e da indisponibilidade do interesse público.",
+              "topico": "Princípios Administrativos"
+            },
+            {
+              "id": "DA021",
+              "enunciado": "O abuso de poder pode se manifestar tanto por excesso de poder quanto por desvio de finalidade, sendo ambas as hipóteses passíveis de anulação judicial.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O abuso de poder pode ocorrer em duas modalidades: excesso de poder (quando a autoridade extrapola os limites de sua competência legal) e desvio de finalidade (quando o ato é praticado para fim diverso daquele previsto na norma que o autorizava). Ambas as hipóteses ensejam a nulidade do ato administrativo, conforme jurisprudência pacífica do STF e STJ. A Lei nº 9.784/1999 (art. 2º, parágrafo único, e art. 53) também confirma essa classificação e autoriza a anulação de tais atos por ofensa ao princípio da legalidade.",
+              "topico": "Poderes Administrativos"
+            },
+            {
+              "id": "DA022",
+              "enunciado": "As entidades da Administração Indireta não estão sujeitas ao controle finalístico exercido pelo órgão supervisor da Administração Direta.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "As entidades da administração pública indireta (autarquias, fundações, empresas públicas e sociedades de economia mista) estão submetidas ao controle finalístico (ou tutela administrativa) exercido pela Administração Direta. Esse controle não interfere na autonomia técnica, administrativa e financeira dessas entidades, mas visa assegurar que suas atividades estejam alinhadas com os objetivos definidos pelo poder público. Esse modelo de supervisão está previsto, por exemplo, no art. 26 da Lei nº 13.303/2016 e na doutrina majoritária de Direito Administrativo.",
+              "topico": "Controle da Administração"
+            },
+            {
+              "id": "DA023",
+              "enunciado": "A permissão de uso de bem público é um contrato administrativo com cláusulas de adesão e sempre precedido de licitação, mesmo nos casos de interesse exclusivamente particular.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "A permissão de uso de bem público é um ato administrativo precário e unilateral, e não necessariamente exige licitação. Embora a regra seja a seleção mediante procedimento competitivo (Lei nº 14.133/2021, art. 76, §3º), há exceções legalmente previstas, especialmente nos casos em que o uso se dá por motivo de interesse social ou em regime de uso compartilhado. A assertiva está incorreta ao afirmar que a licitação é sempre obrigatória, inclusive nos casos de interesse exclusivamente particular.",
+              "topico": "Bens Públicos"
+            },
+            {
+              "id": "DA024",
+              "enunciado": "As licitações públicas têm por objetivo garantir a isonomia entre os licitantes e selecionar a proposta mais vantajosa para a Administração Pública, nos termos da Lei nº 14.133/2021.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A nova Lei de Licitações (Lei nº 14.133/2021, art. 11) estabelece que o objetivo da licitação é garantir a isonomia entre os licitantes e selecionar a proposta mais vantajosa para a Administração, assegurando o respeito aos princípios da legalidade, impessoalidade, moralidade, publicidade, eficiência e transparência. A norma visa também fomentar o desenvolvimento nacional sustentável. Portanto, a assertiva reflete exatamente os objetivos consagrados legalmente.",
+              "topico": "Licitações (Lei 14.133/2021)"
+            },
+            {
+              "id": "DA025",
+              "enunciado": "O servidor público estável somente perderá o cargo em virtude de sentença judicial transitada em julgado, processo administrativo disciplinar ou avaliação periódica de desempenho, garantida ampla defesa.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O art. 41, §1º da Constituição Federal estabelece que o servidor público estável só pode perder o cargo mediante: (I) sentença judicial transitada em julgado, (II) processo administrativo disciplinar com ampla defesa, ou (III) procedimento de avaliação periódica de desempenho, também com garantia de contraditório. Essa estabilidade é uma garantia institucional, voltada à proteção da impessoalidade e da continuidade do serviço público, e não um privilégio pessoal do servidor.",
+              "topico": "Agentes Públicos"
+            },
+            {
+              "id": "DA026",
+              "enunciado": "A Lei nº 8.112/1990 admite a aplicação da penalidade de advertência para infrações de natureza leve e para reincidência em faltas punidas com suspensão.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Segundo o art. 129 da Lei nº 8.112/1990, a advertência é cabível para infrações leves. Já a reincidência em infrações punidas com advertência ou suspensão exige pena mais grave. Reincidência é uma circunstância agravante e não autoriza a simples repetição da sanção anterior. Assim, não se pode aplicar novamente uma advertência a quem já foi punido com suspensão pela mesma conduta. A assertiva incorre em erro técnico ao permitir sanção menos severa em caso de agravamento da conduta.",
+              "topico": "Regime Disciplinar (Lei 8.112/90)"
+            },
+            {
+              "id": "DA027",
+              "enunciado": "A súmula vinculante nº 13 do STF, que trata do nepotismo, alcança tanto os cargos de provimento efetivo quanto os cargos comissionados, inclusive nos casos de nomeação cruzada.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A Súmula Vinculante nº 13 do STF veda o nepotismo nos três Poderes e em todas as esferas da Administração Pública, abrangendo tanto cargos efetivos quanto cargos em comissão, além de nomeações cruzadas (quando autoridades nomeiam parentes entre si em órgãos diferentes). Essa súmula busca garantir os princípios constitucionais da moralidade e impessoalidade (CF, art. 37, caput). A sua interpretação tem sido ampliada pelo STF para alcançar situações que, embora formalmente válidas, violam o interesse público subjacente.",
+              "topico": "Agentes Públicos"
+            },
+            {
+              "id": "DA028",
+              "enunciado": "O ato administrativo com vício de competência é passível de convalidação, desde que não se trate de competência exclusiva.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O ato administrativo com vício de competência pode ser convalidado, desde que não envolva competência exclusiva e não haja prejuízo a terceiros. O art. 55 da Lei nº 9.784/1999 prevê expressamente a possibilidade de convalidação de atos que apresentem vícios sanáveis, incluindo os de competência e forma. Contudo, competências privativas, por sua natureza, são indelegáveis e, portanto, os vícios a elas relacionados não podem ser convalidados.",
+              "topico": "Atos Administrativos"
+            },
+            {
+              "id": "DA029",
+              "enunciado": "É vedada à Administração Pública a contratação de servidor aposentado para exercício de cargo comissionado, sob pena de acumulação ilícita de proventos e vencimentos.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "A Constituição Federal (art. 37, §10) não proíbe a nomeação de aposentados para cargos comissionados, mas veda a acumulação de proventos com vencimentos, salvo nos casos expressamente permitidos (professores, profissionais da saúde, e cargos eletivos). Portanto, um servidor aposentado pode ser nomeado para cargo em comissão, desde que respeitadas as regras de compatibilidade e não acumulação indevida. A afirmativa incorre ao tratar a vedação como absoluta.",
+              "topico": "Agentes Públicos"
+            },
+            {
+              "id": "DA030",
+              "enunciado": "O direito à estabilidade no serviço público é adquirido após dois anos de efetivo exercício no cargo público, conforme previsto na Constituição Federal.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Desde a Emenda Constitucional nº 19/1998, o prazo para aquisição da estabilidade no serviço público passou a ser de três anos, e não mais dois. Essa regra está no art. 41, caput, da CF/88. Durante esse período, o servidor é avaliado por critérios objetivos, podendo ser exonerado se não atender aos requisitos de desempenho. A confusão entre o prazo atual e o anterior (antes da EC 19) leva ao erro da assertiva.",
+              "topico": "Agentes Públicos"
+            },
+            {
+              "id": "DA031",
+              "enunciado": "A anulação do ato administrativo gera efeitos ex tunc, salvo nos casos em que o STF admitir modulação dos efeitos em razão da segurança jurídica e do interesse social.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A anulação de ato administrativo tem efeitos retroativos (ex tunc), ou seja, desde a data em que o ato foi praticado. Essa característica visa restaurar a legalidade originária, eliminando todos os efeitos do ato ilegal. Contudo, o STF admite, em situações excepcionais, a modulação dos efeitos da decisão anuladora, especialmente quando estiverem presentes os princípios da segurança jurídica e da boa-fé (RE 817.338/DF, Tema 733 da repercussão geral). A modulação é possível para proteger terceiros de boa-fé ou a estabilidade de relações jurídicas consolidadas.",
+              "topico": "Atos Administrativos"
+            },
+            {
+              "id": "DA032",
+              "enunciado": "O controle externo da administração pública é exercido pelo Poder Legislativo com o auxílio dos Tribunais de Contas, conforme previsão constitucional.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A Constituição Federal, em seu art. 70 e 71, dispõe que o controle externo da Administração Pública é exercido pelo Poder Legislativo com o auxílio dos Tribunais de Contas. Esse controle abrange a fiscalização contábil, financeira, orçamentária, operacional e patrimonial, visando assegurar a legalidade, legitimidade e economicidade dos atos. O Tribunal de Contas tem competência para apreciar contas, emitir pareceres prévios, realizar auditorias e aplicar sanções administrativas. A assertiva está correta e em conformidade com o texto constitucional.",
+              "topico": "Controle da Administração"
+            },
+            {
+              "id": "DA033",
+              "enunciado": "Os atos administrativos discricionários não podem ser revistos pelo Poder Judiciário, ainda que contrariem princípios administrativos como moralidade e razoabilidade.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Embora os atos discricionários estejam relacionados ao mérito administrativo, o Poder Judiciário pode e deve intervir quando tais atos violam princípios constitucionais, como legalidade, moralidade, razoabilidade e proporcionalidade. O controle judicial não analisa a conveniência ou oportunidade em si, mas verifica se a escolha administrativa respeita os limites legais e princípios administrativos. O STJ e o STF já anularam inúmeros atos discricionários por desvio de finalidade e abuso de poder (MS 33.340/DF, REsp 1.155.488/SP).",
+              "topico": "Controle da Administração"
+            },
+            {
+              "id": "DA034",
+              "enunciado": "Os contratos administrativos regem-se obrigatoriamente pelas normas do direito público, não podendo conter cláusulas submetidas ao regime de direito privado.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Os contratos administrativos são regidos predominantemente pelo direito público, mas podem conter cláusulas regidas pelo direito privado, especialmente em contratos celebrados com empresas estatais regidas pela Lei nº 13.303/2016. A nova Lei de Licitações (Lei nº 14.133/2021) também prevê, em certos casos, a aplicação supletiva das normas do direito privado (art. 6º, inciso XXVIII). Portanto, afirmar que todos os contratos administrativos devem se submeter exclusivamente ao regime público ignora a natureza híbrida de certas contratações públicas.",
+              "topico": "Contratos Administrativos"
+            },
+            {
+              "id": "DA035",
+              "enunciado": "A investidura em cargo público depende de aprovação prévia em concurso público de provas ou de provas e títulos, ressalvadas as nomeações para cargos em comissão declarados em lei de livre nomeação e exoneração.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O art. 37, II, da CF/88 estabelece que a investidura em cargo público depende de aprovação prévia em concurso público de provas ou de provas e títulos, exceto para os cargos comissionados, que são de livre nomeação e exoneração. Essa regra visa garantir os princípios da impessoalidade, moralidade e eficiência na seleção de servidores públicos. A exigência de concurso público é uma forma de assegurar igualdade de oportunidades e evitar favorecimentos pessoais ou políticos.",
+              "topico": "Agentes Públicos"
+            },
+            {
+              "id": "DA036",
+              "enunciado": "A prescrição da ação disciplinar no serviço público federal é de 5 anos, contados da data em que o fato se tornou conhecido.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A prescrição da ação disciplinar no serviço público federal é de 5 anos, contados da data em que o fato se tornou conhecido pela Administração, conforme art. 142 da Lei nº 8.112/1990. O prazo pode ser interrompido pela instauração de sindicância ou de processo disciplinar. A regra visa garantir a segurança jurídica e evitar punições injustas ou tardias, além de proteger o servidor contra perseguições infundadas após longo tempo.",
+              "topico": "Regime Disciplinar (Lei 8.112/90)"
+            },
+            {
+              "id": "DA037",
+              "enunciado": "Os atos administrativos vinculados não admitem juízo de conveniência e oportunidade, sendo obrigatória sua prática nos termos da lei.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Atos administrativos vinculados são aqueles em que a lei estabelece todos os requisitos para sua prática, sem margem de escolha para a Administração. Nessas situações, o agente público deve agir conforme a norma, sem juízo de conveniência ou oportunidade. O descumprimento de um dever vinculado configura omissão ilegal, podendo ser controlado judicialmente. Esse conceito é fundamental para entender a distinção entre atos vinculados e discricionários.",
+              "topico": "Atos Administrativos"
+            },
+            {
+              "id": "DA038",
+              "enunciado": "A imperatividade é atributo de todos os atos administrativos, inclusive os enunciativos.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "A imperatividade é um atributo dos atos administrativos que impoem obrigações ao administrado independentemente de sua concordância, como sanções, autorizações e licenças. Entretanto, não se aplica aos atos administrativos enunciativos, como pareceres, atestados e certidões, que não impõem obrigações nem criam direitos, mas apenas certificam uma situação existente. Assim, é incorreto afirmar que todos os atos administrativos possuem esse atributo.",
+              "topico": "Atos Administrativos"
+            },
+            {
+              "id": "DA039",
+              "enunciado": "O interesse público primário se refere à proteção do patrimônio da Administração Pública, mesmo que em detrimento dos direitos individuais fundamentais.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "O interesse público primário é aquele que representa o bem comum, ou seja, o interesse da coletividade. Já o interesse público secundário é o interesse da própria Administração enquanto pessoa jurídica, como sua arrecadação ou patrimônio. A assertiva incorre ao confundir esses conceitos, sugerindo que a proteção do patrimônio estatal pode prevalecer sobre os direitos fundamentais. Na verdade, os direitos individuais não podem ser desrespeitados sob pretexto de proteger o interesse secundário.",
+              "topico": "Princípios Administrativos"
+            },
+            {
+              "id": "DA040",
+              "enunciado": "A Administração Pública direta e indireta de qualquer dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios obedecerá aos princípios da legalidade, impessoalidade, moralidade, publicidade e eficiência.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O art. 37, caput, da Constituição Federal dispõe que a Administração Pública direta e indireta, de qualquer dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios, obedecerá aos princípios da legalidade, impessoalidade, moralidade, publicidade e eficiência. Esses princípios são fundamentais para nortear a atuação administrativa e garantir que os recursos públicos sejam utilizados com responsabilidade, ética e transparência.",
+              "topico": "Princípios Administrativos"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

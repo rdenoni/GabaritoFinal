@@ -1,0 +1,338 @@
+{
+  "concursos": [
+    {
+      "id": "concurso_simulado_agente_policia_2025",
+      "nome": "Simulado - Agente de Polícia (Nível Superior)",
+      "ano": 2025,
+      "banca": "Cebraspe (Modelo)",
+      "disciplinas": [
+        {
+          "id": "lpe_agente_policia_2025",
+          "nome": "Legislação Penal Especial",
+          "questoes": [
+            {
+              "id": "LPE001",
+              "enunciado": "João, policial federal, é surpreendido conduzindo veículo oficial com armas de uso restrito sem autorização superior. Conforme a Lei nº 10.826/2003 (Estatuto do Desarmamento), a conduta poderá configurar o crime de porte ilegal de arma de fogo de uso restrito, mesmo tratando-se de servidor público em serviço, se ausente expressa autorização legal.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Conforme o art. 16 da Lei nº 10.826/2003 (Estatuto do Desarmamento), configura crime de porte ilegal a posse ou o transporte de arma de fogo de uso restrito, sem autorização. A lei não isenta servidor público do cumprimento dos requisitos legais, mesmo no exercício da função. O STF firmou entendimento de que a autorização legal específica é condição indispensável para afastar a tipicidade. Logo, a conduta de João pode sim ser enquadrada no tipo penal.",
+              "topico": "Estatuto do Desarmamento (Lei 10.826/03)"
+            },
+            {
+              "id": "LPE002",
+              "enunciado": "A Lei de Drogas (Lei nº 11.343/2006) prevê como efeito da condenação por tráfico ilícito de entorpecentes a interdição do cargo público exercido pelo condenado, ainda que este tenha natureza comissionada ou temporária.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O art. 92 da Lei nº 11.343/2006 prevê que a condenação por tráfico ilícito de entorpecentes pode acarretar, como efeito da condenação, a interdição de função pública. Isso se aplica mesmo em cargos comissionados, como forma de proteger a Administração de envolvimento com agentes condenados por crime grave.",
+              "topico": "Lei de Drogas (11.343/06)"
+            },
+            {
+              "id": "LPE003",
+              "enunciado": "O crime de tortura previsto na Lei nº 9.455/1997 admite a concessão de liberdade provisória ao autor do fato, ainda que presentes os requisitos da prisão preventiva, por se tratar de crime hediondo apenas quando cometido por agente público.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "O art. 1º, §7º da Lei nº 9.455/1997 estabelece que os crimes de tortura são inafiançáveis e insuscetíveis de graça e anistia. Contudo, isso não impede, automaticamente, a liberdade provisória, a qual dependerá da análise dos requisitos da prisão preventiva (arts. 312 e 313 do CPP). Assim, a assertiva está errada ao afirmar que a liberdade provisória é sempre admitida nesses casos.",
+              "topico": "Lei de Tortura (9.455/97)"
+            },
+            {
+              "id": "LPE004",
+              "enunciado": "De acordo com a Lei de Lavagem de Dinheiro (Lei nº 9.613/1998), é possível a responsabilização de pessoa jurídica por envolvimento em operações de ocultação ou dissimulação de bens, direitos ou valores oriundos de infração penal.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A responsabilidade penal da pessoa jurídica é expressamente prevista no art. 3º da Lei nº 9.613/1998. Segundo o dispositivo, a PJ responde quando o crime for cometido em seu benefício e com participação ou tolerância dos dirigentes. Isso está alinhado ao modelo de compliance penal.",
+              "topico": "Lei de Lavagem de Dinheiro (9.613/98)"
+            },
+            {
+              "id": "LPE005",
+              "enunciado": "Nos termos da Lei nº 12.850/2013, configura organização criminosa a associação de quatro ou mais pessoas, de forma estruturalmente ordenada e com divisão de tarefas, para a prática de infrações penais cujas penas máximas sejam superiores a quatro anos.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O conceito de organização criminosa está definido no art. 1º, §1º da Lei nº 12.850/2013: exige-se a associação de 4 ou mais pessoas, estrutura ordenada e divisão de tarefas, para obtenção de vantagem mediante infrações penais com pena superior a 4 anos. O item reproduz fielmente o texto da lei.",
+              "topico": "Organização Criminosa (Lei 12.850/13)"
+            },
+            {
+              "id": "LPE006",
+              "enunciado": "É vedada a colaboração premiada nos crimes cometidos por organização criminosa, por ofender o princípio da moralidade e da indisponibilidade da ação penal pública.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "A colaboração premiada é expressamente prevista nos arts. 4º a 7º da Lei nº 12.850/2013 como meio legítimo de persecução penal, inclusive em crimes praticados por organização criminosa. A alegação de que ofende a moralidade é incorreta; trata-se de instrumento moderno e amplamente reconhecido pelo STF e STJ.",
+              "topico": "Organização Criminosa (Lei 12.850/13)"
+            },
+            {
+              "id": "LPE007",
+              "enunciado": "Segundo a Lei Maria da Penha (Lei nº 11.340/2006), a renúncia à representação da vítima de violência doméstica deve ocorrer em audiência especialmente designada para esse fim e perante o juiz, com a presença do Ministério Público.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O art. 16 da Lei nº 11.340/2006 determina que a renúncia à representação só tem eficácia se realizada em audiência judicial especialmente designada para esse fim, com a presença do MP. Isso protege a mulher de pressões externas e garante a voluntariedade do ato.",
+              "topico": "Lei Maria da Penha (11.340/06)"
+            },
+            {
+              "id": "LPE008",
+              "enunciado": "A Lei de Crimes Hediondos (Lei nº 8.072/1990) estabelece que a progressão de regime nos crimes hediondos e equiparados exige o cumprimento de dois quintos da pena se o apenado for primário e três quintos se reincidente.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O art. 2º, §2º da Lei nº 8.072/1990 prevê que, nos crimes hediondos e equiparados, a progressão de regime é possível mediante o cumprimento de dois quintos da pena (se primário) ou três quintos (se reincidente), respeitados os demais requisitos legais. A vedação absoluta à progressão foi afastada pelo STF.",
+              "topico": "Lei de Crimes Hediondos (8.072/90)"
+            },
+            {
+              "id": "LPE009",
+              "enunciado": "A pena de multa, prevista como efeito automático da condenação por lavagem de dinheiro, pode ser aplicada de forma isolada quando o juiz considerar que a pena privativa de liberdade é desnecessária.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "A pena de multa não pode ser aplicada de forma isolada, salvo se prevista como pena autônoma. No caso da lavagem de dinheiro, a pena é cumulativa com reclusão (art. 1º da Lei nº 9.613/1998), portanto a assertiva está incorreta ao sugerir substituição discrecionária.",
+              "topico": "Lei de Lavagem de Dinheiro (9.613/98)"
+            },
+            {
+              "id": "LPE010",
+              "enunciado": "De acordo com a Lei nº 13.260/2016, que trata do terrorismo, considera-se organização terrorista qualquer grupo com mais de três pessoas que, sob qualquer pretexto, atente contra a ordem pública por meio de violência ou grave ameaça.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "A definição de organização terrorista está no art. 2º da Lei nº 13.260/2016. Além da violência, exige-se o dolo específico de causar terror social, político ou ideológico. Portanto, não é qualquer grupo que atenta contra a ordem pública que será considerado terrorista, e a exigência do elemento subjetivo é o que distingue o tipo penal.",
+              "topico": "Lei Antiterrorismo (13.260/16)"
+            },
+            {
+              "id": "LPE011",
+              "enunciado": "De acordo com a Lei de Drogas (Lei nº 11.343/2006), é admissível o acordo de não persecução penal nos crimes de tráfico privilegiado, desde que presentes os requisitos legais e ausentes elementos probatórios de atuação em organização criminosa.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O tráfico privilegiado (art. 33, §4º da Lei nº 11.343/2006) pode ser tratado como crime não hediondo, segundo decisão do STF no HC 118.533. Isso permite a aplicação de institutos despenalizadores como o acordo de não persecução penal (ANPP), desde que o agente não integre organização criminosa e atenda aos requisitos do art. 28-A do CPP. Portanto, a assertiva está correta.",
+              "topico": "Lei de Drogas (11.343/06)"
+            },
+            {
+              "id": "LPE012",
+              "enunciado": "Na Lei nº 9.455/1997 (Tortura), a pena é agravada se o agente é funcionário público e comete o crime no exercício de suas funções, sendo vedada, em qualquer caso, a substituição por penas restritivas de direitos.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "O art. 1º, §4º da Lei nº 9.455/1997 prevê o aumento de pena para o crime de tortura praticado por funcionário público no exercício da função. No entanto, a substituição da pena por restritiva de direitos não é absolutamente vedada. Ela é possível desde que preenchidos os requisitos do art. 44 do Código Penal, cabendo ao juiz avaliar o caso concreto.",
+              "topico": "Lei de Tortura (9.455/97)"
+            },
+            {
+              "id": "LPE013",
+              "enunciado": "Conforme a Lei nº 13.260/2016 (Lei Antiterrorismo), a prática de atos preparatórios com potencial lesivo concreto ao Estado ou à população configura o crime de terrorismo, mesmo que não consumado o atentado.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Nos termos do art. 5º da Lei nº 13.260/2016, atos preparatórios de terrorismo são penalmente relevantes desde que haja risco concreto à coletividade, mesmo sem consumação. A exigência é que estejam presentes o potencial lesivo e o dolo específico de causar terror, o que está de acordo com a assertiva.",
+              "topico": "Lei Antiterrorismo (13.260/16)"
+            },
+            {
+              "id": "LPE014",
+              "enunciado": "De acordo com a Lei nº 12.850/2013, a infiltração de agentes é admitida por até 6 meses, prorrogável por igual período, mediante autorização judicial, desde que comprovada sua necessidade para a investigação.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A infiltração de agentes está regulamentada pelo art. 10 da Lei nº 12.850/2013. Requer autorização judicial, deve ser motivada e tem prazo de até 6 meses, prorrogável. Essa técnica especial de investigação é permitida apenas quando demonstrada sua imprescindibilidade.",
+              "topico": "Organização Criminosa (Lei 12.850/13)"
+            },
+            {
+              "id": "LPE015",
+              "enunciado": "A Lei de Lavagem de Dinheiro (Lei nº 9.613/1998) adota o sistema de rol fechado de crimes antecedentes, limitando sua aplicação aos crimes expressamente listados na própria lei.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Antes de sua reforma pela Lei nº 12.683/2012, a Lei nº 9.613/1998 previa rol fechado de crimes antecedentes à lavagem. Atualmente, adotou-se o sistema de rol aberto (art. 1º), permitindo que qualquer infração penal seja crime antecedente, inclusive contravenções. Logo, a assertiva está desatualizada.",
+              "topico": "Lei de Lavagem de Dinheiro (9.613/98)"
+            },
+            {
+              "id": "LPE016",
+              "enunciado": "A Lei nº 8.072/1990 (Crimes Hediondos) permite a liberdade provisória com fiança apenas quando o crime não for praticado com violência ou grave ameaça e o réu for primário e de bons antecedentes.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "A vedação absoluta à liberdade provisória nos crimes hediondos foi declarada inconstitucional pelo STF (HC 104.339). Atualmente, a análise deve considerar os requisitos do art. 312 do CPP. Portanto, a assertiva falha ao sugerir possibilidade limitada de concessão.",
+              "topico": "Lei de Crimes Hediondos (8.072/90)"
+            },
+            {
+              "id": "LPE017",
+              "enunciado": "A Lei nº 11.340/2006 (Lei Maria da Penha) prevê a possibilidade de aplicação imediata de medidas protetivas de urgência pelo delegado de polícia, nos casos de risco iminente à integridade física da vítima.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A Lei nº 11.340/2006, modificada pela Lei nº 14.550/2023, incluiu o art. 12-C, autorizando o delegado a aplicar medidas protetivas de urgência em caso de risco atual ou iminente à integridade da mulher, com posterior comunicação ao juiz em até 24 horas. A medida visa dar celeridade e proteção imediata à vítima.",
+              "topico": "Lei Maria da Penha (11.340/06)"
+            },
+            {
+              "id": "LPE018",
+              "enunciado": "A colaboração premiada exige que o colaborador produza resultado concreto, como a identificação de coautores ou localização de bens, não sendo suficiente apenas sua declaração sem elementos de corroboração.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "De acordo com o art. 4º, §10 da Lei nº 12.850/2013, a colaboração premiada deve ser corroborada por outras provas para ter valor probatório. Ou seja, o simples depoimento do colaborador não sustenta a condenação sem confirmação externa, o que está coerente com o princípio do devido processo legal.",
+              "topico": "Organização Criminosa (Lei 12.850/13)"
+            },
+            {
+              "id": "LPE019",
+              "enunciado": "A associação para o tráfico (art. 35 da Lei nº 11.343/2006) exige o envolvimento estável e permanente de ao menos três pessoas, com vínculo associativo voltado à prática reiterada de crimes de tráfico de drogas.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "A associação para o tráfico (art. 35 da Lei nº 11.343/2006) exige apenas duas pessoas com vínculo estável e duradouro para praticar crimes relacionados ao tráfico. A assertiva incorretamente menciona o número mínimo de três, confundindo com a associação criminosa comum (art. 288 do CP).",
+              "topico": "Lei de Drogas (11.343/06)"
+            },
+            {
+              "id": "LPE020",
+              "enunciado": "A Lei nº 9.613/1998 determina que o juiz pode decretar o perdimento de bens objeto de lavagem de dinheiro mesmo antes da sentença final, desde que demonstrado risco concreto de dissipação dos bens.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Nos termos do art. 4º da Lei nº 9.613/1998, o juiz pode decretar o sequestro de bens, direitos ou valores relacionados à lavagem de dinheiro ainda na fase investigatória, como medida cautelar para evitar sua ocultação ou dissipação, desde que fundamentado.",
+              "topico": "Lei de Lavagem de Dinheiro (9.613/98)"
+            },
+            {
+              "id": "LPE021",
+              "enunciado": "A Lei nº 12.850/2013 considera como prova idônea para fins de colaboração premiada a delação de corréu homologada judicialmente, ainda que não tenha sido corroborada por outros elementos de prova.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "A Lei nº 12.850/2013 determina que a colaboração premiada, para ter eficácia probatória, deve ser corroborada por outras provas (art. 4º, §10). A homologação judicial apenas valida o acordo quanto à legalidade e voluntariedade, mas não torna as declarações automaticamente prova suficiente para condenação. A jurisprudência do STF reforça que a delação sem corroboração é insuficiente.",
+              "topico": "Organização Criminosa (Lei 12.850/13)"
+            },
+            {
+              "id": "LPE022",
+              "enunciado": "Conforme a Lei nº 11.343/2006, a presença de pequena quantidade de droga, ausência de antecedentes e circunstâncias favoráveis autorizam o juiz a aplicar o tráfico privilegiado, com redução de pena de até dois terços.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O art. 33, §4º da Lei nº 11.343/2006 estabelece o chamado “tráfico privilegiado”. A pena pode ser reduzida de um sexto a dois terços se o agente for primário, de bons antecedentes, não se dedicar a atividades criminosas nem integrar organização criminosa. Esse dispositivo permite ao juiz aplicar penas mais brandas quando o caso concreto revelar menor reprovabilidade.",
+              "topico": "Lei de Drogas (11.343/06)"
+            },
+            {
+              "id": "LPE023",
+              "enunciado": "De acordo com a Lei nº 8.072/1990, os crimes hediondos são insuscetíveis de anistia, graça e indulto, vedação que se estende também à progressão de regime prisional.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "A proibição da progressão de regime em crimes hediondos foi declarada inconstitucional pelo STF (HC 111.840). A Lei nº 8.072/1990 ainda veda anistia, graça e indulto (art. 2º, §1º), mas a progressão de regime é permitida, desde que atendidos os requisitos legais (LEP, art. 112). A assertiva falha ao generalizar a vedação.",
+              "topico": "Lei de Crimes Hediondos (8.072/90)"
+            },
+            {
+              "id": "LPE024",
+              "enunciado": "A Lei nº 13.260/2016 estabelece que a pena do crime de terrorismo pode ser aumentada em até metade se o crime for cometido com o uso de explosivos, independentemente da ocorrência de danos efetivos.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O art. 6º, II da Lei nº 13.260/2016 (Lei Antiterrorismo) prevê o aumento de pena de até metade se o crime for cometido com uso de explosivos ou gás tóxico. O aumento independe de danos concretos, pois se baseia no agravamento do risco e do potencial lesivo da conduta.",
+              "topico": "Lei Antiterrorismo (13.260/16)"
+            },
+            {
+              "id": "LPE025",
+              "enunciado": "A Lei nº 9.613/1998 determina que as instituições financeiras devem comunicar ao Conselho de Controle de Atividades Financeiras (COAF) quaisquer operações suspeitas, sob pena de responsabilidade penal por omissão.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O art. 11 da Lei nº 9.613/1998 obriga instituições financeiras e outras entidades a comunicar ao COAF operações suspeitas. A omissão injustificada configura infração administrativa e pode ensejar responsabilidade penal, civil e disciplinar, especialmente quando deliberada ou reiterada.",
+              "topico": "Lei de Lavagem de Dinheiro (9.613/98)"
+            },
+            {
+              "id": "LPE026",
+              "enunciado": "De acordo com a Lei nº 11.340/2006, a competência para julgar os crimes de violência doméstica e familiar contra a mulher é do juizado de violência doméstica e familiar, com atuação cumulativa nas esferas cível e criminal.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O art. 14 da Lei nº 11.340/2006 estabelece a competência dos Juizados de Violência Doméstica e Familiar para atuar de forma cumulativa nas esferas cível e criminal. Isso visa assegurar resposta rápida, protetiva e integral, com atuação judicial coordenada em casos de violência contra a mulher.",
+              "topico": "Lei Maria da Penha (11.340/06)"
+            },
+            {
+              "id": "LPE027",
+              "enunciado": "Segundo a Lei nº 10.826/2003, o porte de arma de fogo de uso permitido por parte de agente de segurança pública está condicionado à autorização da respectiva corporação e à demonstração de efetiva necessidade.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "O art. 6º, VI da Lei nº 10.826/2003 assegura o porte de arma aos integrantes das Forças Armadas e aos agentes de segurança pública no exercício da função, independentemente de demonstrar necessidade individual. A autorização depende de vínculo funcional, e não de motivação particular.",
+              "topico": "Estatuto do Desarmamento (Lei 10.826/03)"
+            },
+            {
+              "id": "LPE028",
+              "enunciado": "Nos termos da Lei nº 12.850/2013, é possível a utilização de prova obtida por agente infiltrado sem autorização judicial, desde que a operação seja espontânea e não envolva acesso a dados sensíveis.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "A infiltração de agentes sem autorização judicial é vedada, mesmo que não envolva dados sensíveis. O art. 10 da Lei nº 12.850/2013 exige autorização judicial expressa e motivada, além de requisitos como indispensabilidade e prazo determinado. A jurisprudência considera nulas as provas obtidas por infiltração ilegal.",
+              "topico": "Organização Criminosa (Lei 12.850/13)"
+            },
+            {
+              "id": "LPE029",
+              "enunciado": "A Lei nº 9.613/1998 admite que o juiz suspenda o processo e o curso da prescrição em face de cooperação internacional em curso, nos casos que envolvam lavagem de dinheiro com conexão transnacional.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O art. 4º-A da Lei nº 9.613/1998 permite expressamente a suspensão do processo e do curso da prescrição em razão de cooperação jurídica internacional, nos casos de lavagem de dinheiro com conexão transnacional. A medida visa evitar impunidade em casos complexos e de difícil tramitação.",
+              "topico": "Lei de Lavagem de Dinheiro (9.613/98)"
+            },
+            {
+              "id": "LPE030",
+              "enunciado": "O Estatuto do Desarmamento estabelece que o crime de posse irregular de arma de fogo é de perigo abstrato, dispensando demonstração de risco concreto à coletividade.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A posse irregular de arma de fogo (art. 12 da Lei nº 10.826/2003) é crime de perigo abstrato, ou seja, a simples posse configura infração penal, sem necessidade de demonstração de risco concreto. O STF pacificou esse entendimento no RE 1055941, validando a tipificação objetiva da conduta.",
+              "topico": "Estatuto do Desarmamento (Lei 10.826/03)"
+            },
+            {
+              "id": "LPE031",
+              "enunciado": "A Lei nº 12.850/2013 prevê que a colaboração premiada deve ser realizada por escrito, podendo ser sigilosa e com cláusulas de confidencialidade, mas só produzirá efeitos após homologação judicial, com oitiva do MP e do colaborador.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O art. 4º, §§6º e 7º da Lei nº 12.850/2013 estabelece que a colaboração premiada deve ser realizada por escrito, com intervenção do Ministério Público ou do delegado de polícia, e sua eficácia depende de homologação judicial. A homologação garante que o acordo foi feito de forma voluntária e com ciência de seus termos. Sem ela, os efeitos penais e processuais são nulos.",
+              "topico": "Organização Criminosa (Lei 12.850/13)"
+            },
+            {
+              "id": "LPE032",
+              "enunciado": "Nos termos da Lei nº 11.343/2006, é possível a realização de transação penal em crimes de porte de drogas para consumo pessoal, desde que preenchidos os requisitos da Lei nº 9.099/1995 e do princípio da proporcionalidade.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Apesar da natureza especial da Lei nº 11.343/2006, o art. 28 (porte para consumo pessoal) é tratado como infração penal de menor potencial ofensivo. Isso permite a aplicação dos institutos da Lei nº 9.099/1995, como a transação penal, desde que preenchidos os requisitos legais. O STJ e o STF admitem essa compatibilidade, com base no princípio da proporcionalidade.",
+              "topico": "Lei de Drogas (11.343/06)"
+            },
+            {
+              "id": "LPE033",
+              "enunciado": "O art. 5º da Lei nº 8.072/1990 veda expressamente a concessão de liberdade provisória nos crimes hediondos, salvo em casos de confissão formal e delação premiada homologada.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "O art. 5º, XLIII da CF e a Lei nº 8.072/1990 preveem que crimes hediondos são inafiançáveis, mas a vedação absoluta à liberdade provisória foi considerada inconstitucional pelo STF. Assim, mesmo para crimes hediondos, a liberdade provisória pode ser concedida se ausentes os requisitos da prisão preventiva (art. 312 do CPP).",
+              "topico": "Lei de Crimes Hediondos (8.072/90)"
+            },
+            {
+              "id": "LPE034",
+              "enunciado": "Segundo a Lei nº 13.260/2016, o tipo penal de terrorismo requer elemento subjetivo específico: a intenção de provocar terror social ou generalizado, o que diferencia este crime de outros com mesma forma de execução.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A Lei nº 13.260/2016 (Lei Antiterrorismo) define, no art. 2º, que é necessário o dolo específico de provocar terror social, político ou ideológico para caracterização do crime de terrorismo. Esse elemento diferencia o tipo penal de outras figuras violentas, como homicídio ou incêndio, tornando a conduta típica apenas quando motivada por esse fim.",
+              "topico": "Lei Antiterrorismo (13.260/16)"
+            },
+            {
+              "id": "LPE035",
+              "enunciado": "A Lei nº 9.613/1998 dispõe que o juiz poderá determinar medidas assecuratórias de bens desde a fase de investigação, inclusive o bloqueio de ativos, desde que fundadas em elementos indiciários robustos.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O art. 4º da Lei nº 9.613/1998 autoriza o juiz a decretar medidas assecuratórias de bens ainda na fase investigativa, como forma de garantir futura indenização ou reparação. Essas medidas incluem o sequestro, arresto e bloqueio de ativos, e exigem indícios suficientes de vínculo com a infração penal.",
+              "topico": "Lei de Lavagem de Dinheiro (9.613/98)"
+            },
+            {
+              "id": "LPE036",
+              "enunciado": "A Lei nº 11.340/2006 prevê que, mesmo após a renúncia da vítima à representação, o juiz pode determinar o prosseguimento da ação penal se entender que há risco à integridade da mulher e interesse público relevante.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "No processo penal brasileiro, quando o crime depende de representação da vítima, como ocorre em muitos casos de violência doméstica (antes da Lei nº 14.550/2023), a renúncia à representação extingue a punibilidade (CPP, art. 25). O juiz não pode dar continuidade à ação penal pública condicionada se houve renúncia válida. A assertiva contraria esse princípio.",
+              "topico": "Lei Maria da Penha (11.340/06)"
+            },
+            {
+              "id": "LPE037",
+              "enunciado": "O Estatuto do Desarmamento (Lei nº 10.826/2003) estabelece que a posse de arma de fogo de uso permitido, registrada e com documentação vencida, constitui crime de menor potencial ofensivo sujeito a transação penal.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A posse de arma de uso permitido, ainda que com registro vencido, configura crime de menor potencial ofensivo (art. 12 da Lei nº 10.826/2003), permitindo transação penal, conforme jurisprudência consolidada do STJ. O importante é que se trate de arma permitida e não envolva outras agravantes.",
+              "topico": "Estatuto do Desarmamento (Lei 10.826/03)"
+            },
+            {
+              "id": "LPE038",
+              "enunciado": "A infiltração de agentes em organizações criminosas depende de autorização judicial e é incompatível com operações em que haja risco à integridade física do agente, mesmo que seja essencial à investigação.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "O art. 10 da Lei nº 12.850/2013 prevê a possibilidade de infiltração de agentes com autorização judicial. O risco à integridade física do agente não impede automaticamente a operação, desde que ele consinta e sejam tomadas medidas de proteção. A assertiva erra ao tratar o risco como impeditivo absoluto.",
+              "topico": "Organização Criminosa (Lei 12.850/13)"
+            },
+            {
+              "id": "LPE039",
+              "enunciado": "A associação criminosa (art. 288 do CP) distingue-se da organização criminosa (Lei nº 12.850/2013) principalmente pelo número mínimo de participantes e pela estrutura hierárquica e divisão de tarefas.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A distinção entre associação criminosa (art. 288 do CP) e organização criminosa (Lei nº 12.850/2013) está no número de agentes e na complexidade estrutural. Associação criminosa exige três pessoas; organização criminosa exige quatro ou mais, com estrutura hierárquica e divisão de tarefas. A assertiva apresenta corretamente essa diferença.",
+              "topico": "Organização Criminosa (Lei 12.850/13)"
+            },
+            {
+              "id": "LPE040",
+              "enunciado": "De acordo com a Lei nº 13.260/2016, a simples apologia a atos terroristas pode configurar crime autônomo, desde que o discurso incite publicamente a prática de condutas violentas contra o Estado democrático de direito.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O art. 3º da Lei nº 13.260/2016 prevê o crime de apologia ao terrorismo, quando há incitação pública à prática de atos terroristas. É necessário que o discurso incite atos violentos e atente contra o Estado democrático de direito. Essa previsão busca prevenir a radicalização e a propagação do discurso extremista.",
+              "topico": "Lei Antiterrorismo (13.260/16)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

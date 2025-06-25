@@ -1,0 +1,418 @@
+{
+  "concursos": [
+    {
+      "id": "concurso_simulado_agente_policia_2025",
+      "nome": "Simulado - Agente de Polícia (Nível Superior)",
+      "ano": 2025,
+      "banca": "Cebraspe (Modelo)",
+      "disciplinas": [
+        {
+          "id": "est_agente_policia_2025",
+          "nome": "Estatística",
+          "questoes": [
+            {
+              "id": "EST001",
+              "enunciado": "Uma tabela de frequências é considerada uma técnica da estatística descritiva voltada para a análise exploratória de dados, sendo usada para representar variáveis qualitativas ou quantitativas discretas, mas inaplicável a variáveis contínuas, pois estas não podem ser agrupadas em intervalos.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. Tabelas de frequência são perfeitamente aplicáveis a variáveis contínuas. Para isso, os dados são agrupados em classes ou intervalos, e a frequência de observações em cada classe é então contabilizada, permitindo a construção de histogramas.",
+              "topico": "Estatística Descritiva"
+            },
+            {
+              "id": "EST002",
+              "enunciado": "A curtose é uma medida estatística que expressa a simetria de uma distribuição de dados, sendo positiva quando os dados apresentam maior concentração nas extremidades e negativa quando estão mais concentrados ao redor da média.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. A curtose mede o grau de 'achatamento' ou 'pico' de uma distribuição, comparando a concentração de dados nas caudas com a distribuição normal. A medida que expressa a simetria é a assimetria (skewness).",
+              "topico": "Medidas de Forma"
+            },
+            {
+              "id": "EST003",
+              "enunciado": "Em uma distribuição simétrica, como a normal padrão, a média, a mediana e a moda são coincidentes, o que permite o uso dessas medidas de tendência central como equivalentes no cálculo de probabilidades.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Em uma distribuição perfeitamente simétrica, as três principais medidas de tendência central — média, mediana e moda — possuem exatamente o mesmo valor, localizado no eixo de simetria da distribuição.",
+              "topico": "Medidas de Tendência Central"
+            },
+            {
+              "id": "EST004",
+              "enunciado": "A probabilidade condicional de um evento A, dado que B ocorreu, pode ser expressa por P(A|B) = P(A ∩ B) / P(B), desde que P(B) ≠ 0, sendo este um princípio fundamental da teoria da probabilidade.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Esta é a definição formal da probabilidade condicional, que calcula a probabilidade do evento A ocorrer sob a condição de que o evento B já tenha ocorrido. A condição P(B) ≠ 0 é essencial, pois não se pode condicionar a um evento impossível.",
+              "topico": "Teoria da Probabilidade"
+            },
+            {
+              "id": "EST005",
+              "enunciado": "A distribuição binomial é utilizada quando se observa um número fixo de ensaios independentes, cada um com apenas dois resultados possíveis (sucesso ou fracasso), e a probabilidade de sucesso varia em cada ensaio.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. Uma das condições fundamentais da distribuição binomial é que a probabilidade de sucesso ('p') deve ser constante em cada um dos ensaios independentes. Se a probabilidade varia a cada ensaio, outro modelo deve ser utilizado.",
+              "topico": "Distribuições Discretas"
+            },
+            {
+              "id": "EST006",
+              "enunciado": "A função densidade de probabilidade (f.d.p.) de uma variável aleatória contínua pode assumir valores negativos, desde que sua integral total seja igual a 1.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. Por definição, uma função densidade de probabilidade f(x) deve ser não negativa para todo x, ou seja, f(x) ≥ 0. A probabilidade é uma medida de área sob a curva, e essa área não pode ser negativa.",
+              "topico": "Distribuições Contínuas"
+            },
+            {
+              "id": "EST007",
+              "enunciado": "O teorema da probabilidade total permite expressar a probabilidade de um evento como a soma das probabilidades condicionais a eventos que formam uma partição do espaço amostral, ponderadas pelas probabilidades desses eventos.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. O teorema da probabilidade total é uma ferramenta fundamental que decompõe a probabilidade de um evento A com base em um conjunto de eventos mutuamente exclusivos e exaustivos (uma partição), sendo essencial para a dedução do Teorema de Bayes.",
+              "topico": "Teoria da Probabilidade"
+            },
+            {
+              "id": "EST008",
+              "enunciado": "Em um estudo, o coeficiente de correlação de Pearson foi igual a -0,95. Isso indica uma forte correlação negativa entre as variáveis, mas não permite afirmar a existência de causalidade entre elas.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Correlação não implica causalidade. Um coeficiente de -0,95 indica uma forte associação linear inversa (quando uma variável aumenta, a outra tende a diminuir), mas a relação causal só pode ser estabelecida por meio de estudos experimentais ou análises mais profundas.",
+              "topico": "Correlação e Regressão"
+            },
+            {
+              "id": "EST009",
+              "enunciado": "A média geométrica é apropriada para resumir taxas de crescimento ou variações percentuais acumuladas, como em séries financeiras, sendo sempre menor ou igual à média aritmética.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A média geométrica é a medida mais adequada para calcular taxas médias de variação. Pela desigualdade das médias, para um conjunto de números positivos e não todos iguais, a média geométrica é sempre menor que a média aritmética.",
+              "topico": "Medidas de Tendência Central"
+            },
+            {
+              "id": "EST010",
+              "enunciado": "O desvio padrão é uma medida de dispersão que representa o quadrado médio das distâncias de cada valor em relação à moda, sendo, portanto, sensível apenas à concentração dos dados ao redor do valor mais frequente.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. O desvio padrão é a raiz quadrada da variância, e ambas as medidas são calculadas com base nos desvios em relação à média, e não à moda. Ele mede a dispersão dos dados em torno da média.",
+              "topico": "Medidas de Dispersão"
+            },
+            {
+              "id": "EST011",
+              "enunciado": "Na amostragem estratificada, a população é dividida em grupos homogêneos, e uma amostra é extraída de cada estrato, proporcionalmente ao seu tamanho ou de forma intencional.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. A seleção da amostra dentro de cada estrato deve ser aleatória (probabilística). A amostragem intencional é um método não probabilístico e não se aplica à amostragem estratificada, que é uma técnica probabilística.",
+              "topico": "Amostragem"
+            },
+            {
+              "id": "EST012",
+              "enunciado": "A distribuição normal é uma distribuição contínua simétrica em torno da média e possui uma função densidade em forma de sino, onde a média, a mediana e a moda coincidem.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Essas são as características definidoras da distribuição normal. Sua simetria faz com que as medidas de tendência central sejam iguais, e seu formato de sino é sua marca registrada.",
+              "topico": "Distribuições Contínuas"
+            },
+            {
+              "id": "EST013",
+              "enunciado": "O coeficiente de variação é uma medida relativa de dispersão que permite comparar a variabilidade entre distribuições com unidades e escalas diferentes.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. O coeficiente de variação (CV = desvio padrão / média) é uma medida adimensional, expressa em porcentagem, que permite comparar a dispersão de conjuntos de dados com médias diferentes ou unidades de medida distintas.",
+              "topico": "Medidas de Dispersão"
+            },
+            {
+              "id": "EST014",
+              "enunciado": "O teste qui-quadrado é apropriado para verificar a diferença entre médias populacionais quando a variável é contínua e a amostra é pequena.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. O teste qui-quadrado é usado para analisar dados categóricos (frequências), testando a independência entre variáveis ou a aderência a uma distribuição. Para comparar médias, utilizam-se testes como o teste t ou a ANOVA.",
+              "topico": "Testes de Hipóteses"
+            },
+            {
+              "id": "EST015",
+              "enunciado": "O teorema central do limite afirma que, sob certas condições, a soma de variáveis aleatórias independentes e identicamente distribuídas aproxima-se de uma distribuição normal, mesmo que a distribuição original não seja normal.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Este é um dos teoremas mais importantes da estatística. Ele garante que a distribuição das médias (ou somas) amostrais tenderá a uma normal para amostras suficientemente grandes, o que fundamenta muitos procedimentos de inferência.",
+              "topico": "Teoremas Fundamentais"
+            },
+            {
+              "id": "EST016",
+              "enunciado": "A estimativa pontual busca determinar um intervalo dentro do qual o parâmetro populacional se encontra com uma certa margem de erro.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. A afirmação descreve a estimativa por intervalo. A estimativa pontual, por sua vez, busca encontrar um único valor numérico para estimar o parâmetro populacional (ex: a média amostral como estimativa da média populacional).",
+              "topico": "Inferência Estatística"
+            },
+            {
+              "id": "EST017",
+              "enunciado": "Uma função de distribuição acumulada F(x) de uma variável aleatória contínua expressa a probabilidade de que a variável assuma um valor menor ou igual a x.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Essa é a definição da função de distribuição acumulada (FDA), tanto para variáveis contínuas quanto discretas. Ela acumula a probabilidade até o ponto x, sendo F(x) = P(X ≤ x).",
+              "topico": "Teoria da Probabilidade"
+            },
+            {
+              "id": "EST018",
+              "enunciado": "Na regressão linear simples, assume-se que a relação entre a variável dependente Y e a variável independente X pode ser representada por uma equação do tipo Y = a + bX + ε, onde ε é o erro aleatório.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Esta é a equação que define o modelo de regressão linear simples, onde 'a' é o intercepto, 'b' é o coeficiente angular (inclinação) e 'ε' representa o erro aleatório, que captura as variações em Y não explicadas por X.",
+              "topico": "Correlação e Regressão"
+            },
+            {
+              "id": "EST019",
+              "enunciado": "A mediana é sensível a valores extremos (outliers), sendo, portanto, mais adequada para distribuições simétricas do que assimétricas.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. A mediana é uma medida de tendência central robusta, ou seja, pouco sensível a valores extremos. Por essa razão, ela é mais adequada que a média para representar o centro de distribuições assimétricas ou com outliers.",
+              "topico": "Medidas de Tendência Central"
+            },
+            {
+              "id": "EST020",
+              "enunciado": "A variância amostral é uma estimativa do desvio padrão da população, e seu valor tende a ser subestimado, razão pela qual é comum dividir por n − 1 em vez de n.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. A variância amostral é uma estimativa da variância populacional, não do desvio padrão. O uso do divisor (n-1) corrige o viés da estimativa da variância, tornando-a não tendenciosa.",
+              "topico": "Inferência Estatística"
+            },
+            {
+              "id": "EST021",
+              "enunciado": "A distribuição de Bernoulli é um caso particular da binomial com apenas uma tentativa, sendo aplicável a fenômenos com apenas dois resultados possíveis.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Um ensaio de Bernoulli é um experimento com apenas dois resultados (sucesso/fracasso). A distribuição de Bernoulli modela o resultado desse único ensaio. A distribuição binomial, por sua vez, modela o número de sucessos em 'n' ensaios de Bernoulli.",
+              "topico": "Distribuições Discretas"
+            },
+            {
+              "id": "EST022",
+              "enunciado": "A análise de resíduos em regressão linear visa verificar a adequação do modelo proposto e identificar observações atípicas ou violações dos pressupostos.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A análise dos resíduos (diferenças entre os valores observados e os previstos pelo modelo) é uma etapa crucial para diagnosticar o modelo de regressão, verificando pressupostos como normalidade, homocedasticidade e independência dos erros.",
+              "topico": "Correlação e Regressão"
+            },
+            {
+              "id": "EST023",
+              "enunciado": "Em uma distribuição assimétrica positiva, a média é maior que a mediana, que por sua vez é maior que a moda.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Em uma distribuição com assimetria à direita (positiva), a cauda longa de valores altos 'puxa' a média para a direita. A relação típica é Média > Mediana > Moda.",
+              "topico": "Medidas de Forma"
+            },
+            {
+              "id": "EST024",
+              "enunciado": "O método dos mínimos quadrados é amplamente utilizado para ajustar uma reta de regressão a um conjunto de dados, minimizando a soma dos quadrados dos resíduos.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Este é o princípio fundamental do método dos mínimos quadrados ordinários (MQO). Ele encontra os coeficientes da reta que minimizam a soma das distâncias verticais ao quadrado entre os pontos observados e a própria reta.",
+              "topico": "Correlação e Regressão"
+            },
+            {
+              "id": "EST025",
+              "enunciado": "A regra empírica (ou dos três sigmas) afirma que, em uma distribuição normal, aproximadamente 99,7% dos dados estão dentro de três desvios padrão da média.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A regra empírica descreve a porcentagem de dados em intervalos de desvio padrão em uma distribuição normal: aproximadamente 68% em ±1σ, 95% em ±2σ e 99,7% em ±3σ.",
+              "topico": "Distribuições Contínuas"
+            },
+            {
+              "id": "EST026",
+              "enunciado": "A esperança matemática (ou valor esperado) de uma variável aleatória discreta é calculada pela soma dos produtos dos valores da variável por suas respectivas probabilidades, e representa o valor médio esperado de um experimento.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A esperança matemática E[X] é a média de longo prazo de uma variável aleatória. Para uma variável discreta, é calculada como a soma de cada valor multiplicado por sua probabilidade de ocorrência.",
+              "topico": "Teoria da Probabilidade"
+            },
+            {
+              "id": "EST027",
+              "enunciado": "A transformação linear de uma variável aleatória contínua altera sua média e variância, sendo que a média é transformada pela mesma função linear e a variância é afetada pelo quadrado do coeficiente multiplicativo.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Se Y = a + bX, então E[Y] = a + bE[X] e Var(Y) = b²Var(X). A constante aditiva 'a' afeta a média, mas não a variância, enquanto a constante multiplicativa 'b' afeta a média linearmente e a variância quadraticamente.",
+              "topico": "Propriedades de Variáveis Aleatórias"
+            },
+            {
+              "id": "EST028",
+              "enunciado": "Em amostragem sistemática, os elementos são selecionados aleatoriamente a partir de estratos, o que garante a representatividade proporcional da população.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. A assertiva descreve a amostragem estratificada. Na amostragem sistemática, um ponto de partida é escolhido aleatoriamente e, a partir daí, os elementos são selecionados em intervalos fixos (ex: a cada 10ª pessoa da lista).",
+              "topico": "Amostragem"
+            },
+            {
+              "id": "EST029",
+              "enunciado": "A distribuição uniforme contínua assume valores constantes em um intervalo, e sua função densidade é constante e diferente de zero ao longo do intervalo definido.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A distribuição uniforme contínua atribui igual probabilidade a todos os pontos dentro de um intervalo [a, b]. Sua função de densidade é uma constante (1/(b-a)) dentro desse intervalo e zero fora dele.",
+              "topico": "Distribuições Contínuas"
+            },
+            {
+              "id": "EST030",
+              "enunciado": "A distribuição binomial negativa é adequada para modelar o número de ensaios até ocorrer um número fixo de fracassos, sob a suposição de ensaios independentes com probabilidade constante.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. A distribuição binomial negativa modela o número de ensaios necessários para se obter um número fixo de SUCESSOS, não de fracassos.",
+              "topico": "Distribuições Discretas"
+            },
+            {
+              "id": "EST031",
+              "enunciado": "O teste t de Student é indicado para comparar duas médias populacionais quando a variância populacional é desconhecida e as amostras são pequenas.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Essas são as condições clássicas para a aplicação do teste t de Student. Ele é usado para inferir sobre a diferença entre duas médias quando a variância da população não é conhecida, sendo robusto para amostras pequenas sob normalidade.",
+              "topico": "Testes de Hipóteses"
+            },
+            {
+              "id": "EST032",
+              "enunciado": "O conceito de suficiência de um estimador está relacionado à sua capacidade de extrair toda a informação sobre um parâmetro populacional contida na amostra.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Um estimador é dito suficiente se ele utiliza toda a informação relevante sobre o parâmetro de interesse que está presente na amostra. Nenhuma outra estatística calculada a partir da mesma amostra pode fornecer informação adicional sobre o parâmetro.",
+              "topico": "Inferência Estatística"
+            },
+            {
+              "id": "EST033",
+              "enunciado": "A análise de variância (ANOVA) é usada para comparar mais de duas médias populacionais simultaneamente, com base na razão entre variâncias intra e entre grupos.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A ANOVA é a técnica estatística adequada para testar a hipótese de igualdade de três ou mais médias populacionais. Ela faz isso comparando a variabilidade entre os grupos com a variabilidade dentro dos grupos.",
+              "topico": "Testes de Hipóteses"
+            },
+            {
+              "id": "EST034",
+              "enunciado": "A função densidade de probabilidade da distribuição normal é simétrica em torno da média e seus parâmetros determinam a localização e a dispersão da curva.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A distribuição normal é completamente definida por dois parâmetros: a média (μ), que determina o centro (localização) da curva, e o desvio padrão (σ), que determina a largura (dispersão) da curva.",
+              "topico": "Distribuições Contínuas"
+            },
+            {
+              "id": "EST035",
+              "enunciado": "A probabilidade conjunta de eventos independentes A e B é dada por P(A ∩ B) = P(A) + P(B), independentemente de sua interseção.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. A regra da soma P(A) + P(B) aplica-se à união de eventos mutuamente exclusivos. Para eventos independentes, a probabilidade conjunta é dada pela regra da multiplicação: P(A ∩ B) = P(A) * P(B).",
+              "topico": "Teoria da Probabilidade"
+            },
+            {
+              "id": "EST036",
+              "enunciado": "A função de probabilidade é uma função que associa a cada valor possível de uma variável aleatória discreta a probabilidade de sua ocorrência.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Esta é a definição precisa de uma função de probabilidade (ou função massa de probabilidade), que descreve a distribuição de uma variável aleatória discreta.",
+              "topico": "Teoria da Probabilidade"
+            },
+            {
+              "id": "EST037",
+              "enunciado": "A inferência estatística é um conjunto de procedimentos que permite generalizar os resultados obtidos na amostra para a população de onde ela foi retirada.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A inferência estatística utiliza dados de uma amostra para fazer conclusões (inferências) sobre a população inteira, seja por meio de estimativas de parâmetros ou testes de hipóteses.",
+              "topico": "Inferência Estatística"
+            },
+            {
+              "id": "EST038",
+              "enunciado": "A regra de Bayes permite a atualização da probabilidade de um evento com base em novas evidências, utilizando probabilidades condicionais inversas.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. O Teorema de Bayes é a base da inferência bayesiana e permite recalcular a probabilidade de uma hipótese (probabilidade a posteriori) após a observação de novas evidências, a partir de uma probabilidade inicial (a priori).",
+              "topico": "Teoria da Probabilidade"
+            },
+            {
+              "id": "EST039",
+              "enunciado": "A mediana de um conjunto de dados é menos afetada por valores extremos do que a média, sendo útil para representar a tendência central em distribuições assimétricas.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A mediana é uma medida robusta porque se baseia na posição central dos dados ordenados, e não em seus valores. Por isso, é preferível à média em distribuições com forte assimetria ou presença de outliers.",
+              "topico": "Medidas de Tendência Central"
+            },
+            {
+              "id": "EST040",
+              "enunciado": "O coeficiente de curtose mede a inclinação da curva de distribuição e é essencial para verificar a existência de outliers.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. A curtose mede o 'pico' ou 'achatamento' da curva. A medida de inclinação (assimetria) é o coeficiente de assimetria (skewness). Embora a curtose alta (leptocúrtica) sugira caudas pesadas e maior probabilidade de outliers, não é sua função primária.",
+              "topico": "Medidas de Forma"
+            },
+            {
+              "id": "EST041",
+              "enunciado": "A amostragem por conglomerados é especialmente útil quando a população está naturalmente agrupada e é mais econômica que uma amostragem aleatória simples.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A amostragem por conglomerados (ou clusters) é vantajosa em termos de custo e logística quando a população se divide em grupos naturais (ex: cidades, escolas). Sorteiam-se os grupos e todos os elementos dentro deles são investigados.",
+              "topico": "Amostragem"
+            },
+            {
+              "id": "EST042",
+              "enunciado": "A moda é uma medida de tendência central que representa o valor mais frequente em um conjunto de dados, podendo ser múltipla ou inexistente.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A moda é o valor que mais se repete. Um conjunto de dados pode ter uma moda (unimodal), duas (bimodal), várias (multimodal) ou nenhuma (amodal), caso todos os valores ocorram com a mesma frequência.",
+              "topico": "Medidas de Tendência Central"
+            },
+            {
+              "id": "EST043",
+              "enunciado": "A análise de resíduos permite verificar se os pressupostos do modelo de regressão foram atendidos, como homocedasticidade, normalidade e independência dos erros.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A análise gráfica e de testes sobre os resíduos é fundamental para validar um modelo de regressão, pois permite checar se os pressupostos básicos do modelo (erros normais, independentes e com variância constante) são satisfeitos.",
+              "topico": "Correlação e Regressão"
+            },
+            {
+              "id": "EST044",
+              "enunciado": "O erro padrão da média diminui à medida que o tamanho da amostra aumenta, sendo uma medida da variabilidade das médias amostrais.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. O erro padrão da média é calculado como o desvio padrão da população dividido pela raiz quadrada do tamanho da amostra (σ/√n). A fórmula mostra claramente que, ao aumentar 'n', o erro padrão diminui.",
+              "topico": "Inferência Estatística"
+            },
+            {
+              "id": "EST045",
+              "enunciado": "O histograma é um gráfico adequado para representar a distribuição de variáveis qualitativas nominais.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. O histograma é usado para representar a distribuição de frequência de variáveis quantitativas contínuas. Para variáveis qualitativas (nominais ou ordinais), o gráfico adequado é o gráfico de barras ou de setores (pizza).",
+              "topico": "Estatística Descritiva"
+            },
+            {
+              "id": "EST046",
+              "enunciado": "O coeficiente de determinação (R²) mede a proporção da variabilidade total da variável dependente que é explicada pela regressão linear.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. O R² varia de 0 a 1 (ou 0% a 100%) e indica o quão bem o modelo de regressão se ajusta aos dados. Um R² de 0,85, por exemplo, significa que 85% da variação na variável dependente é explicada pelo modelo.",
+              "topico": "Correlação e Regressão"
+            },
+            {
+              "id": "EST047",
+              "enunciado": "A tabela de dupla entrada (ou contingência) é usada para organizar e analisar a relação entre duas variáveis categóricas.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Tabelas de contingência são a ferramenta padrão para exibir as frequências conjuntas de duas ou mais variáveis categóricas, permitindo a análise de associações e a aplicação de testes como o qui-quadrado de independência.",
+              "topico": "Estatística Descritiva"
+            },
+            {
+              "id": "EST048",
+              "enunciado": "Na distribuição normal, aproximadamente 68% dos dados estão dentro de um desvio padrão da média, 95% dentro de dois e 99,7% dentro de três, conforme a regra dos três sigmas.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Esta é a descrição precisa da Regra Empírica (ou Regra 68-95-99.7), que é uma das propriedades mais conhecidas e úteis da distribuição normal.",
+              "topico": "Distribuições Contínuas"
+            },
+            {
+              "id": "EST049",
+              "enunciado": "A variância de uma distribuição de probabilidade contínua é sempre igual ao quadrado da média da distribuição.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. A variância (σ²) é definida como a esperança do quadrado dos desvios em relação à média, E[(X - μ)²]. Não há uma relação geral que a torne igual ao quadrado da média (μ²).",
+              "topico": "Propriedades de Variáveis Aleatórias"
+            },
+            {
+              "id": "EST050",
+              "enunciado": "A média harmônica é útil para calcular a velocidade média em trajetos com distâncias iguais e tempos diferentes.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A média harmônica é a medida apropriada para calcular a média de taxas ou razões, como a velocidade média em situações onde a distância percorrida é constante e o tempo varia.",
+              "topico": "Medidas de Tendência Central"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
