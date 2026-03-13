@@ -1,140 +1,169 @@
-import React, { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import HomePage from './components/HomePage';
-import FederalContestsPage from './components/FederalContestsPage';
-import QuizSelectionPage from './components/QuizSelectionPage';
-import QuizPage from './components/QuizPage';
-import PageHeader from './components/PageHeader';
+// src/App.jsx
 
-// Mapas de dados permanecem os mesmos...
-const subjectJsonMap = {
-  "Língua Portuguesa": "/data/federal_PF2025_lingua_portuguesa.json",
-  "Direito Administrativo": "/data/federal_PF2025_direito_admin.json",
-  "Direito Constitucional": "/data/federal_PF2025_direito_const.json",
-  "Direitos Humanos": "/data/federal_PF2025_direitos_humanos.json",
-  "Direito Penal e Processual Penal": "/data/federal_PF2025_direito_penal.json",
-  "Informática": "/data/federal_PF2025_informatica.json",
-  "Legislação Especial": "/data/federal_PF2025_legis.json",
-  "Estatística": "/data/federal_PF2025_estatistica.json"
-};
-const contestSubjectsMap = {
-  "Agente da Polícia Federal": ["Língua Portuguesa", "Direito Administrativo", "Direito Constitucional", "Direitos Humanos", "Direito Penal e Processual Penal", "Informática", "Legislação Especial", "Estatística"]
-};
+import React, { useState, useEffect } from 'react';
+import { Toaster, toast } from 'react-hot-toast';
+import { supabase } from './supabaseClient';
+import MainApp from './MainApp';
+import LoginPage from './components/Auth/LoginPage';
+import SignUpPage from './components/Auth/SignUpPage';
+import ResetPasswordPage from './components/Auth/ResetPasswordPage';
+import LoadingLogo from './components/Shared/LoadingLogo';
+import Teste10 from './components/Auth/Teste10.jsx';
+import PromotionalLandingPage from './components/PromotionalLandingPage.jsx';
+import { EnvelopeIcon } from '@heroicons/react/24/solid';
+import HomePage from './components/HomePage/HomePage.jsx';
 
-const LoadingAnimation = () => (
-    <div className="loading-container">
-        <div className="loading-spinner"></div>
-        <p className="loading-text">Carregando Questões...</p>
-    </div>
-);
+// Componente para a tela de verificação de e-mail
+const PleaseVerifyEmail = ({ session, setPage }) => {
+    const [loadingResend, setLoadingResend] = useState(false);
 
-// COMPONENTE DE RODAPÉ REINTRODUZIDO
-const Footer = () => (
-    <footer className="w-full bg-[#1f2736] border-t border-t-gray-700 mt-auto">
-        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center text-center sm:text-left px-8 py-6 gap-4">
-            <p className="text-gray-400 text-sm">
-                Gabarito Final &copy; {new Date().getFullYear()} - Todos os direitos reservados.
-            </p>
-            <nav className="flex gap-6 texto-padrao font-semibold">
-                 <button onClick={() => alert('Página de FAQ em breve!')} className="text-gray-300 hover:text-yellow-400 transition-colors text-sm">FAQ</button>
-                 <button onClick={() => alert('Página de Contato em breve!')} className="text-gray-300 hover:text-yellow-400 transition-colors text-sm">Contato</button>
-            </nav>
+    const handleResend = async () => {
+        setLoadingResend(true);
+        const { error } = await supabase.auth.resend({
+            type: 'signup',
+            email: session.user.email,
+        });
+        if (error) {
+            toast.error("Erro ao reenviar: " + error.message);
+        } else {
+            toast.success('Um novo e-mail de confirmação foi enviado!');
+        }
+        setLoadingResend(false);
+    };
+
+    const handleLogout = async () => {
+        await supabase.auth.signOut();
+        setPage('login');
+    };
+
+    return (
+        <div className="min-h-screen bg-[--color-bg-hero] flex flex-col items-center justify-center p-4 text-center">
+            <div className="bg-gray-800 p-8 sm:p-12 rounded-2xl shadow-lg max-w_lg w-full">
+                <EnvelopeIcon className="w-16 h-16 mx-auto text-[--color-accent] mb-6" />
+                <h1 className="text-3xl font-bold text-white mb-4">Verifique seu E-mail</h1>
+                <p className="text-text-secondary mb-8">
+                    Enviamos um link de confirmação para **{session.user.email}**. Por favor, clique no link para ativar sua conta.
+                </p>
+                <button
+                    onClick={handleResend}
+                    disabled={loadingResend}
+                    className="w-full py-3 px-6 bg-[--color-accent] text-black font-bold rounded-lg hover:bg-[--color-accent-hover] transition-colors disabled:opacity-50"
+                >
+                    {loadingResend ? 'Enviando...' : 'Reenviar E-mail de Confirmação'}
+                </button>
+                <button
+                    onClick={handleLogout}
+                    className="mt-4 text-sm text-text-secondary hover:text-white transition-colors"
+                >
+                    Sair
+                </button>
+            </div>
         </div>
-    </footer>
-);
+    );
+};
 
 
 const App = () => {
-    const [page, setPage] = useState('home-page');
-    const [contest, setContest] = useState('');
-    const [quizProps, setQuizProps] = useState({});
-    const [isLoading, setIsLoading] = useState(false);
-    const [error, setError] = useState('');
-    const [quizId, setQuizId] = useState(0);
+    const [session, setSession] = useState(null);
+    const [isLoading, setIsLoading] = useState(true);
+    const [authPage, setAuthPage] = useState('login');
+    const [currentPageFromUrl, setCurrentPageFromUrl] = useState('');
 
-    const handleStartQuiz = async (subject, contest, questionFilter = null) => {
+    useEffect(() => {
+        const pathName = window.location.pathname.substring(1);
+        setCurrentPageFromUrl(pathName || 'home');
+
         setIsLoading(true);
-        setError('');
-        try {
-            let questions;
-            if (questionFilter) {
-                questions = questionFilter;
-            } else {
-                const jsonPath = subjectJsonMap[subject];
-                if (!jsonPath) throw new Error("Caminho para as questões não encontrado.");
-                await new Promise(resolve => setTimeout(resolve, 1000));
-                const response = await fetch(jsonPath);
-                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-                questions = await response.json();
-            }
-
-            if (!Array.isArray(questions) || questions.length === 0) {
-                throw new Error("Nenhuma questão encontrada para este filtro.");
-            }
-            
-            setQuizProps({ subject, contest, questions });
-            setQuizId(id => id + 1); 
-            setPage('quiz-page');
-
-        } catch (err) {
-            setError(err.message);
-        } finally {
+        supabase.auth.getSession().then(({ data: { session } }) => {
+            setSession(session);
             setIsLoading(false);
-        }
-    };
-    
-    const goHome = () => setPage('home-page');
-    
-    const showHeader = !isLoading && !error && page !== 'quiz-page';
+        });
 
-    const renderPage = () => {
-        if (isLoading) return <LoadingAnimation />;
-        if (error) {
-            return (
-                <div className="text-center text-xl mt-20 text-red-400">
-                    <p>Ocorreu um erro:</p>
-                    <p>{error}</p>
-                    <button className="px-6 py-3 bg-gray-700/80 text-white rounded-xl mt-4" onClick={goHome}>Voltar</button>
-                </div>
-            );
+        const { data: { subscription } } = supabase.auth.onAuthStateChange((event, session) => {
+            setSession(session);
+            if (event === 'SIGNED_IN') {
+                if (session && !session.user.email_confirmed_at) {
+                    setAuthPage('verify_email');
+                } else {
+                    setAuthPage('logged_in'); 
+                    window.history.pushState(null, '', '/dashboard');
+                }
+            } else if (event === 'SIGNED_OUT') {
+                // --- INÍCIO DA CORREÇÃO ---
+                // Em vez de apenas mudar a URL no histórico, forçamos um recarregamento
+                // para a página promocional. Isto limpa todo o estado da aplicação.
+                window.location.href = '/promo';
+                // --- FIM DA CORREÇÃO ---
+            } else if (event === 'PASSWORD_RECOVERY') {
+                setAuthPage('reset_password');
+            } else if (event === 'USER_UPDATED' && session && !session.user.email_confirmed_at) {
+                setAuthPage('verify_email');
+            }
+        });
+
+        return () => subscription.unsubscribe();
+    }, []);
+
+    const renderContent = () => {
+        if (isLoading) {
+            return <div className="loading-container"><LoadingLogo className="w-24 h-24" /></div>;
         }
 
-        switch (page) {
-            case 'home-page':
-                return <HomePage setPage={setPage} />;
-            case 'federal-contests':
-                return <FederalContestsPage setPage={setPage} setContest={setContest} />;
-            case 'quiz-selection':
-                const subjects = contestSubjectsMap[contest] || [];
-                return <QuizSelectionPage setPage={setPage} contest={contest} startQuiz={handleStartQuiz} subjects={subjects} />;
-            case 'quiz-page':
-                return <QuizPage key={quizId} setPage={setPage} quizProps={quizProps} goHome={goHome} handleStartQuiz={handleStartQuiz} />;
+        if (session && !session.user.email_confirmed_at && authPage === 'verify_email') {
+            return <PleaseVerifyEmail session={session} setPage={setAuthPage} />;
+        }
+
+        if (session && session.user.email_confirmed_at) {
+            return <MainApp session={session} initialPageFromUrl={currentPageFromUrl} />;
+        }
+
+        // Lógica de renderização para utilizadores não logados
+        switch (currentPageFromUrl) {
+            case 'promo':
+                return <PromotionalLandingPage setPage={(pageName) => { setAuthPage(pageName); window.history.pushState(null, '', `/${pageName}`); }} />;
+            case 'teste10':
+                return <Teste10 setPage={(pageName) => { setAuthPage(pageName); window.history.pushState(null, '', `/${pageName}`); }} />;
+            case 'login':
+                return <LoginPage setPage={setAuthPage} />;
+            case 'signup':
+                return <SignUpPage setPage={setAuthPage} />;
+            case 'reset_password':
+                return <ResetPasswordPage onPasswordUpdated={() => setAuthPage('login')} />;
             default:
-                return <HomePage setPage={setPage} />;
+                // Se a URL não for nenhuma das anteriores, usa o estado interno `authPage`
+                switch (authPage) {
+                    case 'login':
+                        return <LoginPage setPage={setAuthPage} />;
+                    case 'signup':
+                        return <SignUpPage setPage={setAuthPage} />;
+                    case 'reset_password':
+                        return <ResetPasswordPage onPasswordUpdated={() => setAuthPage('login')} />;
+                    case 'teste10':
+                        return <Teste10 setPage={setAuthPage} />;
+                    default:
+                        // Como fallback, mostra a HomePage
+                        return <HomePage setPage={(pageName) => { setAuthPage(pageName); window.history.pushState(null, '', `/${pageName}`); }} />;
+                }
         }
     };
 
     return (
-        <div className="flex flex-col min-h-screen">
-            {showHeader && <PageHeader onLogoClick={goHome} setPage={setPage} />}
-            
-            <main className="flex-grow flex justify-center p-6">
-                <AnimatePresence mode="wait">
-                    <motion.div
-                        key={page + quizId}
-                        initial={{ opacity: 0, y: 20 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        exit={{ opacity: 0, y: -20 }}
-                        transition={{ duration: 0.3 }}
-                        className="w-full"
-                    >
-                        {renderPage()}
-                    </motion.div>
-                </AnimatePresence>
-            </main>
-            
-            <Footer />
-        </div>
+        <>
+            <Toaster
+                position="bottom-center"
+                toastOptions={{
+                    success: {
+                        style: { background: '#2a9d8f', color: 'white' },
+                        duration: 3000,
+                    },
+                    error: {
+                        style: { background: '#e76f51', color: 'white' },
+                        duration: 5000,
+                    },
+                }}
+            />
+            {renderContent()}
+        </>
     );
 };
 
