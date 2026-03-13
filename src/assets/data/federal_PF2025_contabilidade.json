@@ -1,0 +1,818 @@
+{
+  "concursos": [
+    {
+      "id": "concurso_simulado_agente_policia_2025",
+      "nome": "Simulado - Agente de Polícia (Nível Superior)",
+      "ano": 2025,
+      "banca": "Cebraspe (Modelo)",
+      "disciplinas": [
+        {
+          "id": "cont_agente_policia_2025",
+          "nome": "Contabilidade",
+          "questoes": [
+            {
+              "id": "CONT001",
+              "enunciado": "A contabilidade tem por objetivo principal o controle patrimonial das entidades, e sua finalidade exclusiva é atender às exigências fiscais e tributárias impostas pela legislação vigente.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. A finalidade principal da contabilidade é fornecer informações úteis para a tomada de decisão de múltiplos usuários (sócios, investidores, credores, governo, etc.). Atender às exigências fiscais é uma de suas funções, mas não a única ou exclusiva.",
+              "topico": "Teoria da Contabilidade"
+            },
+            {
+              "id": "CONT002",
+              "enunciado": "O patrimônio líquido é a diferença entre o total dos ativos e o total dos passivos de uma entidade, podendo apresentar valores negativos, nulos ou positivos, conforme a situação econômica da organização.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Esta é a definição da Equação Fundamental do Patrimônio (Ativo - Passivo = Patrimônio Líquido). O PL representa a riqueza líquida da entidade e pode ser positivo (situação superavitária), negativo (passivo a descoberto) ou nulo.",
+              "topico": "Estrutura Conceitual"
+            },
+            {
+              "id": "CONT003",
+              "enunciado": "Um fato administrativo é considerado permutativo quando provoca variação apenas entre elementos do ativo, sem afetar o passivo ou o patrimônio líquido.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. Um fato permutativo é aquele que não altera o valor do Patrimônio Líquido. Ele pode ocorrer por trocas entre contas do Ativo, entre contas do Passivo, ou simultaneamente entre Ativo e Passivo (ex: pagamento de uma dívida). A definição da questão é muito restritiva.",
+              "topico": "Lançamentos Contábeis"
+            },
+            {
+              "id": "CONT004",
+              "enunciado": "As contas de natureza devedora representam aplicações de recursos, enquanto as contas de natureza credora representam as origens desses recursos, sendo essa estrutura fundamental para a equação contábil.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. As contas de Ativo e Despesa são de natureza devedora (aumentam com débitos). As contas de Passivo, Patrimônio Líquido e Receita são de natureza credora (aumentam com créditos). Essa dualidade é a base do método das partidas dobradas.",
+              "topico": "Teoria das Contas"
+            },
+            {
+              "id": "CONT005",
+              "enunciado": "O plano de contas tem como função principal evidenciar os saldos contábeis aos usuários externos, sendo um documento obrigatório publicado ao final de cada exercício social.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. O plano de contas é um conjunto de diretrizes e elenco de contas para uniformizar os registros contábeis de uma entidade. É um instrumento de uso interno e não uma demonstração contábil publicada para usuários externos.",
+              "topico": "Plano de Contas"
+            },
+            {
+              "id": "CONT006",
+              "enunciado": "A escrituração contábil deve respeitar os princípios fundamentais da contabilidade, sendo vedado o uso de métodos de lançamento diversos do método das partidas dobradas, independentemente da complexidade da operação.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. O método das partidas dobradas, onde para todo débito há um crédito correspondente de igual valor, é o método universalmente aceito e obrigatório para a escrituração contábil formal, garantindo o equilíbrio da equação patrimonial.",
+              "topico": "Escrituração Contábil"
+            },
+            {
+              "id": "CONT007",
+              "enunciado": "O lançamento contábil que registra o pagamento de salário a funcionários, incluindo encargos sociais, deve afetar contas de despesa e contas do passivo, caracterizando um fato modificativo diminutivo.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. O reconhecimento da despesa com salários (fato gerador) diminui o patrimônio líquido. O lançamento envolve um débito em uma conta de despesa (resultado) e um crédito em contas do passivo (Salários a Pagar, Encargos a Recolher), caracterizando um fato modificativo diminutivo.",
+              "topico": "Lançamentos Contábeis"
+            },
+            {
+              "id": "CONT008",
+              "enunciado": "O balancete de verificação é uma demonstração obrigatória prevista na Lei nº 6.404/1976, destinada a comprovar a exatidão matemática dos lançamentos contábeis ao fim de cada exercício.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. O balancete de verificação é um relatório auxiliar e de uso interno, não sendo uma demonstração contábil obrigatória pela Lei nº 6.404/1976. As demonstrações obrigatórias são o Balanço Patrimonial, DRE, DMPL/DLPA, DFC e Notas Explicativas.",
+              "topico": "Demonstrações Contábeis"
+            },
+            {
+              "id": "CONT009",
+              "enunciado": "O balanço patrimonial apresenta, de forma estática, a posição dos elementos patrimoniais de uma entidade em determinada data, permitindo a análise da estrutura de capital da organização.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. O Balanço Patrimonial é uma demonstração estática, como uma 'fotografia' da situação patrimonial e financeira da entidade em um momento específico, mostrando seus ativos, passivos e patrimônio líquido.",
+              "topico": "Balanço Patrimonial"
+            },
+            {
+              "id": "CONT010",
+              "enunciado": "A Demonstração do Resultado do Exercício (DRE) evidencia, de forma acumulada, as receitas, custos e despesas de uma entidade ao longo do exercício, possibilitando a apuração do lucro líquido do período.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A DRE é uma demonstração dinâmica que resume as operações de resultado (receitas, custos e despesas) ocorridas durante um período (geralmente um ano), com o objetivo de apurar o lucro ou prejuízo líquido.",
+              "topico": "Demonstração do Resultado do Exercício (DRE)"
+            },
+            {
+              "id": "CONT011",
+              "enunciado": "A utilização do regime de competência exige o reconhecimento das receitas e despesas no momento em que ocorrem os respectivos fatos geradores, independentemente do recebimento ou pagamento, impactando diretamente a composição do resultado do exercício.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. O regime de competência é um princípio fundamental da contabilidade que determina que os efeitos das transações sejam reconhecidos nos períodos a que se referem, e não quando o caixa é afetado. Isso garante a correta apuração do resultado.",
+              "topico": "Princípios Contábeis"
+            },
+            {
+              "id": "CONT012",
+              "enunciado": "Segundo a Lei nº 6.404/1976, as contas de receita devem ser apresentadas no ativo do balanço patrimonial, pois representam direitos que aumentam o patrimônio líquido ao longo do exercício.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. As contas de receita são contas de resultado e são apresentadas na Demonstração do Resultado do Exercício (DRE). Elas não figuram no Balanço Patrimonial, que apresenta apenas contas patrimoniais (ativo, passivo e PL).",
+              "topico": "Estrutura das Demonstrações"
+            },
+            {
+              "id": "CONT013",
+              "enunciado": "Uma operação que envolva simultaneamente a compra de mercadorias a prazo e o registro do imposto sobre a operação caracteriza um fato contábil misto, pois há aumento do ativo e do passivo com reflexo também no resultado.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. A compra de mercadorias a prazo, mesmo com impostos a recuperar (ativo) e a pagar (passivo), é um fato permutativo, pois envolve trocas entre contas patrimoniais sem afetar o Patrimônio Líquido. O reflexo no resultado ocorrerá apenas na venda (Custo da Mercadoria Vendida).",
+              "topico": "Lançamentos Contábeis"
+            },
+            {
+              "id": "CONT014",
+              "enunciado": "No método das partidas dobradas, cada lançamento contábil deve conter no mínimo uma conta de débito e uma de crédito, e os valores lançados em débito devem ser sempre superiores aos lançados em crédito, a fim de garantir a exatidão dos registros.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. O método das partidas dobradas exige que a soma dos valores debitados seja sempre igual à soma dos valores creditados em cada lançamento, garantindo o equilíbrio da equação patrimonial.",
+              "topico": "Escrituração Contábil"
+            },
+            {
+              "id": "CONT015",
+              "enunciado": "A depreciação de ativos imobilizados é considerada uma despesa operacional, com reflexo negativo no resultado do exercício, ainda que não envolva saída imediata de caixa.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A depreciação é uma despesa não-caixa que representa a alocação do custo de um ativo ao longo de sua vida útil. Ela reduz o lucro do período e o valor contábil do ativo, sendo classificada como despesa operacional na DRE.",
+              "topico": "Ativo Imobilizado"
+            },
+            {
+              "id": "CONT016",
+              "enunciado": "O elenco de contas é o documento que discrimina e classifica todas as contas utilizadas pela entidade, sendo parte integrante do plano de contas e essencial para assegurar uniformidade nos registros contábeis.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. O elenco de contas é a lista ordenada de todas as contas contábeis que a empresa utiliza. Ele faz parte do Plano de Contas, que também inclui o manual de contas (função e funcionamento) e modelos de lançamentos.",
+              "topico": "Plano de Contas"
+            },
+            {
+              "id": "CONT017",
+              "enunciado": "O lançamento contábil de uma provisão para contingência trabalhista representa um fato permutativo, pois não há alteração no valor do patrimônio líquido, apenas uma reclassificação entre contas do passivo.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. A constituição de uma provisão para contingência envolve o reconhecimento de uma despesa (conta de resultado) e de um passivo. Como afeta o resultado, diminui o Patrimônio Líquido, caracterizando um fato modificativo diminutivo.",
+              "topico": "Lançamentos Contábeis"
+            },
+            {
+              "id": "CONT018",
+              "enunciado": "A escrituração contábil poderá ser executada por meio de processos manuais, mecanizados ou eletrônicos, desde que respeitados os requisitos legais e os princípios contábeis, inclusive quanto à integridade e à rastreabilidade dos dados lançados.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A forma de execução da escrituração é livre (manual, mecânica ou eletrônica), mas o processo deve sempre seguir as normas legais e técnicas, garantindo que os registros sejam fidedignos, íntegros e auditáveis.",
+              "topico": "Escrituração Contábil"
+            },
+            {
+              "id": "CONT019",
+              "enunciado": "O balancete de verificação é um demonstrativo contábil facultativo, utilizado como ferramenta interna de controle e verificação da exatidão aritmética da escrituração, sem apresentar obrigatoriedade legal de publicação.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. O balancete de verificação não está no rol de demonstrações contábeis obrigatórias pela Lei 6.404/76. É uma ferramenta gerencial interna, usada para conferir os saldos antes de elaborar os relatórios oficiais.",
+              "topico": "Demonstrações Contábeis"
+            },
+            {
+              "id": "CONT020",
+              "enunciado": "A conta “duplicatas descontadas” integra o grupo de passivo circulante no balanço patrimonial, pois representa uma obrigação futura de natureza financeira decorrente da antecipação de recebíveis com coobrigação da empresa.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. A conta 'Duplicatas Descontadas' é uma conta retificadora do Ativo Circulante. Ela reduz o saldo da conta 'Duplicatas a Receber' para mostrar o valor líquido dos recebíveis que ainda estão sob coobrigação da empresa.",
+              "topico": "Balanço Patrimonial"
+            },
+            {
+              "id": "CONT021",
+              "enunciado": "Segundo a NBC TSP – Estrutura Conceitual, a entidade pública deve apresentar demonstrações contábeis que sejam compreensíveis, relevantes, fidedignas e comparáveis, mesmo que isso implique abrir mão da tempestividade das informações.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. A tempestividade é uma das características qualitativas de melhoria. Embora possa haver um trade-off entre as características, não se deve abrir mão completamente de uma em favor da outra. O ideal é buscar um equilíbrio que maximize a utilidade da informação.",
+              "topico": "Contabilidade Pública - NBC TSP"
+            },
+            {
+              "id": "CONT022",
+              "enunciado": "O reconhecimento contábil de receitas e despesas, conforme os pronunciamentos do CPC e o regime de competência, deve ocorrer somente quando houver entrada ou saída efetiva de recursos financeiros no caixa da entidade.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. A afirmação descreve o regime de caixa. O regime de competência, que é o correto segundo os CPCs e a lei, determina o reconhecimento de receitas e despesas quando do fato gerador, independentemente do fluxo de caixa.",
+              "topico": "Princípios Contábeis"
+            },
+            {
+              "id": "CONT023",
+              "enunciado": "No balanço patrimonial, os investimentos de caráter permanente em outras sociedades, nos quais a entidade exerce influência significativa, devem ser classificados no ativo não circulante e avaliados, preferencialmente, pelo método da equivalência patrimonial.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Investimentos permanentes em coligadas (influência significativa) ou controladas devem ser classificados no Ativo Não Circulante - Investimentos e avaliados pelo Método da Equivalência Patrimonial (MEP), conforme a Lei 6.404/76.",
+              "topico": "Investimentos"
+            },
+            {
+              "id": "CONT024",
+              "enunciado": "Os livros obrigatórios de escrituração contábil incluem o livro diário e o livro razão, ambos devendo ser encadernados e registrados na Junta Comercial, inclusive quando emitidos por meio eletrônico.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. O Livro Diário é obrigatório e exige registro. O Livro Razão, embora indispensável para o controle, não tem exigência legal de registro na Junta Comercial, mas sua escrituração é obrigatória. A entrega via SPED Contábil supre a necessidade de impressão e registro físico.",
+              "topico": "Escrituração Contábil"
+            },
+            {
+              "id": "CONT025",
+              "enunciado": "As contas do grupo 'Despesas Antecipadas', como prêmios de seguros pagos com vigência futura, devem ser reconhecidas diretamente como despesas no momento do pagamento, em conformidade com o princípio da prudência.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. Despesas pagas antecipadamente representam um direito de usufruto futuro e são classificadas no Ativo Circulante. Elas são apropriadas como despesa no resultado apenas no período a que competem, em obediência ao regime de competência.",
+              "topico": "Lançamentos Contábeis"
+            },
+            {
+              "id": "CONT026",
+              "enunciado": "A provisão para devedores duvidosos é uma conta retificadora do ativo, que reduz o saldo de contas a receber, impactando o resultado do exercício como despesa operacional.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A Provisão para Créditos de Liquidação Duvidosa (PCLD) ajusta o valor de Contas a Receber para seu valor provável de realização, sendo uma conta retificadora do ativo. Sua constituição é registrada como uma despesa na DRE.",
+              "topico": "Balanço Patrimonial"
+            },
+            {
+              "id": "CONT027",
+              "enunciado": "A compra de mercadorias à vista, com pagamento imediato em dinheiro, constitui um fato modificativo diminutivo, pois provoca redução do patrimônio líquido da entidade.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. A compra de mercadorias à vista é um fato permutativo, pois há uma troca entre contas do ativo (diminui Caixa, aumenta Estoques), sem alterar o valor total do ativo nem o Patrimônio Líquido.",
+              "topico": "Lançamentos Contábeis"
+            },
+            {
+              "id": "CONT028",
+              "enunciado": "A Lei nº 6.404/1976 determina que o ativo deve ser classificado em circulante e não circulante, sendo que este último deve ser subdividido em realizável a longo prazo, investimentos, imobilizado e intangível.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Essa é a estrutura de classificação do Ativo definida pela Lei 6.404/76, após as alterações introduzidas pelas leis 11.638/07 e 11.941/09, alinhando a estrutura brasileira aos padrões internacionais.",
+              "topico": "Balanço Patrimonial"
+            },
+            {
+              "id": "CONT029",
+              "enunciado": "O lançamento de juros passivos a pagar decorrentes de contrato bancário representa um fato modificativo diminutivo, com reflexo direto no resultado do exercício, sem alteração no ativo.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. O reconhecimento dos juros pelo regime de competência gera uma despesa financeira (reduzindo o PL) e uma obrigação no passivo (Juros a Pagar). Como não afeta o ativo, é um fato modificativo diminutivo puro.",
+              "topico": "Lançamentos Contábeis"
+            },
+            {
+              "id": "CONT030",
+              "enunciado": "As receitas financeiras, como rendimentos de aplicações de liquidez imediata, devem ser reconhecidas pelo regime de competência, ainda que o crédito bancário ocorra apenas no exercício seguinte.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Pelo regime de competência, a receita financeira deve ser reconhecida no período em que é gerada ('pro rata die'), independentemente de quando o valor é efetivamente creditado na conta bancária da empresa.",
+              "topico": "Princípios Contábeis"
+            },
+            {
+              "id": "CONT031",
+              "enunciado": "O método da equivalência patrimonial deve ser utilizado obrigatoriamente na avaliação de investimentos em coligadas e controladas, independentemente do percentual de participação da investidora, conforme previsto na Lei nº 6.404/1976.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. O MEP é obrigatório para investimentos em controladas e em coligadas sobre as quais a investidora tenha influência significativa. A influência significativa é presumida com 20% ou mais do capital votante, mas pode existir com percentuais menores.",
+              "topico": "Investimentos"
+            },
+            {
+              "id": "CONT032",
+              "enunciado": "A conta de receita será classificada no grupo do patrimônio líquido, uma vez que seu aumento impacta diretamente o valor residual dos ativos da entidade após a dedução dos passivos.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. Contas de receita são contas de resultado e são apresentadas na DRE. Embora o resultado final (lucro/prejuízo) afete o Patrimônio Líquido, as contas de receita em si não são classificadas no PL.",
+              "topico": "Estrutura das Demonstrações"
+            },
+            {
+              "id": "CONT033",
+              "enunciado": "A baixa de um ativo imobilizado totalmente depreciado, sem valor residual, não gera impacto no resultado do exercício, visto que seu valor contábil líquido já se encontra zerado.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. O valor contábil é o custo do ativo menos a depreciação acumulada. Se o ativo está totalmente depreciado e não tem valor residual, seu valor contábil é zero. A baixa, nesse caso, não gera ganho nem perda.",
+              "topico": "Ativo Imobilizado"
+            },
+            {
+              "id": "CONT034",
+              "enunciado": "O saldo devedor da conta 'Encargos Financeiros a Apropriar' representa uma obrigação de pagamento futuro, devendo ser classificado no passivo circulante enquanto não amortizado.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. A conta 'Encargos Financeiros a Apropriar' tem saldo devedor e é uma conta retificadora do Passivo. Ela reduz o valor de uma obrigação (como empréstimos) para apresentá-la pelo seu valor presente.",
+              "topico": "Balanço Patrimonial"
+            },
+            {
+              "id": "CONT035",
+              "enunciado": "As despesas antecipadas são classificadas como contas de resultado de exercícios futuros, conforme a estrutura do ativo exigida pela Lei nº 6.404/1976, e não influenciam o resultado do exercício corrente.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. Despesas Antecipadas são classificadas no Ativo (geralmente Circulante). O grupo 'Resultado de Exercícios Futuros' foi extinto da contabilidade brasileira.",
+              "topico": "Balanço Patrimonial"
+            },
+            {
+              "id": "CONT036",
+              "enunciado": "A classificação contábil de um contrato de arrendamento como financeiro ou operacional depende exclusivamente do tipo de garantia envolvida e da taxa de juros pactuada.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. A classificação (sob a ótica do IFRS 16/CPC 06) depende da transferência substancial dos riscos e benefícios inerentes à propriedade do ativo, não apenas da garantia ou taxa de juros.",
+              "topico": "Arrendamento Mercantil"
+            },
+            {
+              "id": "CONT037",
+              "enunciado": "A reavaliação de ativos imobilizados com base em valor justo, ainda que autorizada por norma internacional, está vedada pela legislação societária brasileira vigente.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A Lei 11.638/07 revogou a possibilidade de reavaliação espontânea de ativos. Embora o conceito de valor justo seja amplamente utilizado, a reavaliação com contrapartida em reserva no PL foi vedada.",
+              "topico": "Ativo Imobilizado"
+            },
+            {
+              "id": "CONT038",
+              "enunciado": "No lançamento de uma depreciação mensal, debita-se uma conta de despesa e credita-se uma conta retificadora do ativo, evidenciando a redução do valor recuperável do bem.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. O lançamento é: D - Despesa de Depreciação (Resultado); C - Depreciação Acumulada (Conta Retificadora do Ativo). Este registro reflete a perda de valor do bem pelo uso ou obsolescência.",
+              "topico": "Lançamentos Contábeis"
+            },
+            {
+              "id": "CONT039",
+              "enunciado": "O reconhecimento contábil de receitas deve ocorrer quando houver certeza quanto à realização financeira e probabilidade de geração de lucros futuros, mesmo que o serviço ainda não tenha sido prestado.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. O critério fundamental para o reconhecimento de receita de serviço é a sua prestação (o cumprimento da obrigação de desempenho), conforme o CPC 47. Receber adiantado não gera receita, e sim um passivo (Receita Diferida).",
+              "topico": "Reconhecimento de Receita"
+            },
+            {
+              "id": "CONT040",
+              "enunciado": "As reservas de lucros são classificadas no patrimônio líquido e representam porções do lucro líquido que foram apropriadas para finalidades específicas, de acordo com a legislação societária ou decisão dos sócios.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Reservas de Lucros (Legal, Estatutária, para Contingências, de Incentivos Fiscais, etc.) são contas do Patrimônio Líquido formadas pela retenção de lucros para fins específicos, conforme determina a lei ou o estatuto da empresa.",
+              "topico": "Patrimônio Líquido"
+            },
+            {
+              "id": "CONT041",
+              "enunciado": "A apresentação da Demonstração do Resultado do Exercício (DRE) deve seguir a ordem decrescente de relevância econômica dos grupos contábeis, conforme as normas do Comitê de Pronunciamentos Contábeis (CPC), podendo variar de acordo com a conveniência da administração da empresa.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. A estrutura da DRE é definida pelo Art. 187 da Lei 6.404/76 e pelo CPC 26, e deve seguir uma ordem dedutiva específica (Receita Bruta -> ... -> Lucro Líquido), não podendo ser alterada pela conveniência da administração.",
+              "topico": "Demonstração do Resultado do Exercício (DRE)"
+            },
+            {
+              "id": "CONT042",
+              "enunciado": "A classificação de um ativo como circulante ou não circulante depende do seu prazo de realização, sendo considerado circulante todo ativo realizável até o término do exercício seguinte à data do balanço.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Ativos são classificados como circulantes se espera-se que sejam realizados (convertidos em caixa, vendidos ou consumidos) no curso normal do ciclo operacional da empresa ou até 12 meses após a data do balanço.",
+              "topico": "Balanço Patrimonial"
+            },
+            {
+              "id": "CONT043",
+              "enunciado": "O regime de competência impõe que os tributos incidentes sobre vendas sejam reconhecidos no momento da emissão da nota fiscal, ainda que o pagamento pelo cliente ocorra em data futura.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Os impostos sobre vendas (ICMS, PIS, COFINS) têm seu fato gerador no momento da venda. Pelo regime de competência, devem ser reconhecidos como dedução da receita bruta nesse mesmo momento.",
+              "topico": "Princípios Contábeis"
+            },
+            {
+              "id": "CONT044",
+              "enunciado": "A equação fundamental da contabilidade estabelece que Ativo menos Passivo é igual ao Resultado do Exercício, conforme estruturação legal prevista na Lei nº 6.404/1976.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. A equação fundamental da contabilidade é Ativo = Passivo + Patrimônio Líquido. O Resultado do Exercício é um componente que afeta o Patrimônio Líquido, mas não é o resultado direto da equação.",
+              "topico": "Estrutura Conceitual"
+            },
+            {
+              "id": "CONT045",
+              "enunciado": "Segundo a NBC TSP Estrutura Conceitual, o controle sobre um recurso é evidenciado pela capacidade da entidade em restringir o acesso de terceiros aos benefícios econômicos ou potencial de serviço desse recurso.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. O controle é o critério definidor de um ativo. Ele existe quando a entidade pode usar o recurso para gerar benefícios e pode impedir que outros o façam.",
+              "topico": "Contabilidade Pública - NBC TSP"
+            },
+            {
+              "id": "CONT046",
+              "enunciado": "As contas de natureza patrimonial são aquelas que se encerram ao final do exercício, enquanto as contas de resultado permanecem abertas, acumulando saldo ao longo dos exercícios sociais.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. É o oposto. As contas de resultado (receitas e despesas) são encerradas ao final do exercício para apurar o lucro ou prejuízo. As contas patrimoniais (ativo, passivo, PL) têm seus saldos transferidos para o exercício seguinte.",
+              "topico": "Teoria das Contas"
+            },
+            {
+              "id": "CONT047",
+              "enunciado": "O saldo credor da conta “Descontos Obtidos” representa uma receita financeira que compõe o resultado do exercício, mesmo quando vinculada a operações comerciais com fornecedores.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. Descontos comerciais ou incondicionais obtidos na compra de mercadorias devem ser registrados como uma redução do custo de aquisição do estoque, e não como uma receita financeira.",
+              "topico": "Lançamentos Contábeis"
+            },
+            {
+              "id": "CONT048",
+              "enunciado": "O lançamento de adiantamento a fornecedores representa uma aplicação de recursos da empresa, devendo ser classificado no ativo não circulante, independentemente do prazo de realização.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. Adiantamento a fornecedores é um direito (de receber mercadorias ou serviços) e, portanto, um ativo. Geralmente é classificado no Ativo Circulante, pois espera-se que o bem ou serviço seja recebido no curto prazo.",
+              "topico": "Balanço Patrimonial"
+            },
+            {
+              "id": "CONT049",
+              "enunciado": "O plano de contas deve refletir a estrutura organizacional e as necessidades específicas de controle da entidade, sendo considerado um instrumento interno e não normatizado legalmente.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. Embora seja flexível para atender às necessidades da entidade, o plano de contas deve seguir uma estrutura mínima exigida pela legislação e normas contábeis (ex: classificação em ativo, passivo, PL, receitas e despesas) para permitir a elaboração das demonstrações obrigatórias.",
+              "topico": "Plano de Contas"
+            },
+            {
+              "id": "CONT050",
+              "enunciado": "A provisão para férias é um passivo exigível, reconhecido com base no regime de caixa, e registrado apenas quando da efetiva concessão das férias ao colaborador.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. A provisão para férias e seus encargos deve ser reconhecida mensalmente, pelo regime de competência, à medida que o direito é adquirido pelo empregado, e não apenas no momento do pagamento ou gozo das férias.",
+              "topico": "Lançamentos Contábeis"
+            },
+            {
+              "id": "CONT051",
+              "enunciado": "O lançamento contábil referente ao recebimento antecipado de aluguéis futuros constitui um fato modificativo aumentativo, pois representa ingresso de recursos com reflexo direto no resultado do exercício.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. O recebimento antecipado de receita é um fato permutativo. Entra dinheiro no caixa (ativo), mas surge uma obrigação de prestar o serviço no futuro (passivo - receita diferida). A receita só afeta o resultado quando o serviço for prestado.",
+              "topico": "Lançamentos Contábeis"
+            },
+            {
+              "id": "CONT052",
+              "enunciado": "A escrituração contábil realizada por meio eletrônico deve garantir a integridade, autenticidade e possibilidade de auditoria dos lançamentos, mesmo que dispensada de registro em órgãos oficiais.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. A escrituração eletrônica, como o SPED Contábil, substitui o registro físico, mas a entrega do arquivo digital ao Fisco equivale ao registro, sendo obrigatória e devendo garantir todos os requisitos de segurança e integridade.",
+              "topico": "Escrituração Contábil"
+            },
+            {
+              "id": "CONT053",
+              "enunciado": "Os lançamentos contábeis de segunda fórmula envolvem um débito e dois ou mais créditos, sendo comumente utilizados em operações como pagamento parcial com descontos obtidos.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A classificação dos lançamentos por fórmulas é: 1ª fórmula (1D, 1C), 2ª fórmula (1D, vários C), 3ª fórmula (vários D, 1C) e 4ª fórmula (vários D, vários C). O exemplo se encaixa na segunda fórmula.",
+              "topico": "Lançamentos Contábeis"
+            },
+            {
+              "id": "CONT054",
+              "enunciado": "O reconhecimento da despesa de energia elétrica ao final do mês, ainda que a fatura não tenha sido recebida, é obrigatório pelo regime de competência, visando correta apuração do resultado.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Pelo regime de competência, a despesa deve ser reconhecida no período em que o serviço foi consumido. Mesmo sem a fatura, a empresa deve fazer uma estimativa (provisão) para registrar a despesa no mês correto.",
+              "topico": "Princípios Contábeis"
+            },
+            {
+              "id": "CONT055",
+              "enunciado": "De acordo com a Lei nº 6.404/1976, o resultado do exercício deve ser apurado segundo o regime de caixa, com o objetivo de refletir as movimentações financeiras efetivamente realizadas pela entidade.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. A Lei nº 6.404/1976 (art. 177) exige expressamente a adoção do regime de competência para a apuração do resultado do exercício e elaboração das demonstrações contábeis.",
+              "topico": "Legislação Societária"
+            },
+            {
+              "id": "CONT056",
+              "enunciado": "O valor residual de um bem do ativo imobilizado deve ser considerado no cálculo da depreciação, sendo a depreciação limitada à diferença entre o custo de aquisição e esse valor estimado.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A base de cálculo da depreciação é o valor depreciável, que é o custo do ativo menos o seu valor residual estimado. A depreciação cessa quando o valor contábil do ativo se iguala ao seu valor residual.",
+              "topico": "Ativo Imobilizado"
+            },
+            {
+              "id": "CONT057",
+              "enunciado": "Os encargos sociais sobre a folha de pagamento devem ser reconhecidos como despesas do exercício corrente, ainda que recolhidos apenas no mês seguinte, conforme o regime de competência.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Os encargos sociais (INSS, FGTS) são despesas relacionadas à mão de obra utilizada no período. Pelo regime de competência, devem ser registrados como despesa no mesmo mês em que os salários foram gerados.",
+              "topico": "Lançamentos Contábeis"
+            },
+            {
+              "id": "CONT058",
+              "enunciado": "A apropriação de juros passivos em contratos de empréstimo representa uma despesa financeira, cuja contabilização impacta o resultado do exercício, mesmo que o pagamento ocorra em data posterior.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Os juros incorridos (mas ainda não pagos) devem ser reconhecidos como despesa financeira no período a que se referem, em respeito ao regime de competência. O lançamento é um débito em despesa financeira e um crédito em juros a pagar (passivo).",
+              "topico": "Lançamentos Contábeis"
+            },
+            {
+              "id": "CONT059",
+              "enunciado": "A baixa de uma duplicata recebida anteriormente provisionada como incobrável deve ser registrada apenas como um ajuste patrimonial, sem qualquer impacto no resultado do exercício.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. A baixa efetiva da duplicata contra a provisão já existente (PCLD) é um fato permutativo (Débito: PCLD, Crédito: Duplicatas a Receber). No entanto, a constituição inicial da provisão foi o que impactou o resultado como despesa.",
+              "topico": "Lançamentos Contábeis"
+            },
+            {
+              "id": "CONT060",
+              "enunciado": "A Lei nº 6.404/1976 exige que a Demonstração do Resultado do Exercício apresente, de forma separada, a receita bruta de vendas e serviços e as deduções da receita bruta, antes de apurar a receita líquida.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. O artigo 187 da Lei 6.404/76 estabelece a estrutura da DRE, que deve partir da receita bruta, subtrair as deduções (devoluções, abatimentos, impostos), para então chegar à receita líquida.",
+              "topico": "Demonstração do Resultado do Exercício (DRE)"
+            },
+            {
+              "id": "CONT061",
+              "enunciado": "O lançamento de um adiantamento a empregado é considerado um fato modificativo, pois altera a situação líquida da entidade ao representar uma antecipação salarial.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. O adiantamento a empregado é um fato permutativo. A empresa troca um ativo (Caixa/Bancos) por outro ativo (Direito de abater o valor do salário futuro do empregado). O Patrimônio Líquido não é afetado.",
+              "topico": "Lançamentos Contábeis"
+            },
+            {
+              "id": "CONT062",
+              "enunciado": "A provisão para imposto de renda sobre o lucro deve ser reconhecida no passivo com base na estimativa de lucro tributável, ainda que o valor definitivo só seja conhecido após o encerramento do exercício.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A despesa com imposto de renda e a correspondente provisão (passivo) devem ser reconhecidas no mesmo período em que o lucro que as originou foi gerado, conforme o regime de competência e o CPC 32.",
+              "topico": "Lançamentos Contábeis"
+            },
+            {
+              "id": "CONT063",
+              "enunciado": "A compra de um veículo com pagamento financiado gera um fato permutativo composto, pois há aumento simultâneo do ativo imobilizado e do passivo exigível, sem impacto imediato no resultado.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. A compra de um veículo financiado é um fato permutativo simples (aumenta o ativo imobilizado e o passivo exigível). Não há elemento modificativo no ato da compra. Juros futuros seriam fatos modificativos.",
+              "topico": "Lançamentos Contábeis"
+            },
+            {
+              "id": "CONT064",
+              "enunciado": "O reconhecimento de uma despesa com variação cambial passiva, oriunda de empréstimo em moeda estrangeira, deve ser feito apenas no momento da liquidação do contrato, seguindo o regime de caixa.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. As variações cambiais sobre passivos devem ser reconhecidas no resultado periodicamente (pelo menos no fechamento do balanço), conforme o regime de competência, e não apenas na liquidação.",
+              "topico": "Princípios Contábeis"
+            },
+            {
+              "id": "CONT065",
+              "enunciado": "Os livros contábeis obrigatórios, conforme a legislação societária, devem ser autenticados na Junta Comercial, mesmo quando gerados por sistemas eletrônicos que assegurem sua integridade e rastreabilidade.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A autenticação dos livros (Diário e Razão) é obrigatória. No caso de livros digitais (SPED Contábil), a autenticação ocorre com o envio e recebimento do arquivo pela autoridade fiscal, que substitui o registro físico.",
+              "topico": "Escrituração Contábil"
+            },
+            {
+              "id": "CONT066",
+              "enunciado": "A distribuição de lucros aos sócios, mesmo realizada por antecipação durante o exercício, deve ser registrada como redução do patrimônio líquido no momento da deliberação contábil que a aprova.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A distribuição de dividendos ou lucros representa uma redução do Patrimônio Líquido. O fato gerador é a deliberação dos sócios/acionistas, momento em que se debita uma conta do PL (Lucros Acumulados ou Reservas) e se credita um passivo (Dividendos a Pagar).",
+              "topico": "Patrimônio Líquido"
+            },
+            {
+              "id": "CONT067",
+              "enunciado": "As receitas de venda de mercadorias a prazo são reconhecidas integralmente no momento da entrega do bem ou da emissão da nota fiscal, segundo o regime de competência, mesmo que o recebimento ocorra em outro exercício.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Pelo regime de competência, a receita de venda é reconhecida quando a empresa cumpre sua obrigação de desempenho (geralmente, com a entrega do bem), independentemente de quando o pagamento será recebido pelo cliente.",
+              "topico": "Reconhecimento de Receita"
+            },
+            {
+              "id": "CONT068",
+              "enunciado": "O lançamento de uma obrigação tributária não prevista anteriormente configura um fato administrativo permutativo, pois altera o passivo e o ativo de forma compensada.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. O reconhecimento de um passivo fiscal não previsto anteriormente (ex: auto de infração) geralmente corresponde a uma despesa ou perda do período, sendo um fato modificativo diminutivo, pois reduz o Patrimônio Líquido.",
+              "topico": "Lançamentos Contábeis"
+            },
+            {
+              "id": "CONT069",
+              "enunciado": "O reconhecimento de perdas estimadas em estoques, com base em avaliação ao valor de realização líquida, deve ser classificado como ajuste de avaliação patrimonial e não como despesa do exercício.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. A perda estimada em estoques (quando o custo é maior que o valor realizável líquido) deve ser reconhecida como uma despesa no resultado do período (geralmente como parte do Custo da Mercadoria Vendida).",
+              "topico": "Estoques"
+            },
+            {
+              "id": "CONT070",
+              "enunciado": "O ativo intangível compreende os bens corpóreos e de uso duradouro da entidade, que não têm substância física, como imóveis, veículos e equipamentos.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. A questão confunde os conceitos. Ativo Intangível compreende bens incorpóreos (sem substância física), como marcas, patentes e softwares. Imóveis, veículos e equipamentos são bens corpóreos, classificados no Ativo Imobilizado.",
+              "topico": "Ativo Intangível"
+            },
+            {
+              "id": "CONT071",
+              "enunciado": "A reversão parcial de uma provisão anteriormente registrada deve ser reconhecida como receita no exercício em que ocorrer, impactando diretamente o resultado contábil.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Se os motivos que levaram à constituição de uma provisão deixam de existir total ou parcialmente, o valor provisionado deve ser revertido. Essa reversão é registrada como uma receita (ou redução da despesa original) na DRE.",
+              "topico": "Lançamentos Contábeis"
+            },
+            {
+              "id": "CONT072",
+              "enunciado": "A criação de reservas de lucros, como reserva estatutária ou reserva para contingências, representa aplicação de recursos, devendo ser registrada no ativo circulante como conta patrimonial.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. A criação de reservas de lucros é uma destinação do lucro, sendo uma transação que ocorre totalmente dentro do Patrimônio Líquido (Débito: Lucros Acumulados, Crédito: Reservas de Lucros). Não afeta o Ativo.",
+              "topico": "Patrimônio Líquido"
+            },
+            {
+              "id": "CONT073",
+              "enunciado": "O plano de contas de uma entidade deve conter o elenco de contas, suas respectivas funções, funcionamento e codificação, servindo como base para uniformização dos registros contábeis.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. O Plano de Contas é um guia completo para a escrituração, composto pelo elenco de contas (a lista), o manual de contas (descrição e funcionamento) e, muitas vezes, modelos de lançamentos, garantindo a padronização.",
+              "topico": "Plano de Contas"
+            },
+            {
+              "id": "CONT074",
+              "enunciado": "A avaliação de ativos ao valor justo é obrigatória para todas as entidades brasileiras, inclusive para fins societários, conforme os pronunciamentos técnicos do CPC e da legislação comercial.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. A avaliação a valor justo é aplicável a certos ativos (como instrumentos financeiros e propriedades para investimento), mas não é uma regra obrigatória para todos os ativos. O método de avaliação predominante para o imobilizado, por exemplo, é o custo menos depreciação.",
+              "topico": "Critérios de Avaliação"
+            },
+            {
+              "id": "CONT075",
+              "enunciado": "A NBC TSP Estrutura Conceitual estabelece que uma informação contábil-financeira é fidedigna quando representa adequadamente os fenômenos econômicos e é neutra, completa e livre de erro material relevante.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A representação fidedigna é uma das características qualitativas fundamentais da informação contábil. Para ser fidedigna, a informação deve ser completa, neutra e livre de erro.",
+              "topico": "Contabilidade Pública - NBC TSP"
+            },
+            {
+              "id": "CONT076",
+              "enunciado": "O reconhecimento contábil de receitas antecipadas, como mensalidades recebidas antes da prestação do serviço, deve ser feito como receita no ativo, com impacto imediato no resultado.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. O recebimento antecipado gera um Passivo (obrigação de prestar o serviço). A receita só é reconhecida no resultado (DRE) quando o serviço é efetivamente prestado, seguindo o regime de competência.",
+              "topico": "Lançamentos Contábeis"
+            },
+            {
+              "id": "CONT077",
+              "enunciado": "A conta “Depreciação Acumulada” tem natureza credora e deve ser apresentada como redutora do ativo imobilizado no balanço patrimonial, refletindo a perda de valor dos bens ao longo do tempo.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A Depreciação Acumulada é uma conta retificadora do ativo, que acumula a depreciação de um bem. Seu saldo é credor e é subtraído do custo do ativo para se chegar ao valor contábil.",
+              "topico": "Ativo Imobilizado"
+            },
+            {
+              "id": "CONT078",
+              "enunciado": "De acordo com os CPCs, o ativo intangível somente pode ser reconhecido quando for separável dos demais ativos e tiver valor justo mensurável no momento do reconhecimento inicial.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. Os critérios para reconhecimento de um ativo intangível (CPC 04) são: ser identificável (separável ou resultante de direitos contratuais), ser controlado pela entidade e gerar benefícios econômicos futuros. O custo deve ser mensurável com confiabilidade, não necessariamente o valor justo.",
+              "topico": "Ativo Intangível"
+            },
+            {
+              "id": "CONT079",
+              "enunciado": "A constituição de uma provisão para garantia de produtos vendidos representa uma despesa estimada que deve ser reconhecida no momento da venda, ainda que os custos da assistência técnica venham a ocorrer em períodos futuros.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Pelo princípio da competência e da confrontação da despesa com a receita, a despesa estimada com garantias deve ser provisionada no mesmo período em que a receita da venda do produto é reconhecida.",
+              "topico": "Lançamentos Contábeis"
+            },
+            {
+              "id": "CONT080",
+              "enunciado": "O saldo final das contas de resultado deve ser transferido diretamente para a conta de lucros ou prejuízos acumulados, compondo a base de cálculo para a distribuição de dividendos.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Ao final do período, as contas de receitas e despesas são encerradas contra uma conta transitória (Apuração do Resultado do Exercício - ARE), e o saldo final da ARE (lucro ou prejuízo) é transferido para a conta de Lucros ou Prejuízos Acumulados no Patrimônio Líquido.",
+              "topico": "Encerramento do Exercício"
+            },
+            {
+              "id": "CONT081",
+              "enunciado": "A Demonstração do Resultado do Exercício (DRE) deve iniciar pela receita líquida de vendas e serviços e, a partir dela, demonstrar a formação do lucro ou prejuízo do período, conforme determina a Lei nº 6.404/1976.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. A Lei 6.404/76 (art. 187) determina que a DRE deve iniciar pela Receita Bruta, para então deduzir os impostos, devoluções e abatimentos, chegando-se à Receita Líquida.",
+              "topico": "Demonstração do Resultado do Exercício (DRE)"
+            },
+            {
+              "id": "CONT082",
+              "enunciado": "O lançamento de um pagamento de duplicata com juros deve registrar o valor total pago como redutor do passivo, sem afetar a conta de resultado, pois os encargos já estão embutidos na obrigação principal.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. O pagamento de juros é uma despesa financeira e deve ser registrada em uma conta de resultado. O lançamento deve separar o valor principal da duplicata (que baixa o passivo) do valor dos juros (que é despesa).",
+              "topico": "Lançamentos Contábeis"
+            },
+            {
+              "id": "CONT083",
+              "enunciado": "A estrutura conceitual da NBC TSP considera que a representação fidedigna exige não apenas correção técnica dos registros, mas também neutralidade e completude das informações contábeis.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A representação fidedigna, uma característica qualitativa fundamental, é alcançada quando a informação é completa, neutra (sem viés) e livre de erro.",
+              "topico": "Contabilidade Pública - NBC TSP"
+            },
+            {
+              "id": "CONT084",
+              "enunciado": "A escrituração contábil pode ser feita em língua estrangeira desde que a entidade opere em território nacional com autorização expressa em estatuto ou contrato social.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. A escrituração contábil deve ser feita em idioma e moeda corrente nacionais. A legislação brasileira não permite a escrituração oficial em língua estrangeira.",
+              "topico": "Escrituração Contábil"
+            },
+            {
+              "id": "CONT085",
+              "enunciado": "De acordo com a Lei nº 6.404/1976, é vedado à companhia aberta aprovar demonstrações financeiras com ressalva de auditoria, salvo se houver anuência expressa do conselho fiscal.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. As demonstrações financeiras podem ser aprovadas mesmo com ressalva, parecer adverso ou abstenção de opinião do auditor. A opinião do auditor não impede a aprovação, mas alerta os usuários sobre problemas na contabilidade.",
+              "topico": "Auditoria Contábil"
+            },
+            {
+              "id": "CONT086",
+              "enunciado": "A conta “Resultado de Exercícios Futuros” foi extinta pela legislação atual e substituída pelo passivo de receitas diferidas ou pela utilização do regime de competência na receita antecipada.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A Lei 11.638/07 extinguiu o grupo 'Resultado de Exercícios Futuros'. Os saldos existentes foram reclassificados para o Passivo Não Circulante, geralmente na conta de Receitas Diferidas.",
+              "topico": "Estrutura das Demonstrações"
+            },
+            {
+              "id": "CONT087",
+              "enunciado": "O balancete de verificação pode apresentar saldos divergentes entre débitos e créditos, desde que a diferença esteja devidamente justificada por provisões ou ajustes temporários.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. A finalidade do balancete de verificação é justamente comprovar a igualdade entre a soma dos saldos devedores e a soma dos saldos credores. Qualquer diferença indica um erro na escrituração.",
+              "topico": "Demonstrações Contábeis"
+            },
+            {
+              "id": "CONT088",
+              "enunciado": "A constituição de reservas de lucros é obrigatória para todas as entidades, independentemente de previsão legal ou estatutária, como forma de proteção patrimonial.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. A única reserva de lucro obrigatória por lei (Lei 6.404/76) é a Reserva Legal. As outras (estatutárias, para contingências, etc.) dependem de previsão no estatuto ou de deliberação da assembleia.",
+              "topico": "Patrimônio Líquido"
+            },
+            {
+              "id": "CONT089",
+              "enunciado": "A Demonstração das Mutações do Patrimônio Líquido (DMPL) detalha a movimentação ocorrida em todas as subcontas do PL, como reservas, lucros acumulados, capital social e ajustes de avaliação patrimonial.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A DMPL é uma demonstração completa que evidencia todas as alterações ocorridas nas contas do Patrimônio Líquido durante o exercício.",
+              "topico": "Demonstrações Contábeis"
+            },
+            {
+              "id": "CONT090",
+              "enunciado": "Os Pronunciamentos Técnicos do CPC têm força normativa obrigatória para todas as empresas no Brasil, inclusive para microempresas e empresas de pequeno porte optantes pelo Simples Nacional.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. Os CPCs são obrigatórios para as S.A. e empresas de grande porte. As microempresas e empresas de pequeno porte possuem normas simplificadas (NBC TG 1000 e ITG 1000) e as optantes pelo Simples Nacional seguem regras ainda mais simplificadas.",
+              "topico": "Normas Contábeis"
+            },
+            {
+              "id": "CONT091",
+              "enunciado": "O lançamento de aquisição de material de consumo com pagamento à vista afeta simultaneamente o ativo e o patrimônio líquido, caracterizando um fato modificativo diminutivo.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. A aquisição de material de consumo para estoque é um fato permutativo (troca de Ativo por Ativo). A despesa só é reconhecida quando o material é consumido, momento em que o fato se torna modificativo.",
+              "topico": "Lançamentos Contábeis"
+            },
+            {
+              "id": "CONT092",
+              "enunciado": "As contas retificadoras do passivo, como encargos financeiros a apropriar, apresentam saldo devedor e são registradas no balanço patrimonial subtraindo-se do passivo correspondente.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Contas como 'Juros a Apropriar' ou 'Encargos a Transcorrer' têm natureza devedora e são apresentadas no balanço para reduzir o saldo de uma conta do passivo, ajustando-a ao seu valor presente.",
+              "topico": "Balanço Patrimonial"
+            },
+            {
+              "id": "CONT093",
+              "enunciado": "As receitas reconhecidas por competência, mas ainda não recebidas no encerramento do exercício, devem ser classificadas como ativo realizável no balanço patrimonial.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A receita reconhecida gera um direito de recebimento, que é um ativo. Se o recebimento ocorrer no curto prazo, será classificado no Ativo Circulante (ex: Clientes ou Duplicatas a Receber).",
+              "topico": "Estrutura das Demonstrações"
+            },
+            {
+              "id": "CONT094",
+              "enunciado": "A contabilização da constituição de uma provisão para imposto de renda a pagar, referente ao lucro do exercício, afeta simultaneamente o passivo e a conta de despesa, sendo um fato modificativo diminutivo.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. O lançamento envolve um débito na conta 'Despesa com IRPJ/CSLL' (resultado) e um crédito na conta 'IRPJ/CSLL a Pagar' (passivo). Como reduz o resultado, é um fato modificativo diminutivo.",
+              "topico": "Lançamentos Contábeis"
+            },
+            {
+              "id": "CONT095",
+              "enunciado": "De acordo com a NBC TSP Estrutura Conceitual, uma obrigação presente da entidade somente será reconhecida como passivo se for líquida, exigível no curto prazo e tiver valor mensurável com exatidão.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. Para ser reconhecido como passivo, basta que seja uma obrigação presente resultante de eventos passados, cuja liquidação se espera que resulte em saída de recursos. Pode ser uma estimativa (provisão) e não precisa ser exigível no curto prazo.",
+              "topico": "Contabilidade Pública - NBC TSP"
+            },
+            {
+              "id": "CONT096",
+              "enunciado": "A emissão de nota fiscal de prestação de serviço com recebimento a prazo deve ser registrada como aumento de receita no resultado e aumento de ativo circulante, mesmo que o cliente ainda não tenha efetuado o pagamento.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Pelo regime de competência, o fato gerador da receita é a prestação do serviço. O lançamento é: D - Clientes (Ativo Circulante); C - Receita de Serviços (Resultado).",
+              "topico": "Lançamentos Contábeis"
+            },
+            {
+              "id": "CONT097",
+              "enunciado": "A estrutura do balanço patrimonial, conforme a Lei nº 6.404/1976, exige a apresentação dos ativos em ordem decrescente de liquidez e dos passivos em ordem decrescente de exigibilidade.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. Os passivos são apresentados em ordem decrescente de prazo de exigibilidade. Contas que vencem primeiro (curto prazo) aparecem antes das que vencem depois (longo prazo).",
+              "topico": "Balanço Patrimonial"
+            },
+            {
+              "id": "CONT098",
+              "enunciado": "A aquisição de software para uso próprio, com vida útil superior a um exercício, deve ser registrada como ativo intangível, desde que atenda aos critérios de reconhecimento estabelecidos nos pronunciamentos técnicos.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Softwares adquiridos ou desenvolvidos para uso interno, que não sejam parte integrante de um hardware, são classificados como Ativo Intangível e devem ser amortizados ao longo de sua vida útil estimada.",
+              "topico": "Ativo Intangível"
+            },
+            {
+              "id": "CONT099",
+              "enunciado": "A Lei nº 6.404/1976 permite a capitalização direta de lucros acumulados mediante aumento de capital social por meio da conta de ajuste de avaliação patrimonial.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. O aumento de capital social pode ser feito com lucros e reservas, mas o Ajuste de Avaliação Patrimonial tem destinação específica e não pode ser usado diretamente para este fim; primeiro deve ser realizado (transferido para lucros acumulados).",
+              "topico": "Patrimônio Líquido"
+            },
+            {
+              "id": "CONT100",
+              "enunciado": "Os princípios e normas de contabilidade aplicáveis ao setor público são distintos daqueles aplicáveis ao setor privado, e sua adoção está regulamentada por normas específicas, como a NBC TSP.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A Contabilidade Aplicada ao Setor Público (CASP) possui um conjunto próprio de normas (NBC TSP - Normas Brasileiras de Contabilidade Técnicas para o Setor Público) que, embora convirjam com as normas internacionais (IPSAS), têm particularidades em relação às normas do setor privado (CPCs).",
+              "topico": "Contabilidade Pública - NBC TSP"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

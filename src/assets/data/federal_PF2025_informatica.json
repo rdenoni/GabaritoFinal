@@ -1,0 +1,818 @@
+{
+  "concursos": [
+    {
+      "id": "concurso_simulado_agente_policia_2025",
+      "nome": "Simulado - Agente de Polícia (Nível Superior)",
+      "ano": 2025,
+      "banca": "Cebraspe (Modelo)",
+      "disciplinas": [
+        {
+          "id": "info_agente_policia_2025",
+          "nome": "Informática",
+          "questoes": [
+            {
+              "id": "INFO001",
+              "enunciado": "Em ambientes corporativos que utilizam computação em nuvem, a escolha por um modelo SaaS (Software como Serviço) implica na terceirização da gestão de aplicações e infraestrutura, sendo responsabilidade do contratante apenas a configuração e uso da aplicação.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "No modelo SaaS (Software as a Service), o provedor do serviço assume total responsabilidade pela infraestrutura, servidores, sistema operacional, plataforma e pelo próprio software. Ao contratante cabe apenas a utilização da aplicação por meio da internet, geralmente via navegador, sendo desnecessária qualquer instalação local.",
+              "topico": "Computação em Nuvem"
+            },
+            {
+              "id": "INFO002",
+              "enunciado": "No modelo OSI, a camada de transporte é responsável pelo controle de fluxo e pela correção de erros ponta a ponta, sendo o protocolo TCP um exemplo clássico de sua implementação.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A camada de transporte (camada 4) do modelo OSI é responsável pela entrega confiável de dados fim a fim entre dispositivos na rede. Ela gerencia o controle de fluxo, a segmentação e reordenação de pacotes, e a detecção e correção de erros. O protocolo TCP (Transmission Control Protocol) é um exemplo clássico dessa camada.",
+              "topico": "Redes de Computadores"
+            },
+            {
+              "id": "INFO003",
+              "enunciado": "O uso de autenticação multifator (MFA), que combina algo que o usuário sabe (senha), algo que possui (token ou dispositivo) e algo que é (biometria), é considerado uma técnica eficiente de segurança da informação.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A autenticação multifator (MFA) eleva significativamente o nível de segurança ao exigir múltiplas formas de autenticação baseadas em categorias distintas: algo que o usuário sabe (senha), algo que possui (token) e algo que é (biometria). Essa técnica dificulta ataques e roubo de credenciais.",
+              "topico": "Segurança da Informação"
+            },
+            {
+              "id": "INFO004",
+              "enunciado": "Em redes IPv6, o endereço de loopback é representado por ::1 e permite testar a interface de rede local sem necessidade de comunicação externa.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O endereço ::1 é o loopback padrão em IPv6, funcionando de maneira equivalente ao 127.0.0.1 no IPv4. Ele permite que o dispositivo envie pacotes para si mesmo, sendo utilizado para testes locais da pilha TCP/IP e da interface de rede, sem a necessidade de acesso externo.",
+              "topico": "Redes de Computadores"
+            },
+            {
+              "id": "INFO005",
+              "enunciado": "O comando SQL SELECT * FROM clientes WHERE nome LIKE '_a%'; retorna registros em que o segundo caractere do nome é a letra 'a', independentemente do restante da string.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "No SQL, o caractere “_” é um coringa que representa exatamente um único caractere, enquanto o “%” representa uma sequência de caracteres de qualquer tamanho. Portanto, a cláusula LIKE '_a%' retornará todos os registros cujo segundo caractere seja 'a'.",
+              "topico": "Banco de Dados e SQL"
+            },
+            {
+              "id": "INFO006",
+              "enunciado": "No LibreOffice Calc, a função =MÉDIASE(A1:A10; \">10\"; B1:B10) calcula a média dos valores no intervalo B1:B10 cujos correspondentes em A1:A10 sejam maiores que 10.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A função MÉDIASE no LibreOffice Calc permite aplicar um critério sobre um intervalo e, com base nele, calcular a média de outro intervalo correspondente. A sintaxe e a lógica descritas na questão estão corretas.",
+              "topico": "Planilhas Eletrônicas"
+            },
+            {
+              "id": "INFO007",
+              "enunciado": "O protocolo HTTPS utiliza SSL/TLS para garantir a confidencialidade e integridade dos dados transmitidos, baseando-se em criptografia de chave pública e certificados digitais emitidos por autoridades certificadoras.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O protocolo HTTPS (HyperText Transfer Protocol Secure) garante a segurança na comunicação web utilizando criptografia SSL/TLS. Ele assegura confidencialidade (criptografia), integridade (detecção de alterações) e autenticidade (verificação por certificados digitais).",
+              "topico": "Segurança da Informação"
+            },
+            {
+              "id": "INFO008",
+              "enunciado": "No modelo de dados entidade-relacionamento, os relacionamentos podem ser classificados por cardinalidade, e um relacionamento do tipo 1:N indica que um registro em uma tabela pode estar relacionado a muitos registros em outra.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Em modelagem entidade-relacionamento (ER), um relacionamento 1:N (um-para-muitos) significa que uma instância de uma entidade pode estar associada a várias instâncias de outra entidade. Isso é implementado por meio de uma chave estrangeira na tabela do lado 'N'.",
+              "topico": "Banco de Dados e SQL"
+            },
+            {
+              "id": "INFO009",
+              "enunciado": "A ferramenta ping pode ser usada tanto para verificar a conectividade com um host remoto quanto para identificar perda de pacotes ou tempo de resposta elevado, o que auxilia na análise de performance da rede.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O comando ping utiliza o protocolo ICMP para enviar pacotes de eco a um host de destino e aguardar a resposta, medindo o tempo de ida e volta (latência). Além disso, permite identificar se há perda de pacotes, sendo uma ferramenta essencial para diagnóstico de conectividade.",
+              "topico": "Redes de Computadores"
+            },
+            {
+              "id": "INFO010",
+              "enunciado": "Em ambientes Linux, o comando chmod 750 arquivo.txt concede permissões de leitura, escrita e execução ao proprietário, execução e leitura ao grupo, e nenhuma permissão aos demais usuários.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O número 750 em notação octal equivale a: Proprietário (7) = rwx (leitura, escrita, execução); Grupo (5) = r-x (leitura, execução); Outros (0) = --- (nenhuma permissão). A descrição está correta.",
+              "topico": "Sistemas Operacionais"
+            },
+            {
+              "id": "INFO011",
+              "enunciado": "No Microsoft Word, o recurso “Controlar Alterações” permite ao usuário visualizar edições feitas por diferentes colaboradores, identificando o autor de cada modificação e possibilitando sua aceitação ou rejeição.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O recurso “Controlar Alterações” (Track Changes) no Microsoft Word rastreia todas as modificações feitas em um documento, como inserções e exclusões, e identifica o autor de cada uma, permitindo que o usuário as aceite ou rejeite. É essencial para trabalho colaborativo.",
+              "topico": "Editores de Texto"
+            },
+            {
+              "id": "INFO012",
+              "enunciado": "No contexto da computação em nuvem, o modelo IaaS (Infrastructure as a Service) fornece ao usuário recursos de hardware virtualizados, como servidores, armazenamento e redes, exigindo que ele gerencie o sistema operacional e as aplicações.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "No modelo IaaS, o provedor oferece recursos de infraestrutura virtualizados. A gestão do sistema operacional, middleware, aplicações e dados é de responsabilidade do cliente. É uma opção para empresas que desejam controle total sobre o ambiente virtual.",
+              "topico": "Computação em Nuvem"
+            },
+            {
+              "id": "INFO013",
+              "enunciado": "Os arquivos no formato JSON são amplamente utilizados em APIs RESTful por permitirem estruturação de dados em pares chave-valor e fácil interpretação tanto por humanos quanto por máquinas.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O JSON (JavaScript Object Notation) é um formato de dados leve, baseado em texto, estruturado por pares chave-valor. Sua sintaxe simples e compatibilidade com diversas linguagens o tornam ideal para troca de dados em APIs.",
+              "topico": "Desenvolvimento e APIs"
+            },
+            {
+              "id": "INFO014",
+              "enunciado": "O protocolo DNS é responsável pela resolução de nomes de domínio para endereços IP e opera, majoritariamente, sobre o protocolo TCP na porta 53, garantindo confiabilidade na transmissão.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "O protocolo DNS (Domain Name System) opera principalmente sobre o protocolo UDP na porta 53, por ser mais rápido. O TCP é usado apenas em casos específicos, como transferências de zona ou respostas que excedem o limite de tamanho do UDP.",
+              "topico": "Redes de Computadores"
+            },
+            {
+              "id": "INFO015",
+              "enunciado": "O LibreOffice Impress, assim como o Microsoft PowerPoint, permite inserção de hiperlinks, animações personalizadas e gravação de narração para apresentações multimídia.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O LibreOffice Impress possui recursos avançados semelhantes ao Microsoft PowerPoint, incluindo a inserção de hiperlinks, aplicação de animações personalizadas em objetos e a capacidade de gravar narração de áudio para acompanhar os slides.",
+              "topico": "Suítes de Escritório"
+            },
+            {
+              "id": "INFO016",
+              "enunciado": "Os algoritmos de hashing como SHA-256 produzem saídas fixas e irreversíveis, e são utilizados em autenticação de arquivos, assinatura digital e integridade de mensagens.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Algoritmos de hash como o SHA-256 geram uma saída de tamanho fixo para qualquer entrada, sendo computacionalmente inviável reverter o processo. São usados para verificação de integridade, assinaturas digitais e armazenamento seguro de senhas.",
+              "topico": "Segurança da Informação"
+            },
+            {
+              "id": "INFO017",
+              "enunciado": "Um Data Warehouse é um repositório de dados estruturados voltado à análise e tomada de decisão, que difere de um banco de dados operacional por sua estrutura orientada a consultas complexas e históricos.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Um Data Warehouse consolida grandes volumes de dados históricos de diversas fontes e é otimizado para consultas analíticas complexas (OLAP), em contraste com bancos de dados operacionais (OLTP), que são otimizados para transações rápidas.",
+              "topico": "Business Intelligence e Big Data"
+            },
+            {
+              "id": "INFO018",
+              "enunciado": "A camada de aplicação do modelo TCP/IP é responsável por serviços como HTTP, FTP e SMTP, e interage diretamente com o software do usuário.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A camada de Aplicação do modelo TCP/IP é a camada superior, responsável por fornecer serviços de rede diretamente às aplicações do usuário. Protocolos como HTTP (web), FTP (transferência de arquivos) e SMTP (e-mail) operam nesta camada.",
+              "topico": "Redes de Computadores"
+            },
+            {
+              "id": "INFO019",
+              "enunciado": "A linguagem Python, com bibliotecas como Pandas e NumPy, é amplamente usada em ciência de dados para análise estatística, tratamento de grandes volumes de dados e visualização.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Python é uma das linguagens mais populares em ciência de dados devido a bibliotecas poderosas como Pandas (para manipulação de dados), NumPy (para operações numéricas) e Matplotlib/Seaborn (para visualização de dados).",
+              "topico": "Ciência de Dados"
+            },
+            {
+              "id": "INFO020",
+              "enunciado": "No modelo relacional de bancos de dados, a chave estrangeira (foreign key) garante integridade referencial ao associar um campo de uma tabela a uma chave primária de outra tabela.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A chave estrangeira é um mecanismo que garante a integridade referencial, estabelecendo um vínculo entre tabelas. Ela assegura que um valor em uma coluna de uma tabela corresponda a um valor existente na chave primária de outra tabela, evitando registros órfãos.",
+              "topico": "Banco de Dados e SQL"
+            },
+            {
+              "id": "INFO021",
+              "enunciado": "A topologia em estrela é uma configuração de rede na qual todos os dispositivos estão conectados a um único ponto central, geralmente um switch ou hub, facilitando a identificação de falhas.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Na topologia em estrela, todos os nós se conectam a um dispositivo central (switch/hub). Uma falha em um cabo ou nó afeta apenas aquele dispositivo, e a falha do ponto central paralisa a rede. Essa centralização facilita o gerenciamento e a detecção de problemas.",
+              "topico": "Redes de Computadores"
+            },
+            {
+              "id": "INFO022",
+              "enunciado": "O protocolo HTTPS utiliza criptografia TLS/SSL para garantir a confidencialidade e a integridade dos dados transmitidos entre cliente e servidor.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. HTTPS (HTTP Secure) adiciona uma camada de segurança (SSL/TLS) ao HTTP. O TLS/SSL criptografa os dados, garantindo que sejam confidenciais (ilegíveis para terceiros) e íntegros (protegidos contra alterações).",
+              "topico": "Segurança da Informação"
+            },
+            {
+              "id": "INFO023",
+              "enunciado": "A função principal do firewall é impedir acessos não autorizados à rede interna, operando com regras de filtragem baseadas em endereço IP, porta e protocolo.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Um firewall é um dispositivo de segurança que monitora e controla o tráfego de rede com base em um conjunto de regras, permitindo ou bloqueando pacotes por critérios como IP de origem/destino, portas e protocolos.",
+              "topico": "Segurança da Informação"
+            },
+            {
+              "id": "INFO024",
+              "enunciado": "No sistema Linux, o comando “chmod” é utilizado para alterar permissões de arquivos e diretórios, enquanto “chown” altera o proprietário do arquivo.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. O comando 'chmod' (change mode) modifica as permissões de acesso (leitura, escrita, execução), enquanto o comando 'chown' (change owner) altera o usuário e/ou grupo proprietário de um arquivo ou diretório.",
+              "topico": "Sistemas Operacionais"
+            },
+            {
+              "id": "INFO025",
+              "enunciado": "No LibreOffice Calc, as funções PROCV e PROCH permitem localizar valores em colunas ou linhas, respectivamente, com base em critérios de busca.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A função PROCV (VLOOKUP) realiza uma busca vertical (em colunas), enquanto a PROCH (HLOOKUP) realiza uma busca horizontal (em linhas), retornando um valor correspondente da mesma linha ou coluna.",
+              "topico": "Planilhas Eletrônicas"
+            },
+            {
+              "id": "INFO026",
+              "enunciado": "O conceito de Data Lake refere-se a um repositório capaz de armazenar grandes volumes de dados em seu formato bruto, estruturado ou não estruturado, com baixa latência de ingestão.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Um Data Lake é um repositório centralizado que armazena uma vasta quantidade de dados brutos de diversas fontes. Sua flexibilidade permite armazenar dados estruturados, semiestruturados e não estruturados para análises futuras.",
+              "topico": "Business Intelligence e Big Data"
+            },
+            {
+              "id": "INFO027",
+              "enunciado": "O SNMP (Simple Network Management Protocol) é usado para monitorar e gerenciar dispositivos de rede e opera, tipicamente, sobre o protocolo UDP.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. O SNMP é o protocolo padrão para gerenciamento de redes. Ele opera sobre o UDP por padrão, pois a perda ocasional de pacotes de monitoramento não é tão crítica quanto a velocidade e o baixo overhead.",
+              "topico": "Redes de Computadores"
+            },
+            {
+              "id": "INFO028",
+              "enunciado": "A autenticação multifator (MFA) exige que o usuário comprove sua identidade com pelo menos dois fatores distintos: algo que sabe, algo que tem ou algo que é.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A MFA aumenta a segurança ao exigir a combinação de dois ou mais fatores de autenticação de categorias diferentes, tornando o acesso não autorizado significativamente mais difícil.",
+              "topico": "Segurança da Informação"
+            },
+            {
+              "id": "INFO029",
+              "enunciado": "O software Microsoft Teams permite videoconferência, compartilhamento de arquivos e integração com ferramentas do Office 365, funcionando como uma solução de colaboração corporativa.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. O Microsoft Teams é uma plataforma unificada de comunicação e colaboração que integra chat, reuniões de vídeo, armazenamento de arquivos e integração com outros aplicativos do Microsoft 365.",
+              "topico": "Software e Aplicativos"
+            },
+            {
+              "id": "INFO030",
+              "enunciado": "Em mineração de dados, a técnica de clustering é utilizada para agrupar elementos com características semelhantes, sem que haja previamente uma classificação definida.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Clustering (ou análise de agrupamento) é uma tarefa de aprendizado não supervisionado que agrupa um conjunto de objetos de tal forma que objetos no mesmo grupo (cluster) são mais semelhantes entre si do que com os de outros grupos.",
+              "topico": "Ciência de Dados"
+            },
+            {
+              "id": "INFO031",
+              "enunciado": "O protocolo DNS é responsável por traduzir nomes de domínio em endereços IP, sendo essencial para a navegação na internet.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. O DNS (Domain Name System) funciona como a 'lista telefônica' da internet, traduzindo nomes de domínio amigáveis (como www.google.com) em endereços IP numéricos necessários para localizar os servidores na rede.",
+              "topico": "Redes de Computadores"
+            },
+            {
+              "id": "INFO032",
+              "enunciado": "A camada de enlace de dados no modelo OSI é responsável pela detecção e, em alguns casos, pela correção de erros de transmissão entre dois nós diretamente conectados.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A camada de Enlace (Camada 2) transforma o fluxo de bits da camada física em quadros (frames) e é responsável pelo controle de fluxo e detecção/correção de erros na comunicação entre dois pontos adjacentes da rede.",
+              "topico": "Redes de Computadores"
+            },
+            {
+              "id": "INFO033",
+              "enunciado": "O modelo TCP/IP possui quatro camadas: aplicação, transporte, internet e acesso à rede, sendo mais utilizado na prática que o modelo OSI.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. O modelo TCP/IP, com suas quatro camadas, é o modelo de fato utilizado na internet e na maioria das redes, enquanto o modelo OSI, com sete camadas, é um modelo de referência mais teórico e didático.",
+              "topico": "Redes de Computadores"
+            },
+            {
+              "id": "INFO034",
+              "enunciado": "O antivírus é uma ferramenta que, além de detectar vírus, pode também prevenir infecções por malware através da análise heurística e do monitoramento em tempo real.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Softwares antivírus modernos utilizam múltiplas técnicas, incluindo detecção baseada em assinaturas, análise heurística (comportamental) para detectar ameaças novas e monitoramento em tempo real para bloquear atividades maliciosas.",
+              "topico": "Segurança da Informação"
+            },
+            {
+              "id": "INFO035",
+              "enunciado": "Em bancos de dados relacionais, a chave primária é um campo ou conjunto de campos que identifica unicamente cada registro de uma tabela.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A chave primária tem a função de garantir que cada linha (registro) em uma tabela seja única. Ela não pode conter valores nulos e é usada para criar relacionamentos com outras tabelas.",
+              "topico": "Banco de Dados e SQL"
+            },
+            {
+              "id": "INFO036",
+              "enunciado": "O padrão IEEE 802.11 define a família de protocolos para redes locais sem fio (Wi-Fi), incluindo aspectos de segurança como WPA2 e WPA3.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A família de padrões IEEE 802.11 especifica a tecnologia para redes locais sem fio (WLANs), popularmente conhecidas como Wi-Fi. Isso inclui os protocolos de segurança como WEP (obsoleto), WPA, WPA2 e o mais recente, WPA3.",
+              "topico": "Redes de Computadores"
+            },
+            {
+              "id": "INFO037",
+              "enunciado": "Um hash criptográfico, como o SHA-256, gera um valor fixo a partir de um conjunto de dados de qualquer tamanho, sendo essencial para garantir integridade da informação.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Uma função de hash criptográfico mapeia dados de tamanho variável para uma string de bits de tamanho fixo. Qualquer alteração nos dados de entrada resulta em um hash completamente diferente, o que permite verificar a integridade dos dados.",
+              "topico": "Segurança da Informação"
+            },
+            {
+              "id": "INFO038",
+              "enunciado": "A computação em nuvem no modelo IaaS disponibiliza infraestrutura como serviço, oferecendo recursos como máquinas virtuais, redes e armazenamento.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. IaaS (Infrastructure as a Service) é um modelo de computação em nuvem que fornece recursos de computação virtualizados pela internet. O cliente gerencia o sistema operacional e as aplicações, enquanto o provedor gerencia a infraestrutura física.",
+              "topico": "Computação em Nuvem"
+            },
+            {
+              "id": "INFO039",
+              "enunciado": "O comando SELECT da linguagem SQL é utilizado para consultar dados em tabelas de bancos de dados relacionais, podendo ser combinado com cláusulas como WHERE, GROUP BY e ORDER BY.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. O comando SELECT é a principal ferramenta para recuperar dados de um banco de dados relacional. As cláusulas WHERE, GROUP BY e ORDER BY são usadas para filtrar, agrupar e ordenar os resultados da consulta, respectivamente.",
+              "topico": "Banco de Dados e SQL"
+            },
+            {
+              "id": "INFO040",
+              "enunciado": "Os arquivos no formato JSON são amplamente utilizados em APIs por sua estrutura leve, baseada em texto, e fácil leitura por humanos e máquinas.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. JSON (JavaScript Object Notation) é um formato popular para intercâmbio de dados em aplicações web e APIs devido à sua simplicidade, legibilidade e baixo overhead em comparação com formatos como XML.",
+              "topico": "Desenvolvimento e APIs"
+            },
+            {
+              "id": "INFO041",
+              "enunciado": "A autenticação multifator (MFA) é considerada mais segura que a autenticação por senha única, pois combina dois ou mais fatores de validação distintos.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A MFA adiciona camadas de segurança ao exigir que os usuários forneçam duas ou mais formas de verificação, tornando muito mais difícil para invasores obterem acesso mesmo que uma das credenciais (como a senha) seja comprometida.",
+              "topico": "Segurança da Informação"
+            },
+            {
+              "id": "INFO042",
+              "enunciado": "O protocolo HTTPS utiliza criptografia SSL/TLS para proteger dados transmitidos na web, garantindo confidencialidade, integridade e autenticidade.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. O HTTPS criptografa a comunicação HTTP usando o protocolo TLS (ou seu predecessor, SSL), protegendo contra espionagem e adulteração de dados e verificando a identidade do servidor através de certificados digitais.",
+              "topico": "Segurança da Informação"
+            },
+            {
+              "id": "INFO043",
+              "enunciado": "A linguagem Python, por sua simplicidade e legibilidade, é amplamente utilizada em ciência de dados, automação e desenvolvimento de aplicações web.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Python é uma linguagem versátil e popular em diversas áreas da computação, incluindo análise de dados (com Pandas, NumPy), automação de scripts e desenvolvimento web (com frameworks como Django e Flask).",
+              "topico": "Programação e Desenvolvimento"
+            },
+            {
+              "id": "INFO044",
+              "enunciado": "O ETL (Extract, Transform, Load) é um processo utilizado em sistemas de Business Intelligence para extrair dados de múltiplas fontes, transformá-los e carregá-los em um repositório central.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. ETL é um processo fundamental em data warehousing e BI. Ele envolve a extração de dados de sistemas de origem, a transformação desses dados para um formato consistente e a carga em um data warehouse ou data mart para análise.",
+              "topico": "Business Intelligence e Big Data"
+            },
+            {
+              "id": "INFO045",
+              "enunciado": "O protocolo UDP é orientado à conexão e garante entrega confiável dos pacotes, sendo ideal para aplicações sensíveis a perda de dados como VoIP e streaming.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. O UDP (User Datagram Protocol) é um protocolo não orientado à conexão e não garante a entrega, a ordem ou a integridade dos pacotes. É usado em aplicações que priorizam a baixa latência sobre a confiabilidade, como streaming de vídeo e jogos online.",
+              "topico": "Redes de Computadores"
+            },
+            {
+              "id": "INFO046",
+              "enunciado": "Em ambientes de big data, o conceito de Data Lake refere-se a um repositório que armazena dados estruturados e não estruturados em seu formato bruto.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Um Data Lake é um sistema de armazenamento que mantém uma vasta quantidade de dados brutos em seu formato nativo até que seja necessário. Ele pode armazenar dados estruturados, semiestruturados e não estruturados.",
+              "topico": "Business Intelligence e Big Data"
+            },
+            {
+              "id": "INFO047",
+              "enunciado": "A modelagem entidade-relacionamento (MER) é uma técnica utilizada para projetar esquemas conceituais de bancos de dados relacionais.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. O Modelo Entidade-Relacionamento é uma abordagem de alto nível para o design de bancos de dados. Ele descreve as entidades, seus atributos e os relacionamentos entre elas, servindo de base para o projeto lógico do banco de dados.",
+              "topico": "Banco de Dados e SQL"
+            },
+            {
+              "id": "INFO048",
+              "enunciado": "O protocolo DHCP automatiza a atribuição de endereços IP a dispositivos em uma rede, reduzindo a configuração manual e prevenindo conflitos.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. O DHCP (Dynamic Host Configuration Protocol) simplifica a administração de redes ao atribuir automaticamente endereços IP e outras configurações de rede para os dispositivos que se conectam, evitando conflitos de IP.",
+              "topico": "Redes de Computadores"
+            },
+            {
+              "id": "INFO049",
+              "enunciado": "O firewall é uma ferramenta de segurança que controla o tráfego de entrada e saída de uma rede com base em regras predefinidas.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Um firewall atua como uma barreira de segurança, inspecionando o tráfego de rede e decidindo se permite ou bloqueia com base em um conjunto de regras de segurança.",
+              "topico": "Segurança da Informação"
+            },
+            {
+              "id": "INFO050",
+              "enunciado": "Os metadados são dados que descrevem outros dados, como o autor, data de criação e formato de um arquivo, sendo fundamentais para organização e recuperação da informação.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Metadados são 'dados sobre dados'. Eles fornecem informações contextuais sobre um item, facilitando sua busca, gerenciamento e utilização.",
+              "topico": "Conceitos Fundamentais de TI"
+            },
+            {
+              "id": "INFO051",
+              "enunciado": "A computação em nuvem no modelo SaaS (Software as a Service) fornece aos usuários acesso a softwares pela internet, dispensando instalação local e manutenção direta.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. No modelo SaaS, os softwares são hospedados pelo provedor e disponibilizados aos clientes pela internet, eliminando a necessidade de instalação e manutenção de software nos dispositivos dos usuários.",
+              "topico": "Computação em Nuvem"
+            },
+            {
+              "id": "INFO052",
+              "enunciado": "O modelo OSI possui sete camadas, sendo a camada de enlace responsável pela detecção e correção de erros na transmissão dos dados entre dois dispositivos conectados diretamente.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A camada de Enlace de Dados (Camada 2) do modelo OSI é responsável por transferir dados de forma confiável entre nós de rede adjacentes, o que inclui a detecção e, às vezes, a correção de erros que possam ocorrer na camada física.",
+              "topico": "Redes de Computadores"
+            },
+            {
+              "id": "INFO053",
+              "enunciado": "A linguagem SQL permite manipular dados em bancos de dados relacionais, e o comando SELECT é utilizado para inserir dados em uma tabela.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. O comando SELECT é usado para consultar e recuperar dados. O comando para inserir novos dados em uma tabela é o INSERT INTO.",
+              "topico": "Banco de Dados e SQL"
+            },
+            {
+              "id": "INFO054",
+              "enunciado": "O protocolo SNMP é utilizado para gerenciamento de dispositivos de rede, como switches e roteadores, possibilitando monitoramento e controle remoto.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. O SNMP (Simple Network Management Protocol) é amplamente utilizado para coletar informações e configurar dispositivos de rede, como roteadores, switches e servidores.",
+              "topico": "Redes de Computadores"
+            },
+            {
+              "id": "INFO055",
+              "enunciado": "A arquitetura cliente-servidor é uma estrutura de rede em que o cliente envia requisições ao servidor, que processa e responde, sendo típica da comunicação web.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Este é o modelo fundamental da internet e de muitas redes locais, onde um programa cliente faz uma solicitação a um programa servidor, que atende a essa solicitação.",
+              "topico": "Conceitos Fundamentais de TI"
+            },
+            {
+              "id": "INFO056",
+              "enunciado": "O modelo TCP/IP possui quatro camadas, e a camada de transporte é responsável pelo controle de fluxo, confiabilidade e segmentação dos dados.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A camada de Transporte no modelo TCP/IP, utilizando protocolos como TCP, gerencia a comunicação de ponta a ponta, incluindo a segmentação dos dados, o controle de fluxo e a garantia de entrega confiável.",
+              "topico": "Redes de Computadores"
+            },
+            {
+              "id": "INFO057",
+              "enunciado": "Em sistemas de informação, a etapa de homologação ocorre antes da entrada em produção e tem por objetivo validar o sistema em ambiente próximo ao real.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A homologação é a fase final de testes, onde o cliente ou usuário final valida se o sistema atende a todos os requisitos e funciona corretamente em um ambiente que simula o de produção, antes do lançamento oficial.",
+              "topico": "Desenvolvimento de Sistemas"
+            },
+            {
+              "id": "INFO058",
+              "enunciado": "O LibreOffice Writer é um software de apresentação de slides similar ao Microsoft PowerPoint, utilizado para criar documentos visuais interativos.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. O LibreOffice Writer é o processador de texto da suíte, equivalente ao Microsoft Word. O software para apresentações de slides é o LibreOffice Impress.",
+              "topico": "Suítes de Escritório"
+            },
+            {
+              "id": "INFO059",
+              "enunciado": "A mineração de dados consiste na análise de grandes volumes de dados com o objetivo de identificar padrões e tendências úteis para a tomada de decisão.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A mineração de dados (Data Mining) utiliza técnicas estatísticas e de inteligência artificial para descobrir padrões, anomalias e correlações em grandes conjuntos de dados, gerando insights para os negócios.",
+              "topico": "Ciência de Dados"
+            },
+            {
+              "id": "INFO060",
+              "enunciado": "O protocolo de segurança WPA2 é utilizado em redes sem fio para garantir criptografia dos dados e autenticação do usuário, sendo mais seguro que o WEP.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. O WPA2 (Wi-Fi Protected Access 2) substituiu o antigo e inseguro protocolo WEP, oferecendo criptografia muito mais forte através do padrão AES, e se tornou o padrão de segurança para redes Wi-Fi por muitos anos.",
+              "topico": "Segurança da Informação"
+            },
+            {
+              "id": "INFO061",
+              "enunciado": "O comando iptables em sistemas Linux é utilizado para configuração de regras de firewall, permitindo controle detalhado de tráfego de entrada e saída.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. 'iptables' é uma ferramenta de linha de comando que permite aos administradores de sistema configurar as tabelas de filtragem de pacotes do firewall do kernel Linux (Netfilter), controlando o tráfego de rede.",
+              "topico": "Sistemas Operacionais"
+            },
+            {
+              "id": "INFO062",
+              "enunciado": "O modelo de serviço em nuvem conhecido como IaaS (Infrastructure as a Service) oferece ao usuário controle sobre infraestrutura de servidores virtuais, armazenamento e rede.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. No modelo IaaS, o cliente aluga a infraestrutura de TI – servidores, armazenamento, redes – de um provedor de nuvem e tem controle sobre o sistema operacional e as aplicações que executa.",
+              "topico": "Computação em Nuvem"
+            },
+            {
+              "id": "INFO063",
+              "enunciado": "O protocolo HTTP atua na camada de enlace do modelo OSI e é utilizado para garantir a integridade física da transmissão entre servidores e clientes.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. O protocolo HTTP (Hypertext Transfer Protocol) atua na Camada de Aplicação (Camada 7) do modelo OSI e é responsável pela comunicação entre navegadores web e servidores.",
+              "topico": "Redes de Computadores"
+            },
+            {
+              "id": "INFO064",
+              "enunciado": "A subcamada de acesso ao meio, dentro da camada de enlace, define como os dispositivos compartilham o meio físico de comunicação, como em redes Ethernet.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A Camada de Enlace é dividida nas subcamadas LLC (Logical Link Control) e MAC (Media Access Control). A subcamada MAC é responsável por controlar como os dispositivos em uma rede ganham acesso ao meio e permissão para transmitir dados.",
+              "topico": "Redes de Computadores"
+            },
+            {
+              "id": "INFO065",
+              "enunciado": "Em análise de dados, ETL (Extract, Transform, Load) é o processo responsável por extrair dados de fontes diversas, transformá-los conforme regras definidas e carregá-los em um repositório de dados.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. O processo ETL é fundamental para data warehousing, onde os dados são coletados de várias fontes, limpos e padronizados (transformação) e, em seguida, carregados em um sistema de destino para análise.",
+              "topico": "Business Intelligence e Big Data"
+            },
+            {
+              "id": "INFO066",
+              "enunciado": "A autenticação multifator (MFA) combina pelo menos dois elementos entre algo que o usuário sabe, algo que o usuário possui и algo que o usuário é, elevando a segurança do acesso.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A MFA fortalece a segurança do acesso ao exigir que os usuários forneçam dois ou mais fatores de verificação de diferentes categorias (conhecimento, posse, inerência), tornando as contas menos vulneráveis a invasões.",
+              "topico": "Segurança da Informação"
+            },
+            {
+              "id": "INFO067",
+              "enunciado": "A arquitetura backend refere-se à camada de aplicação e interação com o usuário final, enquanto o frontend cuida do processamento interno e do acesso ao banco de dados.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. A questão inverte os conceitos. O frontend é a parte da aplicação com a qual o usuário interage diretamente (a interface). O backend é a parte do servidor que lida com a lógica de negócios, o processamento de dados e a comunicação com o banco de dados.",
+              "topico": "Desenvolvimento de Sistemas"
+            },
+            {
+              "id": "INFO068",
+              "enunciado": "O endereço IPv6 foi criado para substituir o IPv4 devido à limitação de endereços disponíveis, e possui 128 bits, permitindo maior escalabilidade.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. O esgotamento dos endereços IPv4 (32 bits) levou ao desenvolvimento do IPv6, que usa endereços de 128 bits, oferecendo um espaço de endereçamento vastamente maior para suportar o crescimento da internet.",
+              "topico": "Redes de Computadores"
+            },
+            {
+              "id": "INFO069",
+              "enunciado": "JSON e XML são formatos padronizados utilizados para troca de dados estruturados entre sistemas distintos, sendo amplamente empregados em APIs.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Tanto JSON (JavaScript Object Notation) quanto XML (eXtensible Markup Language) são formatos de dados baseados em texto usados para representar dados estruturados e são comumente utilizados na comunicação entre aplicações via APIs.",
+              "topico": "Desenvolvimento e APIs"
+            },
+            {
+              "id": "INFO070",
+              "enunciado": "O protocolo UDP, apesar de não garantir entrega ordenada nem retransmissão, é preferido em aplicações como vídeo ao vivo e jogos online por sua baixa latência.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. O UDP (User Datagram Protocol) oferece uma comunicação mais rápida ao não realizar verificações de conexão e entrega, o que o torna ideal para aplicações em tempo real onde a velocidade é mais crítica do que a confiabilidade total.",
+              "topico": "Redes de Computadores"
+            },
+            {
+              "id": "INFO071",
+              "enunciado": "A mineração de dados busca identificar padrões e relacionamentos úteis em grandes volumes de dados, sendo base para técnicas de aprendizado de máquina.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A mineração de dados é o processo de descobrir padrões em grandes conjuntos de dados, e seus resultados e técnicas são frequentemente usados para treinar e desenvolver modelos de aprendizado de máquina.",
+              "topico": "Ciência de Dados"
+            },
+            {
+              "id": "INFO072",
+              "enunciado": "No contexto de segurança da informação, o hash criptográfico é uma função que transforma dados em uma sequência de caracteres de comprimento fixo e é usado para garantir a integridade da informação.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Uma função de hash cria uma 'impressão digital' única de tamanho fixo para um dado. Se o dado for alterado, o hash também muda, permitindo a verificação da integridade do arquivo ou mensagem.",
+              "topico": "Segurança da Informação"
+            },
+            {
+              "id": "INFO073",
+              "enunciado": "Em bancos de dados relacionais, uma chave primária pode conter valores nulos, desde que não se repitam entre os registros.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. Uma das restrições fundamentais de uma chave primária é que ela não pode conter valores nulos (restrição de entidade). Seu propósito é identificar unicamente cada registro.",
+              "topico": "Banco de Dados e SQL"
+            },
+            {
+              "id": "INFO074",
+              "enunciado": "O protocolo DNS é responsável por traduzir nomes de domínio em endereços IP e atua na camada de transporte do modelo TCP/IP.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. Embora o DNS seja essencial para a rede, ele é um protocolo da Camada de Aplicação, não da Camada de Transporte. Ele utiliza os serviços da camada de transporte (UDP e TCP) para realizar suas operações.",
+              "topico": "Redes de Computadores"
+            },
+            {
+              "id": "INFO075",
+              "enunciado": "As redes do tipo WAN (Wide Area Network) interligam computadores em grandes áreas geográficas, como cidades e países, utilizando múltiplos provedores de telecomunicações.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Uma WAN é uma rede de telecomunicações que se estende por uma grande área geográfica. A Internet é o maior exemplo de uma WAN.",
+              "topico": "Redes de Computadores"
+            },
+            {
+              "id": "INFO076",
+              "enunciado": "Em programação Python, o método append() é utilizado para adicionar elementos ao final de uma lista.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. O método .append() é uma função integrada das listas em Python que adiciona um único item ao final da lista existente.",
+              "topico": "Programação e Desenvolvimento"
+            },
+            {
+              "id": "INFO077",
+              "enunciado": "A camada de aplicação no modelo TCP/IP é responsável por fornecer serviços de rede diretamente aos aplicativos do usuário, como HTTP, FTP e SMTP.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A camada de aplicação é a camada superior do modelo TCP/IP e contém os protocolos que as aplicações utilizam para trocar dados pela rede.",
+              "topico": "Redes de Computadores"
+            },
+            {
+              "id": "INFO078",
+              "enunciado": "O protocolo SSL/TLS é utilizado para criptografar a comunicação entre navegador e servidor, garantindo sigilo e autenticidade na transmissão de dados.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. SSL (Secure Sockets Layer) e seu sucessor, TLS (Transport Layer Security), são protocolos criptográficos que fornecem comunicação segura sobre uma rede de computadores, sendo a base do HTTPS.",
+              "topico": "Segurança da Informação"
+            },
+            {
+              "id": "INFO079",
+              "enunciado": "O conceito de DataLake refere-se a um repositório que armazena grandes volumes de dados estruturados, mas não aceita dados não estruturados.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. A principal característica de um Data Lake é justamente sua capacidade de armazenar todos os tipos de dados – estruturados, semiestruturados e não estruturados – em seu formato bruto.",
+              "topico": "Business Intelligence e Big Data"
+            },
+            {
+              "id": "INFO080",
+              "enunciado": "Copilot, ChatGPT e META são exemplos de ferramentas de inteligência artificial utilizadas para automação de tarefas, geração de conteúdo e apoio à programação.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Copilot (assistente de codificação), ChatGPT (modelo de linguagem conversacional) e as tecnologias de IA da Meta (como o Llama) são exemplos proeminentes de ferramentas de IA generativa.",
+              "topico": "Inteligência Artificial"
+            },
+            {
+              "id": "INFO081",
+              "enunciado": "No contexto da interoperabilidade entre sistemas, uma API RESTful deve respeitar os princípios do protocolo HTTP, sendo capaz de realizar operações CRUD por meio dos métodos GET, POST, PUT e DELETE.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. APIs que seguem o estilo arquitetural REST (RESTful) utilizam os verbos do protocolo HTTP para mapear as operações CRUD (Create, Read, Update, Delete) sobre os recursos.",
+              "topico": "Desenvolvimento e APIs"
+            },
+            {
+              "id": "INFO082",
+              "enunciado": "A principal função do ETL (Extract, Transform, Load) é permitir a comunicação direta entre sistemas de arquivos multimídia, utilizando inteligência artificial para leitura autônoma de documentos.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. A principal função do ETL é a integração de dados para análise, extraindo de várias fontes, transformando-os em um formato consistente e carregando-os em um data warehouse. Não se relaciona diretamente com a leitura de multimídia por IA.",
+              "topico": "Business Intelligence e Big Data"
+            },
+            {
+              "id": "INFO083",
+              "enunciado": "A modelagem conceitual de banco de dados utiliza o modelo entidade-relacionamento (ER), no qual relacionamentos podem possuir atributos próprios, que descrevem propriedades da relação entre entidades.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Em um Modelo Entidade-Relacionamento, os relacionamentos (especialmente os de cardinalidade N:M) podem ter atributos que não pertencem a nenhuma das entidades individualmente, mas sim à associação entre elas.",
+              "topico": "Banco de Dados e SQL"
+            },
+            {
+              "id": "INFO084",
+              "enunciado": "Em uma modelagem de banco de dados relacional, uma chave estrangeira (foreign key) permite a associação entre duas tabelas distintas, garantindo a integridade referencial do banco.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A chave estrangeira é o campo que estabelece e reforça um link entre os dados de duas tabelas, garantindo que um registro em uma tabela só possa se referir a um registro existente em outra.",
+              "topico": "Banco de Dados e SQL"
+            },
+            {
+              "id": "INFO085",
+              "enunciado": "No comando SQL SELECT nome FROM usuarios WHERE idade > 30, o operador > representa uma cláusula de projeção que define a ordem crescente de registros.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. O operador '>' é um operador de comparação usado na cláusula de seleção (WHERE) para filtrar registros. A projeção é a seleção de colunas (neste caso, 'nome'). A ordenação é feita pela cláusula ORDER BY.",
+              "topico": "Banco de Dados e SQL"
+            },
+            {
+              "id": "INFO086",
+              "enunciado": "Em um banco de dados relacional, o conceito de integridade de entidade garante que os valores de uma chave primária jamais sejam nulos.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A regra de integridade de entidade afirma que toda tabela deve ter uma chave primária e que a coluna (ou colunas) que compõem a chave primária não pode conter valores nulos.",
+              "topico": "Banco de Dados e SQL"
+            },
+            {
+              "id": "INFO087",
+              "enunciado": "Os formatos JSON e XML são largamente utilizados em arquivos de intercâmbio entre sistemas, inclusive biométricos, por permitirem estruturação hierárquica de dados.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. JSON e XML são formatos de dados textuais que suportam estruturas hierárquicas, sendo ideais para a troca de informações complexas entre sistemas, incluindo dados biométricos e seus metadados.",
+              "topico": "Desenvolvimento e APIs"
+            },
+            {
+              "id": "INFO088",
+              "enunciado": "O padrão NIST define especificações técnicas para testes de interoperabilidade de sistemas biométricos, incluindo formatos de arquivos e índices de acurácia como FPIR e FNIR.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. O NIST (National Institute of Standards and Technology dos EUA) é uma referência global na definição de padrões para tecnologia, incluindo testes e métricas de desempenho para sistemas biométricos.",
+              "topico": "Biometria e Padrões"
+            },
+            {
+              "id": "INFO089",
+              "enunciado": "FPIR (False Positive Identification Rate) e FNIR (False Negative Identification Rate) são métricas de avaliação de sistemas biométricos que medem, respectivamente, a taxa de falsos positivos e falsos negativos na identificação de indivíduos.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. FPIR mede a frequência com que o sistema identifica incorretamente um indivíduo não cadastrado como alguém que está na base. FNIR mede a frequência com que o sistema falha em identificar um indivíduo que está cadastrado.",
+              "topico": "Biometria e Padrões"
+            },
+            {
+              "id": "INFO090",
+              "enunciado": "Em segurança da informação, o hash criptográfico como o SHA-256 é utilizado para verificar a integridade de arquivos, sendo praticamente impossível reverter o hash para recuperar o conteúdo original.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A principal propriedade de uma função de hash criptográfico é ser uma função de mão única (one-way), o que significa que é computacionalmente inviável encontrar a entrada original a partir da saída (hash).",
+              "topico": "Segurança da Informação"
+            },
+            {
+              "id": "INFO091",
+              "enunciado": "O conceito de DataLake refere-se a um repositório estruturado de dados, normalmente com esquema rígido e modelagem relacional previamente definida.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. Esta descrição se aplica a um Data Warehouse. Um Data Lake é caracterizado por armazenar dados em seu formato bruto, sem esquema predefinido (schema-on-read), aceitando dados estruturados, semiestruturados e não estruturados.",
+              "topico": "Business Intelligence e Big Data"
+            },
+            {
+              "id": "INFO092",
+              "enunciado": "Um DataMart é uma subdivisão do DataWarehouse, voltada para áreas específicas do negócio, facilitando consultas mais rápidas e segmentadas.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Um Data Mart é um subconjunto de um Data Warehouse, focado em uma linha de negócios ou departamento específico (ex: vendas, marketing), que fornece dados relevantes para um grupo particular de usuários.",
+              "topico": "Business Intelligence e Big Data"
+            },
+            {
+              "id": "INFO093",
+              "enunciado": "Os metadados de arquivos são informações adicionais que descrevem atributos como data de criação, autor, tipo de arquivo e permissões de acesso, auxiliando em processos de organização e segurança digital.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Metadados são 'dados sobre dados' e são cruciais para o gerenciamento de informações, permitindo catalogar, pesquisar e controlar o acesso a arquivos e outros recursos digitais.",
+              "topico": "Conceitos Fundamentais de TI"
+            },
+            {
+              "id": "INFO094",
+              "enunciado": "Em uma arquitetura de dados baseada em DataMesh, os dados são organizados em domínios independentes, com cada equipe responsável por seu pipeline de dados, conforme princípios de produto.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Data Mesh é uma abordagem arquitetônica descentralizada que trata os dados como um produto, com equipes de domínio autônomas sendo responsáveis por seus próprios dados, promovendo escalabilidade e agilidade.",
+              "topico": "Arquitetura de Dados"
+            },
+            {
+              "id": "INFO095",
+              "enunciado": "A linguagem SQL (Structured Query Language) é utilizada exclusivamente para a definição da estrutura de tabelas em bancos de dados, não sendo empregada para consulta ou manipulação de dados.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. A SQL é uma linguagem completa para bancos de dados relacionais, abrangendo DDL (Data Definition Language - ex: CREATE TABLE), DML (Data Manipulation Language - ex: INSERT, SELECT) e DCL (Data Control Language - ex: GRANT).",
+              "topico": "Banco de Dados e SQL"
+            },
+            {
+              "id": "INFO096",
+              "enunciado": "O uso de API (Application Programming Interface) permite que sistemas distintos compartilhem funcionalidades, sendo comum sua aplicação em microserviços e integrações REST.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Uma API define um conjunto de regras e ferramentas para construir software e aplicações, permitindo que diferentes sistemas se comuniquem e interajam de forma padronizada.",
+              "topico": "Desenvolvimento e APIs"
+            },
+            {
+              "id": "INFO097",
+              "enunciado": "A função de uma assinatura digital é autenticar a origem e garantir a integridade de um documento eletrônico, sendo baseada em técnicas de criptografia assimétrica.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Uma assinatura digital usa um par de chaves assimétricas (pública e privada) para garantir a autenticidade (quem assinou), a integridade (o documento não foi alterado) и o não repúdio (o signatário não pode negar a assinatura).",
+              "topico": "Segurança da Informação"
+            },
+            {
+              "id": "INFO098",
+              "enunciado": "Em modelos de inteligência artificial, o aprendizado de máquina supervisionado utiliza um conjunto de dados rotulado como base para treinar algoritmos capazes de realizar previsões.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. No aprendizado supervisionado, o algoritmo aprende a partir de exemplos de entrada e saída correspondentes (dados rotulados) para ser capaz de fazer previsões para novos dados de entrada.",
+              "topico": "Inteligência Artificial"
+            },
+            {
+              "id": "INFO099",
+              "enunciado": "No conceito de computação em nuvem, o modelo SaaS (Software as a Service) disponibiliza software diretamente ao usuário, sem a necessidade de instalação local ou gerenciamento de infraestrutura.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. O SaaS é um modelo de entrega de software em que as aplicações são hospedadas por um provedor e disponibilizadas aos clientes pela internet, tipicamente através de um navegador web.",
+              "topico": "Computação em Nuvem"
+            },
+            {
+              "id": "INFO100",
+              "enunciado": "A autenticação multifator (MFA) aumenta a segurança digital ao exigir dois ou mais fatores de verificação distintos, como senha, token físico e biometria.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A MFA é uma camada crítica de segurança que requer múltiplas credenciais para verificar a identidade de um usuário, protegendo contra o acesso não autorizado mesmo que uma das credenciais seja comprometida.",
+              "topico": "Segurança da Informação"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

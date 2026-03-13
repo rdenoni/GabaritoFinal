@@ -1,0 +1,353 @@
+{
+  "concursos": [
+    {
+      "id": "concurso_simulado_agente_policia_2025",
+      "nome": "Simulado - Agente de Polícia (Nível Superior)",
+      "ano": 2025,
+      "banca": "Cebraspe (Modelo)",
+      "disciplinas": [
+        {
+          "id": "dpp_agente_policia_2025",
+          "nome": "Direito Processual Penal",
+          "questoes": [
+            {
+              "id": "DPP001",
+              "enunciado": "O inquérito policial é indispensável para o oferecimento da denúncia, pois constitui condição de procedibilidade da ação penal pública.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "O inquérito policial não é condição de procedibilidade da ação penal pública. De acordo com o art. 39, §5º do CPP e jurisprudência do STJ, a denúncia pode ser baseada em elementos colhidos por outros meios (como sindicâncias, CPIs ou notícias de crime), desde que haja justa causa (STF – HC 91.661/SP).",
+              "topico": "Inquérito Policial"
+            },
+            {
+              "id": "DPP002",
+              "enunciado": "O indiciamento é ato privativo do delegado de polícia e não depende de autorização judicial, ainda que a pessoa indiciada esteja presa.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Conforme entendimento consolidado do STJ, o indiciamento é ato privativo do delegado de polícia (art. 2º, §6º da Lei nº 12.830/2013) e não exige autorização judicial, mesmo em casos de réus presos (STJ – RHC 83.816/SP).",
+              "topico": "Inquérito Policial"
+            },
+            {
+              "id": "DPP003",
+              "enunciado": "A prisão em flagrante deve ser comunicada imediatamente ao juiz, ao Ministério Público e à Defensoria Pública, sendo obrigatória a audiência de custódia em até 24 horas.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A comunicação da prisão em flagrante ao juiz, ao MP e à Defensoria é exigência expressa da Constituição (art. 5º, LXII e LXIII) e do art. 310 do CPP. A audiência de custódia deve ocorrer em até 24h, conforme decisão do STF (ADPF 347).",
+              "topico": "Prisões e Medidas Cautelares"
+            },
+            {
+              "id": "DPP004",
+              "enunciado": "A prova ilícita, ainda que obtida de forma irregular, pode ser utilizada no processo penal se for a única forma de comprovação da materialidade do crime.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "A prova ilícita é inadmissível no processo penal, nos termos do art. 5º, LVI da CF/88 e art. 157 do CPP. A exceção prevista na jurisprudência refere-se apenas à prova derivada (ilícita por derivação), quando for demonstrada a descoberta inevitável ou a fonte independente.",
+              "topico": "Provas no Processo Penal"
+            },
+            {
+              "id": "DPP005",
+              "enunciado": "O sistema processual penal brasileiro adota o princípio do contraditório apenas durante a instrução processual, não sendo aplicável à fase investigatória.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "O contraditório é princípio que rege o processo judicial (art. 5º, LV da CF), mas não se aplica plenamente à fase de investigação, que tem natureza inquisitiva. No entanto, o contraditório é mitigado ou diferido, e atos que interfiram em direitos fundamentais exigem controle judicial (STF – HC 96.962).",
+              "topico": "Princípios do Processo Penal"
+            },
+            {
+              "id": "DPP006",
+              "enunciado": "O juiz das garantias é responsável pelo controle da legalidade da investigação criminal e pela salvaguarda dos direitos individuais durante a fase pré-processual.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O juiz das garantias (art. 3º-B do CPP, incluído pela Lei nº 13.964/2019) exerce o controle de legalidade na fase investigativa e garante os direitos do investigado. Sua função é atuar na fase pré-processual, separando o juiz da investigação do juiz do processo.",
+              "topico": "Juiz das Garantias"
+            },
+            {
+              "id": "DPP007",
+              "enunciado": "A ação penal privada subsidiária da pública pode ser proposta pelo ofendido quando o Ministério Público não oferecer denúncia no prazo legal, sendo necessária autorização judicial para seu prosseguimento.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Nos termos do art. 29 do CPP, a ação penal privada subsidiária da pública pode ser proposta se o MP não oferecer denúncia no prazo legal. Não se exige autorização judicial para seu prosseguimento, apenas que se comprove a inércia do Parquet.",
+              "topico": "Ação Penal"
+            },
+            {
+              "id": "DPP008",
+              "enunciado": "A busca pessoal independe de mandado judicial quando houver fundada suspeita de que alguém oculte consigo arma proibida ou objetos relacionados a crime.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A busca pessoal sem mandado é autorizada pelo art. 244 do CPP quando houver fundada suspeita de que o indivíduo esteja ocultando arma ou objeto relacionado ao crime. A jurisprudência exige que a abordagem seja proporcional e baseada em elementos concretos, não em mera impressão subjetiva.",
+              "topico": "Provas no Processo Penal"
+            },
+            {
+              "id": "DPP009",
+              "enunciado": "A prova emprestada é admitida no processo penal, desde que submetida ao contraditório e à ampla defesa.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A admissibilidade da prova emprestada exige que ela tenha sido produzida com respeito ao contraditório no processo de origem e que seja dada às partes a oportunidade de se manifestarem sobre ela no processo de destino. Sem o contraditório, a prova é inválida.",
+              "topico": "Provas no Processo Penal"
+            },
+            {
+              "id": "DPP010",
+              "enunciado": "O oferecimento da denúncia interrompe o prazo prescricional da pretensão punitiva estatal.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "O marco interruptivo da prescrição é o recebimento da denúncia ou da queixa pelo juiz, e não o seu mero oferecimento pelo Ministério Público. A previsão está no art. 117, I, do Código Penal.",
+              "topico": "Prescrição Penal"
+            },
+            {
+              "id": "DPP011",
+              "enunciado": "Durante a fase do inquérito policial, é possível a decretação de interceptação telefônica mediante autorização judicial, desde que se demonstre a absoluta indispensabilidade da medida para a apuração da infração penal, inexistindo outros meios disponíveis de prova.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A interceptação telefônica (Lei nº 9.296/96) depende de ordem judicial motivada e só é admitida quando for o único meio de prova disponível ou quando outros meios se mostrarem ineficazes. Sua decretação é possível tanto na fase de inquérito quanto na fase processual.",
+              "topico": "Provas no Processo Penal"
+            },
+            {
+              "id": "DPP012",
+              "enunciado": "A confissão obtida sem a presença de defensor é considerada inválida, por afrontar os princípios constitucionais do contraditório e da ampla defesa, ainda que não haja sinais exteriores de coação.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A confissão extrajudicial (na delegacia) sem a presença de um advogado é válida, mas deve ser corroborada por outras provas produzidas em juízo. A jurisprudência do STJ tem considerado que a ausência do defensor durante o interrogatório policial, por si só, não anula a confissão, mas seu valor probatório é relativo.",
+              "topico": "Provas no Processo Penal"
+            },
+            {
+              "id": "DPP013",
+              "enunciado": "A competência territorial no processo penal é, via de regra, fixada pelo lugar da infração, sendo o domicílio do réu critério subsidiário e excepcional, utilizado somente quando não for conhecido o local do crime.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A regra geral de competência territorial, segundo o art. 70 do CPP, é o lugar em que se consumar a infração (teoria do resultado). O domicílio do réu é um critério subsidiário, aplicado em situações específicas, como quando o local da infração é incerto.",
+              "topico": "Competência"
+            },
+            {
+              "id": "DPP014",
+              "enunciado": "Em conformidade com o art. 400 do Código de Processo Penal, o interrogatório do réu deve ocorrer ao final da instrução processual, permitindo-se que ele exerça plenamente o contraditório e a ampla defesa após a produção das provas.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O interrogatório do réu é, por regra, o último ato da instrução criminal, conforme o art. 400 do CPP. Essa disposição visa garantir a ampla defesa, permitindo que o acusado se manifeste após ter conhecimento de todas as provas produzidas contra ele.",
+              "topico": "Procedimentos"
+            },
+            {
+              "id": "DPP015",
+              "enunciado": "A prisão temporária é medida cautelar de natureza excepcional, que somente pode ser decretada por ordem judicial, mediante requerimento do Ministério Público ou representação da autoridade policial, nunca de ofício pela polícia.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A prisão temporária (Lei nº 7.960/89) é decretada exclusivamente por ordem judicial, após pedido do MP ou representação da autoridade policial. A polícia não tem poder para decretar a prisão de ofício, apenas para representá-la ao juiz.",
+              "topico": "Prisões e Medidas Cautelares"
+            },
+            {
+              "id": "DPP016",
+              "enunciado": "O arquivamento do inquérito policial pelo Ministério Público, por ausência de elementos mínimos para oferecimento da denúncia, depende de homologação judicial, assegurando-se o sistema de freios e contrapesos entre acusação e jurisdição.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Com a nova redação do art. 28 do CPP (Lei 13.964/19), o arquivamento é comunicado à vítima, ao investigado e à autoridade policial, e submetido à instância de revisão ministerial para homologação. O controle judicial sobre o mérito do arquivamento foi afastado, mas a legalidade do ato ainda pode ser controlada.",
+              "topico": "Inquérito Policial"
+            },
+            {
+              "id": "DPP017",
+              "enunciado": "As medidas cautelares diversas da prisão previstas no art. 319 do Código de Processo Penal somente podem ser aplicadas pelo juiz mediante provocação das partes, não sendo admissível sua decretação de ofício, sob pena de violação ao sistema acusatório.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Após a reforma do CPP pela Lei nº 13.964/2019, o juiz não pode mais aplicar medidas cautelares de ofício durante a investigação. A decretação depende de requerimento do MP, representação da autoridade policial ou pedido do querelante. No curso do processo, a decretação de ofício ainda é debatida.",
+              "topico": "Prisões e Medidas Cautelares"
+            },
+            {
+              "id": "DPP018",
+              "enunciado": "Para que a denúncia seja considerada apta, é necessário que contenha a exposição do fato criminoso com suas circunstâncias, a qualificação do acusado ou esclarecimentos pelos quais se possa identificá-lo, a classificação do crime e o rol de testemunhas.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A denúncia deve seguir os requisitos do art. 41 do CPP: descrição do fato criminoso com todas as suas circunstâncias, qualificação do acusado (ou sinais para identificá-lo), a classificação jurídica do crime e, quando necessário, o rol de testemunhas. A ausência desses elementos pode levar à sua inépcia.",
+              "topico": "Ação Penal"
+            },
+            {
+              "id": "DPP019",
+              "enunciado": "A busca domiciliar, ainda que à noite, pode ser realizada sem mandado judicial quando houver fundada suspeita de flagrante delito, conforme exceção expressamente prevista no art. 5º, XI da Constituição Federal.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A busca domiciliar sem mandado judicial é excepcional e só se justifica em caso de flagrante delito, desastre, para prestar socorro, ou, durante o dia, por determinação judicial (art. 5º, XI, CF). O STF entende que a entrada em caso de flagrante é permitida a qualquer hora do dia ou da noite, desde que haja fundadas razões.",
+              "topico": "Provas no Processo Penal"
+            },
+            {
+              "id": "DPP020",
+              "enunciado": "A citação válida do réu não interrompe, mas sim suspende o curso da prescrição penal, sendo que a interrupção ocorre apenas com o recebimento da denúncia ou da queixa, nos termos do art. 117 do Código Penal.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "A citação válida do réu não interrompe nem suspende a prescrição. Os marcos interruptivos da prescrição estão previstos no art. 117 do Código Penal e incluem o recebimento da denúncia, a pronúncia e a publicação da sentença condenatória recorrível. A citação não é um deles.",
+              "topico": "Prescrição Penal"
+            },
+            {
+              "id": "DPP021",
+              "enunciado": "A nulidade absoluta decorrente da ausência de citação válida do réu, em processo criminal, pode ser sanada pela constituição de defensor e apresentação de resposta à acusação, ainda que ausente prévia ciência formal do acusado.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "A ausência de citação válida é nulidade absoluta (art. 564, III, 'e', CPP). O comparecimento espontâneo do réu ao processo sana a falta ou nulidade da citação (art. 570, CPP), mas a simples constituição de advogado sem a ciência inequívoca do réu sobre a acusação não é suficiente para sanar o vício.",
+              "topico": "Nulidades"
+            },
+            {
+              "id": "DPP022",
+              "enunciado": "O juiz pode decretar, de ofício, a prisão preventiva do réu durante a fase de instrução criminal, desde que verificados os requisitos legais e observada a conversão expressa de medida cautelar anteriormente aplicada.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Desde a vigência da Lei nº 13.964/2019 ('Pacote Anticrime'), o juiz não pode decretar a prisão preventiva de ofício em nenhuma fase do processo. A medida depende de requerimento do Ministério Público, do querelante ou de representação da autoridade policial.",
+              "topico": "Prisões e Medidas Cautelares"
+            },
+            {
+              "id": "DPP023",
+              "enunciado": "A prova obtida por meio de interceptação ambiental clandestina é considerada prova ilícita por derivação, sendo vedada sua utilização no processo penal, salvo quando obtida por particular sem violação de direito fundamental.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "A gravação ambiental clandestina (feita por um dos interlocutores sem o conhecimento dos demais) é, em regra, considerada lícita pela jurisprudência do STF, especialmente se utilizada em legítima defesa. A interceptação (feita por terceiro sem o conhecimento dos interlocutores) é que exige autorização judicial.",
+              "topico": "Provas no Processo Penal"
+            },
+            {
+              "id": "DPP024",
+              "enunciado": "A ação penal pública incondicionada deve ser proposta pelo Ministério Público, e sua ausência no polo ativo acarreta nulidade insanável, sendo incabível substituição pelo ofendido.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A titularidade da ação penal pública incondicionada é exclusiva do Ministério Público (art. 129, I, CF). A ausência do MP no polo ativo gera nulidade absoluta. A única exceção é a ação penal privada subsidiária da pública, cabível apenas em caso de inércia do MP.",
+              "topico": "Ação Penal"
+            },
+            {
+              "id": "DPP025",
+              "enunciado": "A sentença penal absolutória por falta de provas não impede a propositura de ação cível de reparação de danos, salvo se reconhecida, expressamente, a inexistência do fato ou a negativa de autoria.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A absolvição criminal por insuficiência de provas (art. 386, VII, CPP) não impede a discussão do fato na esfera cível. Apenas a absolvição que reconhece categoricamente a inexistência do fato ou que o réu não foi o autor (art. 386, I e IV, CPP) faz coisa julgada no cível.",
+              "topico": "Sentença e Coisa Julgada"
+            },
+            {
+              "id": "DPP026",
+              "enunciado": "O reconhecimento pessoal do investigado, realizado por vítima desacompanhada e sem formação de fila de pessoas com características semelhantes, é considerado nulo por afrontar o contraditório e o devido processo legal.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O reconhecimento pessoal sem a observância das formalidades do art. 226 do CPP (como a descrição prévia pela vítima e a apresentação ao lado de pessoas semelhantes) é considerado ilegal pela jurisprudência recente do STJ e do STF. Tal prova não pode, isoladamente, fundamentar uma condenação.",
+              "topico": "Provas no Processo Penal"
+            },
+            {
+              "id": "DPP027",
+              "enunciado": "O habeas corpus é cabível para impugnar decisão que indefere pedido de trancamento de inquérito policial, quando demonstrada manifesta ilegalidade ou constrangimento ilegal.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O habeas corpus é o remédio constitucional adequado para buscar o trancamento de inquérito policial quando a investigação se baseia em fato atípico, quando há extinção da punibilidade ou quando ausente a justa causa de forma evidente, configurando constrangimento ilegal.",
+              "topico": "Habeas Corpus e Recursos"
+            },
+            {
+              "id": "DPP028",
+              "enunciado": "A persecução penal deve respeitar o sistema acusatório, sendo vedada a iniciativa probatória do juiz no curso da instrução criminal, sob pena de nulidade processual.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O sistema acusatório, adotado pela Constituição de 1988 e reforçado pela Lei 13.964/19, veda a iniciativa probatória do juiz (art. 3º-A, CPP), que deve manter-se como um terceiro imparcial. A produção de provas é tarefa das partes (acusação e defesa).",
+              "topico": "Princípios do Processo Penal"
+            },
+            {
+              "id": "DPP029",
+              "enunciado": "No procedimento ordinário, o prazo para resposta à acusação é de 10 dias, contados da audiência de custódia ou do interrogatório do réu, ainda que este esteja foragido.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "O prazo de 10 dias para a resposta à acusação (art. 396 do CPP) conta-se a partir da citação do réu. A audiência de custódia ou o interrogatório são momentos distintos. Um réu foragido não pode apresentar resposta, pois o prazo só começa a correr após a citação válida.",
+              "topico": "Procedimentos"
+            },
+            {
+              "id": "DPP030",
+              "enunciado": "O Tribunal do Júri tem competência constitucional para julgamento dos crimes dolosos contra a vida e seus conexos, sendo inadmissível o desmembramento quando os fatos estão imbricados por unidade de desígnios.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "A competência do Tribunal do Júri é para os crimes dolosos contra a vida e os que lhe forem conexos (art. 5º, XXXVIII, CF). O desmembramento (separação de processos) é admissível em diversas hipóteses, como o excessivo número de réus, para não prolongar a prisão de um deles, entre outras (art. 80, CPP).",
+              "topico": "Tribunal do Júri"
+            },
+            {
+              "id": "DPP031",
+              "enunciado": "A produção antecipada de prova no curso da investigação criminal depende de requerimento do Ministério Público ou da autoridade policial, sendo admissível apenas nos casos em que haja risco de perecimento da prova.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A produção antecipada de provas, considerada medida cautelar, é autorizada quando há urgência e risco de que a prova se perca com o tempo (art. 156, I, CPP). Pode ser requerida pelas partes ou pela autoridade policial, e exige autorização judicial.",
+              "topico": "Provas no Processo Penal"
+            },
+            {
+              "id": "DPP032",
+              "enunciado": "A decisão de recebimento da denúncia deve ser fundamentada, ainda que de forma sucinta, sob pena de nulidade por ausência de motivação do juízo de admissibilidade da acusação.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A decisão que recebe a denúncia, por ter conteúdo decisório, deve ser fundamentada, conforme exigência do art. 93, IX, da CF. A jurisprudência dos tribunais superiores tem se consolidado nesse sentido, embora admita uma fundamentação concisa.",
+              "topico": "Ação Penal"
+            },
+            {
+              "id": "DPP033",
+              "enunciado": "A revogação da prisão preventiva pode ser determinada pelo juiz de ofício, desde que cessados os motivos que a justificaram, não se exigindo requerimento da defesa ou do Ministério Público.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A revogação da prisão preventiva, ao contrário de sua decretação, pode ser feita de ofício pelo juiz, conforme o art. 316 do CPP. Se o magistrado verificar que os motivos que justificaram a prisão não mais existem, tem o dever de revogá-la, independentemente de provocação.",
+              "topico": "Prisões e Medidas Cautelares"
+            },
+            {
+              "id": "DPP034",
+              "enunciado": "A confissão do acusado, por si só, é insuficiente para fundamentar sentença condenatória, sendo indispensável a existência de prova mínima de corroboração judicialmente produzida.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A confissão do acusado tem valor probatório relativo e, conforme o art. 197 do CPP, deve ser confrontada com as demais provas do processo. Uma condenação não pode se basear exclusivamente na confissão do réu.",
+              "topico": "Provas no Processo Penal"
+            },
+            {
+              "id": "DPP035",
+              "enunciado": "O recurso em sentido estrito é cabível contra decisões que rejeitam a denúncia, concedem habeas corpus ou decretam a extinção da punibilidade por prescrição reconhecida de ofício.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "O rol de cabimento do Recurso em Sentido Estrito (RESE) está no art. 581 do CPP. Ele é cabível contra a rejeição da denúncia, mas não contra a concessão de habeas corpus (cabe recurso de ofício ou RESE se denegado) ou contra a extinção da punibilidade (cabe apelação).",
+              "topico": "Habeas Corpus e Recursos"
+            },
+            {
+              "id": "DPP036",
+              "enunciado": "A prisão preventiva pode ser decretada para garantia da ordem econômica, desde que presentes elementos concretos que demonstrem risco efetivo à estabilidade do setor atingido pela conduta criminosa.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O art. 312 do CPP prevê a decretação da prisão preventiva para garantia da ordem pública, da ordem econômica, por conveniência da instrução criminal ou para assegurar a aplicação da lei penal. A garantia da ordem econômica é, portanto, um fundamento válido.",
+              "topico": "Prisões e Medidas Cautelares"
+            },
+            {
+              "id": "DPP037",
+              "enunciado": "A interceptação telefônica deve observar o prazo máximo de 15 dias, prorrogável por igual período mediante decisão judicial fundamentada que justifique a imprescindibilidade da renovação.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O art. 5º da Lei nº 9.296/96 estabelece que a interceptação telefônica não poderá exceder o prazo de 15 dias, renovável por igual tempo uma vez comprovada a indispensabilidade do meio de prova. A jurisprudência admite sucessivas prorrogações, desde que devidamente fundamentadas.",
+              "topico": "Provas no Processo Penal"
+            },
+            {
+              "id": "DPP038",
+              "enunciado": "No processo penal, o reconhecimento da suspeição do juiz após o início da instrução processual acarreta nulidade dos atos decisórios proferidos, devendo o processo retornar à fase anterior à atuação do magistrado suspeito.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A atuação de juiz suspeito viola o princípio do juiz imparcial, gerando nulidade absoluta dos atos decisórios por ele praticados (art. 564, I, CPP). Reconhecida a suspeição, os autos são remetidos ao substituto legal, que deverá reavaliar os atos.",
+              "topico": "Nulidades"
+            },
+            {
+              "id": "DPP039",
+              "enunciado": "A denúncia genérica é admitida excepcionalmente nas hipóteses de crimes praticados por organizações criminosas, desde que se demonstre a vinculação do agente ao grupo e à prática delitiva coletiva.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "A denúncia deve descrever a conduta individualizada de cada acusado. A denúncia genérica, que não individualiza as condutas, é considerada inepta pela jurisprudência. Mesmo em crimes societários ou de autoria coletiva, exige-se uma descrição mínima da participação de cada agente.",
+              "topico": "Ação Penal"
+            },
+            {
+              "id": "DPP040",
+              "enunciado": "A prisão domiciliar é cabível em substituição à prisão preventiva para mulheres gestantes ou responsáveis por crianças ou pessoas com deficiência, desde que não estejam acusadas de crime praticado com violência ou grave ameaça e preencham os demais requisitos legais.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O CPP (arts. 318 e 318-A) prevê a substituição da prisão preventiva por domiciliar para gestantes, mulheres com filhos de até 12 anos incompletos, e homens caso sejam o único responsável por filhos nessa faixa etária, entre outras hipóteses, observadas certas condições.",
+              "topico": "Prisões e Medidas Cautelares"
+            }
+          ]
+        },
+        {
+          "id": "lpe_agente_policia_2025",
+          "nome": "Legislação Penal Especial",
+          "questoes": []
+        },
+        {
+          "id": "dc_agente_policia_2025",
+          "nome": "Direito Constitucional",
+          "questoes": []
+        },
+        {
+          "id": "dh_agente_policia_2025",
+          "nome": "Direitos Humanos",
+          "questoes": []
+        }
+      ]
+    }
+  ]
+}

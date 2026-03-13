@@ -1,0 +1,352 @@
+{
+  "concursos": [
+    {
+      "id": "concurso_simulado_agente_policia_2025",
+      "nome": "Simulado - Agente de Polícia (Nível Superior)",
+      "ano": 2025,
+      "banca": "Cebraspe (Modelo)",
+      "disciplinas": [
+        {
+          "id": "lp_agente_policia_2025",
+          "nome": "Língua Portuguesa",
+          "questoes": [
+            {
+              "id": "LP001",
+              "enunciado": "Texto de referência: \"A segurança pública, direito e responsabilidade de todos, é exercida para a preservação da ordem pública e da incolumidade das pessoas e do patrimônio. Cabe aos órgãos instituídos pelo Estado garantir que os direitos fundamentais sejam respeitados, mesmo diante do combate à criminalidade. A atuação policial, por sua natureza, requer equilíbrio entre autoridade e legalidade, sendo inadmissível qualquer forma de abuso ou arbitrariedade.\"\n\n A expressão \"mesmo diante do combate à criminalidade\"tem valor concessivo, indicando uma oposição à ideia anteriormente apresentada.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A locução \"mesmo diante do combate à criminalidade\"tem valor concessivo, pois introduz uma ideia contrária ou de limitação à oração principal. O advérbio \"mesmo\"intensifica a concessão, indicando que, apesar do contexto de enfrentamento da criminalidade — que normalmente poderia justificar medidas mais duras —, os direitos fundamentais devem ser resguardados.",
+              "topico": "Conectivos e Valor Semântico"
+            }
+          ]
+        },
+        {
+          "id": "dp_agente_policia_2025",
+          "nome": "Direito Penal",
+          "questoes": [
+            {
+              "id": "DP001",
+              "enunciado": "De acordo com o princípio da legalidade, não há crime sem lei anterior que o defina, nem pena sem prévia cominação legal. Assim, a analogia não pode ser usada para criar crimes ou penas.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O princípio da legalidade, previsto no art. 1º do Código Penal e no art. 5º, XXXIX da Constituição Federal, veda a criação de crimes e penas por analogia. A analogia pode ser usada apenas em benefício do réu, e jamais para fundamentar punições não previstas expressamente em lei anterior.",
+              "topico": "Princípios do Direito Penal"
+            },
+            {
+              "id": "DP002",
+              "enunciado": "No ordenamento penal brasileiro, o erro de tipo essencial inevitável exclui o dolo, mas não a culpabilidade, podendo levar à punição por crime culposo, se previsto.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O erro de tipo essencial inevitável é aquele que impede o agente de conhecer os elementos do tipo penal. Isso exclui o dolo (porque não há consciência da ilicitude do fato) e, sendo inevitável, também exclui a culpa. Contudo, se o erro for evitável, poderá haver responsabilização por crime culposo, caso o tipo o preveja.",
+              "topico": "Teoria do Erro"
+            },
+            {
+              "id": "DP003",
+              "enunciado": "A desistência voluntária e o arrependimento eficaz são causas de exclusão da tipicidade, pois interrompem o iter criminis antes da consumação, fazendo com que o agente responda apenas pelos atos já praticados.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A desistência voluntária e o arrependimento eficaz são institutos previstos no art. 15 do Código Penal. Ambos interrompem o iter criminis antes da consumação do delito. Por isso, excluem a tipicidade do crime consumado e o agente responde apenas pelos atos já praticados, como tentativa ou lesões.",
+              "topico": "Iter Criminis"
+            },
+            {
+              "id": "DP004",
+              "enunciado": "O concurso de pessoas exige identidade de desígnios entre os agentes, além da relevância causal da conduta de cada um para a prática do delito.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O concurso de pessoas exige três requisitos: pluralidade de agentes e condutas, relevância causal de cada conduta e liame subjetivo entre os agentes (convergência de vontades). A jurisprudência e a doutrina confirmam que a relevância da conduta e o vínculo subjetivo são indispensáveis.",
+              "topico": "Concurso de Pessoas"
+            },
+            {
+              "id": "DP005",
+              "enunciado": "A coação irresistível exclui a ilicitude da conduta quando proveniente de força física absoluta, mas não quando se tratar de coação moral irresistível, hipótese em que se exclui apenas a culpabilidade.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A coação irresistível pode ser física ou moral. A coação física irresistível exclui a própria conduta (não há ação voluntária), excluindo a tipicidade. Já a coação moral irresistível afasta a culpabilidade, pois retira a exigibilidade de conduta diversa. Em ambos os casos, o agente é isento de pena.",
+              "topico": "Excludentes de Culpabilidade"
+            },
+            {
+              "id": "DP006",
+              "enunciado": "O arrependimento posterior, previsto no artigo 16 do Código Penal, só é aplicável aos crimes cometidos sem violência ou grave ameaça, e desde que a reparação do dano seja voluntária e eficaz, antes do recebimento da denúncia.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O arrependimento posterior (art. 16, CP) é aplicável apenas a crimes sem violência ou grave ameaça. Requer reparação voluntária do dano ou restituição da coisa até o recebimento da denúncia, reduzindo a pena de um a dois terços. É instituto de natureza objetiva e exige eficácia no ressarcimento.",
+              "topico": "Causas de Diminuição de Pena"
+            },
+            {
+              "id": "DP007",
+              "enunciado": "A teoria finalista da ação, adotada no Brasil, considera o dolo e a culpa como elementos do tipo, e não mais da culpabilidade, alterando profundamente a estrutura do conceito de crime.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A teoria finalista, de Hans Welzel, foi adotada no Brasil a partir da reforma de 1984 do CP. Ela transfere o dolo e a culpa do campo da culpabilidade para o tipo penal, entendendo que a finalidade da ação integra a estrutura do tipo. Isso mudou a concepção analítica de crime, dividindo-o em fato típico, ilícito e culpável.",
+              "topico": "Teoria do Crime"
+            },
+            {
+              "id": "DP008",
+              "enunciado": "No crime continuado, as infrações penais devem ser da mesma espécie, ocorrerem em condições de tempo, lugar e maneira de execução semelhantes, e revelarem habitualidade criminosa do agente.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O crime continuado (art. 71, CP) exige que os crimes sejam da mesma espécie, cometidos em condições de tempo, lugar e maneira semelhantes. A doutrina também acrescenta a ideia de habitualidade ou vínculo subjetivo entre os crimes, embora isso não esteja expressamente previsto em lei.",
+              "topico": "Concurso de Crimes"
+            },
+            {
+              "id": "DP009",
+              "enunciado": "O princípio da insignificância pode ser aplicado mesmo em casos de reincidência, desde que presentes os requisitos objetivos e subjetivos exigidos pela jurisprudência do STF.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O STF tem admitido a aplicação do princípio da insignificância mesmo a réus reincidentes, desde que preenchidos os requisitos: mínima ofensividade da conduta, ausência de periculosidade, reduzido grau de reprovabilidade e inexpressividade da lesão. A reincidência, por si só, não impede o reconhecimento da atipicidade material.",
+              "topico": "Princípios do Direito Penal"
+            },
+            {
+              "id": "DP010",
+              "enunciado": "O agente que pratica fato típico, ilícito e culpável, mas que atua em estrito cumprimento de dever legal, poderá ter sua pena atenuada, mas não estará isento de responsabilidade penal.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "O estrito cumprimento do dever legal é uma causa excludente de ilicitude (art. 23, III, CP). Se o agente agir dentro dos limites legais, sua conduta não será típica nem ilícita, o que exclui a responsabilidade penal. Não se trata de mera atenuante, mas de excludente completa da ilicitude.",
+              "topico": "Excludentes de Ilicitude"
+            },
+            {
+              "id": "DP011",
+              "enunciado": "O agente que, por erro plenamente justificado pelas circunstâncias, supõe situação de fato que, se existisse, tornaria a ação legítima, responde pelo fato como se a situação fosse real.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O erro descrito corresponde ao erro de tipo permissivo (art. 20, §1º, CP), que ocorre quando o agente supõe, por circunstâncias justificáveis, uma situação que tornaria a conduta lícita (como legítima defesa). Nesse caso, responde-se pelo fato como se a situação fosse real, podendo até mesmo ser isento de pena se o erro for inevitável.",
+              "topico": "Teoria do Erro"
+            },
+            {
+              "id": "DP012",
+              "enunciado": "A legítima defesa, como excludente de ilicitude, exige atualidade ou iminência da agressão, uso moderado dos meios necessários e injustiça da agressão.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A legítima defesa está prevista no art. 25 do CP e exige três requisitos: agressão injusta, atual ou iminente; uso moderado dos meios necessários para a repulsa; e existência de agressão humana (não natural). A ausência de qualquer um desses elementos descaracteriza a excludente de ilicitude.",
+              "topico": "Excludentes de Ilicitude"
+            },
+            {
+              "id": "DP013",
+              "enunciado": "A pena do concurso formal de crimes é sempre a soma das penas de cada crime, pois há pluralidade de condutas e resultados.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "No concurso formal de crimes (art. 70, CP), há uma só conduta que produz dois ou mais resultados. A regra geral é a aplicação da pena mais grave aumentada, e não a soma das penas. A exceção ocorre no concurso formal impróprio, em que há dolo em pelo menos um dos crimes, permitindo o cúmulo das penas.",
+              "topico": "Concurso de Crimes"
+            },
+            {
+              "id": "DP014",
+              "enunciado": "A tentativa é punível nos casos em que, iniciada a execução do crime, este não se consuma por circunstâncias alheias à vontade do agente, sendo a pena diminuída de um a dois terços.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A tentativa está prevista no art. 14, II, CP. Caracteriza-se pela interrupção da execução do crime por circunstâncias alheias à vontade do agente. A pena é cominada de forma reduzida (um a dois terços), conforme o grau de aproximação da consumação e a intensidade do iter criminis percorrido.",
+              "topico": "Iter Criminis"
+            },
+            {
+              "id": "DP015",
+              "enunciado": "A embriaguez voluntária ou culposa não exclui a imputabilidade penal, ainda que ocasione completa incapacidade de entendimento ou autodeterminação no momento do fato.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A embriaguez voluntária ou culposa, ainda que ocasione completa incapacidade, não exclui a imputabilidade penal (art. 28, II, CP). A lei penal brasileira adota posição rigorosa, responsabilizando o agente que se coloca em estado de inconsciência por ato voluntário ou negligente.",
+              "topico": "Imputabilidade Penal"
+            },
+            {
+              "id": "DP016",
+              "enunciado": "A pena pode ser atenuada se o agente for menor de 21 anos na data do fato ou maior de 70 anos na data da sentença, conforme dispõe o Código Penal.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O art. 65, I e II, 'd', do CP prevê atenuantes para agentes menores de 21 anos na data do fato e maiores de 70 anos na data da sentença. Essas atenuantes são obrigatórias e têm por base a menor (ou reduzida) capacidade de compreensão ou de reintegração social.",
+              "topico": "Aplicação da Pena"
+            },
+            {
+              "id": "DP017",
+              "enunciado": "O erro sobre a ilicitude do fato, se inevitável, exclui a culpabilidade, desde que o agente não tenha condições de compreender a ilicitude da conduta.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O erro sobre a ilicitude do fato (art. 21, CP) exclui a culpabilidade se for inevitável, ou seja, se o agente não tinha condições de compreender que sua conduta era ilícita. Quando o erro for evitável, o agente responde pelo crime, mas com pena atenuada.",
+              "topico": "Teoria do Erro"
+            },
+            {
+              "id": "DP018",
+              "enunciado": "A reincidência é uma circunstância agravante que depende de sentença penal condenatória transitada em julgado por crime anterior cometido antes do novo fato.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A reincidência é uma agravante genérica prevista no art. 61, I, do CP, que exige condenação anterior transitada em julgado por crime praticado antes do novo fato. É um instrumento de política criminal voltado à repressão da habitualidade delitiva.",
+              "topico": "Aplicação da Pena"
+            },
+            {
+              "id": "DP019",
+              "enunciado": "O agente que age sob obediência hierárquica a ordem manifestamente ilegal responderá penalmente, mesmo que se trate de ordem de superior legítimo.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O art. 22 do CP dispõe que o agente que age sob coação moral irresistível ou obediência hierárquica a ordem não manifestamente ilegal é isento de pena. Porém, se a ordem é manifestamente ilegal, o subordinado também responde, pois deveria reconhecer a ilicitude da ordem.",
+              "topico": "Excludentes de Culpabilidade"
+            },
+            {
+              "id": "DP020",
+              "enunciado": "A omissão é penalmente relevante quando o agente devia e podia agir para evitar o resultado, nos termos do art. 13, §2º do Código Penal.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A omissão é penalmente relevante quando o agente tinha o dever jurídico de agir para evitar o resultado, conforme o art. 13, §2º do CP. São exemplos os deveres impostos por lei, contrato ou a assunção voluntária da responsabilidade pela proteção do bem jurídico.",
+              "topico": "Teoria do Crime"
+            },
+            {
+              "id": "DP021",
+              "enunciado": "A pena de multa não pode ser aplicada cumulativamente com pena privativa de liberdade, salvo quando expressamente prevista na lei.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "A pena de multa pode sim ser aplicada cumulativamente com pena privativa de liberdade, conforme previsão do art. 43 do Código Penal. Não se trata de exceção, mas de regra em diversos tipos penais.",
+              "topico": "Teoria da Pena"
+            },
+            {
+              "id": "DP022",
+              "enunciado": "O princípio da pessoalidade da pena impede que os efeitos da condenação penal atinjam terceiros, como familiares ou sucessores do condenado.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O princípio da pessoalidade da pena (ou intranscendência) está previsto no art. 5º, XLV da CF/88. Ele assegura que nenhuma pena passará da pessoa do condenado, embora obrigações de reparação civil possam alcançar terceiros, sem se confundir com pena.",
+              "topico": "Princípios do Direito Penal"
+            },
+            {
+              "id": "DP023",
+              "enunciado": "O arrependimento posterior é uma causa de extinção da punibilidade, aplicável a qualquer tipo penal, inclusive os praticados com violência ou grave ameaça.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "O arrependimento posterior (art. 16, CP) não é causa de extinção da punibilidade. Ele apenas permite a redução da pena, e só se aplica a crimes sem violência ou grave ameaça, desde que o dano seja reparado antes do recebimento da denúncia.",
+              "topico": "Causas de Diminuição de Pena"
+            },
+            {
+              "id": "DP024",
+              "enunciado": "Nos crimes omissivos próprios, a conduta penalmente relevante é a simples inação do agente, mesmo sem dever jurídico específico de agir.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Nos crimes omissivos próprios, a omissão só é penalmente relevante quando há dever jurídico específico de agir. A mera inação, sem esse dever, não configura infração penal (art. 13, §2º, CP).",
+              "topico": "Teoria do Crime"
+            },
+            {
+              "id": "DP025",
+              "enunciado": "O agente que atua sob erro de proibição evitável pode ter sua pena atenuada, mas não exclui a culpabilidade.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O erro de proibição evitável não exclui a culpabilidade, mas pode atenuar a pena (art. 21, parte final, CP), pois demonstra uma falha na compreensão da ilicitude que poderia ter sido evitada.",
+              "topico": "Teoria do Erro"
+            },
+            {
+              "id": "DP026",
+              "enunciado": "O estado de necessidade exclui a tipicidade penal, pois a conduta, embora típica em abstrato, é considerada socialmente aceita nas circunstâncias extremas.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "O estado de necessidade (art. 24, CP) é excludente de ilicitude, não de tipicidade. A conduta continua típica, mas deixa de ser ilícita porque há uma justificativa legal para sua prática.",
+              "topico": "Excludentes de Ilicitude"
+            },
+            {
+              "id": "DP027",
+              "enunciado": "Os efeitos da sentença penal condenatória podem ultrapassar o condenado, atingindo terceiros, quando envolver reparação civil decorrente do crime.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Os efeitos penais da condenação não atingem terceiros. A reparação civil decorrente do crime é de natureza indenizatória e segue regras do direito civil, não se tratando de “efeitos penais” propriamente ditos.",
+              "topico": "Efeitos da Condenação"
+            },
+            {
+              "id": "DP028",
+              "enunciado": "O Código Penal admite causas de aumento e de diminuição de pena, denominadas genericamente de circunstâncias legais, que são aplicadas após a fixação da pena-base.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "As causas legais de aumento ou diminuição de pena (arts. 61 a 71 do CP) são aplicadas na terceira fase da dosimetria, após a fixação da pena-base e das agravantes/atenuantes, conforme sistema trifásico de cálculo da pena.",
+              "topico": "Aplicação da Pena"
+            },
+            {
+              "id": "DP029",
+              "enunciado": "A tentativa é punida com redução de pena, conforme critérios do juiz, independentemente da proximidade da consumação do crime.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "O grau de redução da pena na tentativa depende da proximidade da consumação (art. 14, parágrafo único, CP). A aplicação não é arbitrária nem fixa, e sim proporcional ao iter criminis percorrido.",
+              "topico": "Iter Criminis"
+            },
+            {
+              "id": "DP030",
+              "enunciado": "O agente que comete infração penal sob a forma de coautoria responderá apenas pelo resultado que diretamente produziu, conforme a teoria monista adotada pelo Código Penal.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "A teoria monista adotada no CP (art. 29) determina que todos os coautores respondem pelo crime como se o tivessem praticado integralmente. A divisão de responsabilidade depende da análise do dolo e da relevância da conduta, não da produção direta do resultado.",
+              "topico": "Concurso de Pessoas"
+            },
+            {
+              "id": "DP031",
+              "enunciado": "O dolo eventual ocorre quando o agente, mesmo sem desejar diretamente o resultado, assume o risco de produzi-lo, sendo equiparado ao dolo direto para fins penais.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O dolo eventual, previsto no art. 18, I, segunda parte do Código Penal, ocorre quando o agente assume o risco de produzir o resultado. A jurisprudência o trata com a mesma gravidade do dolo direto para fins de responsabilização penal.",
+              "topico": "Teoria do Crime"
+            },
+            {
+              "id": "DP032",
+              "enunciado": "No crime culposo, a previsibilidade do resultado danoso é elemento essencial, pois a culpa pressupõe a possibilidade de prever o resultado.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A culpa exige previsibilidade do resultado, conforme o art. 18, II do CP. A ausência de previsibilidade objetiva afasta a responsabilização culposa, sendo esse elemento essencial da conduta culposa.",
+              "topico": "Teoria do Crime"
+            },
+            {
+              "id": "DP033",
+              "enunciado": "A pena de prestação de serviços à comunidade é aplicável exclusivamente como pena principal em substituição à pena privativa de liberdade.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "A prestação de serviços à comunidade pode ser aplicada não apenas como pena substitutiva (art. 44, §2º, CP), mas também em acordos como transação penal ou ANPP. Portanto, não é exclusiva como pena substitutiva.",
+              "topico": "Penas Restritivas de Direitos"
+            },
+            {
+              "id": "DP034",
+              "enunciado": "O perdão judicial extingue a punibilidade do agente, produzindo os mesmos efeitos de uma sentença absolutória, inclusive quanto aos antecedentes criminais.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "O perdão judicial (art. 107, IX, CP) extingue a punibilidade, mas não tem os mesmos efeitos de uma sentença absolutória quanto aos antecedentes criminais, conforme entendimento do STJ (AgRg no HC 584.720/SP).",
+              "topico": "Extinção da Punibilidade"
+            },
+            {
+              "id": "DP035",
+              "enunciado": "A continuidade delitiva exige crimes da mesma espécie praticados em condições semelhantes de tempo, lugar e modo de execução, sendo incompatível com a prática de crimes hediondos.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "A continuidade delitiva (art. 71, CP) não é incompatível com crimes hediondos. O STF admite a incidência da regra mesmo nesses casos, respeitadas as condições legais (RE 587.154/RS).",
+              "topico": "Concurso de Crimes"
+            },
+            {
+              "id": "DP036",
+              "enunciado": "A lei penal mais benéfica aplica-se retroativamente, ainda que já tenha havido sentença condenatória transitada em julgado.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A retroatividade da lei penal mais benéfica é assegurada pelo art. 2º, parágrafo único do CP e art. 5º, XL da CF/88, inclusive após o trânsito em julgado da condenação, conforme pacífico entendimento jurisprudencial.",
+              "topico": "Aplicação da Lei Penal no Tempo"
+            },
+            {
+              "id": "DP037",
+              "enunciado": "A reincidência impede a substituição da pena privativa de liberdade por restritivas de direitos em qualquer hipótese.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "A reincidência não impede, por si só, a substituição da pena privativa de liberdade por restritivas de direitos (art. 44, §3º do CP), desde que o juiz fundamente adequadamente a decisão.",
+              "topico": "Penas Restritivas de Direitos"
+            },
+            {
+              "id": "DP038",
+              "enunciado": "A lei penal não retroagirá, salvo para beneficiar o réu, conforme dispõe a Constituição Federal e o Código Penal.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A Constituição Federal (art. 5º, XL) e o Código Penal (art. 2º) consagram a irretroatividade da lei penal, salvo para beneficiar o réu, aplicando-se inclusive em processos com sentença transitada em julgado.",
+              "topico": "Aplicação da Lei Penal no Tempo"
+            },
+            {
+              "id": "DP039",
+              "enunciado": "O princípio da anterioridade penal veda a aplicação de sanções penais criadas por medida provisória ou outras normas infralegais.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O princípio da legalidade e da anterioridade penal (art. 5º, XXXIX, CF) exige lei formal para definir crimes e penas. Medidas provisórias não podem ser usadas para esse fim, conforme reiterado pelo STF.",
+              "topico": "Princípios do Direito Penal"
+            },
+            {
+              "id": "DP040",
+              "enunciado": "A responsabilidade penal da pessoa jurídica é admitida no Brasil apenas nos crimes contra a ordem tributária.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "A responsabilidade penal da pessoa jurídica é admitida em crimes ambientais (art. 225, §3º, CF/88 e art. 3º da Lei 9.605/98), não se limitando aos crimes contra a ordem tributária.",
+              "topico": "Sujeitos do Crime"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

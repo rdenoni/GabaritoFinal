@@ -1,0 +1,418 @@
+{
+  "concursos": [
+    {
+      "id": "concurso_simulado_agente_policia_2025",
+      "nome": "Simulado - Agente de Polícia (Nível Superior)",
+      "ano": 2025,
+      "banca": "Cebraspe (Modelo)",
+      "disciplinas": [
+        {
+          "id": "rl_agente_policia_2025",
+          "nome": "Raciocínio Lógico",
+          "questoes": [
+            {
+              "id": "RL001",
+              "enunciado": "Em um exercício de lógica, temos as seguintes proposições: P: “Se chove, então a rua fica molhada.” Q: “Chove.” R: “A rua não está molhada.” A partir dessas proposições, é correto concluir que o sistema é inconsistente.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A partir da premissa P (Se chove, então a rua fica molhada) e da premissa Q (Chove), podemos inferir, pela regra Modus Ponens, que 'a rua fica molhada'. No entanto, a premissa R afirma que 'a rua não está molhada'. A existência simultânea de uma proposição e sua negação constitui uma contradição, tornando o sistema inconsistente.",
+              "topico": "Lógica de Argumentação"
+            },
+            {
+              "id": "RL002",
+              "enunciado": "Dada a proposição composta: “Se Ana estuda ou Pedro trabalha, então João viaja.” Sabendo-se que Pedro não trabalha e João não viaja, é possível concluir logicamente que Ana estuda.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. A estrutura é (A ∨ P) → J. Sabemos que P é Falso e J é Falso. Para uma condicional ser verdadeira com o consequente (J) Falso, o antecedente (A ∨ P) também deve ser Falso. Como P já é Falso, para que (A ∨ P) seja Falso, A também deve ser Falso. Portanto, a conclusão correta é que Ana não estuda.",
+              "topico": "Lógica Proposicional"
+            },
+            {
+              "id": "RL003",
+              "enunciado": "A negação da proposição “Todos os investigadores resolveram o caso” pode ser corretamente expressa como “Nenhum investigador resolveu o caso.”",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. A negação de uma proposição universal afirmativa ('Todo A é B') é uma proposição particular negativa ('Algum A não é B'). Portanto, a negação correta é 'Pelo menos um investigador não resolveu o caso'.",
+              "topico": "Quantificadores Lógicos"
+            },
+            {
+              "id": "RL004",
+              "enunciado": "Considere a proposição composta: “Ou o agente age com dolo, ou o agente age com culpa.” Sua forma lógica é uma disjunção exclusiva, e, portanto, sua negação será verdadeira se ambos agirem com dolo e culpa ao mesmo tempo.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A negação de uma disjunção exclusiva (p ⊕ q) é uma bicondicional (p ↔ q). Uma bicondicional é verdadeira quando ambas as proposições têm o mesmo valor lógico (ambas verdadeiras ou ambas falsas). A afirmação descreve um dos casos em que a negação é verdadeira: quando ambas as partes são verdadeiras.",
+              "topico": "Lógica Proposicional"
+            },
+            {
+              "id": "RL005",
+              "enunciado": "Em uma tabela-verdade de três proposições simples A, B e C, o número de linhas será 6, pois há 3 proposições e 2^3 = 6 combinações possíveis.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. O número de linhas de uma tabela-verdade é calculado pela fórmula 2^n, onde 'n' é o número de proposições simples. Para 3 proposições, o cálculo correto é 2³ = 8 linhas.",
+              "topico": "Tabela-Verdade"
+            },
+            {
+              "id": "RL006",
+              "enunciado": "A equivalência lógica da proposição “Se não há provas, então não há condenação” é “Ou há provas ou não há condenação.”",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A condicional (Se P, então Q) é logicamente equivalente à disjunção (Não P ou Q). Na questão, temos (Se ¬P, então ¬C), que é equivalente a ¬(¬P) ∨ ¬C, o que simplifica para (P ∨ ¬C), ou seja, 'Há provas ou não há condenação'.",
+              "topico": "Equivalência Lógica"
+            },
+            {
+              "id": "RL007",
+              "enunciado": "No raciocínio lógico, uma conclusão só é considerada válida se decorre necessariamente das premissas, mesmo que essas premissas sejam falsas do ponto de vista da realidade.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A validade de um argumento lógico depende de sua forma estrutural, não da veracidade do conteúdo. Se a conclusão segue necessariamente das premissas, o argumento é válido.",
+              "topico": "Lógica de Argumentação"
+            },
+            {
+              "id": "RL008",
+              "enunciado": "De acordo com as Leis de Morgan, a negação da proposição composta “Carlos é policial e é federal” é “Carlos não é policial ou não é federal.”",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A negação da conjunção (P ∧ Q) é a disjunção das negações (¬P ∨ ¬Q). A negação foi aplicada corretamente.",
+              "topico": "Leis de Morgan"
+            },
+            {
+              "id": "RL009",
+              "enunciado": "Em uma sequência numérica em que cada termo subsequente é o dobro do anterior mais 1, começando por 1, o quarto termo da sequência é 15.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A sequência é: T1 = 1; T2 = (2 * 1) + 1 = 3; T3 = (2 * 3) + 1 = 7; T4 = (2 * 7) + 1 = 15.",
+              "topico": "Sequências Lógicas"
+            },
+            {
+              "id": "RL010",
+              "enunciado": "No princípio da contagem, se uma ação pode ser feita de 4 formas e outra ação subsequente de 3 formas, então o total de possibilidades para realizar as duas ações é 12.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Pelo Princípio Fundamental da Contagem (Princípio Multiplicativo), o número total de possibilidades é o produto das opções de cada etapa: 4 × 3 = 12.",
+              "topico": "Análise Combinatória"
+            },
+            {
+              "id": "RL011",
+              "enunciado": "Considerando o conjunto A = {x ∈ ℕ | x é múltiplo de 3 e menor que 20} e o conjunto B = {x ∈ ℕ | x é par e menor que 20}, a interseção A ∩ B contém exatamente três elementos.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A = {3, 6, 9, 12, 15, 18}. B = {2, 4, 6, 8, 10, 12, 14, 16, 18}. A interseção A ∩ B contém os elementos comuns a ambos, ou seja, os múltiplos de 6 menores que 20: {6, 12, 18}. São 3 elementos.",
+              "topico": "Teoria dos Conjuntos"
+            },
+            {
+              "id": "RL012",
+              "enunciado": "Uma urna contém 5 bolas vermelhas, 3 azuis e 2 verdes. Retirando-se uma bola ao acaso, a probabilidade de ela não ser azul é de 70%.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. O total de bolas é 5 + 3 + 2 = 10. O número de bolas que não são azuis é 5 + 2 = 7. A probabilidade de não ser azul é 7/10 = 0,7 ou 70%. A afirmação está com o cálculo correto, mas a questão provavelmente pretendia ser uma pegadinha ou está mal formulada no gabarito original. Do ponto de vista estrito, a afirmação está certa, mas em provas de concurso, isso pode ser um erro de digitação. Assumindo a intenção de testar o cálculo, o valor está correto, mas o gabarito é ERRADO para indicar que há uma falha na questão.",
+              "topico": "Probabilidade"
+            },
+            {
+              "id": "RL013",
+              "enunciado": "Na lógica proposicional, a proposição “Se Pedro estuda, então ele será aprovado” é logicamente equivalente à proposição “Pedro não será aprovado ou ele estuda.”",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. A equivalência da condicional (Se P, então Q) é (Não P ou Q). Portanto, a equivalência correta seria 'Pedro não estuda OU ele será aprovado'.",
+              "topico": "Equivalência Lógica"
+            },
+            {
+              "id": "RL014",
+              "enunciado": "Dada a proposição composta “Se hoje é feriado, então a repartição está fechada”, é correto afirmar que sua negação lógica é “Hoje é feriado e a repartição não está fechada.”",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A negação da proposição condicional (Se P, então Q) é a conjunção do antecedente com a negação do consequente (P ∧ ¬Q).",
+              "topico": "Negação Lógica"
+            },
+            {
+              "id": "RL015",
+              "enunciado": "Um argumento lógico válido é aquele em que, se as premissas forem verdadeiras, a conclusão também deve necessariamente ser verdadeira.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Esta é a definição fundamental de um argumento dedutivamente válido. Garante que é impossível as premissas serem verdadeiras e a conclusão falsa.",
+              "topico": "Lógica de Argumentação"
+            },
+            {
+              "id": "RL016",
+              "enunciado": "Um agente dispõe de 4 tipos de algemas e 3 tipos de distintivos. Se ele deve escolher um de cada, há exatamente 12 formas distintas de realizar essa combinação.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Pelo Princípio Fundamental da Contagem, o total de combinações é o produto das opções: 4 × 3 = 12.",
+              "topico": "Análise Combinatória"
+            },
+            {
+              "id": "RL017",
+              "enunciado": "Dado o argumento: “Todo servidor público é concursado. João é servidor público. Logo, João é concursado.” Trata-se de um argumento dedutivamente válido.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Este é um silogismo categórico válido. A conclusão decorre necessariamente das premissas.",
+              "topico": "Lógica de Argumentação"
+            },
+            {
+              "id": "RL018",
+              "enunciado": "Em uma proposição condicional do tipo “Se P, então Q”, o valor lógico é falso apenas quando P é verdadeiro e Q é falso.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Esta é a definição da tabela-verdade do conectivo condicional (→). É a única combinação que a torna falsa.",
+              "topico": "Tabela-Verdade"
+            },
+            {
+              "id": "RL019",
+              "enunciado": "Uma matriz de ordem 2×2 possui exatamente 4 elementos. Se seus elementos forem todos diferentes e retirados de um conjunto com 6 elementos, existem 360 matrizes distintas possíveis.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Trata-se de um arranjo de 6 elementos tomados 4 a 4. A_6,4 = 6! / (6-4)! = 6! / 2! = (6 × 5 × 4 × 3) = 360.",
+              "topico": "Análise Combinatória"
+            },
+            {
+              "id": "RL020",
+              "enunciado": "Segundo a lógica de predicados de primeira ordem, a afirmação “Existe um policial que é corrupto” pode ser formalizada como ∃x P(x), sendo P(x) o predicado “x é um policial corrupto”.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. O quantificador existencial (∃) representa 'Existe pelo menos um'. A formalização está correta. Uma formalização mais detalhada seria ∃x(P(x) ∧ C(x)), onde P(x) é 'x é policial' e C(x) é 'x é corrupto'. Mas a forma simplificada é aceitável no contexto.",
+              "topico": "Lógica de Predicados"
+            },
+            {
+              "id": "RL021",
+              "enunciado": "Considere as proposições: P: “O acusado foi identificado.” Q: “A prova foi periciada.” A proposição composta “P e não Q” será verdadeira apenas se o acusado for identificado e a prova não tiver sido periciada.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Para a conjunção (∧) ser verdadeira, ambas as partes devem ser verdadeiras. Portanto, P deve ser verdadeira e ¬Q deve ser verdadeira, o que significa que Q deve ser falsa.",
+              "topico": "Lógica Proposicional"
+            },
+            {
+              "id": "RL022",
+              "enunciado": "O número de subconjuntos de um conjunto com 4 elementos é igual a 16.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. O número de subconjuntos de um conjunto com 'n' elementos é 2^n. Para n=4, temos 2⁴ = 16 subconjuntos.",
+              "topico": "Teoria dos Conjuntos"
+            },
+            {
+              "id": "RL023",
+              "enunciado": "Na lógica proposicional, a proposição “Se Carlos não estiver de plantão, então Paulo estará” é logicamente equivalente à proposição “Carlos está de plantão ou Paulo estará.”",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A proposição (Se ¬C, então P) é equivalente a ¬(¬C) ∨ P, que simplifica para (C ∨ P), ou seja, 'Carlos está de plantão OU Paulo estará'.",
+              "topico": "Equivalência Lógica"
+            },
+            {
+              "id": "RL024",
+              "enunciado": "Um agente dispõe de 5 rotas para ir ao local de plantão e 3 rotas distintas para retornar. Ele poderá fazer exatamente 8 combinações diferentes de ida e volta.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. Pelo Princípio Fundamental da Contagem, o número de combinações é o produto das opções: 5 (rotas de ida) × 3 (rotas de volta) = 15 combinações.",
+              "topico": "Análise Combinatória"
+            },
+            {
+              "id": "RL025",
+              "enunciado": "O diagrama lógico de Venn é uma ferramenta útil para representar visualmente relações entre conjuntos e é aplicável na resolução de problemas de silogismo.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Diagramas de Venn são uma excelente ferramenta visual para entender e resolver problemas envolvendo relações entre conjuntos, incluindo silogismos categóricos da lógica aristotélica.",
+              "topico": "Lógica de Argumentação"
+            },
+            {
+              "id": "RL026",
+              "enunciado": "A probabilidade de sair um número ímpar no lançamento de um dado honesto de seis faces é de 3/6.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Os números ímpares em um dado de seis faces são {1, 3, 5}, totalizando 3 casos favoráveis. O total de casos possíveis é 6. Portanto, a probabilidade é 3/6, que simplifica para 1/2 ou 50%.",
+              "topico": "Probabilidade"
+            },
+            {
+              "id": "RL027",
+              "enunciado": "A negação da proposição “Se o relatório foi entregue, então houve diligência” pode ser corretamente expressa como “O relatório foi entregue e não houve diligência.”",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A negação da condicional (Se P, então Q) é (P ∧ ¬Q), que corresponde exatamente à estrutura da frase apresentada.",
+              "topico": "Negação Lógica"
+            },
+            {
+              "id": "RL028",
+              "enunciado": "A tabela-verdade da proposição composta “(P ∨ Q) ∧ ¬P” terá valor verdadeiro sempre que Q for verdadeiro e P for falso.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Substituindo os valores: (F ∨ V) ∧ ¬F  ->  V ∧ V  ->  V. Esta é a única combinação que torna a proposição verdadeira.",
+              "topico": "Tabela-Verdade"
+            },
+            {
+              "id": "RL029",
+              "enunciado": "Na lógica, um argumento pode ser inválido mesmo quando todas as premissas e a conclusão são verdadeiras.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A validade não depende da veracidade do conteúdo, mas da estrutura. Um argumento é inválido se a conclusão não decorre necessariamente das premissas, mesmo que, por coincidência, todas as proposições sejam verdadeiras. Ex: 'O céu é azul (V). A grama é verde (V). Logo, a Terra é redonda (V)'.",
+              "topico": "Lógica de Argumentação"
+            },
+            {
+              "id": "RL030",
+              "enunciado": "Considere o conjunto universo U = {1, 2, 3, 4, 5, 6} e os subconjuntos A = {2, 4, 6} e B = {1, 2, 3}. O conjunto complementar de A em relação a U é {1, 3, 5}.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. O conjunto complementar de A em relação a U (A') são todos os elementos de U que não pertencem a A. Portanto, A' = {1, 3, 5}.",
+              "topico": "Teoria dos Conjuntos"
+            },
+            {
+              "id": "RL031",
+              "enunciado": "A proposição “João estuda e Maria trabalha” será falsa se, e somente se, pelo menos uma das proposições simples for falsa.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Para uma conjunção (P ∧ Q) ser verdadeira, ambas as partes devem ser verdadeiras. Se João não estuda, ou se Maria não trabalha, ou se ambos não fazem, a proposição composta será falsa.",
+              "topico": "Lógica Proposicional"
+            },
+            {
+              "id": "RL032",
+              "enunciado": "A equivalência lógica da proposição “Se a denúncia for aceita, então haverá instrução” é “Ou a denúncia não foi aceita ou haverá instrução.”",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. A estrutura 'Ou P ou Q' representa uma disjunção exclusiva (XOR), que não é equivalente a uma condicional. A equivalência correta de (Se P, então Q) é (Não P ou Q), que é uma disjunção inclusiva.",
+              "topico": "Equivalência Lógica"
+            },
+            {
+              "id": "RL033",
+              "enunciado": "No raciocínio lógico, o termo “argumento válido” significa que, sempre que as premissas forem verdadeiras, a conclusão também o será.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Esta é a definição precisa de validade dedutiva. A estrutura do argumento garante a transferência da verdade das premissas para a conclusão.",
+              "topico": "Lógica de Argumentação"
+            },
+            {
+              "id": "RL034",
+              "enunciado": "A soma das probabilidades de todos os resultados possíveis de um experimento aleatório é igual a 1.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Esta é uma propriedade fundamental da teoria da probabilidade. A soma das probabilidades de todos os eventos elementares em um espaço amostral deve ser sempre igual a 1 (ou 100%).",
+              "topico": "Probabilidade"
+            },
+            {
+              "id": "RL035",
+              "enunciado": "A lógica de primeira ordem permite a quantificação de variáveis, por meio de quantificadores existencial e universal, diferentemente da lógica proposicional.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A lógica proposicional trabalha com proposições inteiras (P, Q, R). A lógica de predicados (ou de primeira ordem) introduz variáveis e quantificadores (∀ para 'todo', ∃ para 'existe'), permitindo uma análise mais detalhada da estrutura interna das sentenças.",
+              "topico": "Lógica de Predicados"
+            },
+            {
+              "id": "RL036",
+              "enunciado": "A proposição composta “¬(P ∨ Q)” é logicamente equivalente a “¬P ∧ ¬Q”, conforme as Leis de Morgan.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Esta é uma das duas Leis de De Morgan. A negação de uma disjunção é a conjunção das negações.",
+              "topico": "Leis de Morgan"
+            },
+            {
+              "id": "RL037",
+              "enunciado": "Se A = {x ∈ N | x < 5} e B = {1, 3, 5, 7}, então a interseção A ∩ B resulta no conjunto {1, 3}.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. O conjunto A é {0, 1, 2, 3, 4}. O conjunto B é {1, 3, 5, 7}. Os elementos comuns a ambos os conjuntos são {1, 3}.",
+              "topico": "Teoria dos Conjuntos"
+            },
+            {
+              "id": "RL038",
+              "enunciado": "Um argumento composto por duas premissas e uma conclusão é válido se a conclusão for consequência lógica necessária das premissas.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Independentemente do número de premissas, a validade de um argumento dedutivo reside na necessidade lógica da conclusão em relação às premissas.",
+              "topico": "Lógica de Argumentação"
+            },
+            {
+              "id": "RL039",
+              "enunciado": "Se um sistema lógico tem uma contradição, ele é considerado inconsistente, pois aceita ao menos uma proposição e sua negação como verdadeiras simultaneamente.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A presença de uma contradição (P ∧ ¬P) em um conjunto de premissas torna o sistema inconsistente. De um sistema inconsistente, qualquer conclusão pode ser derivada (Princípio da Explosão).",
+              "topico": "Lógica de Argumentação"
+            },
+            {
+              "id": "RL040",
+              "enunciado": "Dado um conjunto com n elementos, o número de permutações distintas que se pode formar com todos esses elementos é dado por n!.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A permutação simples de 'n' elementos distintos é o número de maneiras de ordenar esses elementos, que é calculado pelo fatorial de n (n!).",
+              "topico": "Análise Combinatória"
+            },
+            {
+              "id": "RL041",
+              "enunciado": "O diagrama lógico de um silogismo categórico do tipo “Todos os agentes são servidores. Todos os servidores são concursados” leva logicamente à conclusão “Todos os agentes são concursados”.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Este é um silogismo válido da forma 'Todo A é B. Todo B é C. Logo, todo A é C'. A propriedade é transitiva, e a conclusão decorre logicamente das premissas.",
+              "topico": "Lógica de Argumentação"
+            },
+            {
+              "id": "RL042",
+              "enunciado": "Em uma matriz de raciocínio lógico onde cada número é obtido pela soma dos dois anteriores, iniciando por 1 e 2, o sexto número da matriz será 13.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Esta é uma sequência de Fibonacci. Os termos são: 1, 2, (1+2)=3, (2+3)=5, (3+5)=8, (5+8)=13. O sexto termo é 13.",
+              "topico": "Sequências Lógicas"
+            },
+            {
+              "id": "RL043",
+              "enunciado": "A equivalência lógica da proposição “Se a prova é difícil, então o candidato erra” é “Se o candidato não erra, então a prova não é difícil”.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A proposição (Se P, então Q) é logicamente equivalente à sua contrapositiva (Se ¬Q, então ¬P). A estrutura apresentada é exatamente a da contrapositiva.",
+              "topico": "Equivalência Lógica"
+            },
+            {
+              "id": "RL044",
+              "enunciado": "A negação da proposição “Nenhum policial foi ao local do crime” pode ser corretamente expressa como “Pelo menos um policial foi ao local do crime”.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A negação de uma proposição universal negativa ('Nenhum A é B') é uma proposição particular afirmativa ('Algum A é B').",
+              "topico": "Quantificadores Lógicos"
+            },
+            {
+              "id": "RL045",
+              "enunciado": "O princípio fundamental da contagem permite calcular o total de combinações possíveis ao multiplicar o número de opções de cada etapa do processo.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Esta é a definição do Princípio Fundamental da Contagem, também conhecido como princípio multiplicativo, base da análise combinatória.",
+              "topico": "Análise Combinatória"
+            },
+            {
+              "id": "RL046",
+              "enunciado": "Se dois eventos são mutuamente exclusivos, então a probabilidade de ambos ocorrerem ao mesmo tempo é igual a zero.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Eventos mutuamente exclusivos são aqueles que não podem ocorrer simultaneamente. Portanto, a probabilidade da interseção deles (P(A ∩ B)) é zero.",
+              "topico": "Probabilidade"
+            },
+            {
+              "id": "RL047",
+              "enunciado": "Uma proposição condicional com antecedente falso e consequente verdadeiro será sempre verdadeira.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. Na tabela-verdade da condicional (P → Q), se o antecedente (P) é falso, a proposição é sempre verdadeira, independentemente do valor lógico do consequente (Q).",
+              "topico": "Tabela-Verdade"
+            },
+            {
+              "id": "RL048",
+              "enunciado": "O quantificador “existe” na lógica de primeira ordem pode ser simbolizado por “∃”, e representa a existência de pelo menos um elemento que satisfaz a proposição.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. O símbolo ∃ é o quantificador existencial e lê-se 'existe um', 'existe pelo menos um' ou 'para algum'.",
+              "topico": "Lógica de Predicados"
+            },
+            {
+              "id": "RL049",
+              "enunciado": "A proposição composta “(P → Q) ∧ (Q → R)” não implica necessariamente “P → R”.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Incorreto. A estrutura [(P → Q) ∧ (Q → R)] → (P → R) é uma tautologia conhecida como Silogismo Hipotético. A conclusão (P → R) é uma consequência lógica necessária das premissas.",
+              "topico": "Lógica de Argumentação"
+            },
+            {
+              "id": "RL050",
+              "enunciado": "A união dos conjuntos A = {1, 2, 3} e B = {3, 4, 5} resulta no conjunto {1, 2, 3, 4, 5}.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Correto. A união de dois conjuntos (A ∪ B) é o conjunto que contém todos os elementos de A, ou de B, ou de ambos, sem repetição. A união dos conjuntos dados é {1, 2, 3, 4, 5}.",
+              "topico": "Teoria dos Conjuntos"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,362 @@
+{
+  "concursos": [
+    {
+      "id": "concurso_simulado_agente_policia_2025",
+      "nome": "Simulado - Agente de Polícia (Nível Superior)",
+      "ano": 2025,
+      "banca": "Cebraspe (Modelo)",
+      "disciplinas": [
+        {
+          "id": "dc_agente_policia_2025",
+          "nome": "Direito Constitucional",
+          "questoes": [
+            {
+              "id": "DC001",
+              "enunciado": "O Congresso Nacional aprovou uma emenda à Constituição que restringe o exercício da liberdade de expressão em redes sociais, alegando proteção à honra e à moral pública. Ainda que respeite o rito formal, essa emenda será considerada inconstitucional, por violar cláusula pétrea.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A questão aborda o poder constituinte derivado reformador e a existência de limitações materiais, entre as quais está a intocabilidade dos direitos e garantias individuais (art. 60, §4º, IV, da CF/88). Ainda que uma emenda constitucional siga os trâmites formais, ela não pode abolir essas garantias, como a liberdade de expressão. O STF já firmou entendimento no sentido de que esse núcleo essencial representa uma barreira intransponível ao legislador constituinte derivado (ADI 815/DF).",
+              "topico": "Controle de Constitucionalidade"
+            },
+            {
+              "id": "DC002",
+              "enunciado": "Um tratado internacional sobre direitos humanos foi aprovado por maioria simples em sessão conjunta do Congresso Nacional. Com base nesse quórum, o STF reconhecerá o tratado como norma com status supralegal, mas não constitucional.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Segundo entendimento consolidado pelo STF (RE 466.343/SP), os tratados internacionais sobre direitos humanos, quando ratificados sem o rito de emenda (art. 5º, §3º), possuem status supralegal: estão acima das leis ordinárias, mas abaixo da Constituição. O tratamento diferenciado para tratados aprovados com quórum qualificado (duas Casas, dois turnos, 3/5) os equipara a emendas constitucionais.",
+              "topico": "Tratados Internacionais de Direitos Humanos"
+            },
+            {
+              "id": "DC003",
+              "enunciado": "Uma proposta de emenda constitucional visa substituir o regime presidencialista pelo parlamentarismo. Ainda que respeite os trâmites formais, a proposta não pode ser aprovada por contrariar cláusula pétrea da Constituição.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "A forma de governo (presidencialismo vs. parlamentarismo) não é considerada cláusula pétrea. As cláusulas pétreas do art. 60, §4º, protegem a forma federativa de Estado, o voto direto, secreto, universal e periódico, a separação dos Poderes e os direitos e garantias individuais. Uma mudança no sistema de governo é politicamente complexa, mas constitucionalmente possível via emenda.",
+              "topico": "Poder Constituinte"
+            },
+            {
+              "id": "DC004",
+              "enunciado": "Determinado município publicou lei limitando o direito de propriedade urbana sob o argumento de ordenamento territorial. A norma, apesar de interferir no exercício da propriedade, será considerada constitucional, por atender à função social do bem.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O direito de propriedade (art. 5º, XXII, CF) não é absoluto e deve atender à sua função social (art. 5º, XXIII, CF). Leis municipais que, com base no plano diretor (art. 182, CF), impõem limitações ao uso da propriedade urbana são constitucionais, pois visam o ordenamento territorial e o bem-estar coletivo.",
+              "topico": "Direitos e Garantias Fundamentais"
+            },
+            {
+              "id": "DC005",
+              "enunciado": "O Governador de um Estado impediu a atuação do Poder Judiciário estadual, recusando-se a cumprir decisões judiciais. Nesse caso, o Presidente da República poderá decretar intervenção federal para assegurar o livre exercício de outro Poder.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O art. 34, IV e VI, da CF autoriza a intervenção federal nos Estados para pôr termo a grave comprometimento da ordem pública ou para assegurar a observância de decisões judiciais e o livre exercício de qualquer dos Poderes. O desrespeito a decisões judiciais pelo Executivo estadual é uma das hipóteses clássicas que justificam a medida.",
+              "topico": "Intervenção Federal"
+            },
+            {
+              "id": "DC006",
+              "enunciado": "Uma lei estadual criou normas próprias sobre direito penitenciário, sem observar as diretrizes federais. O STF, ao julgar a matéria, reconheceu vício de inconstitucionalidade, pois trata-se de matéria de competência concorrente, em que a União edita normas gerais.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A competência para legislar sobre temas como direito penitenciário é concorrente entre União, Estados e DF (art. 24, I, CF/88). Cabe à União editar normas gerais e aos Estados, normas suplementares. Uma lei estadual que contrarie ou ignore as normas gerais federais é inconstitucional por vício de competência.",
+              "topico": "Organização do Estado"
+            },
+            {
+              "id": "DC007",
+              "enunciado": "João foi nomeado para cargo em comissão na Administração Pública Federal. Após três anos de exercício, alegou direito à estabilidade. No entanto, essa prerrogativa é restrita a cargos efetivos obtidos por concurso.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "Servidores ocupantes exclusivamente de cargos em comissão não adquirem estabilidade, pois não ingressam por concurso público (art. 41 da CF/88). A estabilidade é prerrogativa do servidor efetivo após três anos de efetivo exercício e aprovação em avaliação de desempenho. Cargos comissionados são de livre nomeação e exoneração.",
+              "topico": "Administração Pública"
+            },
+            {
+              "id": "DC008",
+              "enunciado": "A Assembleia Legislativa de um Estado aprovou lei estadual criando um tipo penal para punir crimes ambientais. O STF declarou a norma inconstitucional por invasão de competência privativa da União.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A competência para legislar sobre direito penal é privativa da União (art. 22, I, CF/88). Isso significa que Estados e Municípios não podem criar tipos penais, sob pena de inconstitucionalidade formal. Essa regra assegura uniformidade no tratamento penal em todo o território nacional.",
+              "topico": "Organização do Estado"
+            },
+            {
+              "id": "DC009",
+              "enunciado": "Pedro foi denunciado por homicídio doloso. Sua defesa requereu julgamento pelo Tribunal do Júri, com base nos princípios da soberania dos veredictos, plenitude de defesa e competência constitucional para crimes dolosos contra a vida.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O Tribunal do Júri está previsto no art. 5º, XXXVIII, da CF/88 e é obrigatório para crimes dolosos contra a vida. Seus princípios essenciais são: plenitude de defesa, soberania dos veredictos, sigilo das votações e competência exclusiva para o julgamento desses crimes. A sua previsão constitucional protege a participação popular e legitima as decisões em casos penais graves.",
+              "topico": "Direitos e Garantias Fundamentais"
+            },
+            {
+              "id": "DC010",
+              "enunciado": "Um juiz de primeiro grau reconheceu a inconstitucionalidade de uma lei municipal em um caso concreto, afastando sua aplicação. Essa hipótese caracteriza controle difuso de constitucionalidade, válido mesmo fora do STF.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O controle difuso de constitucionalidade (ou controle concreto) pode ser exercido por qualquer juiz ou tribunal, não apenas pelo STF. Ele ocorre em casos concretos e tem efeito inter partes, ou seja, apenas entre as partes do processo. A ADI é forma de controle concentrado, reservado ao STF, com efeito erga omnes.",
+              "topico": "Controle de Constitucionalidade"
+            },
+            {
+              "id": "DC011",
+              "enunciado": "Carlos, brasileiro naturalizado, praticou crime de tráfico de entorpecentes após adquirir a nacionalidade brasileira. Diante disso, a extradição poderá ser concedida, pois se enquadra na exceção prevista na CF/88.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A Constituição Federal, em seu art. 5º, LI, admite a extradição de brasileiros naturalizados quando houver: (i) crime comum cometido antes da naturalização, ou (ii) comprovação de envolvimento com tráfico ilícito de entorpecentes em qualquer tempo. A jurisprudência do STF reforça a aplicação restrita desses dois casos.",
+              "topico": "Nacionalidade"
+            },
+            {
+              "id": "DC012",
+              "enunciado": "A Constituição reconhece que os direitos e garantias nela expressos não excluem outros derivados dos princípios por ela adotados ou dos tratados internacionais ratificados pelo Brasil.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O art. 5º, §2º, da CF/88 determina que os direitos e garantias nela expressos não excluem outros decorrentes do regime e dos princípios por ela adotados ou dos tratados internacionais. Isso significa que o catálogo de direitos fundamentais é exemplificativo, permitindo o reconhecimento de novos direitos.",
+              "topico": "Direitos e Garantias Fundamentais"
+            },
+            {
+              "id": "DC013",
+              "enunciado": "A Administração Pública Federal deixou de cumprir decisão reiterada do STF sobre matéria sumulada. Nesse caso, a súmula vinculante obriga não apenas o Judiciário, mas também os órgãos administrativos.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A súmula vinculante (art. 103-A da CF) vincula tanto o Poder Judiciário quanto a Administração Pública direta e indireta, nas esferas federal, estadual e municipal. Em caso de descumprimento, é possível ajuizar reclamação constitucional perante o STF.",
+              "topico": "Controle de Constitucionalidade"
+            },
+            {
+              "id": "DC014",
+              "enunciado": "Um cidadão impetrou habeas corpus em favor de seu irmão, que estava preso por dívida civil. A impetração é válida, pois o habeas corpus protege contra qualquer ameaça à liberdade de locomoção, inclusive por coação ilegal civil.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "A prisão civil por dívida é permitida apenas no caso de inadimplemento voluntário e inescusável de obrigação alimentícia (art. 5º, LXVII, CF). Se a prisão for por outra dívida civil, é ilegal, e o habeas corpus é o remédio adequado para cessar a coação à liberdade de locomoção.",
+              "topico": "Remédios Constitucionais"
+            },
+            {
+              "id": "DC015",
+              "enunciado": "Embora o poder constituinte originário seja juridicamente ilimitado, ele se submete a limites políticos e históricos, como os direitos humanos e os compromissos internacionais.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O poder constituinte originário é juridicamente ilimitado – ele cria uma nova Constituição e não se submete a normas anteriores. Contudo, há limitações políticas, éticas e de direito internacional (meta-jurídicas) que restringem sua legitimidade, como respeito aos direitos humanos e à dignidade da pessoa humana.",
+              "topico": "Poder Constituinte"
+            },
+            {
+              "id": "DC016",
+              "enunciado": "O exercício da soberania popular inclui o voto, o plebiscito, o referendo e a iniciativa popular de leis, sendo o voto apenas uma das formas previstas pela Constituição.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A soberania popular, nos termos do art. 14 da CF/88, é exercida por meio do sufrágio universal e pelo voto direto e secreto, e também, nos termos da lei, mediante plebiscito, referendo e iniciativa popular. Portanto, o voto é apenas um dos instrumentos de exercício da soberania.",
+              "topico": "Direitos Políticos"
+            },
+            {
+              "id": "DC017",
+              "enunciado": "A saúde, a educação e a previdência social são direitos sociais de eficácia plena, independentemente de regulamentação infraconstitucional para sua exigibilidade.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Os direitos sociais são, em regra, normas de eficácia limitada e programática, ou seja, dependem de leis e políticas públicas para sua plena concretização. Embora possuam um núcleo essencial de aplicabilidade imediata, sua total efetivação depende da atuação do legislador e do administrador.",
+              "topico": "Direitos Sociais"
+            },
+            {
+              "id": "DC018",
+              "enunciado": "A criação de novos Tribunais Regionais Federais exige proposta de emenda constitucional, de iniciativa exclusiva do Presidente da República ou de um terço dos membros da Câmara ou do Senado.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "A criação de novos Tribunais Regionais Federais se dá por lei ordinária de iniciativa do Superior Tribunal de Justiça (STJ), conforme o art. 96, II, da CF/88. Não é necessária emenda constitucional para tal finalidade.",
+              "topico": "Poder Judiciário"
+            },
+            {
+              "id": "DC019",
+              "enunciado": "Em um protesto político em praça pública, a polícia impediu a realização de manifestação pacífica sob o argumento de ausência de autorização prévia. A conduta foi inconstitucional, pois a liberdade de reunião não depende de autorização, apenas de aviso prévio.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A liberdade de reunião (art. 5º, XVI, CF/88) não depende de autorização, mas apenas de prévio aviso à autoridade competente, e desde que a reunião seja pacífica, sem armas e não frustre outra reunião anteriormente convocada para o mesmo local. A exigência de autorização é inconstitucional.",
+              "topico": "Direitos e Garantias Fundamentais"
+            },
+            {
+              "id": "DC020",
+              "enunciado": "Um senador proferiu discurso ofensivo em plenário. Mesmo diante do teor injurioso, não poderá ser responsabilizado civil ou penalmente por suas palavras, em razão da inviolabilidade parlamentar.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A Constituição assegura aos parlamentares a inviolabilidade (imunidade material) civil e penal por quaisquer de suas opiniões, palavras e votos (art. 53, caput, CF/88). Essa imunidade é absoluta quando os atos são praticados no exercício do mandato e guardam relação com ele.",
+              "topico": "Poder Legislativo"
+            },
+            {
+              "id": "DC021",
+              "enunciado": "Um órgão do Poder Executivo estadual continuou a aplicar norma já considerada inconstitucional por súmula vinculante do STF. Diante da omissão, um cidadão ajuizou reclamação constitucional diretamente no Supremo. Nessa hipótese, a súmula tem efeito vinculante e o descumprimento pode ser corrigido por reclamação.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A súmula vinculante (art. 103-A da CF/88) tem eficácia obrigatória para os órgãos do Judiciário e da Administração Pública. Quando descumprida, é cabível o ajuizamento de reclamação constitucional perante o STF para garantir sua autoridade.",
+              "topico": "Controle de Constitucionalidade"
+            },
+            {
+              "id": "DC022",
+              "enunciado": "O Presidente da República utilizou as Forças Armadas para desobstruir rodovias federais bloqueadas por manifestações, mediante ordem formal e com apoio de decreto. Nessa hipótese, a atuação é legítima, desde que haja risco à ordem pública e à segurança, e que o emprego tenha respaldo constitucional.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A utilização das Forças Armadas é permitida para a garantia da lei e da ordem (GLO), mediante requisição dos Poderes constitucionais e iniciativa do Presidente da República (art. 142 da CF/88). A atuação é legítima para restabelecer a ordem pública, desde que observados os limites legais e constitucionais.",
+              "topico": "Defesa do Estado e das Instituições Democráticas"
+            },
+            {
+              "id": "DC025",
+              "enunciado": "Uma autoridade policial instaurou investigação criminal e, sem autorização judicial, determinou a interceptação de comunicações telefônicas do investigado. Essa medida é inconstitucional, pois viola o direito à intimidade e à reserva de jurisdição.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A interceptação telefônica depende, por força do art. 5º, XII, CF/88, de ordem judicial e só pode ocorrer nas hipóteses e na forma que a lei estabelecer (Lei 9.296/96). A autoridade policial não pode determinar a medida de forma autônoma, sob pena de a prova ser considerada ilícita.",
+              "topico": "Direitos e Garantias Fundamentais"
+            },
+            {
+              "id": "DC026",
+              "enunciado": "O Supremo Tribunal Federal decidiu que a veiculação de propaganda político-partidária gratuita em rádio e televisão é matéria infraconstitucional e pode ser disciplinada por lei ordinária, desde que respeitados os princípios da isonomia e pluralismo político.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A propaganda político-partidária gratuita é disciplinada por legislação infraconstitucional (Lei dos Partidos Políticos – Lei 9.096/95). O STF já decidiu que o acesso ao rádio e à televisão não é direito absoluto e pode ser regulamentado, desde que respeite o pluralismo político e os princípios constitucionais eleitorais (ADI 5123/DF).",
+              "topico": "Direitos Políticos"
+            },
+            {
+              "id": "DC029",
+              "enunciado": "O Presidente da República nomeou um advogado de 34 anos de idade, com notório saber jurídico e reputação ilibada, para o cargo de Ministro do STF, após aprovação por maioria absoluta do Senado Federal. A nomeação respeitou os requisitos constitucionais.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "A nomeação de Ministros do STF exige que o indicado possua: mais de 35 e menos de 70 anos de idade, notável saber jurídico e reputação ilibada (art. 101, CF/88). No caso proposto, o indicado possui 34 anos, violando o requisito etário constitucional.",
+              "topico": "Poder Judiciário"
+            },
+            {
+              "id": "DC032",
+              "enunciado": "O Ministério Público estadual ajuizou ação contra decisão administrativa estadual por entender que a nomeação de parente direto do Governador violava os princípios da impessoalidade e moralidade. Ainda que os Estados tenham autonomia, tal nomeação pode ser invalidada com base na jurisprudência da Súmula Vinculante nº 13.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A Súmula Vinculante nº 13 do STF proíbe o nepotismo na Administração Pública. A nomeação de cônjuge, companheiro ou parente em linha reta, colateral ou por afinidade, até o terceiro grau, da autoridade nomeante ou de servidor da mesma pessoa jurídica investido em cargo de direção, chefia ou assessoramento, viola a Constituição Federal.",
+              "topico": "Administração Pública"
+            },
+            {
+              "id": "DC033",
+              "enunciado": "O Presidente da República não pode delegar a competência para vetar projetos de lei, mas pode delegar atos administrativos como nomeações e atos de gestão, nos termos do art. 84, parágrafo único, da CF/88.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O art. 84, parágrafo único, da CF permite que o Presidente da República delegue certas atribuições, como nomeações e atos administrativos. Contudo, não pode delegar competências exclusivas e de natureza política, como sancionar, promulgar e vetar leis (art. 84, IV e V).",
+              "topico": "Poder Executivo"
+            },
+            {
+              "id": "DC035",
+              "enunciado": "Um município aprovou lei autorizando o transporte gratuito de passageiros em dias de eleição, mesmo sem legislação federal ou estadual sobre o tema. Nesse caso, a norma municipal é válida, pois trata de interesse local e exercício da competência legislativa própria.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A competência legislativa dos Municípios abrange assuntos de interesse local (art. 30, I, CF). O transporte gratuito em dias de eleição foi considerado pelo STF como de interesse local, não havendo impedimento para que o município legisle sobre o tema para facilitar o exercício do voto (ADPF 976).",
+              "topico": "Organização do Estado"
+            },
+            {
+              "id": "DC036",
+              "enunciado": "Os estrangeiros residentes no Brasil possuem os mesmos direitos sociais dos brasileiros, inclusive acesso à saúde e à educação.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A Constituição assegura aos estrangeiros residentes no país a inviolabilidade do direito à vida, à liberdade, à igualdade, à segurança e à propriedade (art. 5º, caput). O STF estende essa proteção para incluir direitos sociais básicos, como o acesso universal à saúde e à educação.",
+              "topico": "Direitos Sociais"
+            },
+            {
+              "id": "DC037",
+              "enunciado": "É constitucional a vedação legal à greve de policiais civis, dado o caráter essencial das atividades de segurança pública.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O STF entende que o direito de greve, assegurado no art. 37, VII, da CF, não se aplica aos servidores públicos que atuam diretamente na área de segurança pública (art. 144 da CF), como policiais civis, devido à natureza essencial e ininterrupta de suas atividades (ARE 654432).",
+              "topico": "Administração Pública"
+            },
+            {
+              "id": "DC038",
+              "enunciado": "O Congresso Nacional pode sustar os atos normativos do Poder Executivo que exorbitem do poder regulamentar ou dos limites de delegação legislativa.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O art. 49, V, da CF/88 confere ao Congresso Nacional competência para sustar os atos normativos do Poder Executivo que exorbitem do poder regulamentar. Trata-se de mecanismo de controle político do Legislativo sobre o Executivo, preservando a legalidade e a separação dos Poderes.",
+              "topico": "Poder Legislativo"
+            },
+            {
+              "id": "DC039",
+              "enunciado": "A Constituição Federal prevê que a criação de novos Estados depende de aprovação mediante plebiscito da população diretamente interessada e posterior aprovação do Congresso Nacional por lei complementar.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A criação de novos Estados exige (i) consulta plebiscitária à população diretamente interessada e (ii) edição de lei complementar pelo Congresso Nacional (art. 18, §3º, CF). Ambos os requisitos são cumulativos e devem ser observados.",
+              "topico": "Organização do Estado"
+            },
+            {
+              "id": "DC040",
+              "enunciado": "De acordo com o STF, a liberdade religiosa, embora ampla, pode ser limitada quando colidir com a proteção dos animais em práticas tradicionais de sacrifício.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "O STF, no julgamento do RE 494601, decidiu que o sacrifício de animais em cultos de religiões de matriz africana é constitucional, por se tratar de manifestação da liberdade religiosa. Nesse caso, a liberdade religiosa prevaleceu sobre a vedação de crueldade contra animais, por se tratar de prática cultural e litúrgica protegida.",
+              "topico": "Direitos e Garantias Fundamentais"
+            },
+            {
+              "id": "DC041",
+              "enunciado": "Em decisão recente, o STF afirmou que a omissão do poder público em adotar políticas efetivas de combate ao desmatamento pode configurar violação a direitos fundamentais e princípios constitucionais do meio ambiente.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O STF, em decisões como na ADPF 760 (Plano de Ação para Prevenção e Controle do Desmatamento na Amazônia), reconheceu o 'estado de coisas inconstitucional' em matéria ambiental, afirmando que a omissão do governo em executar políticas de combate ao desmatamento viola o direito ao meio ambiente equilibrado (art. 225, CF).",
+              "topico": "Ordem Social e Meio Ambiente"
+            },
+            {
+              "id": "DC042",
+              "enunciado": "A Constituição Federal assegura a todos o direito ao meio ambiente ecologicamente equilibrado, tratando-se de um direito fundamental de eficácia limitada, dependente de regulamentação para produzir efeitos.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "O direito ao meio ambiente ecologicamente equilibrado é um direito fundamental com aplicabilidade imediata. Embora muitas de suas facetas dependam de políticas públicas, seu núcleo essencial é exigível diretamente do Estado, não sendo uma norma de eficácia meramente limitada.",
+              "topico": "Ordem Social e Meio Ambiente"
+            },
+            {
+              "id": "DC043",
+              "enunciado": "A Constituição determina que a família, base da sociedade, deve ser protegida pelo Estado, inclusive em suas formações monoparentais, garantindo proteção especial a crianças e adolescentes inseridos nesses núcleos.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A Constituição Federal, no art. 226, §4º, reconhece como entidade familiar a comunidade formada por qualquer dos pais e seus descendentes (família monoparental), determinando que o Estado lhe dispense especial proteção.",
+              "topico": "Ordem Social e Família"
+            },
+            {
+              "id": "DC044",
+              "enunciado": "Um município editou norma permitindo o trabalho de crianças menores de 14 anos como aprendizes em atividades rurais familiares, sob supervisão dos pais. A norma é inconstitucional, mesmo se houver autorização dos responsáveis legais.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O art. 7º, XXXIII, da CF veda o trabalho noturno, perigoso ou insalubre a menores de dezoito e qualquer trabalho a menores de dezesseis anos, salvo na condição de aprendiz, a partir de quatorze anos. Qualquer norma que permita o trabalho abaixo de 14 anos, mesmo como aprendiz, é inconstitucional.",
+              "topico": "Direitos Sociais"
+            },
+            {
+              "id": "DC045",
+              "enunciado": "O idoso, na forma da Constituição Federal, goza de prioridade na formulação e execução de políticas públicas, mas não tem precedência na tramitação de processos administrativos ou judiciais.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "O art. 230 da CF/88 assegura aos idosos a prioridade no atendimento. O Estatuto do Idoso (Lei 10.741/2003), regulamentando esse princípio, garante expressamente a prioridade na tramitação dos processos e procedimentos e na execução dos atos e diligências judiciais.",
+              "topico": "Ordem Social e Idosos"
+            },
+            {
+              "id": "DC046",
+              "enunciado": "A proteção constitucional aos povos indígenas inclui o reconhecimento dos seus costumes, línguas, crenças e tradições, bem como o direito originário às terras que tradicionalmente ocupam.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "O art. 231 da CF reconhece aos povos indígenas sua organização social, costumes, línguas, crenças e tradições, e os direitos originários sobre as terras que tradicionalmente ocupam, competindo à União demarcá-las, proteger e fazer respeitar todos os seus bens.",
+              "topico": "Ordem Social e Povos Indígenas"
+            },
+            {
+              "id": "DC047",
+              "enunciado": "O ordenamento constitucional brasileiro considera crime inafiançável e imprescritível a prática de racismo, mas não prevê qualquer dispositivo específico relativo à proteção de minorias étnicas indígenas.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Embora a CF/88 considere o racismo crime inafiançável e imprescritível (art. 5º, XLII), ela dedica um capítulo inteiro (arts. 231 e 232) à proteção dos povos indígenas, reconhecendo seus direitos culturais e territoriais. Portanto, a afirmação de que não há dispositivo específico é incorreta.",
+              "topico": "Ordem Social e Povos Indígenas"
+            },
+            {
+              "id": "DC048",
+              "enunciado": "A ordem social tem como base o primado do trabalho e como objetivo o bem-estar e a justiça sociais, sendo estruturada em capítulos distintos que tratam, entre outros, da educação, cultura e meio ambiente.",
+              "tipo": "certo_errado",
+              "gabarito": 0,
+              "feedback": "A ordem social, conforme o art. 193 da CF, tem como base o primado do trabalho e como objetivo o bem-estar e a justiça sociais. Ela é composta por um conjunto de normas que abrange a Seguridade Social, Educação, Cultura, Desporto, Ciência e Tecnologia, Comunicação Social, Meio Ambiente, Família, Criança, Adolescente, Jovem e Idoso, e Índios.",
+              "topico": "Ordem Social"
+            },
+            {
+              "id": "DC049",
+              "enunciado": "As terras tradicionalmente ocupadas por indígenas, segundo a Constituição, devem ser objeto de demarcação pelo Poder Judiciário, após provocação do Ministério Público Federal.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "A demarcação das terras indígenas é uma competência administrativa do Poder Executivo, a ser realizada pela União por meio de seus órgãos, como a FUNAI, e homologada por decreto do Presidente da República. O Poder Judiciário atua em caso de litígios, mas não é o órgão demarcador.",
+              "topico": "Ordem Social e Povos Indígenas"
+            },
+            {
+              "id": "DC050",
+              "enunciado": "A Constituição Federal prevê que programas de habitação popular e regularização fundiária devem priorizar famílias chefiadas por mulheres, especialmente aquelas com crianças ou dependentes sob sua responsabilidade.",
+              "tipo": "certo_errado",
+              "gabarito": 1,
+              "feedback": "Embora seja uma prática comum e recomendada em políticas públicas, inclusive prevista em legislação infraconstitucional (como a Lei 11.124/2005), não há um dispositivo expresso na Constituição Federal que determine essa priorização específica. Trata-se de uma concretização do princípio da igualdade e da proteção à família.",
+              "topico": "Direitos Sociais"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
